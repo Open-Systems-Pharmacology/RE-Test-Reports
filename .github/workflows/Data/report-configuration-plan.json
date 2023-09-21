@@ -1,0 +1,261 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Mini",
+      "Simulation": "Model2",
+      "Path": "Models",
+      "SimulationFile": "MiniModel2"
+    }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "MiniObs",
+      "Path": "ObservedData/MiniObs2.csv"
+    }
+  ],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AxesSettings": {
+      "ComparisonTimeProfile": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsPredictedVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsResidualsVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Unit": "µg/l",
+          "Dimension": "Concentration (mass)",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "µg/l",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ],
+      "PKRatioPlots": [
+        {
+          "Unit": "year(s)",
+          "Dimension": "Age",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ]
+    },
+    "TimeProfile": [
+      {
+        "SectionId": 21,
+        "Project": "Mini",
+        "Simulation": "Model2",
+        "Plot": {
+          "Axes": [
+            {
+              "Unit": "min",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Test of A",
+              "X": "Time",
+              "Y": "Model2|Organism|A|Concentration in container",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Test of B",
+              "X": "Time",
+              "Y": "Model2|Organism|B|Concentration in container",
+              "CurveOptions": {
+                "Color": "#00FF00",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Test of observed data",
+              "X": "MiniObs|Time",
+              "Y": "MiniObs|ObservedData|A|Concentration in container",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Test"
+        }
+      }
+    ]
+  },
+  "Inputs": [
+    {
+      "Path": "Inputs/input.md",
+      "SectionReference": "11"
+    }
+  ],
+  "Sections": [
+    {
+      "Id": 1,
+      "Reference": 1,
+      "Title": "Test Content Input",
+      "Sections": [
+        {
+          "Id": 11,
+          "Title": "With Content",
+          "Content": "Content/testcontent.md"
+        },
+        {
+          "Id": 12,
+          "Title": "Without Content"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Title": "Time Profile Tests",
+      "Sections": [
+        {
+          "Id": 21,
+          "Title": "Time Profile"
+        },
+        {
+          "Id": 22,
+          "Title": "Comparison Time Profile"
+        },
+        {
+          "Id": 23,
+          "Title": "Goodness of fit"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Title": "PK Ratio Tests"
+    },
+    {
+      "Id": 4,
+      "Title": "DDI Ratio Tests"
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Intro/titlepage.md"
+    }
+  ]
+}
