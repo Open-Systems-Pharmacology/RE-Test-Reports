@@ -3,9 +3,17 @@ name: Run RE Report Tests
 on: push
   
 jobs:
-  test-coverage:
+  test-reports:
     runs-on: windows-latest
+    env: 
+      status: Success
+      statusColor: green
     steps:
+      - name: Get current date for README.md
+        id: date
+        uses: Kaven-Universe/github-action-current-date-time@v1
+        with:
+          format: "YYYY-MM-DD"
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup
@@ -21,36 +29,23 @@ jobs:
         run: |
           Rscript .github/workflows/test-reports.R
       - name: Upload test results
-        if: failure()
         uses: actions/upload-artifact@v3
         with:
           name: test-results
-          path: ${{ runner.temp }}/tests
-      - name: Update GitHub Profile README with failure badge
-        if: failure() 
+          path: ${{ runner.temp }}/*  
+      - name: Update status and statusColor if failure
+        if: failure()
+        run: |
+          echo "status=Failure" >> $GITHUB_ENV
+          echo "statusColor=red" >> $GITHUB_ENV
+      - name: Update GitHub Profile README
         uses: theboi/github-update-readme@v1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           header: "Reporting Engine Test Reports"
-          subhead: "![Report Status](https://img.shields.io/badge/Report_Status-Failing-red)"
-          footer: "Update on $(date +'%Y-%m-%d')"
-          Default: |
-            ## ${header}
-            ${subhead}
-            ${footer}
-      - name: Update GitHub Profile README with success badge
-        if: success() 
-        uses: theboi/github-update-readme@v1.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          header: "Reporting Engine Test Reports"
-          subhead: "![Report Status](https://img.shields.io/badge/Report_Status-Success-green)"
-          footer: "Update on $(date +'%Y-%m-%d')"
-          Default: |
-            ## ${header}
-            ${subhead}
-            ${footer}
-
-      
+          subhead: "![Report Status](https://img.shields.io/badge/Report_Status-${{env.status}}-${{env.statusColor}})"
+          footer: "Updated on ${{ steps.date.outputs.time }}"
+          repoCount: 0
+          reposPerRow: 0
+          
