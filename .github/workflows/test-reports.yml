@@ -37,8 +37,8 @@ jobs:
       - name: Update status and statusColor if failure
         if: failure()
         run: |
-          echo "status=Failure" >> "$GITHUB_ENV"
-          echo "statusColor=red" >> "$GITHUB_ENV"
+          echo "status=Failure" >> $env:GITHUB_ENV
+          echo "statusColor=red" >> $env:GITHUB_ENV
       - name: Update GitHub Profile README
         if: always()
         uses: theboi/github-update-readme@v1.0
