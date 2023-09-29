@@ -37,8 +37,8 @@ jobs:
       - name: Update status and statusColor if failure
         if: failure()
         run: |
-          echo "status=$(echo Failure)" >> $GITHUB_ENV
-          echo "statusColor=$(echo red)" >> $GITHUB_ENV
+          echo "status=Failure" >> "$GITHUB_ENV"
+          echo "statusColor=red" >> "$GITHUB_ENV"
       - name: Update GitHub Profile README
         if: always()
         uses: theboi/github-update-readme@v1.0
@@ -48,8 +48,8 @@ jobs:
           header: "Reporting Engine Test Reports"
           subhead: "![Report Status](https://img.shields.io/badge/Report_Status-${{env.status}}-${{env.statusColor}})"
           footer: |
-            "Updated on ${{ steps.date.outputs.time }}"
-            "[Report Artifact](https://github.com/Open-Systems-Pharmacology/RE-Test-Reports/actions)"
+            Updated on ${{ steps.date.outputs.time }} <br>
+            [Report Artifact](https://github.com/Open-Systems-Pharmacology/RE-Test-Reports/actions)
           repoCount: 0
           reposPerRow: 0
           
