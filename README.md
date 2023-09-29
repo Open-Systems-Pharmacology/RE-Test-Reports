@@ -8,5 +8,5 @@
 
 ---
 
-"Updated on 2023-09-29"
-"[Report Artifact](https://github.com/Open-Systems-Pharmacology/RE-Test-Reports/actions)"
+Updated on 2023-09-29 <br>
+[Report Artifact](https://github.com/Open-Systems-Pharmacology/RE-Test-Reports/actions)
