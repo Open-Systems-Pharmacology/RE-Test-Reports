@@ -1,6 +1,6 @@
 ## Reporting Engine Test Reports
 
-![Report Status](https://img.shields.io/badge/Report_Status-Success-green)
+![Report Status](https://img.shields.io/badge/Report_Status-Failure-red)
 
 ---
 
