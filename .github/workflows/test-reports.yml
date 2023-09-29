@@ -32,13 +32,25 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          header: "Reporting Engine Test Reports"
           subhead: "![Report Status](https://img.shields.io/badge/Report_Status-Failing-red)"
+          footer: "Update on $(date +'%Y-%m-%d')"
+          Default: |
+            ## ${header}
+            ${subhead}
+            ${footer}
       - name: Update GitHub Profile README with success badge
         if: success() 
         uses: theboi/github-update-readme@v1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          header: "Reporting Engine Test Reports"
           subhead: "![Report Status](https://img.shields.io/badge/Report_Status-Success-green)"
+          footer: "Update on $(date +'%Y-%m-%d')"
+          Default: |
+            ## ${header}
+            ${subhead}
+            ${footer}
 
       
