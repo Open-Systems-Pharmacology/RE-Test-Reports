@@ -33,12 +33,12 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: test-results
-          path: ${{ runner.temp }}/*  
+          path: ${{ runner.temp }}/tests  
       - name: Update status and statusColor if failure
         if: failure()
         run: |
-          echo "env.status=Failure"
-          echo "env.statusColor=red"
+          echo "status=$(echo Failure)" >> $GITHUB_ENV
+          echo "statusColor=$(echo red)" >> $GITHUB_ENV
       - name: Update GitHub Profile README
         if: always()
         uses: theboi/github-update-readme@v1.0
