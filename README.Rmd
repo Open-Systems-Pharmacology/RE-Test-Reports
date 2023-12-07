@@ -56,7 +56,7 @@ globalResult <- round(100*sum(testResultsRaw$passed)/sum(testResultsRaw$nb), 0)
 ## Overview
 
 ```{r, results='asis'}
-names(testResults) <- c("Report","Test","Status","Duration [ms]","N","Success [%]","Warning [%]","Failed [%]")
+names(testResults) <- c("Report","Test","Status","Duration [s]","N","Success [%]","Warning [%]","Failed [%]")
 
 knitr::kable(testResults)
 ```
@@ -68,7 +68,7 @@ Currently, the following reports are available:
 
 ```{r, results='asis'}
 availableReports <- list.dirs("./Reports", recursive = FALSE, full.names = FALSE)
-cat(paste0("* [", availableReports, "](./Reports/", availableReports, ")"), sep = "\n")
+cat(paste0("* [", availableReports, "](./Reports/", availableReports, "/Report.md)"), sep = "\n")
 ```
 
 
