@@ -13,16 +13,16 @@ file, context, test, nb, failed, skipped, error, warning, user, system, real, pa
 Turning the list to data.frame and extracting the relevant data will give a great overview of the test results
 -->
 
-| Global Success Rate | ![](https://geps.dev/progress/100) |
-|---------------------|------------------------------------|
+| Global Success Rate | ![](https://geps.dev/progress/25) |
+|---------------------|-----------------------------------|
 
 ## Overview
 
-| Report                                 | Test              | Status                                                             | Duration \[ms\] |   N | Success \[%\]                      | Warning \[%\] | Failed \[%\] |
-|:---------------------------------------|:------------------|:-------------------------------------------------------------------|----------------:|----:|:-----------------------------------|--------------:|-------------:|
-| [Aciclovir](./tests/Reports/Aciclovir) | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            0.03 |   1 | ![](https://geps.dev/progress/100) |             0 |            0 |
-| [Aciclovir](./tests/Reports/Aciclovir) | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            0.01 |   1 | ![](https://geps.dev/progress/100) |             0 |            0 |
-| [Aciclovir](./tests/Reports/Aciclovir) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            2.16 |   6 | ![](https://geps.dev/progress/100) |             0 |            0 |
+| Report                                 | Test              | Status                                                             | Duration \[s\] |   N | Success \[%\]                      | Warning \[%\] | Failed \[%\] |
+|:---------------------------------------|:------------------|:-------------------------------------------------------------------|---------------:|----:|:-----------------------------------|:--------------|:-------------|
+| [Aciclovir](./tests/Reports/Aciclovir) | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |           0.03 |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Aciclovir](./tests/Reports/Aciclovir) | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |           0.01 |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Aciclovir](./tests/Reports/Aciclovir) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |           2.22 |   6 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
 
 ## Reports
 
@@ -30,7 +30,7 @@ Users can find the reports and their description in the
 [/Reports](./Reports) folder. Currently, the following reports are
 available:
 
-- [Aciclovir](./Reports/Aciclovir)
+- [Aciclovir](./Reports/Aciclovir/Report.md)
 
 ## Using report scripts as template
 
