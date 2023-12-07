@@ -26,7 +26,7 @@ Turning the list to data.frame and extracting the relevant data will give a grea
 unlink("./tests/Reports", recursive = TRUE, force = TRUE)
 
 testResults <- testthat::test_local(reporter = testthat::ListReporter)
-testResults <- as.data.frame(testResults) %>% 
+testResultsRaw <- as.data.frame(testResults) %>% 
   mutate(
     Report = paste0("[", context, "](./tests/Reports/", context, ")"),
     Test = test,
@@ -40,13 +40,18 @@ testResults <- as.data.frame(testResults) %>%
       )),
     Duration = real,
     N = nb,
-    Success = 100*passed/nb,
+    Success = paste0("![](https://geps.dev/progress/", round(100*passed/nb, 0),")"),
     Warning = 100*warning/nb,
     Failed = 100*failed/nb
   ) %>%
   select(Report,Test,Status,Duration,N,Success,Warning,Failed)
 
+
+globalResult <- round(100*sum(testResultsRaw$passed)/sum(testResultsRaw$nb), 0)
 ```
+
+|Global Success Rate| ![](https://geps.dev/progress/`r globalResult`)|
+|---|---|
 
 ## Overview
 
@@ -56,9 +61,20 @@ names(testResults) <- c("Report","Test","Status","Duration [ms]","N","Success [%
 knitr::kable(testResults)
 ```
 
+## Reports
+
+Users can find the reports and their description in the [/Reports](./Reports) folder.
+Currently, the following reports are available:
+
+```{r, results='asis'}
+availableReports <- list.dirs("./Reports", recursive = FALSE, full.names = FALSE)
+cat(paste0("* [", availableReports, "](./Reports/", availableReports, ")"), sep = "\n")
+```
+
+
 ## Using report scripts as template
 
-User can find the R code for creating the reports in the [/R](./R) folder.
+Users can find the R code for creating the reports in the [/R](./R) folder.
 Currently, the following scripts are available:
 
 ```{r, results='asis'}
