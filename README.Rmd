@@ -25,29 +25,38 @@ Turning the list to data.frame and extracting the relevant data will give a grea
 # Remove previous tests
 unlink("./tests/Reports", recursive = TRUE, force = TRUE)
 
-testResultsRaw <- testthat::test_local(reporter = testthat::ListReporter)
+# Prevent failed tests to stop the workflow
+testResultsRaw <- testthat::test_local(
+  reporter = testthat::ListReporter,
+  stop_on_failure = FALSE
+)
 testResultsRaw <- as.data.frame(testResultsRaw)
-testResults <- testResultsRaw %>% 
+testResults <- testResultsRaw %>%
   mutate(
     Report = paste0("[", context, "](./tests/Reports/", context, ")"),
     Test = test,
     Status = if_else(
-      failed > 0, 
+      failed > 0,
       "![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)",
-      ifelse(
+      if_else(
         warning > 0,
         "![](https://img.shields.io/badge/%E2%9A%A0-Warned%20tests-red)",
         "![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success)"
-      )),
+      )
+    ),
     Duration = real,
     N = nb,
-    Success = paste0("![](https://geps.dev/progress/", round(100*passed/nb, 0),")"),
-    Warning = 100*warning/nb,
-    Failed = 100*failed/nb
+    Success = paste0(
+      "![](https://geps.dev/progress/",
+      round(100 * passed / nb, 0),
+      ")"
+    ),
+    Warning = paste0(round(100 * warning / nb, 0), "%"),
+    Failed = paste0(round(100 * failed / nb, 0), "%")
   ) %>%
-  select(Report,Test,Status,Duration,N,Success,Warning,Failed)
+  select(Report, Test, Status, Duration, N, Success, Warning, Failed)
 
-globalResult <- round(100*sum(testResultsRaw$passed)/sum(testResultsRaw$nb), 0)
+globalResult <- round(100 * sum(testResultsRaw$passed) / sum(testResultsRaw$nb), 0)
 ```
 
 |Global Success Rate| ![](https://geps.dev/progress/`r globalResult`)|
@@ -56,7 +65,7 @@ globalResult <- round(100*sum(testResultsRaw$passed)/sum(testResultsRaw$nb), 0)
 ## Overview
 
 ```{r, results='asis'}
-names(testResults) <- c("Report","Test","Status","Duration [s]","N","Success [%]","Warning [%]","Failed [%]")
+names(testResults) <- c("Report", "Test", "Status", "Duration [s]", "N", "Success [%]", "Warning [%]", "Failed [%]")
 
 knitr::kable(testResults)
 ```
@@ -83,4 +92,3 @@ cat(paste0("* [", availableScripts, "](./R/", availableScripts, ")"), sep = "\n"
 ```
 
 Models and Observed Data are respectively available in the [Models](./Models) and [Data](./ObservedData) folders.
-
