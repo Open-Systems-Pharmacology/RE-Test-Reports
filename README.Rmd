@@ -25,8 +25,9 @@ Turning the list to data.frame and extracting the relevant data will give a grea
 # Remove previous tests
 unlink("./tests/Reports", recursive = TRUE, force = TRUE)
 
-testResults <- testthat::test_local(reporter = testthat::ListReporter)
-testResultsRaw <- as.data.frame(testResults) %>% 
+testResultsRaw <- testthat::test_local(reporter = testthat::ListReporter)
+testResultsRaw <- as.data.frame(testResultsRaw)
+testResults <- testResultsRaw %>% 
   mutate(
     Report = paste0("[", context, "](./tests/Reports/", context, ")"),
     Test = test,
@@ -45,7 +46,6 @@ testResultsRaw <- as.data.frame(testResults) %>%
     Failed = 100*failed/nb
   ) %>%
   select(Report,Test,Status,Duration,N,Success,Warning,Failed)
-
 
 globalResult <- round(100*sum(testResultsRaw$passed)/sum(testResultsRaw$nb), 0)
 ```
