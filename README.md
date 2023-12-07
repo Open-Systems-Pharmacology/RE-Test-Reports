@@ -13,17 +13,28 @@ file, context, test, nb, failed, skipped, error, warning, user, system, real, pa
 Turning the list to data.frame and extracting the relevant data will give a great overview of the test results
 -->
 
+| Global Success Rate | ![](https://geps.dev/progress/100) |
+|---------------------|------------------------------------|
+
 ## Overview
 
-| Report                                 | Test              | Status                                                             | Duration \[ms\] |   N | Success \[%\] | Warning \[%\] | Failed \[%\] |
-|:---------------------------------------|:------------------|:-------------------------------------------------------------------|----------------:|----:|--------------:|--------------:|-------------:|
-| [Aciclovir](./tests/Reports/Aciclovir) | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            0.03 |   1 |           100 |             0 |            0 |
-| [Aciclovir](./tests/Reports/Aciclovir) | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            0.01 |   1 |           100 |             0 |            0 |
-| [Aciclovir](./tests/Reports/Aciclovir) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            2.10 |   6 |           100 |             0 |            0 |
+| Report                                 | Test              | Status                                                             | Duration \[ms\] |   N | Success \[%\]                      | Warning \[%\] | Failed \[%\] |
+|:---------------------------------------|:------------------|:-------------------------------------------------------------------|----------------:|----:|:-----------------------------------|--------------:|-------------:|
+| [Aciclovir](./tests/Reports/Aciclovir) | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            0.03 |   1 | ![](https://geps.dev/progress/100) |             0 |            0 |
+| [Aciclovir](./tests/Reports/Aciclovir) | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            0.01 |   1 | ![](https://geps.dev/progress/100) |             0 |            0 |
+| [Aciclovir](./tests/Reports/Aciclovir) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |            2.16 |   6 | ![](https://geps.dev/progress/100) |             0 |            0 |
+
+## Reports
+
+Users can find the reports and their description in the
+[/Reports](./Reports) folder. Currently, the following reports are
+available:
+
+- [Aciclovir](./Reports/Aciclovir)
 
 ## Using report scripts as template
 
-User can find the R code for creating the reports in the [/R](./R)
+Users can find the R code for creating the reports in the [/R](./R)
 folder. Currently, the following scripts are available:
 
 - [report-aciclovir.R](./R/report-aciclovir.R)
