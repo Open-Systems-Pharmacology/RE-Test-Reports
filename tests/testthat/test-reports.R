@@ -25,7 +25,7 @@ for (report in reports) {
       pattern = ".png"
     )
     testImages <- list.files(
-      path = file.path("../..", "Reports", report),
+      path = file.path("..", "Reports", report),
       recursive = TRUE,
       full.names = TRUE,
       pattern = ".png"
