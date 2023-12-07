@@ -1,46 +1,46 @@
-07/12/2023 - 13:57:23
+07/12/2023 - 14:36:12
 Simulation file 'Simulation file 'Models/Aciclovir.pkml' successfully loaded' successfully loaded
-07/12/2023 - 13:57:25
+07/12/2023 - 14:36:14
 Simulation results 'tests/Reports/Aciclovir/SimulationResults/Aciclovir-SimulationResults.csv' successfully loaded
-07/12/2023 - 13:57:25
+07/12/2023 - 14:36:14
 Calculation of PK parameters complete
-07/12/2023 - 13:57:25
+07/12/2023 - 14:36:15
 PK parameters for 'Aciclovir' saved in 'tests/Reports/Aciclovir/PKAnalysisResults/Aciclovir-PKAnalysisResults.csv
-07/12/2023 - 13:57:54
+07/12/2023 - 14:36:43
 Figure 'tests/Reports/Aciclovir/Sensitivity/Aciclovir-1_sensitivity_AUC_tEnd.png' was successfully saved.
-07/12/2023 - 13:57:54
+07/12/2023 - 14:36:43
 Figure 'tests/Reports/Aciclovir/Sensitivity/Aciclovir-2_sensitivity_CL.png' was successfully saved.
-07/12/2023 - 13:57:55
+07/12/2023 - 14:36:44
 Figure 'tests/Reports/Aciclovir/Sensitivity/Aciclovir-3_sensitivity_Vss.png' was successfully saved.
-07/12/2023 - 13:57:55
+07/12/2023 - 14:36:44
 Figure 'tests/Reports/Aciclovir/Sensitivity/Aciclovir-4_sensitivity_C_max.png' was successfully saved.
-07/12/2023 - 13:57:55
+07/12/2023 - 14:36:44
 Table 'tests/Reports/Aciclovir/PKAnalysis/Aciclovir-pk_parameters_Aciclovir.csv' was successfully saved.
-07/12/2023 - 13:57:55
+07/12/2023 - 14:36:44
 '1' applications identified for path 'Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)' in simulation 'Vergin 1995 IV'
-07/12/2023 - 13:57:55
+07/12/2023 - 14:36:44
 Time ranges for 'Vergin 1995 IV' timeRanges
-07/12/2023 - 13:57:55
+07/12/2023 - 14:36:44
 491 simulated data were included in the analysis between 0 and 24 h.
-07/12/2023 - 13:57:55
+07/12/2023 - 14:36:44
 0 observed data were included in the analysis between 0 and 24 h.
-07/12/2023 - 13:57:56
+07/12/2023 - 14:36:45
 1 values from variable 'Concentration' were negative and removed from the analysis
-07/12/2023 - 13:57:56
+07/12/2023 - 14:36:45
 Table 'tests/Reports/Aciclovir/TimeProfiles/Aciclovir-1_time_profile_data.csv' was successfully saved.
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 Figure 'tests/Reports/Aciclovir/TimeProfiles/Aciclovir-3_timeProfile_Concentration_total.png' was successfully saved.
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 Figure 'tests/Reports/Aciclovir/TimeProfiles/Aciclovir-4_timeProfileLog_Concentration_total.png' was successfully saved.
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 Reports 'tests/Reports/Aciclovir/appendix-sensitivity-analysis.md', 'tests/Reports/Aciclovir/appendix-pk-parameters.md', 'tests/Reports/Aciclovir/appendix-time-profile.md' were successfully merged into 'tests/Reports/Aciclovir/Report.md'
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 In 'tests/Reports/Aciclovir/Report.md', 0.666666666666667 tables and 6 figures were referenced.
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 In 'tests/Reports/Aciclovir/Report.md', 5 sections were numbered
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 In 'tests/Reports/Aciclovir/Report.md', table of content of 6 lines was included.
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 'tests/Reports/Aciclovir/Report.md' already exists. Overwriting 'tests/Reports/Aciclovir/Report.md'.
-07/12/2023 - 13:57:57
+07/12/2023 - 14:36:46
 Reports 'tests/Reports/Aciclovir/Report.md' were successfully merged into 'tests/Reports/Aciclovir/Report.md'

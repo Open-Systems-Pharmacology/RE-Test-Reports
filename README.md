@@ -22,7 +22,7 @@ Turning the list to data.frame and extracting the relevant data will give a grea
 |:---------------------------------------|:------------------|:-------------------------------------------------------------------|---------------:|----:|:-----------------------------------|:--------------|:-------------|
 | [Aciclovir](./tests/Reports/Aciclovir) | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |           0.03 |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
 | [Aciclovir](./tests/Reports/Aciclovir) | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |           0.01 |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Aciclovir](./tests/Reports/Aciclovir) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |           2.22 |   6 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Aciclovir](./tests/Reports/Aciclovir) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |           2.33 |   6 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
 
 ## Reports
 
