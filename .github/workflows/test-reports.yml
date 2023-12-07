@@ -25,7 +25,6 @@ jobs:
       - name: Run Tests through README.Rmd
         run: |
           Rscript -e 'rmarkdown::render("README.Rmd")'
-          rm README.html
       - name: Commit and push test files
         run: |
           git config --local user.email "actions@github.com"
