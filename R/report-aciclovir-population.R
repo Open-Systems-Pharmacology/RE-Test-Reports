@@ -9,7 +9,7 @@ library(ospsuite.reportingengine)
 # Define inputs for workflow
 simulationFile <- "Models/Aciclovir.pkml"
 adultPopulationFile <- "Data/adult-population.csv"
-childrenPopulationFile <- "Models/children-population.csv"
+childrenPopulationFile <- "Data/children-population.csv"
 reportFolder <- "tests/Reports/Aciclovir-Population"
 reportTitle <- "Aciclovir Population Parallel Workflow Report"
 
