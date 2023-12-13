@@ -7,3 +7,5 @@ __Table__: Metadata regarding the files in this directory.
 |File | Description |
 |-----|-------------|
 |Aciclovir.pkml| PBPK model of [*Aciclovir*](https://en.wikipedia.org/wiki/Aciclovir) |
+|Raltegravir-100mg-lactose-formulation.pkml| PBPK model of [*Raltegravir*](https://github.com/Open-Systems-Pharmacology/Raltegravir-Model) single dose|
+|Raltegravir-100-mg-filmcoated-tablet.pkml| PBPK model of [*Raltegravir*](https://github.com/Open-Systems-Pharmacology/Raltegravir-Model) multiple doses|
