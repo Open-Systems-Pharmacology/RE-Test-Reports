@@ -54,7 +54,7 @@ testResults <- testResultsRaw %>%
     Warning = paste0(round(100 * warning / nb, 0), "%"),
     Failed = paste0(round(100 * failed / nb, 0), "%")
   ) %>%
-  select(Report, Test, Status, Duration, N, Success, Warning, Failed)
+  select(Report, Test, Status, N, Success, Warning, Failed)
 
 globalResult <- round(100 * sum(testResultsRaw$passed) / sum(testResultsRaw$nb), 0)
 ```
@@ -62,33 +62,42 @@ globalResult <- round(100 * sum(testResultsRaw$passed) / sum(testResultsRaw$nb),
 |Global Success Rate| ![](https://geps.dev/progress/`r globalResult`)|
 |---|---|
 
-## Overview
+## Tests Overview
 
 ```{r, results='asis'}
-names(testResults) <- c("Report", "Test", "Status", "Duration [s]", "N", "Success [%]", "Warning [%]", "Failed [%]")
+names(testResults) <- c("Report", "Test", "Status", "N", "Success [%]", "Warning [%]", "Failed [%]")
 
 knitr::kable(testResults)
 ```
 
-## Reports
+## Using Reports and Scripts as template
 
-Users can find the reports and their description in the [/Reports](./Reports) folder.
-Currently, the following reports are available:
+Users can find the reports and their description in the [/Reports](./Reports) folder as well as the corresponding R code in the [/R](./R) folder.
 
-```{r, results='asis'}
-availableReports <- list.dirs("./Reports", recursive = FALSE, full.names = FALSE)
-cat(paste0("* [", availableReports, "](./Reports/", availableReports, "/Report.md)"), sep = "\n")
-```
+Models, Observed and Simulated Data are respectively available in the [Models](./Models) and [Data](./Data) folders.
 
-
-## Using report scripts as template
-
-Users can find the R code for creating the reports in the [/R](./R) folder.
-Currently, the following scripts are available:
+Here is the summary of the reports, their scripts and their run time currently available in this repository:
 
 ```{r, results='asis'}
+availableReports <- list.dirs("./tests/Reports", recursive = FALSE, full.names = FALSE)
+availableDurations <- sapply(
+  availableReports,
+  function(reportDir){
+    logInfo <- readLines(file.path("tests", "Reports", reportDir, "log-info.txt"), warn = FALSE)
+    lastLine <- tail(logInfo[grepl(pattern = "completed in", logInfo)], 1)
+    duration <- tail(unlist(strsplit(split = "completed in", x = lastLine)), 1)
+    return(trimws(duration))
+  }
+)
+# Naming convention for scripts was report lower case of directory
 availableScripts <- list.files("./R", pattern = ".R")
-cat(paste0("* [", availableScripts, "](./R/", availableScripts, ")"), sep = "\n")
+
+knitr::kable(data.frame(
+  "Report" = paste0("[", availableReports, "](./Reports/", availableReports, "/Report.md)"),
+  "Script" = paste0("[", availableScripts, "](./R/", availableScripts, ")"),
+  "Run Time" = availableDurations,
+  check.names = FALSE
+  ))
+
 ```
 
-Models and Observed Data are respectively available in the [Models](./Models) and [Data](./ObservedData) folders.

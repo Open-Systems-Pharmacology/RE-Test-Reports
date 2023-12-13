@@ -1,6 +1,19 @@
 # RE-Test-Reports
 
-## December 7<sup>th<sup>, 2023
+## December 13<sup>th<sup>, 2023
+
+### New Reports
+
+- Simple Report for Aciclovir Population Workflow
+- Simple Report for Raltegravir Absorption
+- Simple Report for Raltegravir Mass Balance
+
+### Fixes and Improvements
+
+- Fix data link in [README](./README.md).
+- Remove unnecessary duration column in tests.
+
+## December 7<sup>th</sup>, 2023
 
 ### New Reports
 
