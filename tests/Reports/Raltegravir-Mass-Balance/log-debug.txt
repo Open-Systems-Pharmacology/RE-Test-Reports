@@ -1,36 +1,36 @@
-18/01/2024 - 13:03:07
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-2_mass_balance_Single_Dose__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:08
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-3_mass_balance_Single_Dose__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:08
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-4_mass_balance_Single_Dose__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:09
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-5_mass_balance_Single_Dose__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:09
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-6_mass_balance_Single_Dose__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:09
+18/01/2024 - 15:25:50
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-2_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
+18/01/2024 - 15:25:50
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-3_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
+18/01/2024 - 15:25:51
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-4_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
+18/01/2024 - 15:25:52
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-5_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
+18/01/2024 - 15:25:52
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-6_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
+18/01/2024 - 15:25:52
 Table 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-7_mass_balance_Single_Dose__100_mg_.csv' was successfully saved.
-18/01/2024 - 13:03:28
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-2_mass_balance_Multiple_Doses__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:30
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-3_mass_balance_Multiple_Doses__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:31
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-4_mass_balance_Multiple_Doses__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:33
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-5_mass_balance_Multiple_Doses__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:34
-Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-6_mass_balance_Multiple_Doses__100_mg_.svg' was successfully saved.
-18/01/2024 - 13:03:34
+18/01/2024 - 15:26:11
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-2_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
+18/01/2024 - 15:26:14
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-3_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
+18/01/2024 - 15:26:14
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-4_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
+18/01/2024 - 15:26:17
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-5_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
+18/01/2024 - 15:26:17
+Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-6_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
+18/01/2024 - 15:26:17
 Table 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-7_mass_balance_Multiple_Doses__100_mg_.csv' was successfully saved.
-18/01/2024 - 13:03:34
+18/01/2024 - 15:26:18
 Reports 'tests/Reports/Raltegravir-Mass-Balance/appendix-mass-balance.md' were successfully merged into 'tests/Reports/Raltegravir-Mass-Balance/Report.md'
-18/01/2024 - 13:03:34
+18/01/2024 - 15:26:18
 In 'tests/Reports/Raltegravir-Mass-Balance/Report.md', 0 tables and 10 figures were referenced.
-18/01/2024 - 13:03:34
+18/01/2024 - 15:26:18
 In 'tests/Reports/Raltegravir-Mass-Balance/Report.md', 5 sections were numbered
-18/01/2024 - 13:03:34
+18/01/2024 - 15:26:18
 In 'tests/Reports/Raltegravir-Mass-Balance/Report.md', table of content of 5 lines was included.
-18/01/2024 - 13:03:34
+18/01/2024 - 15:26:18
 'tests/Reports/Raltegravir-Mass-Balance/Report.md' already exists. Overwriting 'tests/Reports/Raltegravir-Mass-Balance/Report.md'.
-18/01/2024 - 13:03:34
+18/01/2024 - 15:26:18
 Reports 'temp-report-title.md', 'tests/Reports/Raltegravir-Mass-Balance/Report.md' were successfully merged into 'tests/Reports/Raltegravir-Mass-Balance/Report.md'

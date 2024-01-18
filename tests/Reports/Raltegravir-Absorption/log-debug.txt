@@ -1,20 +1,20 @@
-18/01/2024 - 13:02:17
-Figure 'tests/Reports/Raltegravir-Absorption/Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.svg' was successfully saved.
-18/01/2024 - 13:02:17
+18/01/2024 - 15:24:59
+Figure 'tests/Reports/Raltegravir-Absorption/Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.png' was successfully saved.
+18/01/2024 - 15:24:59
 Table 'tests/Reports/Raltegravir-Absorption/Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.csv' was successfully saved.
-18/01/2024 - 13:02:53
-Figure 'tests/Reports/Raltegravir-Absorption/Absorption/Multiple_Doses__100_mg_-1_absorption_Raltegravir.svg' was successfully saved.
-18/01/2024 - 13:02:53
+18/01/2024 - 15:25:35
+Figure 'tests/Reports/Raltegravir-Absorption/Absorption/Multiple_Doses__100_mg_-1_absorption_Raltegravir.png' was successfully saved.
+18/01/2024 - 15:25:35
 Table 'tests/Reports/Raltegravir-Absorption/Absorption/Multiple_Doses__100_mg_-1_absorption_Raltegravir.csv' was successfully saved.
-18/01/2024 - 13:02:53
+18/01/2024 - 15:25:35
 Reports 'tests/Reports/Raltegravir-Absorption/appendix-absorption.md' were successfully merged into 'tests/Reports/Raltegravir-Absorption/Report.md'
-18/01/2024 - 13:02:53
+18/01/2024 - 15:25:35
 In 'tests/Reports/Raltegravir-Absorption/Report.md', 0 tables and 2 figures were referenced.
-18/01/2024 - 13:02:53
+18/01/2024 - 15:25:35
 In 'tests/Reports/Raltegravir-Absorption/Report.md', 5 sections were numbered
-18/01/2024 - 13:02:53
+18/01/2024 - 15:25:35
 In 'tests/Reports/Raltegravir-Absorption/Report.md', table of content of 3 lines was included.
-18/01/2024 - 13:02:53
+18/01/2024 - 15:25:35
 'tests/Reports/Raltegravir-Absorption/Report.md' already exists. Overwriting 'tests/Reports/Raltegravir-Absorption/Report.md'.
-18/01/2024 - 13:02:53
+18/01/2024 - 15:25:35
 Reports 'temp-report-title.md', 'tests/Reports/Raltegravir-Absorption/Report.md' were successfully merged into 'tests/Reports/Raltegravir-Absorption/Report.md'
