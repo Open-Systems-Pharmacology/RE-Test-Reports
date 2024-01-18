@@ -25,6 +25,13 @@ expectKnownReport <- function(testReport, refReport){
 }
 
 expectKnownImage <- function(testFile, refFile){
+  if(grepl(patter = ".svg", x = testFile)){
+    return(expectEqual(
+      x = rsvg::rsvg(testFile),
+      y = rsvg::rsvg(refFile),
+      label = testFile
+    ))
+  }
   return(expectEqual(
     x = png::readPNG(source = testFile),
     y = png::readPNG(source = refFile),
@@ -54,13 +61,13 @@ for (report in reports) {
       path = file.path("../..", "Reports", report),
       recursive = TRUE,
       full.names = TRUE,
-      pattern = ".png"
+      pattern = "(.png|.svg)"
     )
     testImages <- list.files(
       path = file.path("..", "Reports", report),
       recursive = TRUE,
       full.names = TRUE,
-      pattern = ".png"
+      pattern = "(.png|.svg)"
     )
     for(imageIndex in seq_along(referenceImages)) {
       expectKnownImage(testImages[imageIndex], referenceImages[imageIndex])
