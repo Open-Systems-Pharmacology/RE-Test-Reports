@@ -25,7 +25,7 @@ expectKnownReport <- function(testReport, refReport){
 }
 
 expectKnownImage <- function(testFile, refFile){
-  if(grepl(patter = ".svg", x = testFile)){
+  if(grepl(pattern = ".svg", x = testFile)){
     return(expectEqual(
       x = rsvg::rsvg(testFile),
       y = rsvg::rsvg(refFile),
