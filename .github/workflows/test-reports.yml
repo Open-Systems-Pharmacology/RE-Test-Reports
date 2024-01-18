@@ -1,7 +1,10 @@
 name: Run RE Report Tests
-# TODO: at some point, trigger this report testing nightly or weekly
-# schedule from https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
-on: push
+
+on: 
+  pull_request:
+  schedule:
+    - cron: '0 0 * * 1'
+
   
 jobs:
   test-reports:
