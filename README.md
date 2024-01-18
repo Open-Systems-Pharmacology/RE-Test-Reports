@@ -1,7 +1,7 @@
 Reporting Engine Test Reports
 ================
 Open System Pharmacology
-2023-12-13
+2024-01-18
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- 
@@ -13,25 +13,28 @@ file, context, test, nb, failed, skipped, error, warning, user, system, real, pa
 Turning the list to data.frame and extracting the relevant data will give a great overview of the test results
 -->
 
-| Global Success Rate | ![](https://geps.dev/progress/100) |
-|---------------------|------------------------------------|
+| Global Success Rate | ![](https://geps.dev/progress/50) |
+|---------------------|-----------------------------------|
 
 ## Tests Overview
 
 | Report                                                               | Test              | Status                                                             |   N | Success \[%\]                      | Warning \[%\] | Failed \[%\] |
 |:---------------------------------------------------------------------|:------------------|:-------------------------------------------------------------------|----:|:-----------------------------------|:--------------|:-------------|
-| [Aciclovir-Mean](./tests/Reports/Aciclovir-Mean)                     | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Aciclovir-Mean](./tests/Reports/Aciclovir-Mean)                     | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Aciclovir-Mean](./tests/Reports/Aciclovir-Mean)                     | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   6 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Aciclovir-Population](./tests/Reports/Aciclovir-Population)         | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Aciclovir-Population](./tests/Reports/Aciclovir-Population)         | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Aciclovir-Population](./tests/Reports/Aciclovir-Population)         | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |  24 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Raltegravir-Absorption](./tests/Reports/Raltegravir-Absorption)     | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Raltegravir-Absorption](./tests/Reports/Raltegravir-Absorption)     | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Raltegravir-Absorption](./tests/Reports/Raltegravir-Absorption)     | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   2 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |  10 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Aciclovir-Mean](./tests/Reports/Aciclovir-Mean)                     | Expected Files    | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Aciclovir-Mean](./tests/Reports/Aciclovir-Mean)                     | Content of Report | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Aciclovir-Mean](./tests/Reports/Aciclovir-Mean)                     | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   0 | ![](https://geps.dev/progress/NaN) | NaN%          | NaN%         |
+| [Aciclovir-Mean-SVG](./tests/Reports/Aciclovir-Mean-SVG)             | Expected Files    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Aciclovir-Mean-SVG](./tests/Reports/Aciclovir-Mean-SVG)             | Content of Report | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Aciclovir-Mean-SVG](./tests/Reports/Aciclovir-Mean-SVG)             | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   6 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Aciclovir-Population](./tests/Reports/Aciclovir-Population)         | Expected Files    | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Aciclovir-Population](./tests/Reports/Aciclovir-Population)         | Content of Report | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Aciclovir-Population](./tests/Reports/Aciclovir-Population)         | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   0 | ![](https://geps.dev/progress/NaN) | NaN%          | NaN%         |
+| [Raltegravir-Absorption](./tests/Reports/Raltegravir-Absorption)     | Expected Files    | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Raltegravir-Absorption](./tests/Reports/Raltegravir-Absorption)     | Content of Report | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Raltegravir-Absorption](./tests/Reports/Raltegravir-Absorption)     | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   0 | ![](https://geps.dev/progress/NaN) | NaN%          | NaN%         |
+| [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Expected Files    | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Content of Report | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   1 | ![](https://geps.dev/progress/0)   | 0%            | 100%         |
+| [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Expected Plots    | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   0 | ![](https://geps.dev/progress/NaN) | NaN%          | NaN%         |
 
 ## Using Reports and Scripts as template
 
@@ -47,7 +50,8 @@ currently available in this repository:
 
 |                          | Report                                                                   | Script                                                                     | Run Time |
 |:-------------------------|:-------------------------------------------------------------------------|:---------------------------------------------------------------------------|:---------|
-| Aciclovir-Mean           | [Aciclovir-Mean](./Reports/Aciclovir-Mean/Report.md)                     | [report-aciclovir-mean.R](./R/report-aciclovir-mean.R)                     | 0.7 min  |
-| Aciclovir-Population     | [Aciclovir-Population](./Reports/Aciclovir-Population/Report.md)         | [report-aciclovir-population.R](./R/report-aciclovir-population.R)         | 9 min    |
+| Aciclovir-Mean           | [Aciclovir-Mean](./Reports/Aciclovir-Mean/Report.md)                     | [report-aciclovir-mean-svg.R](./R/report-aciclovir-mean-svg.R)             | 0.5 min  |
+| Aciclovir-Mean-SVG       | [Aciclovir-Mean-SVG](./Reports/Aciclovir-Mean-SVG/Report.md)             | [report-aciclovir-mean.R](./R/report-aciclovir-mean.R)                     | 0.9 min  |
+| Aciclovir-Population     | [Aciclovir-Population](./Reports/Aciclovir-Population/Report.md)         | [report-aciclovir-population.R](./R/report-aciclovir-population.R)         | 9.1 min  |
 | Raltegravir-Absorption   | [Raltegravir-Absorption](./Reports/Raltegravir-Absorption/Report.md)     | [report-raltegravir-absorption.R](./R/report-raltegravir-absorption.R)     | 0.9 min  |
 | Raltegravir-Mass-Balance | [Raltegravir-Mass-Balance](./Reports/Raltegravir-Mass-Balance/Report.md) | [report-raltegravir-mass-balance.R](./R/report-raltegravir-mass-balance.R) | 0.6 min  |

@@ -24,7 +24,7 @@
 
 <a id="figure-1-1"></a>
 
-![](Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.png)
+![](Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.svg)
 
 
 
@@ -40,7 +40,7 @@
 
 <a id="figure-1-2"></a>
 
-![](Absorption/Multiple_Doses__100_mg_-1_absorption_Raltegravir.png)
+![](Absorption/Multiple_Doses__100_mg_-1_absorption_Raltegravir.svg)
 
 
 

@@ -29,7 +29,7 @@
 
 <a id="figure-1-1"></a>
 
-![](MassBalance/Single_Dose__100_mg_-2_mass_balance_Single_Dose__100_mg_.png)
+![](MassBalance/Single_Dose__100_mg_-2_mass_balance_Single_Dose__100_mg_.svg)
 
 
 
@@ -42,7 +42,7 @@
 
 <a id="figure-1-2"></a>
 
-![](MassBalance/Single_Dose__100_mg_-3_mass_balance_Single_Dose__100_mg_.png)
+![](MassBalance/Single_Dose__100_mg_-3_mass_balance_Single_Dose__100_mg_.svg)
 
 
 
@@ -55,7 +55,7 @@
 
 <a id="figure-1-3"></a>
 
-![](MassBalance/Single_Dose__100_mg_-4_mass_balance_Single_Dose__100_mg_.png)
+![](MassBalance/Single_Dose__100_mg_-4_mass_balance_Single_Dose__100_mg_.svg)
 
 
 
@@ -68,7 +68,7 @@
 
 <a id="figure-1-4"></a>
 
-![](MassBalance/Single_Dose__100_mg_-5_mass_balance_Single_Dose__100_mg_.png)
+![](MassBalance/Single_Dose__100_mg_-5_mass_balance_Single_Dose__100_mg_.svg)
 
 
 
@@ -81,7 +81,7 @@
 
 <a id="figure-1-5"></a>
 
-![](MassBalance/Single_Dose__100_mg_-6_mass_balance_Single_Dose__100_mg_.png)
+![](MassBalance/Single_Dose__100_mg_-6_mass_balance_Single_Dose__100_mg_.svg)
 
 
 
@@ -100,7 +100,7 @@
 
 <a id="figure-1-6"></a>
 
-![](MassBalance/Multiple_Doses__100_mg_-2_mass_balance_Multiple_Doses__100_mg_.png)
+![](MassBalance/Multiple_Doses__100_mg_-2_mass_balance_Multiple_Doses__100_mg_.svg)
 
 
 
@@ -113,7 +113,7 @@
 
 <a id="figure-1-7"></a>
 
-![](MassBalance/Multiple_Doses__100_mg_-3_mass_balance_Multiple_Doses__100_mg_.png)
+![](MassBalance/Multiple_Doses__100_mg_-3_mass_balance_Multiple_Doses__100_mg_.svg)
 
 
 
@@ -126,7 +126,7 @@
 
 <a id="figure-1-8"></a>
 
-![](MassBalance/Multiple_Doses__100_mg_-4_mass_balance_Multiple_Doses__100_mg_.png)
+![](MassBalance/Multiple_Doses__100_mg_-4_mass_balance_Multiple_Doses__100_mg_.svg)
 
 
 
@@ -139,7 +139,7 @@
 
 <a id="figure-1-9"></a>
 
-![](MassBalance/Multiple_Doses__100_mg_-5_mass_balance_Multiple_Doses__100_mg_.png)
+![](MassBalance/Multiple_Doses__100_mg_-5_mass_balance_Multiple_Doses__100_mg_.svg)
 
 
 
@@ -152,7 +152,7 @@
 
 <a id="figure-1-10"></a>
 
-![](MassBalance/Multiple_Doses__100_mg_-6_mass_balance_Multiple_Doses__100_mg_.png)
+![](MassBalance/Multiple_Doses__100_mg_-6_mass_balance_Multiple_Doses__100_mg_.svg)
 
 
 

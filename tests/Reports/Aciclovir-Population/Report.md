@@ -28,7 +28,7 @@
 
 <a id="figure-1-1"></a>
 
-![](Sensitivity/1_sensitivity_AUC_tEnd.png)
+![](Sensitivity/1_sensitivity_AUC_tEnd.svg)
 
 
 
@@ -41,7 +41,7 @@
 
 <a id="figure-1-2"></a>
 
-![](Sensitivity/2_sensitivity_CL.png)
+![](Sensitivity/2_sensitivity_CL.svg)
 
 
 
@@ -54,7 +54,7 @@
 
 <a id="figure-1-3"></a>
 
-![](Sensitivity/3_sensitivity_Vss.png)
+![](Sensitivity/3_sensitivity_Vss.svg)
 
 
 
@@ -67,7 +67,7 @@
 
 <a id="figure-1-4"></a>
 
-![](Sensitivity/4_sensitivity_C_max.png)
+![](Sensitivity/4_sensitivity_C_max.svg)
 
 
 
@@ -92,7 +92,7 @@
 
 <a id="figure-2-1"></a>
 
-![](PKAnalysis/3_pk_parameters_AUC_tEnd_log.png)
+![](PKAnalysis/3_pk_parameters_AUC_tEnd_log.svg)
 
 
 
@@ -105,7 +105,7 @@
 
 <a id="figure-2-2"></a>
 
-![](PKAnalysis/4_pk_parameters_AUC_tEnd.png)
+![](PKAnalysis/4_pk_parameters_AUC_tEnd.svg)
 
 
 
@@ -133,7 +133,7 @@
 
 <a id="figure-2-3"></a>
 
-![](PKAnalysis/5_pk_parameters_AUC_tEnd_log.png)
+![](PKAnalysis/5_pk_parameters_AUC_tEnd_log.svg)
 
 
 
@@ -146,7 +146,7 @@
 
 <a id="figure-2-4"></a>
 
-![](PKAnalysis/6_pk_parameters_AUC_tEnd.png)
+![](PKAnalysis/6_pk_parameters_AUC_tEnd.svg)
 
 
 
@@ -176,7 +176,7 @@
 
 <a id="figure-2-5"></a>
 
-![](PKAnalysis/8_pk_parameters_CL_log.png)
+![](PKAnalysis/8_pk_parameters_CL_log.svg)
 
 
 
@@ -189,7 +189,7 @@
 
 <a id="figure-2-6"></a>
 
-![](PKAnalysis/9_pk_parameters_CL.png)
+![](PKAnalysis/9_pk_parameters_CL.svg)
 
 
 
@@ -217,7 +217,7 @@
 
 <a id="figure-2-7"></a>
 
-![](PKAnalysis/10_pk_parameters_CL_log.png)
+![](PKAnalysis/10_pk_parameters_CL_log.svg)
 
 
 
@@ -230,7 +230,7 @@
 
 <a id="figure-2-8"></a>
 
-![](PKAnalysis/11_pk_parameters_CL.png)
+![](PKAnalysis/11_pk_parameters_CL.svg)
 
 
 
@@ -260,7 +260,7 @@
 
 <a id="figure-2-9"></a>
 
-![](PKAnalysis/13_pk_parameters_Vss_log.png)
+![](PKAnalysis/13_pk_parameters_Vss_log.svg)
 
 
 
@@ -273,7 +273,7 @@
 
 <a id="figure-2-10"></a>
 
-![](PKAnalysis/14_pk_parameters_Vss.png)
+![](PKAnalysis/14_pk_parameters_Vss.svg)
 
 
 
@@ -301,7 +301,7 @@
 
 <a id="figure-2-11"></a>
 
-![](PKAnalysis/15_pk_parameters_Vss_log.png)
+![](PKAnalysis/15_pk_parameters_Vss_log.svg)
 
 
 
@@ -314,7 +314,7 @@
 
 <a id="figure-2-12"></a>
 
-![](PKAnalysis/16_pk_parameters_Vss.png)
+![](PKAnalysis/16_pk_parameters_Vss.svg)
 
 
 
@@ -344,7 +344,7 @@
 
 <a id="figure-2-13"></a>
 
-![](PKAnalysis/18_pk_parameters_C_max_log.png)
+![](PKAnalysis/18_pk_parameters_C_max_log.svg)
 
 
 
@@ -357,7 +357,7 @@
 
 <a id="figure-2-14"></a>
 
-![](PKAnalysis/19_pk_parameters_C_max.png)
+![](PKAnalysis/19_pk_parameters_C_max.svg)
 
 
 
@@ -385,7 +385,7 @@
 
 <a id="figure-2-15"></a>
 
-![](PKAnalysis/20_pk_parameters_C_max_log.png)
+![](PKAnalysis/20_pk_parameters_C_max_log.svg)
 
 
 
@@ -398,7 +398,7 @@
 
 <a id="figure-2-16"></a>
 
-![](PKAnalysis/21_pk_parameters_C_max.png)
+![](PKAnalysis/21_pk_parameters_C_max.svg)
 
 
 
@@ -434,7 +434,7 @@
 
 <a id="figure-3-1"></a>
 
-![](TimeProfiles/Aciclovir_Adults-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Adults-3_timeProfile_Concentration_total.svg)
 
 
 
@@ -447,7 +447,7 @@
 
 <a id="figure-3-2"></a>
 
-![](TimeProfiles/Aciclovir_Adults-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Adults-4_timeProfileLog_Concentration_total.svg)
 
 
 
@@ -463,7 +463,7 @@
 
 <a id="figure-3-3"></a>
 
-![](TimeProfiles/Aciclovir_Children-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Children-3_timeProfile_Concentration_total.svg)
 
 
 
@@ -476,7 +476,7 @@
 
 <a id="figure-3-4"></a>
 
-![](TimeProfiles/Aciclovir_Children-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Children-4_timeProfileLog_Concentration_total.svg)
 
 
 
