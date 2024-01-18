@@ -7,6 +7,7 @@ __Table__: Metadata regarding the reports in this directory.
 |Report | Type | Sections | Description |
 |-------|------|----------|-------------|
 |Aciclovir-Mean| Mean Model Workflow | &#9744; Mass Balance<br>&#9744; Absorption <br>&#9745; Time Profile<br>&#9745; PK Parameters<br> &#9745; Sensitivity| Simple Mean Model Workflow|
+|Aciclovir-Mean-SVG| Mean Model Workflow | &#9744; Mass Balance<br>&#9744; Absorption <br>&#9745; Time Profile<br>&#9745; PK Parameters<br> &#9745; Sensitivity| Simple Mean Model Workflow saving figures as svg|
 |Aciclovir-Population| Population Workflow<br>Parallel Comparison | &#9744; Demography<br>&#9745; Time Profile<br>&#9745; PK Parameters<br> &#9745; Sensitivity| Simple Population Workflow|
 |Raltegravir-Absorption| Mean Model Workflow | &#9744; Mass Balance<br>&#9745; Absorption <br>&#9744; Time Profile<br>&#9744; PK Parameters<br> &#9744; Sensitivity| Template for simple Absorption plots|
 |Raltegravir-Mass-Balance| Mean Model Workflow | &#9745; Mass Balance<br>&#9744; Absorption <br>&#9744; Time Profile<br>&#9744; PK Parameters<br> &#9744; Sensitivity| Template for simple Mass Balance plots|
