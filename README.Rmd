@@ -45,21 +45,20 @@ testResults <- testResultsRaw %>%
       )
     ),
     Duration = real,
-    N = nb,
-    Success = if_else(nb==0, "", paste0(
+    N = if_else(skipped, 0, nb),
+    Success = if_else(nb ==0 | skipped, "", paste0(
       "![](https://geps.dev/progress/",
       round(100 * passed / nb, 0),
       ")"
     )),
-    Warning = if_else(nb==0, "", paste0(round(100 * warning / nb, 0), "%")),
-    Failed = if_else(nb==0, "", paste0(round(100 * failed / nb, 0), "%"))
+    Warning = if_else(nb ==0 | skipped, "", paste0(round(100 * warning / nb, 0), "%")),
+    Failed = if_else(nb ==0 | skipped, "", paste0(round(100 * failed / nb, 0), "%"))
   ) %>%
   select(Report, Test, Status, N, Success, Warning, Failed)
 
 globalResult <- round(100 * sum(testResultsRaw$passed) / sum(testResultsRaw$nb), 0)
 totalReports <- n_distinct(testResults$Report)
 totalTests <- sum(testResults$N)
-
 ```
 
 
@@ -80,7 +79,7 @@ Here is the summary of the reports, their scripts and their run time currently a
 availableReports <- list.dirs("./tests/Reports", recursive = FALSE, full.names = FALSE)
 availableDurations <- unname(sapply(
   availableReports,
-  function(reportDir){
+  function(reportDir) {
     logInfo <- readLines(file.path("tests", "Reports", reportDir, "log-info.txt"), warn = FALSE)
     lastLine <- tail(logInfo[grepl(pattern = "completed in", logInfo)], 1)
     duration <- tail(unlist(strsplit(split = "completed in", x = lastLine)), 1)
@@ -90,11 +89,11 @@ availableDurations <- unname(sapply(
 # Map report to script Naming convention for scripts was report lower case of directory
 availableScripts <- unname(sapply(
   availableReports,
-  function(reportDir){
-    for(rScript in list.files("./R", pattern = ".R")){
+  function(reportDir) {
+    for (rScript in list.files("./R", pattern = ".R")) {
       scriptContent <- readLines(file.path("R", rScript), warn = FALSE)
       reportDefinition <- scriptContent[grepl(pattern = "reportFolder <-", scriptContent)]
-      if(grepl(pattern = reportDir, reportDefinition)){
+      if (grepl(pattern = reportDir, reportDefinition)) {
         return(rScript)
       }
       next
@@ -108,8 +107,7 @@ knitr::kable(data.frame(
   "Script" = paste0("[", availableScripts, "](./R/", availableScripts, ")"),
   "Run Time" = availableDurations,
   check.names = FALSE
-  ))
-
+))
 ```
 
 ## Test Results
@@ -119,6 +117,3 @@ names(testResults) <- c("Report", "Test", "Status", "N", "Success [%]", "Warning
 
 knitr::kable(testResults)
 ```
-
-
-
