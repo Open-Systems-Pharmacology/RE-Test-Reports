@@ -107,7 +107,7 @@
 
 
 
-**Figure 2-5: Logarithmic residuals vs predicted values for PO320mg. Data source: Boeckmann 1994. **
+**Figure 2-5: Logarithmic residuals vs predicted values for PO320mg. Data source: Boeckmann 1994.**
 
 
 <br>
@@ -120,7 +120,7 @@
 
 
 
-**Figure 2-6: Logarithmic residuals vs time values for PO320mg. Data source: Boeckmann 1994. **
+**Figure 2-6: Logarithmic residuals vs time values for PO320mg. Data source: Boeckmann 1994.**
 
 
 <br>
@@ -133,7 +133,7 @@
 
 
 
-**Figure 2-7: Logarithmic residuals distribution (stacked) for PO320mg. Data source: Boeckmann 1994. **
+**Figure 2-7: Logarithmic residuals distribution (stacked) for PO320mg. Data source: Boeckmann 1994.**
 
 
 <br>
@@ -146,7 +146,7 @@
 
 
 
-**Figure 2-8: Logarithmic residuals for PO320mg as quantile-quantile plot. Data source: Boeckmann 1994. **
+**Figure 2-8: Logarithmic residuals for PO320mg as quantile-quantile plot. Data source: Boeckmann 1994.**
 
 
 <br>
