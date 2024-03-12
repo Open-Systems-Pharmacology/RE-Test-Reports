@@ -54,6 +54,7 @@ testResults <- testResultsRaw %>%
     Warning = if_else(nb ==0 | skipped, "", paste0(round(100 * warning / nb, 0), "%")),
     Failed = if_else(nb ==0 | skipped, "", paste0(round(100 * failed / nb, 0), "%"))
   ) %>%
+  filter(N > 0) %>%
   select(Report, Test, Status, N, Success, Warning, Failed)
 
 globalResult <- round(100 * sum(testResultsRaw$passed) / sum(testResultsRaw$nb), 0)
