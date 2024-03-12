@@ -57,9 +57,9 @@ testResults <- testResultsRaw %>%
   filter(N > 0) %>%
   select(Report, Test, Status, N, Success, Warning, Failed)
 
-globalResult <- round(100 * sum(testResultsRaw$passed) / sum(testResultsRaw$nb), 0)
 totalReports <- n_distinct(testResults$Report)
 totalTests <- sum(testResults$N)
+globalResult <- round(100 * sum(testResultsRaw$passed) / totalTests, 0)
 ```
 
 
