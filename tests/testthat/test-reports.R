@@ -87,15 +87,15 @@ for (report in reports) {
   })
 
   for (resultIndex in seq_along(resultsToTest$name)) {
-    test_that(paste("Expected", resultToTest$name[resultIndex]), {
+    test_that(paste("Expected", resultsToTest$name[resultIndex]), {
       referenceResults <- list.files(
-        path = file.path("../..", "Reports", report, resultToTest$folder[resultIndex]),
+        path = file.path("../..", "Reports", report, resultsToTest$folder[resultIndex]),
         recursive = TRUE,
         full.names = TRUE,
         pattern = ".csv"
       )
       testResults <- list.files(
-        path = file.path("..", "Reports", report, resultToTest$folder[resultIndex]),
+        path = file.path("..", "Reports", report, resultsToTest$folder[resultIndex]),
         recursive = TRUE,
         full.names = TRUE,
         pattern = "csv"
