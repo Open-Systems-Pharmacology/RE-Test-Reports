@@ -46,13 +46,13 @@ testResults <- testResultsRaw %>%
     ),
     Duration = real,
     N = nb,
-    Success = paste0(
+    Success = if_else(nb==0, "", paste0(
       "![](https://geps.dev/progress/",
       round(100 * passed / nb, 0),
       ")"
-    ),
-    Warning = paste0(round(100 * warning / nb, 0), "%"),
-    Failed = paste0(round(100 * failed / nb, 0), "%")
+    )),
+    Warning = if_else(nb==0, "", paste0(round(100 * warning / nb, 0), "%")),
+    Failed = if_else(nb==0, "", paste0(round(100 * failed / nb, 0), "%"))
   ) %>%
   select(Report, Test, Status, N, Success, Warning, Failed)
 
@@ -64,8 +64,8 @@ totalTests <- sum(testResults$N)
 
 
 | &#x1F4D4; Total Reports | &#x1F575; Total Tests | &#x1F4CA; Global Success Rate |
-|-------------------------|-----------------------|--------------------|
-| <p align="center"> `r totalReports` </p> | <p align="center"> `r totalTests` </p> | ![](https://geps.dev/progress/`r globalResult`) |
+|-------------------------|-----------------------|-------------------------------|
+| `r totalReports` | `r totalTests` | ![](https://geps.dev/progress/`r globalResult`) |
 
 
 ## Using Reports and Scripts as template
@@ -87,8 +87,21 @@ availableDurations <- unname(sapply(
     return(trimws(duration))
   }
 ))
-# Naming convention for scripts was report lower case of directory
-availableScripts <- list.files("./R", pattern = ".R")
+# Map report to script Naming convention for scripts was report lower case of directory
+availableScripts <- unname(sapply(
+  availableReports,
+  function(reportDir){
+    for(rScript in list.files("./R", pattern = ".R")){
+      scriptContent <- readLines(file.path("R", rScript), warn = FALSE)
+      reportDefinition <- scriptContent[grepl(pattern = "reportFolder <-", scriptContent)]
+      if(grepl(pattern = reportDir, reportDefinition)){
+        return(rScript)
+      }
+      next
+    }
+    return(NA)
+  }
+))
 
 knitr::kable(data.frame(
   "Report" = paste0("[", availableReports, "](./Reports/", availableReports, "/Report.md)"),
