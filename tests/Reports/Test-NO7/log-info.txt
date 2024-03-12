@@ -1,0 +1,43 @@
+12/03/2024 - 14:35:53
+Reporting Engine Information:
+Date: 12/03/2024 - 14:35:53
+User Information:
+Computer Name: fv-az972-673
+User: runneradmin
+Login: runneradmin
+System is NOT validated
+System versions:
+R version: R version 4.3.3 (2024-02-29 ucrt)
+OSP Suite Package version: 12.0.482
+OSP Reporting Engine version: 2.2.329
+tlf version: 1.5.164
+12/03/2024 - 14:35:54
+Starting run of Mean Model Workflow
+12/03/2024 - 14:35:54
+Starting run of Simulation task
+12/03/2024 - 14:35:55
+Splitting simulations for parallel run: 1 simulations split into 1 subsets
+12/03/2024 - 14:35:55
+Starting run of subset simulations
+12/03/2024 - 14:35:59
+Simulation task completed in 0.1 min
+12/03/2024 - 14:35:59
+Starting run of Calculate PK Parameters task
+12/03/2024 - 14:35:59
+Starting run of Calculate PK Parameters task for PO320mg
+12/03/2024 - 14:36:01
+Calculate PK Parameters task completed in 0 min
+12/03/2024 - 14:36:01
+Starting run of Plot PK Parameters task
+12/03/2024 - 14:36:01
+Starting run of Plot PK Parameters task for PO320mg
+12/03/2024 - 14:36:02
+Plot PK Parameters task completed in 0 min
+12/03/2024 - 14:36:02
+Starting run of Plot Time profiles and Residuals task
+12/03/2024 - 14:36:02
+Starting run of Plot Time profiles and Residuals task for PO320mg
+12/03/2024 - 14:36:18
+Plot Time profiles and Residuals task completed in 0.3 min
+12/03/2024 - 14:36:18
+Mean Model Workflow completed in 0.4 min
