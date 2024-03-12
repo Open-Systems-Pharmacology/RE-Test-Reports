@@ -4,11 +4,11 @@
 # Needs to wrap test failures as warnings
 # to get testthat report even if some tests fail
 
-expectEqual <- function(x, y, label){
-  expect_true(all(x==y), label = label)
+expectEqual <- function(x, y, label) {
+  expect_true(all(x == y), label = label)
 }
 
-expectFiles <- function(testFiles, refFiles){
+expectFiles <- function(testFiles, refFiles) {
   return(expectEqual(
     x = testFiles,
     y = refFiles,
@@ -16,7 +16,7 @@ expectFiles <- function(testFiles, refFiles){
   ))
 }
 
-expectKnownReport <- function(testReport, refReport){
+expectKnownReport <- function(testReport, refReport) {
   return(expectEqual(
     x = readLines(testReport),
     y = readLines(refReport),
@@ -24,8 +24,8 @@ expectKnownReport <- function(testReport, refReport){
   ))
 }
 
-expectKnownImage <- function(testFile, refFile){
-  if(grepl(pattern = ".svg", x = testFile)){
+expectKnownImage <- function(testFile, refFile) {
+  if (grepl(pattern = "svg", x = testFile)) {
     return(expectEqual(
       x = rsvg::rsvg(testFile),
       y = rsvg::rsvg(refFile),
@@ -40,6 +40,18 @@ expectKnownImage <- function(testFile, refFile){
 }
 
 reports <- list.dirs(path = "../Reports", recursive = FALSE, full.names = FALSE)
+resultsToTest <- data.frame(
+  name = c(
+    "Simulation Results", "PK Analysis Results", "Sensitivity Results",
+    "Goodness of Fit", "PK Parameter Tables", "Sensitivity Tables",
+    "Mass Balance Results", "Absorption Results", "Demography Results"
+  ),
+  folder = c(
+    "SimulationResults", "PKAnalysisResults", "SensitivityResults",
+    "TimeProfiles", "PKAnalysis", "Sensitivity",
+    "MassBalance", "Absorption", "Demography"
+  )
+)
 
 for (report in reports) {
   context(report)
@@ -61,16 +73,36 @@ for (report in reports) {
       path = file.path("../..", "Reports", report),
       recursive = TRUE,
       full.names = TRUE,
-      pattern = "(.png|.svg)"
+      pattern = "(png|svg)"
     )
     testImages <- list.files(
       path = file.path("..", "Reports", report),
       recursive = TRUE,
       full.names = TRUE,
-      pattern = "(.png|.svg)"
+      pattern = "(png|svg)"
     )
-    for(imageIndex in seq_along(referenceImages)) {
+    for (imageIndex in seq_along(referenceImages)) {
       expectKnownImage(testImages[imageIndex], referenceImages[imageIndex])
     }
   })
+
+  for (resultIndex in seq_along(resultsToTest$name)) {
+    test_that(paste("Expected", resultsToTest$name[resultIndex]), {
+      referenceResults <- list.files(
+        path = file.path("../..", "Reports", report, resultsToTest$folder[resultIndex]),
+        recursive = TRUE,
+        full.names = TRUE,
+        pattern = "csv"
+      )
+      testResults <- list.files(
+        path = file.path("..", "Reports", report, resultsToTest$folder[resultIndex]),
+        recursive = TRUE,
+        full.names = TRUE,
+        pattern = "csv"
+      )
+      for (resultIndex in seq_along(referenceResults)) {
+        expectKnownReport(testResults[resultIndex], referenceResults[resultIndex])
+      }
+    })
+  }
 }
