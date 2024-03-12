@@ -57,18 +57,16 @@ testResults <- testResultsRaw %>%
   select(Report, Test, Status, N, Success, Warning, Failed)
 
 globalResult <- round(100 * sum(testResultsRaw$passed) / sum(testResultsRaw$nb), 0)
+totalReports <- n_distinct(testResults$Report)
+totalTests <- sum(testResults$N)
+
 ```
 
-|Global Success Rate| ![](https://geps.dev/progress/`r globalResult`)|
-|---|---|
 
-## Tests Overview
+| &#x1F4D4; Total Reports | &#x1F575; Total Tests | &#x1F4CA; Global Success Rate |
+|-------------------------|-----------------------|--------------------|
+| <p align="center"> `r totalReports` </p> | <p align="center"> `r totalTests` </p> | ![](https://geps.dev/progress/`r globalResult`) |
 
-```{r, results='asis'}
-names(testResults) <- c("Report", "Test", "Status", "N", "Success [%]", "Warning [%]", "Failed [%]")
-
-knitr::kable(testResults)
-```
 
 ## Using Reports and Scripts as template
 
@@ -80,7 +78,7 @@ Here is the summary of the reports, their scripts and their run time currently a
 
 ```{r, results='asis'}
 availableReports <- list.dirs("./tests/Reports", recursive = FALSE, full.names = FALSE)
-availableDurations <- sapply(
+availableDurations <- unname(sapply(
   availableReports,
   function(reportDir){
     logInfo <- readLines(file.path("tests", "Reports", reportDir, "log-info.txt"), warn = FALSE)
@@ -88,7 +86,7 @@ availableDurations <- sapply(
     duration <- tail(unlist(strsplit(split = "completed in", x = lastLine)), 1)
     return(trimws(duration))
   }
-)
+))
 # Naming convention for scripts was report lower case of directory
 availableScripts <- list.files("./R", pattern = ".R")
 
@@ -100,4 +98,14 @@ knitr::kable(data.frame(
   ))
 
 ```
+
+## Test Results
+
+```{r, results='asis'}
+names(testResults) <- c("Report", "Test", "Status", "N", "Success [%]", "Warning [%]", "Failed [%]")
+
+knitr::kable(testResults)
+```
+
+
 
