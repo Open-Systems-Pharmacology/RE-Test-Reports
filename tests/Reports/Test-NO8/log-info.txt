@@ -1,0 +1,45 @@
+14/03/2024 - 11:32:42
+Reporting Engine Information:
+Date: 14/03/2024 - 11:32:42
+User Information:
+Computer Name: fv-az1495-557
+User: runneradmin
+Login: runneradmin
+System is NOT validated
+System versions:
+R version: R version 4.3.3 (2024-02-29 ucrt)
+OSP Suite Package version: 12.0.482
+OSP Reporting Engine version: 2.2.329
+tlf version: 1.5.165
+14/03/2024 - 11:32:42
+Starting run of Population Workflow for parallelComparison
+14/03/2024 - 11:32:42
+Starting run of Simulation task
+14/03/2024 - 11:32:42
+Starting run of Population Simulations
+14/03/2024 - 11:32:42
+Starting run of single IV application (Pop_10)
+14/03/2024 - 11:32:45
+Simulation task completed in 0.1 min
+14/03/2024 - 11:32:45
+Starting run of Calculate PK Parameters task
+14/03/2024 - 11:32:45
+Starting run of Calculate PK Parameters task for single IV application
+14/03/2024 - 11:32:46
+Calculate PK Parameters task completed in 0 min
+14/03/2024 - 11:32:46
+Starting run of Plot PK Parameters task
+14/03/2024 - 11:33:24
+Plot PK Parameters task completed in 0.6 min
+14/03/2024 - 11:33:24
+Starting run of Plot Time profiles and Residuals task
+14/03/2024 - 11:33:24
+Starting run of Plot Time profiles and Residuals task for single IV application
+14/03/2024 - 11:33:27
+Plot Time profiles and Residuals task completed in 0.1 min
+14/03/2024 - 11:33:27
+Starting run of Plot Demography task
+14/03/2024 - 11:33:35
+Plot Demography task completed in 0.1 min
+14/03/2024 - 11:33:35
+Population Workflow for parallelComparison completed in 0.9 min

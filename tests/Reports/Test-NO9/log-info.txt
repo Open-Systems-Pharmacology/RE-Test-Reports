@@ -1,0 +1,59 @@
+14/03/2024 - 11:33:40
+Reporting Engine Information:
+Date: 14/03/2024 - 11:33:40
+User Information:
+Computer Name: fv-az1495-557
+User: runneradmin
+Login: runneradmin
+System is NOT validated
+System versions:
+R version: R version 4.3.3 (2024-02-29 ucrt)
+OSP Suite Package version: 12.0.482
+OSP Reporting Engine version: 2.2.329
+tlf version: 1.5.165
+14/03/2024 - 11:33:40
+Starting run of Population Workflow for parallelComparison
+14/03/2024 - 11:33:40
+Starting run of Simulation task
+14/03/2024 - 11:33:40
+Starting run of Population Simulations
+14/03/2024 - 11:33:41
+Starting run of single IV administration (Adults_18_100_years-Population)
+14/03/2024 - 11:33:47
+Starting run of children_0_3y (Kids_0_3_years-Population)
+14/03/2024 - 11:33:54
+Starting run of children_3_6y (Kids_3_6_years-Population)
+14/03/2024 - 11:34:00
+Starting run of children_6_9y (Kids_6_9_years-Population)
+14/03/2024 - 11:34:05
+Simulation task completed in 0.4 min
+14/03/2024 - 11:34:05
+Starting run of Calculate PK Parameters task
+14/03/2024 - 11:34:05
+Starting run of Calculate PK Parameters task for single IV administration
+14/03/2024 - 11:34:07
+Starting run of Calculate PK Parameters task for children_0_3y
+14/03/2024 - 11:34:09
+Starting run of Calculate PK Parameters task for children_3_6y
+14/03/2024 - 11:34:10
+Starting run of Calculate PK Parameters task for children_6_9y
+14/03/2024 - 11:34:12
+Calculate PK Parameters task completed in 0.1 min
+14/03/2024 - 11:34:12
+Starting run of Plot PK Parameters task
+14/03/2024 - 11:34:42
+Plot PK Parameters task completed in 0.5 min
+14/03/2024 - 11:34:42
+Starting run of Plot Time profiles and Residuals task
+14/03/2024 - 11:34:42
+Starting run of Plot Time profiles and Residuals task for single IV administration
+14/03/2024 - 11:34:45
+Starting run of Plot Time profiles and Residuals task for children_0_3y
+14/03/2024 - 11:34:48
+Starting run of Plot Time profiles and Residuals task for children_3_6y
+14/03/2024 - 11:34:51
+Starting run of Plot Time profiles and Residuals task for children_6_9y
+14/03/2024 - 11:34:54
+Plot Time profiles and Residuals task completed in 0.2 min
+14/03/2024 - 11:34:54
+Population Workflow for parallelComparison completed in 1.2 min

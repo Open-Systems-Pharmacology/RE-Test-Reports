@@ -1,7 +1,7 @@
 Reporting Engine Test Reports
 ================
 Open System Pharmacology
-2024-03-12
+2024-03-14
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- 
@@ -12,9 +12,9 @@ file, context, test, nb, failed, skipped, error, warning, user, system, real, pa
 &#10;Turning the list to data.frame and extracting the relevant data will give a great overview of the test results
 -->
 
-| 📔 Total Reports | 🕵 Total Tests | 📊 Global Success Rate             |
-|------------------|---------------|------------------------------------|
-| 6                | 122           | ![](https://geps.dev/progress/100) |
+| 📔 Total Reports | 🕵 Total Tests | 📊 Global Success Rate            |
+|------------------|---------------|-----------------------------------|
+| 11               | 635           | ![](https://geps.dev/progress/96) |
 
 ## Using Reports and Scripts as template
 
@@ -32,10 +32,15 @@ currently available in this repository:
 |:-------------------------------------------------------------------------|:---------------------------------------------------------------------------|:---------|
 | [Aciclovir-Mean](./Reports/Aciclovir-Mean/Report.md)                     | [report-aciclovir-mean-svg.R](./R/report-aciclovir-mean-svg.R)             | 0.6 min  |
 | [Aciclovir-Mean-SVG](./Reports/Aciclovir-Mean-SVG/Report.md)             | [report-aciclovir-mean-svg.R](./R/report-aciclovir-mean-svg.R)             | 0.8 min  |
-| [Aciclovir-Population](./Reports/Aciclovir-Population/Report.md)         | [report-aciclovir-population.R](./R/report-aciclovir-population.R)         | 9 min    |
+| [Aciclovir-Population](./Reports/Aciclovir-Population/Report.md)         | [report-aciclovir-population.R](./R/report-aciclovir-population.R)         | 9.4 min  |
 | [Raltegravir-Absorption](./Reports/Raltegravir-Absorption/Report.md)     | [report-raltegravir-absorption.R](./R/report-raltegravir-absorption.R)     | 0.9 min  |
 | [Raltegravir-Mass-Balance](./Reports/Raltegravir-Mass-Balance/Report.md) | [report-raltegravir-mass-balance.R](./R/report-raltegravir-mass-balance.R) | 0.6 min  |
-| [Test-NO7](./Reports/Test-NO7/Report.md)                                 | [report-NO7.R](./R/report-NO7.R)                                           | 0.4 min  |
+| [Test-NO10](./Reports/Test-NO10/Report.md)                               | [report-NO10.R](./R/report-NO10.R)                                         | 5.3 min  |
+| [Test-NO11](./Reports/Test-NO11/Report.md)                               | [report-NO11.R](./R/report-NO11.R)                                         | 0.4 min  |
+| [Test-NO12](./Reports/Test-NO12/Report.md)                               | [report-NO12.R](./R/report-NO12.R)                                         | 0.6 min  |
+| [Test-NO7](./Reports/Test-NO7/Report.md)                                 | [report-NO7.R](./R/report-NO7.R)                                           | 0.2 min  |
+| [Test-NO8](./Reports/Test-NO8/Report.md)                                 | [report-NO8.R](./R/report-NO8.R)                                           | 0.9 min  |
+| [Test-NO9](./Reports/Test-NO9/Report.md)                                 | [report-NO9.R](./R/report-NO9.R)                                           | 1.2 min  |
 
 ## Test Results
 
@@ -73,10 +78,46 @@ currently available in this repository:
 | [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Content of Report             | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
 | [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Expected Plots                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |  10 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
 | [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance) | Expected Mass Balance Results | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   2 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Test-NO7](./tests/Reports/Test-NO7)                                 | Expected Files                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO10](./tests/Reports/Test-NO10)                               | Expected Files                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO10](./tests/Reports/Test-NO10)                               | Content of Report             | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO10](./tests/Reports/Test-NO10)                               | Expected Plots                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) | 368 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO10](./tests/Reports/Test-NO10)                               | Expected Simulation Results   | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   4 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO10](./tests/Reports/Test-NO10)                               | Expected PK Analysis Results  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   4 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO10](./tests/Reports/Test-NO10)                               | Expected Goodness of Fit      | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   4 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO10](./tests/Reports/Test-NO10)                               | Expected PK Parameter Tables  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |  12 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO11](./tests/Reports/Test-NO11)                               | Expected Files                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO11](./tests/Reports/Test-NO11)                               | Content of Report             | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO11](./tests/Reports/Test-NO11)                               | Expected Plots                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   8 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO11](./tests/Reports/Test-NO11)                               | Expected Simulation Results   | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO11](./tests/Reports/Test-NO11)                               | Expected PK Analysis Results  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO11](./tests/Reports/Test-NO11)                               | Expected Goodness of Fit      | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   2 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO11](./tests/Reports/Test-NO11)                               | Expected PK Parameter Tables  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected Files                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Content of Report             | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected Plots                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |  14 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected Simulation Results   | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected PK Analysis Results  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected Goodness of Fit      | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   2 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected PK Parameter Tables  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected Mass Balance Results | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO12](./tests/Reports/Test-NO12)                               | Expected Absorption Results   | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO7](./tests/Reports/Test-NO7)                                 | Expected Files                | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |   2 | ![](https://geps.dev/progress/0)   | 50%           | 50%          |
 | [Test-NO7](./tests/Reports/Test-NO7)                                 | Content of Report             | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
-| [Test-NO7](./tests/Reports/Test-NO7)                                 | Expected Plots                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   8 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
 | [Test-NO7](./tests/Reports/Test-NO7)                                 | Expected Simulation Results   | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
 | [Test-NO7](./tests/Reports/Test-NO7)                                 | Expected PK Analysis Results  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
 | [Test-NO7](./tests/Reports/Test-NO7)                                 | Expected Goodness of Fit      | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   2 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
 | [Test-NO7](./tests/Reports/Test-NO7)                                 | Expected PK Parameter Tables  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO8](./tests/Reports/Test-NO8)                                 | Expected Files                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO8](./tests/Reports/Test-NO8)                                 | Content of Report             | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO8](./tests/Reports/Test-NO8)                                 | Expected Plots                | ![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)     |  31 | ![](https://geps.dev/progress/23)  | 0%            | 77%          |
+| [Test-NO8](./tests/Reports/Test-NO8)                                 | Expected Simulation Results   | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO8](./tests/Reports/Test-NO8)                                 | Expected PK Analysis Results  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO8](./tests/Reports/Test-NO8)                                 | Expected Goodness of Fit      | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO8](./tests/Reports/Test-NO8)                                 | Expected PK Parameter Tables  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |  12 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO9](./tests/Reports/Test-NO9)                                 | Expected Files                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO9](./tests/Reports/Test-NO9)                                 | Content of Report             | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   1 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO9](./tests/Reports/Test-NO9)                                 | Expected Plots                | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |  20 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO9](./tests/Reports/Test-NO9)                                 | Expected Simulation Results   | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   4 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO9](./tests/Reports/Test-NO9)                                 | Expected PK Analysis Results  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   4 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO9](./tests/Reports/Test-NO9)                                 | Expected Goodness of Fit      | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   4 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
+| [Test-NO9](./tests/Reports/Test-NO9)                                 | Expected PK Parameter Tables  | ![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success) |   6 | ![](https://geps.dev/progress/100) | 0%            | 0%           |
