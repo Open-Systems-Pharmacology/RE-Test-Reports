@@ -8,5 +8,8 @@ __Table__: Metadata regarding the files in this directory.
 |-----|-------------|
 |adult-population.csv|Simulated adult population for Population Workflow reports|
 |children-population.csv|Simulated children population for Population Workflow reports|
-|test-07| Data used in test 07|
+|test-NO7| Data and dictionary used in tests NO7 and NO12|
+|test-NO8| Population file used in test NO8|
+|test-NO9| Population files used in tests NO9 and NO10|
+|test-NO11| Data and dictionary used in test NO11 (using LLOQ)|
 
