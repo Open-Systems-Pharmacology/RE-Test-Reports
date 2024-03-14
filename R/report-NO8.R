@@ -23,13 +23,17 @@ pkVss <- PkParameterInfo$new(pkParameter = "Vss", displayUnit = "ml/kg")
 
 outPlasma <- Output$new(
   path = "Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)",
-  displayName = "C1 plasma", displayUnit = "µg/l",
+  displayName = "C1 plasma",
+  displayUnit = "µg/l",
+  color = "#CE3D32",
   pkParameters = c(pkAUC, pkCMax, pkCtend, pkTmax, pkCL, pkVss)
 )
 
 outBone <- Output$new(
   path = "Organism|Bone|Intracellular|Aciclovir|Concentration in container",
-  displayName = "C1 Bone", displayUnit = "µg/l",
+  displayName = "C1 Bone",
+  displayUnit = "µg/l",
+  color = "#749B58",
   pkParameters = c(pkAUC, pkCMax, pkCtend, pkTmax, pkCL, pkVss)
 )
 
