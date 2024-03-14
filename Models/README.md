@@ -9,4 +9,8 @@ __Table__: Metadata regarding the files in this directory.
 |Aciclovir.pkml| PBPK model of [*Aciclovir*](https://en.wikipedia.org/wiki/Aciclovir) |
 |Raltegravir-100mg-lactose-formulation.pkml| PBPK model of [*Raltegravir*](https://github.com/Open-Systems-Pharmacology/Raltegravir-Model) single dose|
 |Raltegravir-100-mg-filmcoated-tablet.pkml| PBPK model of [*Raltegravir*](https://github.com/Open-Systems-Pharmacology/Raltegravir-Model) multiple doses|
-|Theophylline (Boeckmann 1994) PO.pkml | PBPK model used in test NO7|
+|Theophylline (Boeckmann 1994) PO.pkml | PBPK model used in tests NO7 and NO12|
+|TestPopulationSimulation.pkml | PBPK model used in test NO8|
+|Adults_SingleIV_Bolus.pkml | PBPK model used in tests NO9 and NO10|
+|Theophylline (Boeckmann 1994) PO for fitting (fitted specific int.perm) popsim.pkml | PBPK model used in test NO11 (using LLOQ)|
+
