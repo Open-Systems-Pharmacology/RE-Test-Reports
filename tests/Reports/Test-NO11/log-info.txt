@@ -1,43 +1,43 @@
-18/03/2024 - 00:55:56
+29/04/2024 - 00:57:51
 Reporting Engine Information:
-Date: 18/03/2024 - 00:55:56
+Date: 29/04/2024 - 00:57:51
 User Information:
-Computer Name: fv-az980-664
+Computer Name: fv-az653-299
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
-R version: R version 4.3.3 (2024-02-29 ucrt)
-OSP Suite Package version: 12.0.482
-OSP Reporting Engine version: 2.2.329
+R version: R version 4.4.0 (2024-04-24 ucrt)
+OSP Suite Package version: 12.0.533
+OSP Reporting Engine version: 2.2.344
 tlf version: 1.5.165
-18/03/2024 - 00:55:56
+29/04/2024 - 00:57:51
 Starting run of Mean Model Workflow
-18/03/2024 - 00:55:56
+29/04/2024 - 00:57:51
 Starting run of Simulation task
-18/03/2024 - 00:55:56
+29/04/2024 - 00:57:51
 Splitting simulations for parallel run: 1 simulations split into 1 subsets
-18/03/2024 - 00:55:56
+29/04/2024 - 00:57:51
 Starting run of subset simulations
-18/03/2024 - 00:56:00
+29/04/2024 - 00:57:55
 Simulation task completed in 0.1 min
-18/03/2024 - 00:56:00
+29/04/2024 - 00:57:55
 Starting run of Calculate PK Parameters task
-18/03/2024 - 00:56:00
+29/04/2024 - 00:57:55
 Starting run of Calculate PK Parameters task for PO320mg
-18/03/2024 - 00:56:02
+29/04/2024 - 00:57:57
 Calculate PK Parameters task completed in 0 min
-18/03/2024 - 00:56:02
+29/04/2024 - 00:57:57
 Starting run of Plot PK Parameters task
-18/03/2024 - 00:56:02
+29/04/2024 - 00:57:57
 Starting run of Plot PK Parameters task for PO320mg
-18/03/2024 - 00:56:03
+29/04/2024 - 00:57:58
 Plot PK Parameters task completed in 0 min
-18/03/2024 - 00:56:03
+29/04/2024 - 00:57:58
 Starting run of Plot Time profiles and Residuals task
-18/03/2024 - 00:56:03
+29/04/2024 - 00:57:58
 Starting run of Plot Time profiles and Residuals task for PO320mg
-18/03/2024 - 00:56:19
-Plot Time profiles and Residuals task completed in 0.3 min
-18/03/2024 - 00:56:19
-Mean Model Workflow completed in 0.4 min
+29/04/2024 - 00:58:07
+Plot Time profiles and Residuals task completed in 0.2 min
+29/04/2024 - 00:58:07
+Mean Model Workflow completed in 0.3 min
