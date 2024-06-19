@@ -82,7 +82,15 @@ reportMappings <- jsonlite::fromJSON("tests/testthat/report-mapping.json", simpl
 availableDurations <- unname(sapply(
   reportMappings$Report,
   function(reportDir) {
-    logInfo <- readLines(file.path("tests", "Reports", reportDir, "log-info.txt"), warn = FALSE)
+    logFile <- head(list.files(
+      path = file.path("tests", "Reports", reportDir),
+      pattern = "log-info",
+      full.names = TRUE,
+      recursive = TRUE
+      ), 1)
+    
+    if(length(logFile)==0){return(NA)}
+    logInfo <- readLines(logFile, warn = FALSE)
     lastLine <- tail(logInfo[grepl(pattern = "completed in", logInfo)], 1)
     duration <- tail(unlist(strsplit(split = "completed in", x = lastLine)), 1)
     return(trimws(duration))
