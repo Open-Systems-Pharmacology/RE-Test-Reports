@@ -6,8 +6,8 @@
 rm(list = ls())
 library(ospsuite.reportingengine)
 
-# Define input parameters for the worklfow
-workingDirectory <- "tests/Reports/Qualification-CKD"
+# Define input parameters for the workflow
+workingDirectory <- normalizePath("tests/Reports/Qualification-CKD", mustWork = FALSE)
 qualificationRunnerFolder <- "C:/Design2Code/OSPQualification/QualificationRunner11.0.138"
 pkSimPortableFolder <- "C:/Design2Code/OSPQualification/PK-Sim11.0.150"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
@@ -78,8 +78,8 @@ workflow <- loadQualificationWorkflow(
 
 #' Set the name of the final report
 workflow$reportFilePath <- reportPath
-workflow$createWordReport <- createWordReport
-workflow$wordConversionTemplate <- wordConversionTemplate
+#' Do not export word report
+workflow$createWordReport <- FALSE
 
 #' Set watermark. If set, it will appear in all generated plots
 workflow$setWatermark(watermark)
