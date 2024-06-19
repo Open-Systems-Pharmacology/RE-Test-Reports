@@ -29,7 +29,6 @@ jobs:
       - name: Check where runner and pk sim were saved
         run: | 
           Rscript -e 'print(list.files(path = "D:/", pattern = "QualificationRunner", recursive = TRUE, full.names = TRUE))'
-          Rscript -e 'print(normalizePath(list.files(pattern = "QualificationRunner", recursive = TRUE)))'
       - name: Run Tests through README.Rmd
         run: |
           Rscript -e 'rmarkdown::render("README.Rmd", encoding = "UTF-8")'
