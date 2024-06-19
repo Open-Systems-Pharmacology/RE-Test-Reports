@@ -8,15 +8,15 @@ library(ospsuite.reportingengine)
 
 # Define input parameters for the worklfow
 workingDirectory <- "tests/Reports/Qualification-CKD"
-qualificationRunnerFolder <- "QualificationRunner"
-pkSimPortableFolder <- "PK-Sim"
+qualificationRunnerFolder <- "C:/Design2Code/OSPQualification/QualificationRunner11.0.138"
+pkSimPortableFolder <- "C:/Design2Code/OSPQualification/PK-Sim11.0.150"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
 
 # Load repository content and clean up downloads
 download.file("https://github.com/Open-Systems-Pharmacology/Qualification-CKD/archive/refs/heads/main.zip", destfile = "archive.zip")
 unzip("archive.zip", exdir = "archive")
 unlink("archive.zip")
-dir.create("Qualification-CKD")
+dir.create(workingDirectory)
 file.copy("archive/Qualification-CKD-main/Qualification/Input", workingDirectory, recursive = TRUE)
 unlink("archive", recursive = TRUE)
 
