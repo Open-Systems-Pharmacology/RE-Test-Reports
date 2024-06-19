@@ -8,8 +8,8 @@ library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow
 workingDirectory <- normalizePath("tests/Reports/Qualification-CKD", mustWork = FALSE)
-qualificationRunnerFolder <- "C:/Design2Code/OSPQualification/QualificationRunner11.0.138"
-pkSimPortableFolder <- "C:/Design2Code/OSPQualification/PK-Sim11.0.150"
+qualificationRunnerFolder <- "QualificationRunner"
+pkSimPortableFolder <- "PK-Sim"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
 
 # Load repository content and clean up downloads
