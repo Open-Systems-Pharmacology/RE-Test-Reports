@@ -24,7 +24,7 @@ Turning the list to data.frame and extracting the relevant data will give a grea
 ```{r, include=FALSE}
 # Remove previous tests
 unlink("./tests/Reports", recursive = TRUE, force = TRUE)
-
+dir.create("./tests/Reports")
 # Prevent failed tests to stop the workflow
 testResultsRaw <- testthat::test_local(
   reporter = testthat::ListReporter,
@@ -78,7 +78,7 @@ Here is the summary of the reports, their scripts and their run time currently a
 
 ```{r, results='asis'}
 reportMappings <- jsonlite::fromJSON("tests/testthat/report-mapping.json", simplifyVector = TRUE)
-list.dirs("./tests/Reports", recursive = FALSE, full.names = FALSE)
+
 availableDurations <- unname(sapply(
   reportMappings$Report,
   function(reportDir) {
