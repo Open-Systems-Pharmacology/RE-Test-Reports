@@ -21,6 +21,8 @@ install.packages('ospsuite.reportingengine.zip', repos = NULL, type = 'binary')
 unlink('ospsuite.reportingengine.zip')
 
 # Setup PK-Sim portable and Qualification Runner released versions
+# Rename their sub-folder to prevent path issues because the use version numbers
+# Note: there may be a better way to do this
 download.file('https://github.com/Open-Systems-Pharmacology/QualificationRunner/releases/download/v11.1/qualificationrunner-portable-setup_11.1.130.zip', destfile = 'qualificationrunner.zip')
 unzip('qualificationrunner.zip', exdir = "QualificationRunner")
 unlink('qualificationrunner.zip')
