@@ -1,0 +1,1987 @@
+{
+   "Version": 79,
+   "ExpressionProfiles": [
+      {
+         "Type": "Transporter",
+         "Species": "Human",
+         "Molecule": "RenalCL1",
+         "Category": "Roux",
+         "Parameters": [
+            {
+               "Path": "Organism|Kidney|Intracellular|RenalCL1|Relative expression",
+               "Value": 1.0
+            },
+            {
+               "Path": "RenalCL1|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "RenalCL1|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "RenalCL1|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            }
+         ],
+         "TransportType": "Efflux",
+         "Expression": [
+            {
+               "Name": "Bone",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Brain",
+               "TransportDirection": "EffluxBrainInterstitialToPlasma",
+               "CompartmentName": "Plasma"
+            },
+            {
+               "Name": "Brain",
+               "TransportDirection": "EffluxBrainTissueToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Fat",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Gonads",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Heart",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Kidney",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Kidney",
+               "TransportDirection": "ExcretionKidney",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Stomach",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "SmallIntestine",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Duodenum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Duodenum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "UpperJejunum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "UpperJejunum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LowerJejunum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "LowerJejunum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "UpperIleum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "UpperIleum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LowerIleum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "LowerIleum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LargeIntestine",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Caecum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Caecum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonAscendens",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonAscendens",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonTransversum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonTransversum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonDescendens",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonDescendens",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonSigmoid",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonSigmoid",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Rectum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Rectum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Periportal",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Periportal",
+               "TransportDirection": "ExcretionLiver",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Pericentral",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Pericentral",
+               "TransportDirection": "ExcretionLiver",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Lung",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Muscle",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Pancreas",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Skin",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Spleen",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "BloodCells",
+               "TransportDirection": "EffluxBloodCellsToPlasma"
+            },
+            {
+               "Name": "VascularEndothelium",
+               "TransportDirection": "EffluxInterstitialToPlasma"
+            }
+         ]
+      },
+      {
+         "Type": "Enzyme",
+         "Species": "Human",
+         "Molecule": "CYP3",
+         "Category": "Roux",
+         "Parameters": [
+            {
+               "Path": "CYP3|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "CYP3|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "CYP3|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Organism|Liver|Pericentral|Intracellular|CYP3|Relative expression",
+               "Value": 1.0
+            },
+            {
+               "Path": "Organism|Liver|Periportal|Intracellular|CYP3|Relative expression",
+               "Value": 1.0
+            }
+         ],
+         "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+      },
+      {
+         "Type": "Transporter",
+         "Species": "Human",
+         "Molecule": "Intestine2",
+         "Category": "Roux",
+         "Parameters": [
+            {
+               "Path": "Intestine2|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "Intestine2|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine2|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|Intestine2|Relative expression",
+               "Value": 1.0
+            }
+         ],
+         "TransportType": "Influx",
+         "Expression": [
+            {
+               "Name": "Bone",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Brain",
+               "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+               "CompartmentName": "Plasma"
+            },
+            {
+               "Name": "Brain",
+               "TransportDirection": "InfluxBrainInterstitialToTissue",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Fat",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Gonads",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Heart",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Kidney",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Kidney",
+               "TransportDirection": "ExcretionKidney",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Stomach",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "SmallIntestine",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Duodenum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Duodenum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "UpperJejunum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "UpperJejunum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LowerJejunum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "LowerJejunum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "UpperIleum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "UpperIleum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LowerIleum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "LowerIleum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LargeIntestine",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Caecum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Caecum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonAscendens",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonAscendens",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonTransversum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonTransversum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonDescendens",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonDescendens",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonSigmoid",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonSigmoid",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Rectum",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Rectum",
+               "TransportDirection": "InfluxLumenToMucosaIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Periportal",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Periportal",
+               "TransportDirection": "ExcretionLiver",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Pericentral",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Pericentral",
+               "TransportDirection": "ExcretionLiver",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Lung",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Muscle",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Pancreas",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Skin",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Spleen",
+               "TransportDirection": "InfluxInterstitialToIntracellular",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "BloodCells",
+               "TransportDirection": "InfluxPlasmaToBloodCells"
+            },
+            {
+               "Name": "VascularEndothelium",
+               "TransportDirection": "InfluxPlasmaToInterstitial"
+            }
+         ]
+      },
+      {
+         "Type": "Transporter",
+         "Species": "Human",
+         "Molecule": "Intestine1",
+         "Category": "Roux",
+         "Parameters": [
+            {
+               "Path": "Intestine1|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "Intestine1|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine1|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|Intestine1|Relative expression",
+               "Value": 1.0
+            },
+            {
+               "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|Intestine1|Fraction expressed apical",
+               "Value": 0.0,
+               "ValueOrigin": {
+                 "Source": "Unknown"
+               }
+            }
+         ],
+         "TransportType": "Efflux",
+         "Expression": [
+            {
+               "Name": "Bone",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Brain",
+               "TransportDirection": "EffluxBrainInterstitialToPlasma",
+               "CompartmentName": "Plasma"
+            },
+            {
+               "Name": "Brain",
+               "TransportDirection": "EffluxBrainTissueToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Fat",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Gonads",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Heart",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Kidney",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Kidney",
+               "TransportDirection": "ExcretionKidney",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Stomach",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "SmallIntestine",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Duodenum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Duodenum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "UpperJejunum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "UpperJejunum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LowerJejunum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "LowerJejunum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "UpperIleum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "UpperIleum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LowerIleum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "LowerIleum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "LargeIntestine",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Caecum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Caecum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonAscendens",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonAscendens",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonTransversum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonTransversum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonDescendens",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonDescendens",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "ColonSigmoid",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "ColonSigmoid",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Rectum",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Rectum",
+               "TransportDirection": "EffluxMucosaIntracellularToLumen",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Periportal",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Periportal",
+               "TransportDirection": "ExcretionLiver",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Pericentral",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Interstitial"
+            },
+            {
+               "Name": "Pericentral",
+               "TransportDirection": "ExcretionLiver",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Lung",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Muscle",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Pancreas",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Skin",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "Spleen",
+               "TransportDirection": "EffluxIntracellularToInterstitial",
+               "CompartmentName": "Intracellular"
+            },
+            {
+               "Name": "BloodCells",
+               "TransportDirection": "EffluxBloodCellsToPlasma"
+            },
+            {
+               "Name": "VascularEndothelium",
+               "TransportDirection": "EffluxInterstitialToPlasma"
+            }
+         ]
+      }
+   ],
+   "Individuals": [
+      {
+         "Name": "Roux Healthy",
+         "Seed": 136462593,
+         "OriginData": {
+            "CalculationMethods": [
+               "SurfaceAreaPlsInt_VAR1",
+               "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+               "Value": 23.5,
+               "Unit": "year(s)"
+            },
+            "Weight": {
+               "Value": 69.3,
+               "Unit": "kg"
+            }
+         },
+         "ExpressionProfiles": [
+            "RenalCL1|Human|Roux",
+            "CYP3|Human|Roux",
+            "Intestine2|Human|Roux",
+            "Intestine1|Human|Roux"
+         ]
+      },
+      {
+         "Name": "Roux CKD",
+         "Seed": 348246531,
+         "OriginData": {
+            "CalculationMethods": [
+               "SurfaceAreaPlsInt_VAR1",
+               "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+               "Value": 49.0,
+               "Unit": "year(s)"
+            },
+            "Weight": {
+               "Value": 66.0,
+               "Unit": "kg"
+            },
+            "DiseaseState": "CKD",
+            "DiseaseStateParameters": [
+               {
+                  "Name": "eGFR",
+                  "Value": 60.0,
+                  "Unit": "ml/min/1.73m²"
+               }
+            ]
+         },
+         "ExpressionProfiles": [
+            "CYP3|Human|Roux",
+            "RenalCL1|Human|Roux",
+            "Intestine2|Human|Roux",
+            "Intestine1|Human|Roux"
+         ]
+      }
+   ],
+   "Populations": [
+      {
+         "Name": "Healthy",
+         "Seed": 348211828,
+         "Settings": {
+            "NumberOfIndividuals": 100,
+            "ProportionOfFemales": 0,
+            "Age": {
+               "Min": 20.0,
+               "Max": 37.0,
+               "Unit": "year(s)"
+            },
+            "Weight": {
+               "Min": 55.0,
+               "Max": 90.0,
+               "Unit": "kg"
+            },
+            "Individual": {
+               "Name": "Roux Healthy",
+               "Seed": 136462593,
+               "OriginData": {
+                  "CalculationMethods": [
+                     "SurfaceAreaPlsInt_VAR1",
+                     "Body surface area - Mosteller"
+                  ],
+                  "Species": "Human",
+                  "Population": "European_ICRP_2002",
+                  "Gender": "MALE",
+                  "Age": {
+                     "Value": 23.5,
+                     "Unit": "year(s)"
+                  },
+                  "Weight": {
+                     "Value": 69.3,
+                     "Unit": "kg"
+                  }
+               },
+               "ExpressionProfiles": [
+                  "RenalCL1|Human|Roux",
+                  "CYP3|Human|Roux",
+                  "Intestine2|Human|Roux",
+                  "Intestine1|Human|Roux"
+               ]
+            }
+         }
+      },
+      {
+         "Name": "CKD",
+         "Seed": 348317578,
+         "Settings": {
+            "NumberOfIndividuals": 100,
+            "ProportionOfFemales": 15,
+            "Age": {
+               "Min": 23.0,
+               "Max": 73.0,
+               "Unit": "year(s)"
+            },
+            "Weight": {
+               "Min": 43.0,
+               "Max": 81.0,
+               "Unit": "kg"
+            },
+            "DiseaseStateParameters": [
+               {
+                  "Name": "eGFR",
+                  "Min": 6.0,
+                  "Max": 56.0,
+                  "Unit": "ml/min/1.73m²"
+               }
+            ],
+            "Individual": {
+               "Name": "Roux CKD",
+               "Seed": 348246531,
+               "OriginData": {
+                  "CalculationMethods": [
+                     "SurfaceAreaPlsInt_VAR1",
+                     "Body surface area - Mosteller"
+                  ],
+                  "Species": "Human",
+                  "Population": "European_ICRP_2002",
+                  "Gender": "MALE",
+                  "Age": {
+                     "Value": 49.0,
+                     "Unit": "year(s)"
+                  },
+                  "Weight": {
+                     "Value": 66.0,
+                     "Unit": "kg"
+                  },
+                  "DiseaseState": "CKD",
+                  "DiseaseStateParameters": [
+                     {
+                        "Name": "eGFR",
+                        "Value": 60.0,
+                        "Unit": "ml/min/1.73m²"
+                     }
+                  ]
+               },
+               "ExpressionProfiles": [
+                  "CYP3|Human|Roux",
+                  "RenalCL1|Human|Roux",
+                  "Intestine2|Human|Roux",
+                  "Intestine1|Human|Roux"
+               ]
+            }
+         }
+      }
+   ],
+   "Compounds": [
+      {
+         "Name": "Acebutolol",
+         "IsSmallMolecule": true,
+         "PlasmaProteinBindingPartner": "Albumin",
+         "Lipophilicity": [
+            {
+               "Name": "DrugBank",
+               "Parameters": [
+                  {
+                     "Name": "Lipophilicity",
+                     "Value": 1.71,
+                     "Unit": "Log Units",
+                     "ValueOrigin": {
+                        "Source": "Database",
+                        "Description": "DrugBank"
+                     }
+                  }
+               ]
+            },
+            {
+               "Name": "Taylor 1985",
+               "IsDefault": false,
+               "Parameters": [
+                  {
+                     "Name": "Lipophilicity",
+                     "Value": 1.87,
+                     "Unit": "Log Units",
+                     "ValueOrigin": {
+                        "Source": "Publication",
+                        "Description": "Taylor 1985"
+                     }
+                  }
+               ]
+            }
+         ],
+         "FractionUnbound": [
+            {
+               "Name": "DrugBank",
+               "IsDefault": false,
+               "Species": "Human",
+               "Parameters": [
+                  {
+                     "Name": "Fraction unbound (plasma, reference value)",
+                     "Value": 0.74,
+                     "ValueOrigin": {
+                        "Source": "Database",
+                        "Description": "Drugbank"
+                     }
+                  }
+               ]
+            },
+            {
+               "Name": "Coombs 1980",
+               "Species": "Human",
+               "Parameters": [
+                  {
+                     "Name": "Fraction unbound (plasma, reference value)",
+                     "Value": 0.85,
+                     "ValueOrigin": {
+                        "Source": "Publication",
+                        "Description": "Coombs 1980"
+                     }
+                  }
+               ]
+            }
+         ],
+         "Solubility": [
+            {
+               "Name": "Measurement",
+               "Parameters": [
+                  {
+                     "Name": "Solubility at reference pH",
+                     "Value": 200.0,
+                     "Unit": "mg/ml",
+                     "ValueOrigin": {
+                        "Source": "Publication",
+                        "Description": "Foster 1990"
+                     }
+                  },
+                  {
+                     "Name": "Reference pH",
+                     "Value": 7.0,
+                     "ValueOrigin": {
+                        "Source": "Publication",
+                        "Description": "Foster 1990"
+                     }
+                  }
+               ]
+            }
+         ],
+         "IntestinalPermeability": [
+            {
+               "Name": "Optimized",
+               "Parameters": [
+                  {
+                     "Name": "Specific intestinal permeability (transcellular)",
+                     "Value": 1.48E-06,
+                     "Unit": "cm/min",
+                     "ValueOrigin": {
+                        "Source": "ParameterIdentification",
+                        "Method": "ParameterIdentification"
+                     }
+                  }
+               ]
+            }
+         ],
+         "PkaTypes": [
+            {
+               "Type": "Base",
+               "Pka": 9.4,
+               "ValueOrigin": {
+                  "Source": "Publication",
+                  "Description": "Foster 1990"
+               }
+            }
+         ],
+         "Processes": [
+            {
+               "InternalName": "GlomerularFiltration",
+               "DataSource": "GFR",
+               "Species": "Human",
+               "Parameters": [
+                  {
+                     "Name": "GFR fraction",
+                     "Value": 1.0
+                  }
+               ]
+            },
+            {
+               "InternalName": "ActiveTransport_InVitro_VesicularAssay_MM",
+               "DataSource": "RenalCL1",
+               "Molecule": "RenalCL1",
+               "Parameters": [
+                  {
+                     "Name": "In vitro Vmax/transporter",
+                     "Value": 35.3111178567,
+                     "Unit": "µmol/min/µmol transporter",
+                     "ValueOrigin": {
+                        "Source": "ParameterIdentification",
+                        "Method": "ParameterIdentification",
+                        "Description": "Value updated from 'Acebutolol' on 2020-03-03 14:06"
+                     }
+                  },
+                  {
+                     "Name": "Km",
+                     "Value": 100.0,
+                     "Unit": "µmol/l",
+                     "ValueOrigin": {
+                        "Method": "Assumption"
+                     }
+                  }
+               ],
+               "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax normalized to the amount of transporter as input value which was determined in a vesicular transport assay."
+            },
+            {
+               "InternalName": "MetabolizationSpecific_FirstOrder",
+               "DataSource": "Non-Metabolite",
+               "Molecule": "CYP3",
+               "Parameters": [
+                  {
+                     "Name": "Enzyme concentration",
+                     "Value": 1.0,
+                     "Unit": "µmol/l"
+                  },
+                  {
+                     "Name": "Specific clearance",
+                     "Value": 0.6802156273,
+                     "Unit": "1/min",
+                     "ValueOrigin": {
+                        "Source": "ParameterIdentification",
+                        "Method": "ParameterIdentification",
+                        "Description": "Value updated from 'Acebutolol' on 2020-03-03 14:06"
+                     }
+                  }
+               ]
+            },
+            {
+               "InternalName": "ActiveTransportSpecific_MM",
+               "DataSource": "Intestine2",
+               "Molecule": "Intestine2",
+               "Parameters": [
+                  {
+                     "Name": "Transporter concentration",
+                     "Value": 1.0,
+                     "Unit": "µmol/l"
+                  },
+                  {
+                     "Name": "Vmax",
+                     "Value": 157.343348463,
+                     "Unit": "µmol/l/min",
+                     "ValueOrigin": {
+                        "Source": "ParameterIdentification",
+                        "Method": "ParameterIdentification",
+                        "Description": "Value updated from 'Acebutolol' on 2020-03-03 14:06"
+                     }
+                  },
+                  {
+                     "Name": "Km",
+                     "Value": 5000.0,
+                     "Unit": "µmol/l",
+                     "ValueOrigin": {
+                        "Method": "Assumption"
+                     }
+                  }
+               ],
+               "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax as input value."
+            },
+            {
+               "InternalName": "ActiveTransportSpecific_MM",
+               "DataSource": "Intestine1",
+               "Molecule": "Intestine1",
+               "Parameters": [
+                  {
+                     "Name": "Transporter concentration",
+                     "Value": 1.0,
+                     "Unit": "µmol/l"
+                  },
+                  {
+                     "Name": "Vmax",
+                     "Value": 5000.0,
+                     "Unit": "µmol/l/min"
+                  },
+                  {
+                     "Name": "Km",
+                     "Value": 5000.0,
+                     "Unit": "µmol/l"
+                  }
+               ],
+               "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax as input value."
+            }
+         ],
+         "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+         ],
+         "Parameters": [
+            {
+               "Name": "Molecular weight",
+               "Value": 336.4259,
+               "Unit": "g/mol"
+            }
+         ]
+      }
+   ],
+   "Formulations": [
+      {
+         "Name": "PO",
+         "FormulationType": "Formulation_Tablet_Weibull",
+         "Parameters": [
+            {
+               "Name": "Dissolution time (50% dissolved)",
+               "Value": 10.0,
+               "Unit": "min",
+               "ValueOrigin": {
+                  "Source": "Other",
+                  "Method": "Assumption"
+               }
+            },
+            {
+               "Name": "Lag time",
+               "Value": 0.0,
+               "Unit": "min"
+            },
+            {
+               "Name": "Dissolution shape",
+               "Value": 0.92
+            },
+            {
+               "Name": "Use as suspension",
+               "Value": 1.0
+            }
+         ]
+      }
+   ],
+   "Protocols": [
+      {
+         "Name": "200 mg PO",
+         "ApplicationType": "Oral",
+         "DosingInterval": "Single",
+         "Parameters": [
+            {
+               "Name": "Start time",
+               "Value": 0.0,
+               "Unit": "h"
+            },
+            {
+               "Name": "InputDose",
+               "Value": 200.0,
+               "Unit": "mg"
+            },
+            {
+               "Name": "Volume of water/body weight",
+               "Value": 3.5,
+               "Unit": "ml/kg"
+            }
+         ]
+      }
+   ],
+   "Simulations": [
+      {
+         "Name": "Roux Healthy 200 mg PO",
+         "Model": "4Comp",
+         "ObservedData": [
+            "Roux-Healthy-200"
+         ],
+         "Solver": {},
+         "OutputSchema": [
+            {
+               "Parameters": [
+                  {
+                     "Name": "Start time",
+                     "Value": 0.0,
+                     "Unit": "h"
+                  },
+                  {
+                     "Name": "End time",
+                     "Value": 2.0,
+                     "Unit": "h"
+                  },
+                  {
+                     "Name": "Resolution",
+                     "Value": 20.0,
+                     "Unit": "pts/h"
+                  }
+               ]
+            },
+            {
+               "Parameters": [
+                  {
+                     "Name": "Start time",
+                     "Value": 2.0,
+                     "Unit": "h"
+                  },
+                  {
+                     "Name": "End time",
+                     "Value": 24.0,
+                     "Unit": "h"
+                  },
+                  {
+                     "Name": "Resolution",
+                     "Value": 4.0,
+                     "Unit": "pts/h"
+                  }
+               ]
+            }
+         ],
+         "Parameters": [
+            {
+               "Path": "Applications|200 mg PO|PO|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+               "Value": 3.5,
+               "Unit": "ml/kg"
+            },
+            {
+               "Path": "CYP3|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "CYP3|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "CYP3|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine1|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "Intestine1|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine1|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine2|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "Intestine2|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine2|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "RenalCL1|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "RenalCL1|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "RenalCL1|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            }
+         ],
+         "OutputSelections": [
+            "Organism|PeripheralVenousBlood|Acebutolol|Plasma (Peripheral Venous Blood)"
+         ],
+         "Population": "Healthy",
+         "Compounds": [
+            {
+               "Name": "Acebutolol",
+               "CalculationMethods": [
+                  "Cellular partition coefficient method - Rodgers and Rowland",
+                  "Cellular permeability - PK-Sim Standard"
+               ],
+               "Alternatives": [
+                  {
+                     "AlternativeName": "DrugBank",
+                     "GroupName": "COMPOUND_LIPOPHILICITY"
+                  },
+                  {
+                     "AlternativeName": "Coombs 1980",
+                     "GroupName": "COMPOUND_FRACTION_UNBOUND"
+                  },
+                  {
+                     "AlternativeName": "Optimized",
+                     "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+                  }
+               ],
+               "Processes": [
+                  {
+                     "Name": "CYP3-Non-Metabolite",
+                     "MoleculeName": "CYP3"
+                  },
+                  {
+                     "Name": "RenalCL1-RenalCL1",
+                     "MoleculeName": "RenalCL1"
+                  },
+                  {
+                     "Name": "Intestine2-Intestine2",
+                     "MoleculeName": "Intestine2"
+                  },
+                  {
+                     "Name": "Intestine1-Intestine1",
+                     "MoleculeName": "Intestine1"
+                  },
+                  {
+                     "Name": "Glomerular Filtration-GFR",
+                     "SystemicProcessType": "GFR"
+                  }
+               ],
+               "Protocol": {
+                  "Name": "200 mg PO",
+                  "Formulations": [
+                     {
+                        "Name": "PO",
+                        "Key": "Formulation"
+                     }
+                  ]
+               }
+            }
+         ],
+         "HasResults": true,
+         "PopulationAnalyses": [
+            {
+               "Type": "TimeProfile",
+               "Analysis": {
+                  "Fields": [
+                     {
+                        "Name": "Acebutolol-Peripheral Venous Blood-Plasma-Concentration",
+                        "Dimension": "Concentration (molar)",
+                        "Scaling": "Log",
+                        "Unit": "µmol/l",
+                        "QuantityPath": "Organism|PeripheralVenousBlood|Acebutolol|Plasma (Peripheral Venous Blood)",
+                        "QuantityType": "Drug, Observer",
+                        "Color": "#000000",
+                        "Area": "DataArea"
+                     }
+                  ],
+                  "Statistics": [
+                     {
+                        "Id": "ArithmeticMean",
+                        "LineStyle": "Solid"
+                     },
+                     {
+                        "Id": "ArithmeticStandardDeviation",
+                        "LineStyle": "Solid"
+                     }
+                  ]
+               },
+               "ObservedDataCollection": {
+                  "ObservedData": [
+                     "Roux-Healthy-200"
+                  ],
+                  "ApplyGrouping": false,
+                  "CurveOptions": [
+                     {
+                        "Caption": "Roux-Healthy-200-Acebutolol-Peripheral Venous Blood-Plasma-Concentration ",
+                        "Path": "Roux-Healthy-200|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Concentration ",
+                        "CurveOptions": {
+                           "LineStyle": "None",
+                           "Symbol": "Circle"
+                        }
+                     }
+                  ]
+               },
+               "XAxisSettings": {
+                  "AutoRange": false
+               },
+               "YAxisSettings": {
+                  "AutoRange": false
+               },
+               "SecondaryYAxisSettings": [],
+               "Name": "Time Profile Analysis",
+               "FontAndSize": {
+                  "Fonts": {
+                     "AxisSize": 10,
+                     "LegendSize": 8,
+                     "TitleSize": 16,
+                     "DescriptionSize": 12,
+                     "OriginSize": 8,
+                     "FontFamilyName": "Microsoft Sans Serif",
+                     "WatermarkSize": 32
+                  }
+               },
+               "Settings": {
+                  "SideMarginsEnabled": true,
+                  "LegendPosition": "RightInside",
+                  "BackColor": "#FFFFFF",
+                  "DiagramBackColor": "#FFFFFF"
+               },
+          "Title": "Simulation of the pharmacokinetics of Acebutolol after a single dose of 200 mg in healthy subjects. Observed data (circles) presented from Roux.",
+               "OriginText": "Acebutolol\nRoux Healthy 200 mg PO\n2022-04-04 14:29"
+            }
+         ]
+      },
+      {
+         "Name": "Roux CKD 200 mg PO",
+         "Model": "4Comp",
+         "ObservedData": [
+            "Roux-CKD"
+         ],
+         "Solver": {},
+         "OutputSchema": [
+            {
+               "Parameters": [
+                  {
+                     "Name": "Start time",
+                     "Value": 0.0,
+                     "Unit": "h"
+                  },
+                  {
+                     "Name": "End time",
+                     "Value": 2.0,
+                     "Unit": "h"
+                  },
+                  {
+                     "Name": "Resolution",
+                     "Value": 20.0,
+                     "Unit": "pts/h"
+                  }
+               ]
+            },
+            {
+               "Parameters": [
+                  {
+                     "Name": "Start time",
+                     "Value": 2.0,
+                     "Unit": "h"
+                  },
+                  {
+                     "Name": "End time",
+                     "Value": 32.0,
+                     "Unit": "h",
+                     "ValueOrigin": {
+                        "Source": "Unknown"
+                     }
+                  },
+                  {
+                     "Name": "Resolution",
+                     "Value": 4.0,
+                     "Unit": "pts/h"
+                  }
+               ]
+            }
+         ],
+         "Parameters": [
+            {
+               "Path": "Applications|200 mg PO|PO|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+               "Value": 3.5,
+               "Unit": "ml/kg"
+            },
+            {
+               "Path": "CYP3|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "CYP3|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "CYP3|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine1|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "Intestine1|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine1|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine2|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "Intestine2|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "Intestine2|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "RenalCL1|Reference concentration",
+               "Value": 1.0,
+               "Unit": "µmol/l"
+            },
+            {
+               "Path": "RenalCL1|t1/2 (intestine)",
+               "Value": 23.0,
+               "Unit": "h"
+            },
+            {
+               "Path": "RenalCL1|t1/2 (liver)",
+               "Value": 36.0,
+               "Unit": "h"
+            }
+         ],
+         "OutputSelections": [
+            "Organism|PeripheralVenousBlood|Acebutolol|Plasma (Peripheral Venous Blood)"
+         ],
+         "Population": "CKD",
+         "Compounds": [
+            {
+               "Name": "Acebutolol",
+               "CalculationMethods": [
+                  "Cellular partition coefficient method - Rodgers and Rowland",
+                  "Cellular permeability - PK-Sim Standard"
+               ],
+               "Alternatives": [
+                  {
+                     "AlternativeName": "DrugBank",
+                     "GroupName": "COMPOUND_LIPOPHILICITY"
+                  },
+                  {
+                     "AlternativeName": "Coombs 1980",
+                     "GroupName": "COMPOUND_FRACTION_UNBOUND"
+                  },
+                  {
+                     "AlternativeName": "Optimized",
+                     "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+                  }
+               ],
+               "Processes": [
+                  {
+                     "Name": "CYP3-Non-Metabolite",
+                     "MoleculeName": "CYP3"
+                  },
+                  {
+                     "Name": "RenalCL1-RenalCL1",
+                     "MoleculeName": "RenalCL1"
+                  },
+                  {
+                     "Name": "Intestine2-Intestine2",
+                     "MoleculeName": "Intestine2"
+                  },
+                  {
+                     "Name": "Intestine1-Intestine1",
+                     "MoleculeName": "Intestine1"
+                  },
+                  {
+                     "Name": "Glomerular Filtration-GFR",
+                     "SystemicProcessType": "GFR"
+                  }
+               ],
+               "Protocol": {
+                  "Name": "200 mg PO",
+                  "Formulations": [
+                     {
+                        "Name": "PO",
+                        "Key": "Formulation"
+                     }
+                  ]
+               }
+            }
+         ],
+         "HasResults": true,
+         "PopulationAnalyses": [
+            {
+               "Type": "TimeProfile",
+               "Analysis": {
+                  "Fields": [
+                     {
+                        "Name": "Acebutolol-Peripheral Venous Blood-Plasma-Concentration",
+                        "Dimension": "Concentration (molar)",
+                        "Scaling": "Log",
+                        "Unit": "µmol/l",
+                        "QuantityPath": "Organism|PeripheralVenousBlood|Acebutolol|Plasma (Peripheral Venous Blood)",
+                        "QuantityType": "Drug, Observer",
+                        "Color": "#000000",
+                        "Area": "DataArea"
+                     }
+                  ],
+                  "Statistics": [
+                     {
+                        "Id": "ArithmeticMean",
+                        "LineStyle": "Solid"
+                     },
+                     {
+                        "Id": "ArithmeticStandardDeviation",
+                        "LineStyle": "Solid"
+                     }
+                  ]
+               },
+               "ObservedDataCollection": {
+                  "ObservedData": [
+                     "Roux-CKD"
+                  ],
+                  "ApplyGrouping": false,
+                  "CurveOptions": [
+                     {
+                        "Caption": "Roux-CKD-Acebutolol-Peripheral Venous Blood-Plasma-Concentration ",
+                        "Path": "Roux-CKD|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Concentration ",
+                        "CurveOptions": {
+                           "LineStyle": "None",
+                           "Symbol": "Circle"
+                        }
+                     }
+                  ]
+               },
+               "XAxisSettings": {
+                  "AutoRange": false
+               },
+               "YAxisSettings": {
+                  "AutoRange": false
+               },
+               "SecondaryYAxisSettings": [],
+               "Name": "Time Profile Analysis",
+               "FontAndSize": {
+                  "Fonts": {
+                     "AxisSize": 10,
+                     "LegendSize": 8,
+                     "TitleSize": 16,
+                     "DescriptionSize": 12,
+                     "OriginSize": 8,
+                     "FontFamilyName": "Microsoft Sans Serif",
+                     "WatermarkSize": 32
+                  }
+               },
+               "Settings": {
+                  "SideMarginsEnabled": true,
+                  "LegendPosition": "RightInside",
+                  "BackColor": "#FFFFFF",
+                  "DiagramBackColor": "#FFFFFF"
+               },
+          "Title": "Simulation of the pharmacokinetics of Acebutolol after a single dose of 200 mg in subjects with CKD. Observed data (circles) presented from Roux.",
+               "OriginText": "Acebutolol\nRoux CKD 200 mg PO\n2022-04-04 14:28"
+            }
+         ]
+      }
+   ],
+   "ObservedData": [
+      {
+         "Name": "Roux-CKD",
+         "ExtendedProperties": [
+            {
+               "Name": "Source",
+               "Value": "Z:\\Private\\prvmalik\\CKD\\Acebutolol\\AcebutololData.xlsx.Sheet1"
+            },
+            {
+               "Name": "File",
+               "Value": "AcebutololData"
+            },
+            {
+               "Name": "Sheet",
+               "Value": "Sheet1"
+            },
+            {
+               "Name": "Molecule",
+               "Value": "Acebutolol"
+            },
+            {
+               "Name": "Species",
+               "Value": "Human"
+            },
+            {
+               "Name": "Organ",
+               "Value": "Peripheral Venous Blood"
+            },
+            {
+               "Name": "Compartment",
+               "Value": "Plasma"
+            },
+            {
+               "Name": "Study Id",
+               "Value": "Roux-CKD"
+            }
+         ],
+         "Columns": [
+            {
+               "Name": "Concentration ",
+               "RelatedColumns": [
+                  {
+                     "Name": "Error ",
+                     "QuantityInfo": {
+                        "Path": "Roux-CKD|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Error "
+                     },
+                     "DataInfo": {
+                        "Origin": "ObservationAuxiliary",
+                        "AuxiliaryType": "ArithmeticStdDev",
+                        "MolWeight": 336.4259
+                     },
+                     "Values": [
+                        "NaN",
+                        51.9826736,
+                        26.96852,
+                        32.3196564,
+                        19.7714233
+                     ],
+                     "Dimension": "Concentration (mass)",
+                     "Unit": "ng/ml"
+                  }
+               ],
+               "QuantityInfo": {
+                  "Path": "Roux-CKD|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Concentration "
+               },
+               "DataInfo": {
+                  "Origin": "Observation",
+                  "AuxiliaryType": "Undefined",
+                  "MolWeight": 336.4259
+               },
+               "Values": [
+                  0.275869429,
+                  0.14320074,
+                  0.0911086351,
+                  0.0368050821,
+                  0.0128770461
+               ],
+               "Dimension": "Concentration (mass)",
+               "Unit": "mg/l"
+            }
+         ],
+         "BaseGrid": {
+            "Name": "Time ",
+            "QuantityInfo": {
+               "Path": "Roux-CKD|Time ",
+               "Type": "Time"
+            },
+            "DataInfo": {
+               "Origin": "BaseGrid",
+               "AuxiliaryType": "Undefined"
+            },
+            "Values": [
+               3.0,
+               6.0,
+               8.0,
+               22.0,
+               30.0
+            ],
+            "Dimension": "Time",
+            "Unit": "h"
+         }
+      },
+      {
+         "Name": "Roux-Healthy-200",
+         "ExtendedProperties": [
+            {
+               "Name": "Source",
+               "Value": "Z:\\Private\\prvmalik\\CKD\\Acebutolol\\AcebutololData.xlsx.Sheet1"
+            },
+            {
+               "Name": "File",
+               "Value": "AcebutololData"
+            },
+            {
+               "Name": "Sheet",
+               "Value": "Sheet1"
+            },
+            {
+               "Name": "Molecule",
+               "Value": "Acebutolol"
+            },
+            {
+               "Name": "Species",
+               "Value": "Human"
+            },
+            {
+               "Name": "Organ",
+               "Value": "Peripheral Venous Blood"
+            },
+            {
+               "Name": "Compartment",
+               "Value": "Plasma"
+            },
+            {
+               "Name": "Study Id",
+               "Value": "Roux-Healthy-200"
+            }
+         ],
+         "Columns": [
+            {
+               "Name": "Concentration ",
+               "RelatedColumns": [
+                  {
+                     "Name": "Error ",
+                     "QuantityInfo": {
+                        "Path": "Roux-Healthy-200|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Error "
+                     },
+                     "DataInfo": {
+                        "Origin": "ObservationAuxiliary",
+                        "AuxiliaryType": "ArithmeticStdDev",
+                        "MolWeight": 336.4259
+                     },
+                     "Values": [
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        69.5916443,
+                        83.5803146,
+                        58.80082,
+                        40.58641,
+                        23.32421,
+                        22.6408539,
+                        14.2488365,
+                        5.82072067
+                     ],
+                     "Dimension": "Concentration (mass)",
+                     "Unit": "ng/ml"
+                  }
+               ],
+               "QuantityInfo": {
+                  "Path": "Roux-Healthy-200|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Concentration "
+               },
+               "DataInfo": {
+                  "Origin": "Observation",
+                  "AuxiliaryType": "Undefined",
+                  "MolWeight": 336.4259
+               },
+               "Values": [
+                  0.084434,
+                  0.193001419,
+                  0.21905908,
+                  0.237218142,
+                  0.255415231,
+                  0.19288294,
+                  0.143476844,
+                  0.107568778,
+                  0.0800436661,
+                  0.05409779,
+                  0.0205964055
+               ],
+               "Dimension": "Concentration (mass)",
+               "Unit": "mg/l"
+            }
+         ],
+         "BaseGrid": {
+            "Name": "Time ",
+            "QuantityInfo": {
+               "Path": "Roux-Healthy-200|Time ",
+               "Type": "Time"
+            },
+            "DataInfo": {
+               "Origin": "BaseGrid",
+               "AuxiliaryType": "Undefined"
+            },
+            "Values": [
+               1.0,
+               1.5,
+               2.0,
+               3.0,
+               4.0,
+               5.0,
+               6.0,
+               8.0,
+               10.0,
+               12.0,
+               24.0
+            ],
+            "Dimension": "Time",
+            "Unit": "h"
+         }
+      }
+   ],
+   "ObservedDataClassifications": [
+      {
+         "Name": "Acebutolol",
+         "Classifiables": [
+            "Roux-CKD",
+            "Roux-Healthy-200"
+         ]
+      }
+   ]
+}

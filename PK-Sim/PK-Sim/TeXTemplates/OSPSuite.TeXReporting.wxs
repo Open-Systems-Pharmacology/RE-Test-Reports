@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="TeXTemplatesFolder">
+            <Directory Id="dirA8E100BA0DA57BEE7B01DB5DE4AF8419" Name="StandardTemplate" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="OSPSuite.TeXReporting">
+            <Component Id="cmp0FFE376527DB25229573D12A26B8CE82" Directory="dirA8E100BA0DA57BEE7B01DB5DE4AF8419" Guid="{5968B4DB-9DE7-47E3-BC0C-57103F8EE0BE}">
+                <File Id="fil83FB7951058DAF84097137DBF465C1BA" KeyPath="yes" Source="$(var.DeployDir)\OSPSuite.sty" />
+            </Component>
+            <Component Id="cmpAD5651ABBEA5884DC7AC6F8E61BCBF2A" Directory="dirA8E100BA0DA57BEE7B01DB5DE4AF8419" Guid="{91B0519F-D9EF-416E-AAC7-67803F6CE816}">
+                <File Id="fil3722624F2745BAFEE97CD41BEB0261F8" KeyPath="yes" Source="$(var.DeployDir)\StandardTemplate.json" />
+            </Component>
+            <Component Id="cmpDE50EE080C6CF9987282F3B230C27658" Directory="dirA8E100BA0DA57BEE7B01DB5DE4AF8419" Guid="{49E94E19-7369-4C81-AC7C-868506B10FC5}">
+                <File Id="fil074C11D2E83A34FF8E546A694AE0DA32" KeyPath="yes" Source="$(var.DeployDir)\StandardTemplate.tex" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

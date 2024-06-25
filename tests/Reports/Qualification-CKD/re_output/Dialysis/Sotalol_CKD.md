@@ -1,0 +1,1 @@
+Using the model from the healthy population from the previous section, a single populations, with target GFR of 0, was created following the procedure described in section 2. Simulation results were compared to data reported in Tjandramaga et al. 1976.<sup>108</sup> The results are reported in figure 3.6.3.

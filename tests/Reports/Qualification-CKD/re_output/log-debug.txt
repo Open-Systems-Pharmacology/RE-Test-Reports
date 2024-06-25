@@ -1,0 +1,1247 @@
+25/06/2024 - 15:06:16
+In rmarkdown::render:
+Path: 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output' already exists.
+25/06/2024 - 15:06:17
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Gabapentin/Blum Healthy 400 mg PO//Blum Healthy 400 mg PO.pkml' successfully loaded
+25/06/2024 - 15:06:18
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Gabapentin/Blum Healthy 400 mg PO//Blum Healthy 400 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:06:24
+Simulation run complete
+25/06/2024 - 15:06:25
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Gabapentin/Blum CKD3 400 mg PO//Blum CKD3 400 mg PO.pkml' successfully loaded
+25/06/2024 - 15:06:25
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Gabapentin/Blum CKD3 400 mg PO//Blum CKD3 400 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:06:32
+Simulation run complete
+25/06/2024 - 15:06:33
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Gabapentin/Blum CKD5 400 mg PO//Blum CKD5 400 mg PO.pkml' successfully loaded
+25/06/2024 - 15:06:33
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Gabapentin/Blum CKD5 400 mg PO//Blum CKD5 400 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:06:39
+Simulation run complete
+25/06/2024 - 15:06:41
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Acebutolol/Roux Healthy 200 mg PO//Roux Healthy 200 mg PO.pkml' successfully loaded
+25/06/2024 - 15:06:42
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Acebutolol/Roux Healthy 200 mg PO//Roux Healthy 200 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:06:51
+Simulation run complete
+25/06/2024 - 15:06:53
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Acebutolol/Roux CKD 200 mg PO//Roux CKD 200 mg PO.pkml' successfully loaded
+25/06/2024 - 15:06:53
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Acebutolol/Roux CKD 200 mg PO//Roux CKD 200 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:07:02
+Simulation run complete
+25/06/2024 - 15:07:03
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch Healthy 100 mg PO//Kirch Healthy 100 mg PO.pkml' successfully loaded
+25/06/2024 - 15:07:04
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch Healthy 100 mg PO//Kirch Healthy 100 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:07:52
+Simulation run complete
+25/06/2024 - 15:07:54
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch CKD3 100 mg PO//Kirch CKD3 100 mg PO.pkml' successfully loaded
+25/06/2024 - 15:07:55
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch CKD3 100 mg PO//Kirch CKD3 100 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:08:43
+Simulation run complete
+25/06/2024 - 15:08:44
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch CKD4 100 mg PO//Kirch CKD4 100 mg PO.pkml' successfully loaded
+25/06/2024 - 15:08:45
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch CKD4 100 mg PO//Kirch CKD4 100 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:09:31
+Simulation run complete
+25/06/2024 - 15:09:33
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch CKD5 100 mg PO//Kirch CKD5 100 mg PO.pkml' successfully loaded
+25/06/2024 - 15:09:33
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Kirch CKD5 100 mg PO//Kirch CKD5 100 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:10:20
+Simulation run complete
+25/06/2024 - 15:10:22
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Sassard Healthy 100 mg PO//Sassard Healthy 100 mg PO.pkml' successfully loaded
+25/06/2024 - 15:10:22
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Sassard Healthy 100 mg PO//Sassard Healthy 100 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:10:29
+Simulation run complete
+25/06/2024 - 15:10:30
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Sassard CKD3 100 mg PO//Sassard CKD3 100 mg PO.pkml' successfully loaded
+25/06/2024 - 15:10:31
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Sassard CKD3 100 mg PO//Sassard CKD3 100 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:10:39
+Simulation run complete
+25/06/2024 - 15:10:40
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Sassard CKD4 100 mg PO//Sassard CKD4 100 mg PO.pkml' successfully loaded
+25/06/2024 - 15:10:41
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Sassard CKD4 100 mg PO//Sassard CKD4 100 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:10:47
+Simulation run complete
+25/06/2024 - 15:10:49
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Wan Healthy 50mg PO//Wan Healthy 50mg PO.pkml' successfully loaded
+25/06/2024 - 15:10:50
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Wan Healthy 50mg PO//Wan Healthy 50mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:10:56
+Simulation run complete
+25/06/2024 - 15:10:58
+Simulation file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Wan CKD4 50 mg PO//Wan CKD4 50 mg PO.pkml' successfully loaded
+25/06/2024 - 15:10:58
+Population file 'D:/a/RE-Test-Reports/RE-Test-Reports/tests/Reports/Qualification-CKD/re_input/Atenolol/Wan CKD4 50 mg PO//Wan CKD4 50 mg PO-Population.csv' successfully loaded
+25/06/2024 - 15:11:06
+Simulation run complete
+25/06/2024 - 15:11:12
+Observed data Id 'Blum_Healthy' included 2 columns and 5 rows
+25/06/2024 - 15:11:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum Healthy 400 mg PO
+SectionReference: gabapentin_healthy
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+25/06/2024 - 15:11:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum Healthy 400 mg PO
+SectionReference: gabapentin_healthy
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+25/06/2024 - 15:11:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum Healthy 400 mg PO
+SectionReference: gabapentin_healthy
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+25/06/2024 - 15:11:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum Healthy 400 mg PO
+SectionReference: gabapentin_healthy
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+25/06/2024 - 15:11:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum Healthy 400 mg PO
+SectionReference: gabapentin_healthy
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+25/06/2024 - 15:11:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum Healthy 400 mg PO
+SectionReference: gabapentin_healthy
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+25/06/2024 - 15:11:14
+Observed data Id 'Blum_CKD3' included 2 columns and 9 rows
+25/06/2024 - 15:11:15
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD3 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+25/06/2024 - 15:11:15
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD3 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+25/06/2024 - 15:11:15
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD3 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+25/06/2024 - 15:11:15
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD3 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+25/06/2024 - 15:11:15
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD3 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+25/06/2024 - 15:11:15
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD3 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+25/06/2024 - 15:11:17
+Observed data Id 'Blum_CKD5' included 2 columns and 12 rows
+25/06/2024 - 15:11:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD5 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+25/06/2024 - 15:11:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD5 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+25/06/2024 - 15:11:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD5 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+25/06/2024 - 15:11:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD5 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+25/06/2024 - 15:11:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD5 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+25/06/2024 - 15:11:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Gabapentin
+Simulation: Blum CKD5 400 mg PO
+SectionReference: gabapentin_ckd
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+25/06/2024 - 15:11:20
+Observed data Id 'Roux-Healthy-200' included 3 columns and 11 rows
+25/06/2024 - 15:11:21
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux Healthy 200 mg PO
+SectionReference: acebutolol_healthy
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+25/06/2024 - 15:11:21
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux Healthy 200 mg PO
+SectionReference: acebutolol_healthy
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+25/06/2024 - 15:11:21
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux Healthy 200 mg PO
+SectionReference: acebutolol_healthy
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+25/06/2024 - 15:11:21
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux Healthy 200 mg PO
+SectionReference: acebutolol_healthy
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+25/06/2024 - 15:11:21
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux Healthy 200 mg PO
+SectionReference: acebutolol_healthy
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+25/06/2024 - 15:11:21
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux Healthy 200 mg PO
+SectionReference: acebutolol_healthy
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+25/06/2024 - 15:11:22
+Observed data Id 'Roux-CKD' included 3 columns and 5 rows
+25/06/2024 - 15:11:23
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux CKD 200 mg PO
+SectionReference: acebutolol_ckd
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+25/06/2024 - 15:11:23
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux CKD 200 mg PO
+SectionReference: acebutolol_ckd
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+25/06/2024 - 15:11:23
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux CKD 200 mg PO
+SectionReference: acebutolol_ckd
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+25/06/2024 - 15:11:23
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux CKD 200 mg PO
+SectionReference: acebutolol_ckd
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+25/06/2024 - 15:11:23
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux CKD 200 mg PO
+SectionReference: acebutolol_ckd
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+25/06/2024 - 15:11:23
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Acebutolol
+Simulation: Roux CKD 200 mg PO
+SectionReference: acebutolol_ckd
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+25/06/2024 - 15:11:26
+Observed data Id 'Kirch_Healthy' included 2 columns and 10 rows
+25/06/2024 - 15:11:27
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 5 (json numbering starting at 0);  6 (actual plot index)
+
+25/06/2024 - 15:11:27
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 5 (json numbering starting at 0);  6 (actual plot index)
+
+25/06/2024 - 15:11:27
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 5 (json numbering starting at 0);  6 (actual plot index)
+
+25/06/2024 - 15:11:27
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 5 (json numbering starting at 0);  6 (actual plot index)
+
+25/06/2024 - 15:11:27
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 5 (json numbering starting at 0);  6 (actual plot index)
+
+25/06/2024 - 15:11:27
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 5 (json numbering starting at 0);  6 (actual plot index)
+
+25/06/2024 - 15:11:30
+Observed data Id 'Kirch_CKD3' included 2 columns and 10 rows
+25/06/2024 - 15:11:31
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 6 (json numbering starting at 0);  7 (actual plot index)
+
+25/06/2024 - 15:11:31
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 6 (json numbering starting at 0);  7 (actual plot index)
+
+25/06/2024 - 15:11:31
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 6 (json numbering starting at 0);  7 (actual plot index)
+
+25/06/2024 - 15:11:31
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 6 (json numbering starting at 0);  7 (actual plot index)
+
+25/06/2024 - 15:11:31
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 6 (json numbering starting at 0);  7 (actual plot index)
+
+25/06/2024 - 15:11:31
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 6 (json numbering starting at 0);  7 (actual plot index)
+
+25/06/2024 - 15:11:34
+Observed data Id 'Kirch_CKD4' included 2 columns and 9 rows
+25/06/2024 - 15:11:35
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 7 (json numbering starting at 0);  8 (actual plot index)
+
+25/06/2024 - 15:11:35
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 7 (json numbering starting at 0);  8 (actual plot index)
+
+25/06/2024 - 15:11:35
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 7 (json numbering starting at 0);  8 (actual plot index)
+
+25/06/2024 - 15:11:35
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 7 (json numbering starting at 0);  8 (actual plot index)
+
+25/06/2024 - 15:11:35
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 7 (json numbering starting at 0);  8 (actual plot index)
+
+25/06/2024 - 15:11:35
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 7 (json numbering starting at 0);  8 (actual plot index)
+
+25/06/2024 - 15:11:38
+Observed data Id 'Kirch_CKD5' included 2 columns and 10 rows
+25/06/2024 - 15:11:39
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD5 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 8 (json numbering starting at 0);  9 (actual plot index)
+
+25/06/2024 - 15:11:39
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD5 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 8 (json numbering starting at 0);  9 (actual plot index)
+
+25/06/2024 - 15:11:39
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD5 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 8 (json numbering starting at 0);  9 (actual plot index)
+
+25/06/2024 - 15:11:39
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD5 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 8 (json numbering starting at 0);  9 (actual plot index)
+
+25/06/2024 - 15:11:39
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD5 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 8 (json numbering starting at 0);  9 (actual plot index)
+
+25/06/2024 - 15:11:39
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Kirch CKD5 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 8 (json numbering starting at 0);  9 (actual plot index)
+
+25/06/2024 - 15:11:40
+Observed data Id 'Sassard_Healthy' included 2 columns and 6 rows
+25/06/2024 - 15:11:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 9 (json numbering starting at 0);  10 (actual plot index)
+
+25/06/2024 - 15:11:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 9 (json numbering starting at 0);  10 (actual plot index)
+
+25/06/2024 - 15:11:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 9 (json numbering starting at 0);  10 (actual plot index)
+
+25/06/2024 - 15:11:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 9 (json numbering starting at 0);  10 (actual plot index)
+
+25/06/2024 - 15:11:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 9 (json numbering starting at 0);  10 (actual plot index)
+
+25/06/2024 - 15:11:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard Healthy 100 mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 9 (json numbering starting at 0);  10 (actual plot index)
+
+25/06/2024 - 15:11:42
+Observed data Id 'Sassard_CKD3' included 2 columns and 6 rows
+25/06/2024 - 15:11:43
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 10 (json numbering starting at 0);  11 (actual plot index)
+
+25/06/2024 - 15:11:43
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 10 (json numbering starting at 0);  11 (actual plot index)
+
+25/06/2024 - 15:11:43
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 10 (json numbering starting at 0);  11 (actual plot index)
+
+25/06/2024 - 15:11:43
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 10 (json numbering starting at 0);  11 (actual plot index)
+
+25/06/2024 - 15:11:43
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 10 (json numbering starting at 0);  11 (actual plot index)
+
+25/06/2024 - 15:11:43
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD3 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 10 (json numbering starting at 0);  11 (actual plot index)
+
+25/06/2024 - 15:11:45
+Observed data Id 'Sassard_CKD4' included 2 columns and 6 rows
+25/06/2024 - 15:11:45
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 11 (json numbering starting at 0);  12 (actual plot index)
+
+25/06/2024 - 15:11:45
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 11 (json numbering starting at 0);  12 (actual plot index)
+
+25/06/2024 - 15:11:45
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 11 (json numbering starting at 0);  12 (actual plot index)
+
+25/06/2024 - 15:11:45
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 11 (json numbering starting at 0);  12 (actual plot index)
+
+25/06/2024 - 15:11:45
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 11 (json numbering starting at 0);  12 (actual plot index)
+
+25/06/2024 - 15:11:45
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Sassard CKD4 100 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 11 (json numbering starting at 0);  12 (actual plot index)
+
+25/06/2024 - 15:11:47
+Observed data Id 'Wan_Healthy' included 3 columns and 13 rows
+25/06/2024 - 15:11:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan Healthy 50mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 12 (json numbering starting at 0);  13 (actual plot index)
+
+25/06/2024 - 15:11:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan Healthy 50mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 12 (json numbering starting at 0);  13 (actual plot index)
+
+25/06/2024 - 15:11:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan Healthy 50mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 12 (json numbering starting at 0);  13 (actual plot index)
+
+25/06/2024 - 15:11:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan Healthy 50mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 12 (json numbering starting at 0);  13 (actual plot index)
+
+25/06/2024 - 15:11:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan Healthy 50mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 12 (json numbering starting at 0);  13 (actual plot index)
+
+25/06/2024 - 15:11:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan Healthy 50mg PO
+SectionReference: atenolol_healthy
+Plot: list(...)
+PlotNumber: 12 (json numbering starting at 0);  13 (actual plot index)
+
+25/06/2024 - 15:11:49
+Observed data Id 'Wan_CKD4' included 2 columns and 13 rows
+25/06/2024 - 15:11:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan CKD4 50 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 13 (json numbering starting at 0);  14 (actual plot index)
+
+25/06/2024 - 15:11:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan CKD4 50 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 13 (json numbering starting at 0);  14 (actual plot index)
+
+25/06/2024 - 15:11:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan CKD4 50 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 13 (json numbering starting at 0);  14 (actual plot index)
+
+25/06/2024 - 15:11:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan CKD4 50 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 13 (json numbering starting at 0);  14 (actual plot index)
+
+25/06/2024 - 15:11:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan CKD4 50 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 13 (json numbering starting at 0);  14 (actual plot index)
+
+25/06/2024 - 15:11:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Atenolol
+Simulation: Wan CKD4 50 mg PO
+SectionReference: atenolol_ckd
+Plot: list(...)
+PlotNumber: 13 (json numbering starting at 0);  14 (actual plot index)
+
+25/06/2024 - 15:11:50
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:51
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/004_section_Gabapentin/005_section_gabapentin_healthy/1_time_profile_plot_Gabapentin_Blum_Healthy_400_mg_PO.png' was successfully saved.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:52
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:53
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/004_section_Gabapentin/006_section_gabapentin_ckd/2_time_profile_plot_Gabapentin_Blum_CKD3_400_mg_PO.png' was successfully saved.
+25/06/2024 - 15:11:53
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:53
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:53
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:53
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:53
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:53
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/004_section_Gabapentin/006_section_gabapentin_ckd/3_time_profile_plot_Gabapentin_Blum_CKD5_400_mg_PO.png' was successfully saved.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:54
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:55
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:55
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:55
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:55
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:55
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:55
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/007_section_Acebutolol/008_section_acebutolol_healthy/4_time_profile_plot_Acebutolol_Roux_Healthy_200_mg_PO.png' was successfully saved.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:56
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:57
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/007_section_Acebutolol/009_section_acebutolol_ckd/5_time_profile_plot_Acebutolol_Roux_CKD_200_mg_PO.png' was successfully saved.
+25/06/2024 - 15:11:57
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:57
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:57
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:57
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:57
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:57
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:58
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:58
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:58
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:58
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:58
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:58
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/011_section_atenolol_healthy/6_time_profile_plot_Atenolol_Kirch_Healthy_100_mg_PO.png' was successfully saved.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:11:59
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:00
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/012_section_atenolol_ckd/7_time_profile_plot_Atenolol_Kirch_CKD3_100_mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:00
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:00
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:00
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:00
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:00
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:00
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/012_section_atenolol_ckd/8_time_profile_plot_Atenolol_Kirch_CKD4_100_mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:01
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:02
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/012_section_atenolol_ckd/9_time_profile_plot_Atenolol_Kirch_CKD5_100_mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:03
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:04
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/011_section_atenolol_healthy/10_time_profile_plot_Atenolol_Sassard_Healthy_100_mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:04
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:04
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:04
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:04
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:04
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:04
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:05
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:05
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:05
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:05
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:05
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:05
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:05
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/012_section_atenolol_ckd/11_time_profile_plot_Atenolol_Sassard_CKD3_100_mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:05
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:06
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/012_section_atenolol_ckd/12_time_profile_plot_Atenolol_Sassard_CKD4_100_mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:07
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/011_section_atenolol_healthy/13_time_profile_plot_Atenolol_Wan_Healthy_50mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:09
+log-10 transformation introduced infinite values.
+25/06/2024 - 15:12:10
+Figure 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/images/003_section_Compounds/010_section_Atenolol/012_section_atenolol_ckd/14_time_profile_plot_Atenolol_Wan_CKD4_50_mg_PO.png' was successfully saved.
+25/06/2024 - 15:12:10
+Reports 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/001_Introduction.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/002_CKD_Population_Development.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/003_Compounds.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/004_Gabapentin.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/005_Gabapentin_in_a_Healthy_Population.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/006_Gabapentin_in_a_CKD_Population.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/007_Acebutolol.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/008_Acebutolol_in_a_Healthy_Population.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/009_Acebutolol_in_a_CKD_Population.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/010_Atenolol.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/011_Atenolol_in_a_Healthy_Population.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/012_Atenolol_in_a_CKD_Population.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/013_Conclusion.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/014_References.md' were successfully merged into 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md'
+25/06/2024 - 15:12:10
+In 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md', 0 tables and 15.3333333333333 figures were referenced.
+25/06/2024 - 15:12:10
+In 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md', 5 sections were numbered
+25/06/2024 - 15:12:10
+In 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md', table of content of 14 lines was included.
+25/06/2024 - 15:12:10
+'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md' already exists. Overwriting 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md'.
+25/06/2024 - 15:12:10
+Reports 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/000_Intro.md', 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md' were successfully merged into 'D:\a\RE-Test-Reports\RE-Test-Reports\tests\Reports\Qualification-CKD/re_output/report.md'

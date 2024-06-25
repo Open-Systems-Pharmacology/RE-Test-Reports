@@ -1,0 +1,5015 @@
+{
+  "Version": 79,
+  "ExpressionProfiles": [
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "RenalCL",
+      "Category": "Standard",
+      "Parameters": [
+        {
+          "Path": "Organism|Kidney|Intracellular|RenalCL|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "TransportType": "Efflux",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainInterstitialToPlasma",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainTissueToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "EffluxBloodCellsToPlasma"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "EffluxInterstitialToPlasma"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "Intestine1",
+      "Category": "Standard",
+      "Parameters": [
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|Intestine1|Fraction expressed apical",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|Intestine1|Relative expression",
+          "Value": 1.0
+        }
+      ],
+      "TransportType": "Efflux",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainInterstitialToPlasma",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainTissueToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "EffluxBloodCellsToPlasma"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "EffluxInterstitialToPlasma"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "PMAT",
+      "Category": "Standard",
+      "Parameters": [
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|PMAT|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Sassard-Healthy",
+      "Seed": 107972890,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 69.0,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "RenalCL|Human|Standard",
+        "Intestine1|Human|Standard",
+        "PMAT|Human|Standard"
+      ]
+    },
+    {
+      "Name": "Kirch-Healthy",
+      "Seed": 307972546,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 27.3,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 67.9,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.7,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "RenalCL|Human|Standard",
+        "Intestine1|Human|Standard",
+        "PMAT|Human|Standard"
+      ]
+    },
+    {
+      "Name": "Kirch-CKD",
+      "Seed": 417772703,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 52.8,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 55.9,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 159.8,
+          "Unit": "cm"
+        },
+        "DiseaseState": "CKD",
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Value": 60.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ]
+      },
+      "ExpressionProfiles": [
+        "RenalCL|Human|Standard",
+        "Intestine1|Human|Standard",
+        "PMAT|Human|Standard"
+      ]
+    },
+    {
+      "Name": "Sassard-CKD",
+      "Seed": 418127078,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.0,
+          "Unit": "kg"
+        },
+        "DiseaseState": "CKD",
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Value": 60.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ]
+      },
+      "ExpressionProfiles": [
+        "RenalCL|Human|Standard",
+        "Intestine1|Human|Standard",
+        "PMAT|Human|Standard"
+      ]
+    },
+    {
+      "Name": "Wan-Healthy",
+      "Seed": 636715750,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 28.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 68.6,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "RenalCL|Human|Standard",
+        "Intestine1|Human|Standard",
+        "PMAT|Human|Standard"
+      ]
+    },
+    {
+      "Name": "Wan-CKD",
+      "Seed": 636865500,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        },
+        "DiseaseState": "CKD",
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Value": 20.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ]
+      },
+      "ExpressionProfiles": [
+        "RenalCL|Human|Standard",
+        "Intestine1|Human|Standard",
+        "PMAT|Human|Standard"
+      ]
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Kirch-Healthy",
+      "Seed": 417691546,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 29,
+        "Age": {
+          "Min": 23.0,
+          "Max": 31.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 47.5,
+          "Max": 86.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 150.0,
+          "Max": 189.0,
+          "Unit": "cm"
+        },
+        "Individual": {
+          "Name": "Kirch-Healthy",
+          "Seed": 307972546,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 27.3,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 67.9,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 170.7,
+              "Unit": "cm"
+            }
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Kirch-CKD3",
+      "Seed": 417833093,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 38.0,
+          "Max": 63.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 49.0,
+          "Max": 70.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 152.0,
+          "Max": 166.0,
+          "Unit": "cm"
+        },
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Min": 37.0,
+            "Max": 60.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ],
+        "Individual": {
+          "Name": "Kirch-CKD",
+          "Seed": 417772703,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 52.8,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 55.9,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 159.8,
+              "Unit": "cm"
+            },
+            "DiseaseState": "CKD",
+            "DiseaseStateParameters": [
+              {
+                "Name": "eGFR",
+                "Value": 60.0,
+                "Unit": "ml/min/1.73m²"
+              }
+            ]
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Kirch-CKD4",
+      "Seed": 417886343,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 75,
+        "Age": {
+          "Min": 36.0,
+          "Max": 62.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 49.5,
+          "Max": 66.5,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 155.0,
+          "Max": 165.0,
+          "Unit": "cm"
+        },
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Min": 17.0,
+            "Max": 30.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ],
+        "Individual": {
+          "Name": "Kirch-CKD",
+          "Seed": 417772703,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 52.8,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 55.9,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 159.8,
+              "Unit": "cm"
+            },
+            "DiseaseState": "CKD",
+            "DiseaseStateParameters": [
+              {
+                "Name": "eGFR",
+                "Value": 60.0,
+                "Unit": "ml/min/1.73m²"
+              }
+            ]
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Kirch-CKD5",
+      "Seed": 417938546,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 60,
+        "Age": {
+          "Min": 61.0,
+          "Max": 69.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 45.0,
+          "Max": 72.5,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 145.0,
+          "Max": 170.0,
+          "Unit": "cm"
+        },
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Min": 5.0,
+            "Max": 9.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ],
+        "Individual": {
+          "Name": "Kirch-CKD",
+          "Seed": 417772703,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 52.8,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 55.9,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 159.8,
+              "Unit": "cm"
+            },
+            "DiseaseState": "CKD",
+            "DiseaseStateParameters": [
+              {
+                "Name": "eGFR",
+                "Value": 60.0,
+                "Unit": "ml/min/1.73m²"
+              }
+            ]
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Sassard-Healthy",
+      "Seed": 417996125,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 25.0,
+          "Max": 70.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 52.0,
+          "Max": 86.0,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Sassard-Healthy",
+          "Seed": 107972890,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 69.0,
+              "Unit": "kg"
+            }
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Sassard-CKD3",
+      "Seed": 418192281,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 25.0,
+          "Max": 70.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 55.0,
+          "Max": 89.0,
+          "Unit": "kg"
+        },
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Min": 46.0,
+            "Max": 60.00159,
+            "Unit": "ml/min/1.73m²"
+          }
+        ],
+        "Individual": {
+          "Name": "Sassard-CKD",
+          "Seed": 418127078,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 40.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 71.0,
+              "Unit": "kg"
+            },
+            "DiseaseState": "CKD",
+            "DiseaseStateParameters": [
+              {
+                "Name": "eGFR",
+                "Value": 60.0,
+                "Unit": "ml/min/1.73m²"
+              }
+            ]
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Sassard-CKD4",
+      "Seed": 418228281,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 50,
+        "Age": {
+          "Min": 25.0,
+          "Max": 70.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 49.0,
+          "Max": 80.0,
+          "Unit": "kg"
+        },
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Min": 8.0,
+            "Max": 24.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ],
+        "Individual": {
+          "Name": "Sassard-CKD",
+          "Seed": 418127078,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 40.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 71.0,
+              "Unit": "kg"
+            },
+            "DiseaseState": "CKD",
+            "DiseaseStateParameters": [
+              {
+                "Name": "eGFR",
+                "Value": 60.0,
+                "Unit": "ml/min/1.73m²"
+              }
+            ]
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Wan-Healthy",
+      "Seed": 636942859,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 21.0,
+          "Max": 36.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 64.5,
+          "Max": 87.6,
+          "Unit": "kg"
+        },
+        "Individual": {
+          "Name": "Wan-Healthy",
+          "Seed": 636715750,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "WhiteAmerican_NHANES_1997",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 28.5,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 68.6,
+              "Unit": "kg"
+            }
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    },
+    {
+      "Name": "Wan-CKD4",
+      "Seed": 636995734,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 33,
+        "Age": {
+          "Min": 35.0,
+          "Max": 64.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 69.9,
+          "Max": 99.9,
+          "Unit": "kg"
+        },
+        "DiseaseStateParameters": [
+          {
+            "Name": "eGFR",
+            "Min": 15.0,
+            "Max": 42.0,
+            "Unit": "ml/min/1.73m²"
+          }
+        ],
+        "Individual": {
+          "Name": "Wan-CKD",
+          "Seed": 636865500,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "WhiteAmerican_NHANES_1997",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            },
+            "DiseaseState": "CKD",
+            "DiseaseStateParameters": [
+              {
+                "Name": "eGFR",
+                "Value": 20.0,
+                "Unit": "ml/min/1.73m²"
+              }
+            ]
+          },
+          "ExpressionProfiles": [
+            "RenalCL|Human|Standard",
+            "Intestine1|Human|Standard",
+            "PMAT|Human|Standard"
+          ]
+        }
+      }
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Atenolol",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.2277395287,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV Optimization' on 2020-03-01 15:02"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "DrugBank",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.16,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Description": "DrugBank"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 89.0,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Drug monograph"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 13.3,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "InVitro",
+                "Description": "McFarland, JW et al 2001"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "InVitro",
+                "Description": "McFarland, JW et al 2001"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.6,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "Schurmann 1987"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "RenalCL",
+          "Molecule": "RenalCL",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 18.9858624179,
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV Optimization' on 2020-03-01 15:02"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 200.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Yin et al, 2015"
+              }
+            }
+          ],
+          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax as input value."
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Intestine1",
+          "Molecule": "Intestine1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 5000.0,
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 5000.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption"
+              }
+            }
+          ],
+          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax as input value."
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "PMAT",
+          "Molecule": "PMAT",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 214.6988847327,
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'PO Optimization' on 2020-03-02 16:22"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 5000.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Assumption"
+              }
+            }
+          ],
+          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax as input value."
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - PK-Sim Standard",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 266.3,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "InVitro",
+            "Description": "Niaei, N et al 2018"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Tablet",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 5.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "InVitro",
+            "Description": "Moneghini, 1998"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "100 mg PO",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 100.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "100 mg PO daily x7d",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 100.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 145.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "50 mg PO",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 50.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Sassard CKD3 100 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Sassard_CKD3"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|100 mg PO|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)"
+      ],
+      "Population": "Sassard-CKD3",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "100 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Whole Blood-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Sassard_CKD3"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Sassard_CKD3-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Sassard_CKD3|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 100 mg in subjects with CKD. Observed data (circles) presented from Sassard.",
+          "OriginText": "Atenolol (1)\nSassard CKD3 100 mg PO\n2022-04-05 10:38"
+        }
+      ]
+    },
+    {
+      "Name": "Sassard CKD4 100 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Sassard_CKD4"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|100 mg PO|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)"
+      ],
+      "Population": "Sassard-CKD4",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "100 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Whole Blood-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Sassard_CKD4"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Sassard_CKD4-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Sassard_CKD4|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 100 mg in subjects with CKD. Observed data (circles) presented from Sassard.",
+          "OriginText": "Atenolol (1)\nSassard CKD4 100 mg PO\n2022-04-05 10:40"
+        }
+      ]
+    },
+    {
+      "Name": "Sassard Healthy 100 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Sassard_Healthy"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|100 mg PO|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)"
+      ],
+      "Population": "Sassard-Healthy",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "100 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Whole Blood-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Sassard_Healthy"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Sassard_Healthy-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Sassard_Healthy|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 100 mg in healthy subjects. Observed data (circles) presented from Sassard.",
+          "OriginText": "Atenolol (1)\nSassard Healthy 100 mg PO\n2022-04-05 10:43"
+        }
+      ]
+    },
+    {
+      "Name": "Kirch Healthy 100 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Kirch_Healthy"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 192.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Kirch-Healthy",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "100 mg PO daily x7d",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Kirch_Healthy"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Kirch_Healthy-Atenolol-Measurement",
+                "Path": "Kirch_Healthy|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in healthy subjects. Observed data (circles) presented from Kirch.",
+          "OriginText": "Atenolol (1)\nKirch Healthy 100 mg PO\n2022-04-05 10:02"
+        }
+      ]
+    },
+    {
+      "Name": "Kirch CKD3 100 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Kirch_CKD3"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 192.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Kirch-CKD3",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "100 mg PO daily x7d",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Kirch_CKD3"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Kirch_CKD3-Atenolol-Measurement",
+                "Path": "Kirch_CKD3|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in subjects with CKD. Observed data (circles) presented from Kirch.",
+          "OriginText": "Atenolol (1)\nKirch CKD3 100 mg PO\n2022-04-05 11:11"
+        }
+      ]
+    },
+    {
+      "Name": "Kirch CKD4 100 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Kirch_CKD4"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 192.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Kirch-CKD4",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "100 mg PO daily x7d",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Kirch_CKD4"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Kirch_CKD4-Atenolol-Measurement",
+                "Path": "Kirch_CKD4|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in subjects with CKD. Observed data (circles) presented from Kirch.",
+          "OriginText": "Atenolol (1)\nKirch CKD4 100 mg PO\n2022-04-05 09:56"
+        }
+      ]
+    },
+    {
+      "Name": "Kirch CKD5 100 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Kirch_CKD5"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 192.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|100 mg PO daily x7d|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Kirch-CKD5",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "100 mg PO daily x7d",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range90",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Kirch_CKD5"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Kirch_CKD5-Atenolol-Measurement",
+                "Path": "Kirch_CKD5|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in subjects with CKD. Observed data (circles) presented from Kirch.",
+          "OriginText": "Atenolol (1)\nKirch CKD5 100 mg PO\n2022-04-05 09:59"
+        }
+      ]
+    },
+    {
+      "Name": "Wan CKD4 50 mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Wan_CKD4"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|50 mg PO|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Wan-CKD4",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "50 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Wan_CKD4"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Wan_CKD4-Atenolol-Measurement",
+                "Path": "Wan_CKD4|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 50 mg in subjects with CKD. Observed data (circles) presented from Wan.",
+          "OriginText": "Atenolol_old\nWan CKD4 50 mg PO\n2022-04-28 11:01"
+        }
+      ]
+    },
+    {
+      "Name": "Wan Healthy 50mg PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Wan_Healthy"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|50 mg PO|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Intestine1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Intestine1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Intestine1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "PMAT|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "PMAT|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "RenalCL|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "RenalCL|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Wan-Healthy",
+      "Compounds": [
+        {
+          "Name": "Atenolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "RenalCL-RenalCL",
+              "MoleculeName": "RenalCL"
+            },
+            {
+              "Name": "Intestine1-Intestine1",
+              "MoleculeName": "Intestine1"
+            },
+            {
+              "Name": "PMAT-PMAT",
+              "MoleculeName": "PMAT"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "50 mg PO",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Wan_Healthy"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Wan_50_PO-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Wan_50_PO|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 50 mg in healthy subjects. Observed data (circles) presented from Wan.",
+          "OriginText": "Atenolol_old\nWan Healthy 50mg PO\n2022-04-28 11:05"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Sassard_Healthy",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "G:\\401\\SassardData.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "SassardData"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Whole Blood"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Sassard_GFR100_Healthy"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100 mg"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Path": "Sassard_Healthy|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.550140262,
+            0.6581611,
+            0.5111966,
+            0.345091432,
+            0.2375502,
+            0.0432085134
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Sassard_Healthy|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          1.0,
+          3.0,
+          5.0,
+          7.0,
+          10.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Sassard_CKD3",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "G:\\401\\SassardData.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "SassardData"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Whole Blood"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Sassard_GFR54_Stage3"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100 mg"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Path": "Sassard_CKD3|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.520120442,
+            0.7404508,
+            0.6221022,
+            0.530050635,
+            0.3946826,
+            0.231233492
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Sassard_CKD3|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          1.0,
+          3.0,
+          5.0,
+          7.0,
+          10.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Sassard_CKD4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "G:\\401\\SassardData.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "SassardData"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Whole Blood"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Sassard_GFR16_Stage5"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100 mg"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Path": "Sassard_CKD4|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.625907,
+            0.765782058,
+            0.7786025,
+            0.65049696,
+            0.614785135,
+            0.330188125
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Sassard_CKD4|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          1.0,
+          3.0,
+          5.0,
+          7.0,
+          10.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Kirch_Healthy",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\MALIKPR\\OneDrive - AbbVie Inc (O365)\\Documents\\CKD Qual Plan\\Atenololdata.xlsx"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Kirch81_100_POA"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Kirch_Healthy|ObservedData|||Atenolol|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.180193752,
+            0.448198378,
+            0.497704834,
+            0.428465128,
+            0.364395469,
+            0.307347119,
+            0.201525658,
+            0.0664950162,
+            0.03855649,
+            0.0151981646
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Kirch_Healthy|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          144.5,
+          145.0,
+          146.0,
+          147.0,
+          148.0,
+          150.0,
+          156.0,
+          168.0,
+          180.0,
+          192.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Kirch_CKD3",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\MALIKPR\\OneDrive - AbbVie Inc (O365)\\Documents\\CKD Qual Plan\\Atenololdata.xlsx"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Kirch81_100_POB"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Kirch_CKD3|ObservedData|||Atenolol|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.27600202,
+            0.5654437,
+            0.834889531,
+            0.9067414,
+            0.85143286,
+            0.7492582,
+            0.39099285,
+            0.194436312,
+            0.08652467,
+            0.0519219041
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Kirch_CKD3|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          144.5,
+          145.0,
+          146.0,
+          147.0,
+          148.0,
+          150.0,
+          156.0,
+          168.0,
+          180.0,
+          192.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Kirch_CKD4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\MALIKPR\\OneDrive - AbbVie Inc (O365)\\Documents\\CKD Qual Plan\\Atenololdata.xlsx"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Kirch81_100_POC"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Kirch_CKD4|ObservedData|||Atenolol|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.7504366,
+            0.8784045,
+            1.225626,
+            1.09863412,
+            0.9587469,
+            0.712542355,
+            0.4533977,
+            0.320473522,
+            0.220647275
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Kirch_CKD4|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          144.5,
+          145.0,
+          146.0,
+          147.0,
+          150.0,
+          156.0,
+          168.0,
+          180.0,
+          192.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Kirch_CKD5",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\MALIKPR\\OneDrive - AbbVie Inc (O365)\\Documents\\CKD Qual Plan\\Atenololdata.xlsx"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Kirch81_100_POD"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Kirch_CKD5|ObservedData|||Atenolol|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            1.0431639,
+            1.18701255,
+            1.36146462,
+            1.32845616,
+            1.3884486,
+            1.25938356,
+            1.1386807,
+            1.03612876,
+            0.781258047,
+            0.5455592
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Kirch_CKD5|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          144.5,
+          145.0,
+          146.0,
+          147.0,
+          148.0,
+          150.0,
+          156.0,
+          168.0,
+          180.0,
+          192.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Wan_CKD4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\MALIKPR\\OneDrive - AbbVie Inc (O365)\\Documents\\CKD Qual Plan\\Atenololdata.xlsx"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Wan"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Wan_CKD"
+        },
+        {
+          "Name": "Dose",
+          "Value": "50 mg"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "Wan_CKD4|ObservedData|||Atenolol|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.0388918,
+            0.21704118,
+            0.378861725,
+            0.886085868,
+            0.786497355,
+            0.811156452,
+            0.831961453,
+            0.463903636,
+            0.391323715,
+            0.312806278,
+            0.26753512,
+            0.181056738,
+            0.123218685
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Wan_CKD4|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0,
+          36.0,
+          48.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Wan_Healthy",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Arvind\\Documents\\Urooj's 401\\Data-collection.xlsx.Normal data"
+        },
+        {
+          "Name": "File",
+          "Value": "Data-collection"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Normal data"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Atenolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "WAN79D_50_PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": 50.0
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "std. deviation",
+              "QuantityInfo": {
+                "Path": "Wan_50_PO|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|std. deviation"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 266.3
+              },
+              "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Wan_50_PO|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 266.3
+          },
+          "Values": [
+            0.10088785,
+            0.218625516,
+            0.3393743,
+            0.283863783,
+            0.2511751,
+            0.1864297,
+            0.161508515,
+            0.115808152,
+            0.100034095,
+            0.07695038,
+            0.048506882,
+            0.0333848745,
+            0.0180297773
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Wan_50_PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationComparisons": [
+    {
+      "Name": "Kirch Comparison",
+      "Simulations": [
+        "Kirch CKD3 100 mg PO",
+        "Kirch CKD4 100 mg PO",
+        "Kirch CKD5 100 mg PO",
+        "Kirch Healthy 100 mg PO"
+      ],
+      "PopulationComparisons": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation Name",
+                "Covariate": "Simulation Name",
+                "GroupingItems": [
+                  {
+                    "Label": "Kirch CKD3 100 mg PO",
+                    "Color": "#000000",
+                    "Symbol": "Triangle"
+                  },
+                  {
+                    "Label": "Kirch CKD4 100 mg PO",
+                    "Color": "#FF0000",
+                    "Symbol": "Triangle"
+                  },
+                  {
+                    "Label": "Kirch CKD5 100 mg PO",
+                    "Color": "#0000FF",
+                    "Symbol": "Triangle"
+                  },
+                  {
+                    "Label": "Kirch Healthy 100 mg PO",
+                    "Color": "#008000",
+                    "Symbol": "Triangle"
+                  }
+                ],
+                "Area": "ColorArea"
+              },
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Kirch_CKD3",
+              "Kirch_CKD4",
+              "Kirch_CKD5",
+              "Kirch_Healthy"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Kirch_CKD3-Atenolol-Measurement",
+                "Path": "Kirch_CKD3|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Kirch_CKD4-Atenolol-Measurement",
+                "Path": "Kirch_CKD4|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "Color": "#FF0000",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Kirch_CKD5-Atenolol-Measurement",
+                "Path": "Kirch_CKD5|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "Color": "#0000FF",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Kirch_Healthy-Atenolol-Measurement",
+                "Path": "Kirch_Healthy|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "Color": "#008000",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atenolol (1)\nSimulation Comparison 2\n2022-04-05 11:14"
+        }
+      ],
+      "ReferenceGroupingItem": {
+        "Label": "Reference Simulation",
+        "Color": "#00BFFF",
+        "Symbol": "Circle"
+      }
+    },
+    {
+      "Name": "Sassard Comparison",
+      "Simulations": [
+        "Sassard CKD3 100 mg PO",
+        "Sassard CKD4 100 mg PO",
+        "Sassard Healthy 100 mg PO"
+      ],
+      "PopulationComparisons": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation Name",
+                "Covariate": "Simulation Name",
+                "GroupingItems": [
+                  {
+                    "Label": "Sassard CKD3 100 mg PO",
+                    "Color": "#000000",
+                    "Symbol": "Triangle"
+                  },
+                  {
+                    "Label": "Sassard CKD4 100 mg PO",
+                    "Color": "#FF0000",
+                    "Symbol": "Triangle"
+                  },
+                  {
+                    "Label": "Sassard Healthy 100 mg PO",
+                    "Color": "#0000FF",
+                    "Symbol": "Triangle"
+                  }
+                ],
+                "Area": "ColorArea"
+              },
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Whole Blood-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "GeometricMean",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Sassard_CKD3",
+              "Sassard_CKD4",
+              "Sassard_Healthy"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Sassard_CKD3-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Sassard_CKD3|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Sassard_CKD4-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Sassard_CKD4|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "Color": "#FF0000",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Sassard_Healthy-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Sassard_Healthy|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "Color": "#0000FF",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "Min": -1.5466666667,
+            "Max": 25.2289649778,
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atenolol (1)\nSimulation Comparison 1\n2022-04-05 11:16"
+        }
+      ],
+      "ReferenceGroupingItem": {
+        "Label": "Reference Simulation",
+        "Color": "#00BFFF",
+        "Symbol": "Circle"
+      }
+    },
+    {
+      "Name": "Wan Comparison",
+      "Simulations": [
+        "Wan CKD4 50 mg PO",
+        "Wan Healthy 50mg PO"
+      ],
+      "PopulationComparisons": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation Name",
+                "Covariate": "Simulation Name",
+                "GroupingItems": [
+                  {
+                    "Label": "Wan CKD4 50 mg PO",
+                    "Color": "#000000",
+                    "Symbol": "Triangle"
+                  },
+                  {
+                    "Label": "Wan Healthy 50mg PO",
+                    "Color": "#FF0000",
+                    "Symbol": "Triangle"
+                  }
+                ],
+                "Area": "ColorArea"
+              },
+              {
+                "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Wan_Healthy",
+              "Wan_CKD4"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Wan_50_PO-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Wan_50_PO|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+                "CurveOptions": {
+                  "Color": "#FF0000",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Wan_CKD4-Atenolol-Measurement",
+                "Path": "Wan_CKD4|ObservedData|||Atenolol|Measurement",
+                "CurveOptions": {
+                  "Color": "#000000",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atenolol\nSimulation Comparison 1\n2022-04-28 11:09"
+        }
+      ],
+      "ReferenceGroupingItem": {
+        "Label": "Reference Simulation",
+        "Color": "#00BFFF",
+        "Symbol": "Circle"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "Healthy",
+      "Classifiables": [
+        "Sassard_Healthy",
+        "Kirch_Healthy",
+        "Wan_Healthy"
+      ]
+    },
+    {
+      "Name": "CKD",
+      "Classifiables": [
+        "Sassard_CKD3",
+        "Sassard_CKD4",
+        "Kirch_CKD3",
+        "Kirch_CKD4",
+        "Kirch_CKD5",
+        "Wan_CKD4"
+      ]
+    }
+  ]
+}

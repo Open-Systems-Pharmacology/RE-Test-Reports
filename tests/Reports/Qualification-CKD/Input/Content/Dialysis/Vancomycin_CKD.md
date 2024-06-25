@@ -1,0 +1,1 @@
+Using the model from the healthy population from the previous section, a single population, with target GFR of 0 mL/min/1.73 m<sup>2</sup>, was created following the procedure described in section 2. Simulation results were compared to data reported in Decker et al. 2010.<sup>122</sup> The results are reported in figure 3.7.2.

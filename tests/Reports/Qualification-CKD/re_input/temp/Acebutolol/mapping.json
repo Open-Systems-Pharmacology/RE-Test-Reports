@@ -1,0 +1,181 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Acebutolol",
+      "Simulation": "Roux Healthy 200 mg PO",
+      "Path": "Acebutolol/Roux Healthy 200 mg PO/",
+      "SimulationFile": "Roux Healthy 200 mg PO"
+    },
+    {
+      "Project": "Acebutolol",
+      "Simulation": "Roux CKD 200 mg PO",
+      "Path": "Acebutolol/Roux CKD 200 mg PO/",
+      "SimulationFile": "Roux CKD 200 mg PO"
+    }
+  ],
+  "ObservedDataMappings": [
+    {
+      "Id": "Roux-CKD",
+      "Path": "ObservedData/Roux-CKD.csv"
+    },
+    {
+      "Id": "Roux-Healthy-200",
+      "Path": "ObservedData/Roux-Healthy-200.csv"
+    }
+  ],
+  "Plots": [
+    {
+      "Project": "Acebutolol",
+      "Simulation": "Roux Healthy 200 mg PO",
+      "SectionReference": "acebutolol_healthy",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Acebutolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Acebutolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "ArithmeticMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "ArithmeticStandardDeviation",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Roux-Healthy-200"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Roux-Healthy-200-Acebutolol-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Roux-Healthy-200|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Acebutolol after a single dose of 200 mg in healthy subjects. Observed data (circles) presented from Roux.",
+        "OriginText": "Acebutolol\nRoux Healthy 200 mg PO\n2022-04-04 14:29"
+      }
+    },
+    {
+      "Project": "Acebutolol",
+      "Simulation": "Roux CKD 200 mg PO",
+      "SectionReference": "acebutolol_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Acebutolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Acebutolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "ArithmeticMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "ArithmeticStandardDeviation",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Roux-CKD"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Roux-CKD-Acebutolol-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Roux-CKD|ObservedData|Peripheral Venous Blood|Plasma|Acebutolol|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Acebutolol after a single dose of 200 mg in subjects with CKD. Observed data (circles) presented from Roux.",
+        "OriginText": "Acebutolol\nRoux CKD 200 mg PO\n2022-04-04 14:28"
+      }
+    }
+  ],
+  "Inputs": []
+}

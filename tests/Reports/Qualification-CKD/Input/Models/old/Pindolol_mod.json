@@ -1,0 +1,3221 @@
+{
+  "Version": 77,
+  "Populations": [
+    {
+      "Name": "Guerret Healthy",
+      "Seed": 164642937,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 33,
+        "Age": {
+          "Min": 25.7,
+          "Max": 30.3,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Min": 60.0,
+          "Max": 66.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Min": 154.0,
+          "Max": 184.0,
+          "Unit": "cm"
+        },
+        "Individual": {
+          "Name": "Guerret83",
+          "Seed": 180238828,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 28.0,
+              "Unit": "year(s)"
+            },
+            "Weight": {
+              "Value": 63.0,
+              "Unit": "kg"
+            },
+            "Height": {
+              "Value": 169.0,
+              "Unit": "cm"
+            },
+            "ValueOrigin": {
+              "Source": "Publication",
+              "Method": "ParameterIdentification",
+              "Description": "Guerret83"
+            }
+          },
+          "Molecules": [
+            {
+              "Name": "OCT2",
+              "Type": "Transporter",
+              "TransportType": "Efflux",
+              "Expression": [
+                {
+                  "Name": "Kidney",
+                  "MembraneLocation": "Apical",
+                  "Value": 1.0
+                }
+              ],
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 1.0,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 36.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            },
+            {
+              "Name": "CYP2D6",
+              "Type": "Enzyme",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "Intracellular",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Brain",
+                  "Value": 0.00768702814
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.768702814
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0208304736
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0223404255
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0909402883
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0909402883
+                }
+              ],
+              "Ontogeny": {
+                "Name": "CYP2D6"
+              },
+              "Parameters": [
+                {
+                  "Name": "Reference concentration",
+                  "Value": 0.4,
+                  "Unit": "µmol/l"
+                },
+                {
+                  "Name": "t1/2 (liver)",
+                  "Value": 51.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "t1/2 (intestine)",
+                  "Value": 23.0,
+                  "Unit": "h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AdvancedParameters": [
+        {
+          "Name": "CYP2D6|Reference concentration",
+          "Seed": 164646687,
+          "DistributionType": "LogNormal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "GeometricDeviation",
+              "Value": 1.4
+            }
+          ]
+        },
+        {
+          "Name": "OCT2|Reference concentration",
+          "Seed": 164659593,
+          "DistributionType": "Normal",
+          "Parameters": [
+            {
+              "Name": "Mean",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Deviation",
+              "Value": 0.2,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Pindolol",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.75,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Sangster1994"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Box08",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.8,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Box 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "IsDefault": false,
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.41,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Snowden2018"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Hsyu1985",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.45,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Hsyu1985"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Lavene77",
+          "IsDefault": false,
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.506,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Lavene77"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Gugler74",
+          "IsDefault": false,
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.57,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "Gugler74"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Meier 1982",
+          "IsDefault": false,
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.4,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Unknown",
+                "Description": "Meier 1979"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 7.9,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Assumption",
+                "Description": "DrugBank"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Assumption",
+                "Description": "DrugBank"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 7.54E-06,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimization"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 8.8,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "InVitro",
+            "Description": "Cheung 2016"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Method": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Ivanyuk2017",
+          "Molecule": "OCT2",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 139.6490032429,
+              "Unit": "µmol/l/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV Optimization' on 2020-01-28 13:51"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 100.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Unknown",
+                "Description": "Fixed"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_FirstOrder",
+          "DataSource": "UptoDate",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 0.4,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.2648791636,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'IV Optimization' on 2020-01-28 13:51"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 248.32,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "PubChem"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "IV",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "PO",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 20.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Sakurada 2015"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Lavene 77 IV 0.04mg/kg",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.04,
+          "Unit": "mg/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Guerret 83 PO 5mg",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 5.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Guerret 83 IV 3mg",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 3.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 6.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "Balant 81 PO 15mg",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 15.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Galeazzi 79 IV",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 3.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 5.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "Gretzer 86",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 10.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Aellig 82",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 15.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Guerret IV",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Guerret83IV.3.IV"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 6.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Guerret 83 IV 3mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 6.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Pindolol|Plasma (Peripheral Venous Blood)",
+        "Organism|Kidney|Urine|Pindolol|Fraction excreted to urine"
+      ],
+      "Population": "Guerret Healthy",
+      "Compounds": [
+        {
+          "Name": "Pindolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Hsyu1985",
+              "GroupName": "COMPOUND_FRACTION_UNBOUND"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-UptoDate",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "OCT2-Ivanyuk2017",
+              "MoleculeName": "OCT2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Guerret 83 IV 3mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Pindolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Guerret83IV.3.IV"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Observed Mean and SD",
+                "Path": "Guerret83IV.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Figure 3.5.1: Predicted pindolol plasma concentration after a 3mg IV dose in a healthy population vs data from Guerret (1983).",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 500,
+            "Fonts": {
+              "AxisSize": 16,
+              "LegendSize": 14,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Pindolol PKSIM\nGuerret IV\n2020-03-09 15:00"
+        }
+      ]
+    },
+    {
+      "Name": "Guerret PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Guerret83PO.5.PO"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Guerret 83 PO 5mg|PO|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Pindolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Guerret Healthy",
+      "Compounds": [
+        {
+          "Name": "Pindolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Hsyu1985",
+              "GroupName": "COMPOUND_FRACTION_UNBOUND"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-UptoDate",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "OCT2-Ivanyuk2017",
+              "MoleculeName": "OCT2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Guerret 83 PO 5mg",
+            "Formulations": [
+              {
+                "Name": "PO",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "ng/ml",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Pindolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              },
+              {
+                "Name": "OCT2-Reference concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µmol/l",
+                "ParameterPath": "OCT2|Reference concentration",
+                "Area": "FilterArea"
+              },
+              {
+                "Name": "CYP2D6-Reference concentration",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µmol/l",
+                "ParameterPath": "CYP2D6|Reference concentration",
+                "Area": "FilterArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Guerret83PO.5.PO"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Observed Mean and SD",
+                "Path": "Guerret83PO.5.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "Min": -0.110014245,
+            "Max": 12.2468304843,
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "Min": 0.2953385772,
+            "Max": 43.9992202405,
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Figure 3.5.2: Predicted pindolol plasma concentration after a 5mg oral dose in a healthy population vs data from Guerret (1983).",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 500,
+            "Fonts": {
+              "AxisSize": 16,
+              "LegendSize": 14,
+              "TitleSize": 18,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Pindolol PKSIM\nGuerret PO\n2020-03-09 15:02"
+        }
+      ]
+    },
+    {
+      "Name": "Galeazzi Pop",
+      "Model": "4Comp",
+      "ObservedData": [
+        "GaleazziCKD"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Galeazzi 79 IV|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 5.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Pindolol|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Guerret Healthy",
+      "Compounds": [
+        {
+          "Name": "Pindolol",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Hsyu1985",
+              "GroupName": "COMPOUND_FRACTION_UNBOUND"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-UptoDate",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "OCT2-Ivanyuk2017",
+              "MoleculeName": "OCT2"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Galeazzi 79 IV"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Pindolol|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "GaleazziCKD"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Observed",
+                "Path": "GaleazziCKD|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Figure 3.5.3: Predicted pindolol plasma concentration after a 3mg IV dose in a dialysis population vs data from Galeazzi (1979).",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 500,
+            "Fonts": {
+              "AxisSize": 16,
+              "LegendSize": 14,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Pindolol PKSIM\nGaleazzi Pop\n2020-04-15 15:56"
+        }
+      ]
+    }
+  ],
+  "ParameterIdentifications": [
+    {
+      "Name": "IV Optimization",
+      "Simulations": [],
+      "Configuration": {
+        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
+        "RemoveLLOQMode": "Never",
+        "CalculateJacobian": false,
+        "Algorithm": {
+          "Name": "Monte - Carlo",
+          "Properties": [
+            {
+              "Name": "BreakCondition",
+              "Value": 0.001
+            },
+            {
+              "Name": "InitialAlpha",
+              "Value": 30.0
+            },
+            {
+              "Name": "MaxIterations",
+              "Value": 10000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Name": "PO Optimization",
+      "Simulations": [],
+      "Configuration": {
+        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
+        "RemoveLLOQMode": "Never",
+        "CalculateJacobian": false,
+        "Algorithm": {
+          "Name": "Monte - Carlo",
+          "Properties": [
+            {
+              "Name": "BreakCondition",
+              "Value": 0.001
+            },
+            {
+              "Name": "InitialAlpha",
+              "Value": 30.0
+            },
+            {
+              "Name": "MaxIterations",
+              "Value": 10000
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Lavene77H.0.04mg/kg.IV",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.IV"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IV"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lavene77H"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.04mg/kg"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Lavene77H.0.04mg/kg.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.IV.8.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                16.5,
+                10.2,
+                8.43,
+                4.92,
+                2.61,
+                6.93,
+                4.53,
+                3.74999976,
+                5.25
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lavene77H.0.04mg/kg.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.IV.8.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            0.0400116332,
+            0.03569725,
+            0.02930743,
+            0.0235787015,
+            0.0180725567,
+            0.01834176,
+            0.0147701157,
+            0.01333528,
+            0.0110989306
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lavene77H.0.04mg/kg.IV|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.IV.8.Time [h]"
+        },
+        "Values": [
+          0.083,
+          0.17,
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Galeazzi79_H.3.IV",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.IV"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IV"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Galeazzi79_H"
+        },
+        {
+          "Name": "Dose",
+          "Value": "3"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Galeazzi79_H.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.IV.10.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Galeazzi79_H.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.IV.10.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            0.0279881638,
+            0.0205338057,
+            0.0183608942,
+            0.0153663959,
+            0.0137403067,
+            0.0105586676,
+            0.006850488
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Galeazzi79_H.3.IV|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.IV.10.Time [h]"
+        },
+        "Values": [
+          0.33,
+          0.583,
+          1.08,
+          1.58,
+          2.08,
+          4.08,
+          6.08
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Galeazzi79UX_CKD.3.IV",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.IVUR"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IVUR"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Galeazzi79UX_CKD"
+        },
+        {
+          "Name": "Dose",
+          "Value": "3"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Galeazzi79UX_CKD.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.IVUR.22.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                "NaN"
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Galeazzi79UX_CKD.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.IVUR.22.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            0.005
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Galeazzi79UX_CKD.3.IV|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.IVUR.22.Time [h]"
+        },
+        "Values": [
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Guerret83IVUX.3.IV",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.IVUR"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IVUR"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Guerret83IVUX"
+        },
+        {
+          "Name": "Dose",
+          "Value": "3"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Guerret83IVUX.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.IVUR.12.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                23.03
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Guerret83IVUX.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.IVUR.12.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            0.542
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Guerret83IVUX.3.IV|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.IVUR.12.Time [h]"
+        },
+        "Values": [
+          48.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Galeazzi79UX_H.3.IV",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.IVUR"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IVUR"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Galeazzi79UX_H"
+        },
+        {
+          "Name": "Dose",
+          "Value": "3"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Galeazzi79UX_H.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.IVUR.21.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                "NaN"
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Galeazzi79UX_H.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.IVUR.21.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            0.467
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Galeazzi79UX_H.3.IV|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.IVUR.21.Time [h]"
+        },
+        "Values": [
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lavene77IV_H_UX.0.04mg/kg.IV",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.IVUR"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IVUR"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lavene77IV_H_UX"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.04mg/kg"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Lavene77IV_H_UX.0.04mg/kg.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.IVUR.19.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                13.500001
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Lavene77IV_H_UX.0.04mg/kg.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.IVUR.19.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            0.498
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lavene77IV_H_UX.0.04mg/kg.IV|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.IVUR.19.Time [h]"
+        },
+        "Values": [
+          48.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Guerret83IV.3.IV",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.IV"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "IV"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Guerret83IV"
+        },
+        {
+          "Name": "Dose",
+          "Value": "3"
+        },
+        {
+          "Name": "Route",
+          "Value": "IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Guerret83IV.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.IV.1.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                16.52,
+                5.75,
+                3.89999986,
+                3.89999986,
+                7.60999966,
+                7.79,
+                6.12,
+                3.34,
+                1.3,
+                2.04
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Guerret83IV.3.IV|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.IV.1.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            0.0361416824,
+            0.0275129881,
+            0.0244123358,
+            0.0214012135,
+            0.0199805871,
+            0.01780308,
+            0.0150005249,
+            0.0103792269,
+            0.008333552,
+            0.007046397
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Guerret83IV.3.IV|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.IV.1.Time [h]"
+        },
+        "Values": [
+          0.183,
+          0.26700002,
+          0.35,
+          0.6,
+          0.85,
+          1.1,
+          2.1,
+          3.1,
+          4.1,
+          5.1
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Balant81.15.PO",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.PO"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "PO"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Balant81"
+        },
+        {
+          "Name": "Dose",
+          "Value": "15"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Balant81.15.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.PO.41.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                "NaN",
+                9.14,
+                14.6,
+                13.58,
+                13.29,
+                7.72,
+                11.71,
+                9.64,
+                6.99000025,
+                7.68,
+                4.1,
+                0.82,
+                2.17,
+                1.77
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Balant81.15.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.PO.41.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            15.4000406,
+            52.58691,
+            59.4652519,
+            53.3282356,
+            51.174118,
+            41.82114,
+            38.4425,
+            30.76204,
+            22.6031761,
+            17.19469,
+            12.3952675,
+            8.670501,
+            2.29349041,
+            1.47856462
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Balant81.15.PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.PO.41.Time [h]"
+        },
+        "Values": [
+          0.25,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          22.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Guerret83PO.5.PO",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.PO"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "PO"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Guerret83PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "5"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Guerret83PO.5.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.PO.42.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                8.25,
+                5.76,
+                10.24,
+                5.24,
+                4.51,
+                3.26,
+                2.99,
+                2.74,
+                2.01,
+                1.49
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Guerret83PO.5.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.PO.42.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            11.339365,
+            16.8556252,
+            23.3922615,
+            23.09895,
+            21.479147,
+            18.4439774,
+            14.8971586,
+            9.233875,
+            5.50931072,
+            3.51975679
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Guerret83PO.5.PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.PO.42.Time [h]"
+        },
+        "Values": [
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Guerret83POUX.5.PO",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.POUR"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "POUR"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Guerret83POUX"
+        },
+        {
+          "Name": "Dose",
+          "Value": "5"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Guerret83POUX.5.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.POUR.43.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                18.62
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Guerret83POUX.5.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.POUR.43.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            39.3
+          ],
+          "Dimension": "Fraction",
+          "Unit": "%"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Guerret83POUX.5.PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.POUR.43.Time [h]"
+        },
+        "Values": [
+          48.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Balant81UX.15.PO",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.POUR"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "POUR"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Balant81UX"
+        },
+        {
+          "Name": "Dose",
+          "Value": "15"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Balant81UX.15.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.POUR.56.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                1.75,
+                3.0,
+                4.33,
+                3.90999985,
+                4.54,
+                4.92,
+                5.08,
+                4.25,
+                5.5,
+                4.67
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Balant81UX.15.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.POUR.56.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            5.0,
+            10.75,
+            15.541667,
+            19.0,
+            23.541666,
+            25.8333321,
+            28.0,
+            29.708334,
+            32.125,
+            32.1666679
+          ],
+          "Dimension": "Fraction",
+          "Unit": "%"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Balant81UX.15.PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.POUR.56.Time [h]"
+        },
+        "Values": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          22.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lavene77PO_H_UX.10.PO",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\Pindolol Overall Data File.xlsx.POUR"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Overall Data File"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "POUR"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lavene77PO_H_UX"
+        },
+        {
+          "Name": "Dose",
+          "Value": "10"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Lavene77PO_H_UX.10.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-07T01:31:16.9080016-05:00",
+                "Source": "Pindolol Overall Data File.POUR.57.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                3.66999984
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Lavene77PO_H_UX.10.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-07T01:31:16.9080016-05:00",
+            "Source": "Pindolol Overall Data File.POUR.57.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            34.13
+          ],
+          "Dimension": "Fraction",
+          "Unit": "%"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lavene77PO_H_UX.10.PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-07T01:31:16.9080016-05:00",
+          "Source": "Pindolol Overall Data File.POUR.57.Time [h]"
+        },
+        "Values": [
+          48.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Gretzer86_Y.10.PO",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\To add to pksim.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "To add to pksim"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Gretzer86_Y"
+        },
+        {
+          "Name": "Dose",
+          "Value": "10"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Gretzer86_Y.10.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-12-03T01:44:21.9720594-05:00",
+            "Source": "To add to pksim.Sheet1.1.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            10.62,
+            55.64,
+            47.6000023,
+            39.35,
+            31.54,
+            23.08,
+            14.33,
+            12.4400005
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Gretzer86_Y.10.PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-12-03T01:44:21.9720594-05:00",
+          "Source": "To add to pksim.Sheet1.1.Time [h]"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          7.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Aellig82_15.15.PO",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\To add to pksim.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "To add to pksim"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Aellig82_15"
+        },
+        {
+          "Name": "Dose",
+          "Value": "15"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Aellig82_15.15.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-12-03T01:54:02.604188-05:00",
+                "Source": "To add to pksim.Sheet1.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                31.1100025,
+                25.46,
+                19.8,
+                11.31,
+                11.31,
+                8.49,
+                2.83,
+                2.83,
+                2.83,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Aellig82_15.15.PO|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-12-03T01:54:02.604188-05:00",
+            "Source": "To add to pksim.Sheet1.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            32.0,
+            46.0,
+            41.0,
+            29.9999981,
+            26.0,
+            19.0,
+            7.0,
+            5.0,
+            2.0,
+            0.0
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Aellig82_15.15.PO|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-12-03T01:54:02.604188-05:00",
+          "Source": "To add to pksim.Sheet1.Time [h]"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Aellig82UX_15.15",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\sebdj\\Documents\\School\\University of Waterloo\\4. Pharmacy\\4. Year 3\\3. 3B\\PHARM 401\\Reference Data PDFs\\To add to pksim.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "To add to pksim"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Aellig82UX_15"
+        },
+        {
+          "Name": "Dose",
+          "Value": "15"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Percentage",
+          "RelatedColumns": [
+            {
+              "Name": "SD",
+              "QuantityInfo": {
+                "Name": "SD",
+                "Path": "Aellig82UX_15.15|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|SD"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-12-03T02:02:10.8358807-05:00",
+                "Source": "To add to pksim.Sheet1.SD",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                5.09,
+                5.94,
+                7.06999969,
+                7.64,
+                8.77,
+                9.62
+              ],
+              "Dimension": "Fraction",
+              "Unit": "%"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Percentage",
+            "Path": "Aellig82UX_15.15|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Percentage"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-12-03T02:02:10.8358807-05:00",
+            "Source": "To add to pksim.Sheet1.Percentage",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            10.2,
+            17.7,
+            22.0,
+            24.4,
+            27.3,
+            31.0999985
+          ],
+          "Dimension": "Fraction",
+          "Unit": "%"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Aellig82UX_15.15|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-12-03T02:02:10.8358807-05:00",
+          "Source": "To add to pksim.Sheet1.Time [h]"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "GaleazziCKD",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Pindolol\\Pindolol Data.xlsx.Sheet2"
+        },
+        {
+          "Name": "File",
+          "Value": "Pindolol Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet2"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Pindolol"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "GaleazziCKD"
+        },
+        {
+          "Name": "Dose",
+          "Value": "3 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "Error ",
+              "QuantityInfo": {
+                "Name": "Error ",
+                "Path": "GaleazziCKD|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Error "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-03-04T20:55:25.7689335-05:00",
+                "Source": "Pindolol Data.Sheet2.Error [ng/mL]",
+                "MolWeight": 248.32
+              },
+              "Values": [
+                28.9457455,
+                27.9759445,
+                22.8322849,
+                20.74559,
+                22.5860672,
+                23.7124977,
+                29.46874,
+                9.064031,
+                4.20315933,
+                2.3925457
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "GaleazziCKD|ObservedData|Peripheral Venous Blood|Plasma|Pindolol|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-04T20:55:25.7689335-05:00",
+            "Source": "Pindolol Data.Sheet2.Concentration [ng/mL]",
+            "MolWeight": 248.32
+          },
+          "Values": [
+            43.5188446,
+            36.7446442,
+            25.7986584,
+            25.2892761,
+            24.1089878,
+            21.218071,
+            18.52878,
+            12.2888994,
+            9.032464,
+            6.13430548
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "GaleazziCKD|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-04T20:55:25.7689335-05:00",
+          "Source": "Pindolol Data.Sheet2.Time [h]"
+        },
+        "Values": [
+          0.125,
+          0.25,
+          0.5,
+          0.67,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "IV Healthy",
+      "Classifications": [
+        {
+          "Name": "PO UX Healthy",
+          "Classifiables": [
+            "Guerret83POUX.5.PO",
+            "Balant81UX.15.PO",
+            "Lavene77PO_H_UX.10.PO",
+            "Aellig82UX_15.15"
+          ]
+        }
+      ],
+      "Classifiables": [
+        "Guerret83IV.3.IV",
+        "Lavene77H.0.04mg/kg.IV",
+        "Galeazzi79_H.3.IV"
+      ]
+    },
+    {
+      "Name": "IV CKD",
+      "Classifiables": [
+        "GaleazziCKD"
+      ]
+    },
+    {
+      "Name": "IV UX Healthy",
+      "Classifiables": [
+        "Guerret83IVUX.3.IV",
+        "Lavene77IV_H_UX.0.04mg/kg.IV",
+        "Galeazzi79UX_H.3.IV"
+      ]
+    },
+    {
+      "Name": "IV UX CKD",
+      "Classifiables": [
+        "Galeazzi79UX_CKD.3.IV"
+      ]
+    },
+    {
+      "Name": "PO Healthy",
+      "Classifiables": [
+        "Balant81.15.PO",
+        "Guerret83PO.5.PO",
+        "Gretzer86_Y.10.PO",
+        "Aellig82_15.15.PO"
+      ]
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "PO Optimization"
+    },
+    {
+      "Name": "IV Optimization"
+    }
+  ]
+}

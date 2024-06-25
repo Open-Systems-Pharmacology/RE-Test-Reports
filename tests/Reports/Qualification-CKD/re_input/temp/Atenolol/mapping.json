@@ -1,0 +1,783 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch Healthy 100 mg PO",
+      "Path": "Atenolol/Kirch Healthy 100 mg PO/",
+      "SimulationFile": "Kirch Healthy 100 mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch CKD3 100 mg PO",
+      "Path": "Atenolol/Kirch CKD3 100 mg PO/",
+      "SimulationFile": "Kirch CKD3 100 mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch CKD4 100 mg PO",
+      "Path": "Atenolol/Kirch CKD4 100 mg PO/",
+      "SimulationFile": "Kirch CKD4 100 mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch CKD5 100 mg PO",
+      "Path": "Atenolol/Kirch CKD5 100 mg PO/",
+      "SimulationFile": "Kirch CKD5 100 mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Sassard Healthy 100 mg PO",
+      "Path": "Atenolol/Sassard Healthy 100 mg PO/",
+      "SimulationFile": "Sassard Healthy 100 mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Sassard CKD3 100 mg PO",
+      "Path": "Atenolol/Sassard CKD3 100 mg PO/",
+      "SimulationFile": "Sassard CKD3 100 mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Sassard CKD4 100 mg PO",
+      "Path": "Atenolol/Sassard CKD4 100 mg PO/",
+      "SimulationFile": "Sassard CKD4 100 mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Wan Healthy 50mg PO",
+      "Path": "Atenolol/Wan Healthy 50mg PO/",
+      "SimulationFile": "Wan Healthy 50mg PO"
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Wan CKD4 50 mg PO",
+      "Path": "Atenolol/Wan CKD4 50 mg PO/",
+      "SimulationFile": "Wan CKD4 50 mg PO"
+    }
+  ],
+  "ObservedDataMappings": [
+    {
+      "Id": "Sassard_Healthy",
+      "Path": "ObservedData/Sassard_Healthy.csv"
+    },
+    {
+      "Id": "Sassard_CKD3",
+      "Path": "ObservedData/Sassard_CKD3.csv"
+    },
+    {
+      "Id": "Sassard_CKD4",
+      "Path": "ObservedData/Sassard_CKD4.csv"
+    },
+    {
+      "Id": "Kirch_Healthy",
+      "Path": "ObservedData/Kirch_Healthy.csv"
+    },
+    {
+      "Id": "Kirch_CKD3",
+      "Path": "ObservedData/Kirch_CKD3.csv"
+    },
+    {
+      "Id": "Kirch_CKD4",
+      "Path": "ObservedData/Kirch_CKD4.csv"
+    },
+    {
+      "Id": "Kirch_CKD5",
+      "Path": "ObservedData/Kirch_CKD5.csv"
+    },
+    {
+      "Id": "Wan_CKD4",
+      "Path": "ObservedData/Wan_CKD4.csv"
+    },
+    {
+      "Id": "Wan_Healthy",
+      "Path": "ObservedData/Wan_Healthy.csv"
+    }
+  ],
+  "Plots": [
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch Healthy 100 mg PO",
+      "SectionReference": "atenolol_healthy",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Kirch_Healthy"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Kirch_Healthy-Atenolol-Measurement",
+              "Path": "Kirch_Healthy|ObservedData|||Atenolol|Measurement",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in healthy subjects. Observed data (circles) presented from Kirch.",
+        "OriginText": "Atenolol (1)\nKirch Healthy 100 mg PO\n2022-04-05 10:02"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch CKD3 100 mg PO",
+      "SectionReference": "atenolol_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Kirch_CKD3"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Kirch_CKD3-Atenolol-Measurement",
+              "Path": "Kirch_CKD3|ObservedData|||Atenolol|Measurement",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in subjects with CKD. Observed data (circles) presented from Kirch.",
+        "OriginText": "Atenolol (1)\nKirch CKD3 100 mg PO\n2022-04-05 11:11"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch CKD4 100 mg PO",
+      "SectionReference": "atenolol_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Kirch_CKD4"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Kirch_CKD4-Atenolol-Measurement",
+              "Path": "Kirch_CKD4|ObservedData|||Atenolol|Measurement",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in subjects with CKD. Observed data (circles) presented from Kirch.",
+        "OriginText": "Atenolol (1)\nKirch CKD4 100 mg PO\n2022-04-05 09:56"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Kirch CKD5 100 mg PO",
+      "SectionReference": "atenolol_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Kirch_CKD5"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Kirch_CKD5-Atenolol-Measurement",
+              "Path": "Kirch_CKD5|ObservedData|||Atenolol|Measurement",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after multiple doses of 100 mg once daily in subjects with CKD. Observed data (circles) presented from Kirch.",
+        "OriginText": "Atenolol (1)\nKirch CKD5 100 mg PO\n2022-04-05 09:59"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Sassard Healthy 100 mg PO",
+      "SectionReference": "atenolol_healthy",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Whole Blood-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Sassard_Healthy"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Sassard_Healthy-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Sassard_Healthy|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 100 mg in healthy subjects. Observed data (circles) presented from Sassard.",
+        "OriginText": "Atenolol (1)\nSassard Healthy 100 mg PO\n2022-04-05 10:43"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Sassard CKD3 100 mg PO",
+      "SectionReference": "atenolol_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Whole Blood-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Sassard_CKD3"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Sassard_CKD3-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Sassard_CKD3|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 100 mg in subjects with CKD. Observed data (circles) presented from Sassard.",
+        "OriginText": "Atenolol (1)\nSassard CKD3 100 mg PO\n2022-04-05 10:38"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Sassard CKD4 100 mg PO",
+      "SectionReference": "atenolol_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Whole Blood-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Whole Blood (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Sassard_CKD4"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Sassard_CKD4-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Sassard_CKD4|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 100 mg in subjects with CKD. Observed data (circles) presented from Sassard.",
+        "OriginText": "Atenolol (1)\nSassard CKD4 100 mg PO\n2022-04-05 10:40"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Wan Healthy 50mg PO",
+      "SectionReference": "atenolol_healthy",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "ArithmeticMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "ArithmeticStandardDeviation",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Wan_Healthy"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Wan_50_PO-Atenolol-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Wan_50_PO|ObservedData|Peripheral Venous Blood|Plasma|Atenolol|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": true
+        },
+        "YAxisSettings": {
+          "AutoRange": true
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 50 mg in healthy subjects. Observed data (circles) presented from Wan.",
+        "OriginText": "Atenolol_old\nWan Healthy 50mg PO\n2022-04-28 11:05"
+      }
+    },
+    {
+      "Project": "Atenolol",
+      "Simulation": "Wan CKD4 50 mg PO",
+      "SectionReference": "atenolol_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Atenolol-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Atenolol|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "ArithmeticMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "ArithmeticStandardDeviation",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Wan_CKD4"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Wan_CKD4-Atenolol-Measurement",
+              "Path": "Wan_CKD4|ObservedData|||Atenolol|Measurement",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": true
+        },
+        "YAxisSettings": {
+          "AutoRange": true
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#00FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Atenolol after a single dose of 50 mg in subjects with CKD. Observed data (circles) presented from Wan.",
+        "OriginText": "Atenolol_old\nWan CKD4 50 mg PO\n2022-04-28 11:01"
+      }
+    }
+  ],
+  "Inputs": []
+}
