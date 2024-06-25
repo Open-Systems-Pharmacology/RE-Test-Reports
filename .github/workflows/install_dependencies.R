@@ -1,7 +1,7 @@
 # Install CRAN R packages
 install.packages(c('dplyr','purrr','covr','readr','tidyr','webshot','spelling','readxl','data.table','gridtext','ggtext','tidyselect','testthat','rmarkdown','rsvg','svglite'), repos = 'http://cran.us.r-project.org', type='win.binary')
 # Install OSPSuite packages
-install.packages('https://github.com/Open-Systems-Pharmacology/rClr/releases/download/v0.9.1/rClr_0.9.1.zip', repos = NULL, type = 'binary')
+#install.packages('https://github.com/Open-Systems-Pharmacology/rClr/releases/download/v0.9.1/rClr_0.9.1.zip', repos = NULL, type = 'binary')
 download.file('https://github.com/Open-Systems-Pharmacology/rSharp/releases/download/v1.0.0/rSharp-v1.0.0-Windows-r_4.4.0.zip', destfile = "rsharp.zip", mode = "wb")
 unzip("rsharp.zip")
 rSharp_archive <- list.files( pattern = "rSharp.*\\.zip")
@@ -13,7 +13,7 @@ unlink('ospsuite.utils.zip')
 download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/tlf-library/artifacts/tlf.zip?pr=false', destfile = 'tlf.zip', mode='wb')
 install.packages('tlf.zip', repos = NULL, type = 'binary')
 unlink('tlf.zip')
-download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/ospsuite-r/artifacts/ospsuite.zip?pr=false', destfile = 'ospsuite.zip', mode='wb')
+download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/ospsuite-r-rsharp/artifacts/ospsuite.zip?pr=false', destfile = 'ospsuite.zip', mode='wb')
 install.packages('ospsuite.zip', repos = NULL, type = 'binary')
 unlink('ospsuite.zip')
 download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/ospsuite-reportingengine/artifacts/ospsuite.reportingengine.zip?pr=false', destfile = 'ospsuite.reportingengine.zip', mode='wb')
