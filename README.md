@@ -31,7 +31,7 @@ currently available in this repository:
 | Reference                                                                                   | Test Report                                                                    | Script                                                                     | Run Time |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:---------|
 | [Aciclovir-Mean](./Reports/Aciclovir-Mean)                                                  | [Aciclovir-Mean](./tests/Reports/Aciclovir-Mean/Report.md)                     | [report-aciclovir-mean.R](./R/report-aciclovir-mean.R)                     | 0.6 min  |
-| [Aciclovir-Mean-SVG](./Reports/Aciclovir-Mean-SVG)                                          | [Aciclovir-Mean-SVG](./tests/Reports/Aciclovir-Mean-SVG/Report.md)             | [report-aciclovir-mean-svg.R](./R/report-aciclovir-mean-svg.R)             | 0.7 min  |
+| [Aciclovir-Mean-SVG](./Reports/Aciclovir-Mean-SVG)                                          | [Aciclovir-Mean-SVG](./tests/Reports/Aciclovir-Mean-SVG/Report.md)             | [report-aciclovir-mean-svg.R](./R/report-aciclovir-mean-svg.R)             | 0.8 min  |
 | [Aciclovir-Population](./Reports/Aciclovir-Population)                                      | [Aciclovir-Population](./tests/Reports/Aciclovir-Population/Report.md)         | [report-aciclovir-population.R](./R/report-aciclovir-population.R)         | 8 min    |
 | [Raltegravir-Absorption](./Reports/Raltegravir-Absorption)                                  | [Raltegravir-Absorption](./tests/Reports/Raltegravir-Absorption/Report.md)     | [report-raltegravir-absorption.R](./R/report-raltegravir-absorption.R)     | 0.9 min  |
 | [Raltegravir-Mass-Balance](./Reports/Raltegravir-Mass-Balance)                              | [Raltegravir-Mass-Balance](./tests/Reports/Raltegravir-Mass-Balance/Report.md) | [report-raltegravir-mass-balance.R](./R/report-raltegravir-mass-balance.R) | 0.6 min  |
@@ -41,7 +41,7 @@ currently available in this repository:
 | [Test-NO10](./Reports/Test-NO10)                                                            | [Test-NO10](./tests/Reports/Test-NO10/Report.md)                               | [report-NO10.R](./R/report-NO10.R)                                         | 4.7 min  |
 | [Test-NO11](./Reports/Test-NO11)                                                            | [Test-NO11](./tests/Reports/Test-NO11/Report.md)                               | [report-NO11.R](./R/report-NO11.R)                                         | 0.3 min  |
 | [Test-NO12](./Reports/Test-NO12)                                                            | [Test-NO12](./tests/Reports/Test-NO12/Report.md)                               | [report-NO12.R](./R/report-NO12.R)                                         | 0.5 min  |
-| [Qualification-CKD](https://github.com/Open-Systems-Pharmacology/Reports/Qualification-CKD) | [Qualification-CKD](./tests/Reports/Qualification-CKD/Report.md)               | [report-qualification-ckd.R](./R/report-qualification-ckd.R)               | 6 min    |
+| [Qualification-CKD](https://github.com/Open-Systems-Pharmacology/Reports/Qualification-CKD) | [Qualification-CKD](./tests/Reports/Qualification-CKD/Report.md)               | [report-qualification-ckd.R](./R/report-qualification-ckd.R)               | 5.9 min  |
 
 ## Test Results
 
