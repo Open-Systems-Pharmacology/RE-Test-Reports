@@ -7,7 +7,8 @@ rm(list = ls())
 library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow
-workingDirectory <- normalizePath("Qualification-CKD", mustWork = FALSE, winslash = "/")
+qualificationProject <- "Qualification-CKD"
+workingDirectory <- normalizePath(qualificationProject, mustWork = FALSE, winslash = "/")
 qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
 pkSimPortableFolder <- "PK-Sim/PK-Sim"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
@@ -35,11 +36,11 @@ configurationPlanFile <- file.path(reInputFolder, paste0(configurationPlanName, 
 
 #' Set watermark that will appear in all generated plots
 #' Default is no watermark. `Label` objects from `tlf` package can be used to specify watermark font.
-watermark <- ""
+watermark <- "Draft"
 
 #' If not set, report created will be named `report.md` and located in the workflow folder namely `reOutputFolder`
 #' Here, the report will be copied in the test reports at the end of the workflow
-reportFolder <- file.path("tests/Reports", workingDirectory)
+reportFolder <- file.path("tests/Reports", qualificationProject)
 reportPath <- file.path(reportFolder, "Report.md")
 
 #' @description Start **Qualification Runner** to generate inputs for the reporting engine
@@ -87,3 +88,10 @@ workflow$setWatermark(watermark)
 
 #' Run the `QualificationWorklfow`
 workflow$runWorkflow()
+
+# Copy logs to get final run time on reports
+file.copy(
+  from = file.path(reOutputFolder, "log-info.txt"),
+  to = reportFolder,
+  overwrite = TRUE
+)
