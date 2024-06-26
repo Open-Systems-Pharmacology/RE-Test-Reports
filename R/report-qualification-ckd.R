@@ -7,7 +7,7 @@ rm(list = ls())
 library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow
-workingDirectory <- normalizePath("tests/Reports/Qualification-CKD", mustWork = FALSE)
+workingDirectory <- "Qualification-CKD"
 qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
 pkSimPortableFolder <- "PK-Sim/PK-Sim"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
@@ -38,8 +38,9 @@ configurationPlanFile <- file.path(reInputFolder, paste0(configurationPlanName, 
 watermark <- ""
 
 #' If not set, report created will be named `report.md` and located in the workflow folder namely `reOutputFolder`
-reportFolder <- file.path(workingDirectory, "report")
-reportPath <- file.path(reportFolder, "report.md")
+#' Here, the report will be copied in the test reports at the end of the workflow
+reportFolder <- file.path("tests/Reports", workingDirectory)
+reportPath <- file.path(reportFolder, "Report.md")
 
 #' @description Start **Qualification Runner** to generate inputs for the reporting engine
 #' @param logFile If not `null` is passed internally via the `-l` option
