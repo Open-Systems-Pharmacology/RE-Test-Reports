@@ -7,7 +7,7 @@ rm(list = ls())
 library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow
-workingDirectory <- "Qualification-CKD"
+workingDirectory <- normalizePath("Qualification-CKD", mustWork = FALSE, winslash = "/")
 qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
 pkSimPortableFolder <- "PK-Sim/PK-Sim"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
