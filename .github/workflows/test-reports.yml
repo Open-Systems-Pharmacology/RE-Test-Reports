@@ -26,6 +26,9 @@ jobs:
       - name: Install ospsuite ecosystem and cran packages
         run: |
           Rscript .github/workflows/install_dependencies.R
+      - name: Check where runner and pk sim were saved
+        run: | 
+          Rscript -e 'print(list.files(path = "D:/", pattern = "QualificationRunner", recursive = TRUE, full.names = TRUE))'
       - name: Run Tests through README.Rmd
         run: |
           Rscript -e 'rmarkdown::render("README.Rmd", encoding = "UTF-8")'
@@ -33,6 +36,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add --all || echo "No changes to commit"
-          git commit -m "Added/modified files and updated README" || echo "No changes to commit"
+          git add README.md || echo "No changes in README"
+          git add ./tests/Reports || echo "No changes in Test Reports"
+          git commit -m "Added/modified test reports and updated README" || echo "No changes to commit"
           git push origin

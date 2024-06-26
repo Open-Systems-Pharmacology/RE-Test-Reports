@@ -39,7 +39,6 @@ expectKnownImage <- function(testFile, refFile) {
   ))
 }
 
-reports <- list.dirs(path = "../Reports", recursive = FALSE, full.names = FALSE)
 resultsToTest <- data.frame(
   name = c(
     "Simulation Results", "PK Analysis Results", "Sensitivity Results",
@@ -53,30 +52,40 @@ resultsToTest <- data.frame(
   )
 )
 
-for (report in reports) {
-  context(report)
+reportMappings <- jsonlite::fromJSON("report-mapping.json", simplifyVector = FALSE)
+
+for (mapping in reportMappings) {
+  context(mapping$Report)
+  # No reference, only test if report has run
+  if(!mapping$Reference){
+    test_that("Report has run", {
+      expect_true(file.exists(file.path("..", "Reports", mapping$Report, "Report.md")))
+  })
+  next
+  }
+  
   test_that("Expected Files", {
     expectFiles(
-      list.files(path = file.path("../..", "Reports", report), recursive = TRUE),
-      list.files(path = file.path("..", "Reports", report), recursive = TRUE)
+      list.files(path = file.path("../..", "Reports", mapping$Report), recursive = TRUE),
+      list.files(path = file.path("..", "Reports", mapping$Report), recursive = TRUE)
     )
   })
 
   test_that("Content of Report", {
-    referenceReport <- file.path("../..", "Reports", report, "Report.md")
-    testReport <- file.path("..", "Reports", report, "Report.md")
+    referenceReport <- file.path("../..", "Reports", mapping$Report, "Report.md")
+    testReport <- file.path("..", "Reports", mapping$Report, "Report.md")
     expectKnownReport(testReport, referenceReport)
   })
 
   test_that("Expected Plots", {
     referenceImages <- list.files(
-      path = file.path("../..", "Reports", report),
+      path = file.path("../..", "Reports", mapping$Report),
       recursive = TRUE,
       full.names = TRUE,
       pattern = "(png|svg)"
     )
     testImages <- list.files(
-      path = file.path("..", "Reports", report),
+      path = file.path("..", "Reports", mapping$Report),
       recursive = TRUE,
       full.names = TRUE,
       pattern = "(png|svg)"
@@ -89,13 +98,13 @@ for (report in reports) {
   for (resultIndex in seq_along(resultsToTest$name)) {
     test_that(paste("Expected", resultsToTest$name[resultIndex]), {
       referenceResults <- list.files(
-        path = file.path("../..", "Reports", report, resultsToTest$folder[resultIndex]),
+        path = file.path("../..", "Reports", mapping$Report, resultsToTest$folder[resultIndex]),
         recursive = TRUE,
         full.names = TRUE,
         pattern = "csv"
       )
       testResults <- list.files(
-        path = file.path("..", "Reports", report, resultsToTest$folder[resultIndex]),
+        path = file.path("..", "Reports", mapping$Report, resultsToTest$folder[resultIndex]),
         recursive = TRUE,
         full.names = TRUE,
         pattern = "csv"

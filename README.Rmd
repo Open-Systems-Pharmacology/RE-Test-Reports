@@ -24,7 +24,7 @@ Turning the list to data.frame and extracting the relevant data will give a grea
 ```{r, include=FALSE}
 # Remove previous tests
 unlink("./tests/Reports", recursive = TRUE, force = TRUE)
-
+dir.create("./tests/Reports")
 # Prevent failed tests to stop the workflow
 testResultsRaw <- testthat::test_local(
   reporter = testthat::ListReporter,
@@ -77,35 +77,34 @@ Models, Observed and Simulated Data are respectively available in the [Models](.
 Here is the summary of the reports, their scripts and their run time currently available in this repository:
 
 ```{r, results='asis'}
-availableReports <- list.dirs("./tests/Reports", recursive = FALSE, full.names = FALSE)
+reportMappings <- jsonlite::fromJSON("tests/testthat/report-mapping.json", simplifyVector = TRUE)
+
 availableDurations <- unname(sapply(
-  availableReports,
+  reportMappings$Report,
   function(reportDir) {
-    logInfo <- readLines(file.path("tests", "Reports", reportDir, "log-info.txt"), warn = FALSE)
+    logFile <- head(list.files(
+      path = file.path("tests", "Reports", reportDir),
+      pattern = "log-info",
+      full.names = TRUE,
+      recursive = TRUE
+      ), 1)
+    
+    if(length(logFile)==0){return(NA)}
+    logInfo <- readLines(logFile, warn = FALSE)
     lastLine <- tail(logInfo[grepl(pattern = "completed in", logInfo)], 1)
     duration <- tail(unlist(strsplit(split = "completed in", x = lastLine)), 1)
     return(trimws(duration))
   }
 ))
-# Map report to script Naming convention for scripts was report lower case of directory
-availableScripts <- unname(sapply(
-  availableReports,
-  function(reportDir) {
-    for (rScript in list.files("./R", pattern = ".R")) {
-      scriptContent <- readLines(file.path("R", rScript), warn = FALSE)
-      reportDefinition <- scriptContent[grepl(pattern = "reportFolder <-", scriptContent)]
-      if (grepl(pattern = reportDir, reportDefinition)) {
-        return(rScript)
-      }
-      next
-    }
-    return(NA)
-  }
-))
 
 knitr::kable(data.frame(
-  "Report" = paste0("[", availableReports, "](./Reports/", availableReports, "/Report.md)"),
-  "Script" = paste0("[", availableScripts, "](./R/", availableScripts, ")"),
+  "Reference" = paste0(
+    "[", reportMappings$Report, "](", 
+    ifelse(reportMappings$Reference, ".", "https://github.com/Open-Systems-Pharmacology"), 
+    "/Reports/", reportMappings$Report, ")"
+    ),
+  "Test Report" = paste0("[", reportMappings$Report, "](./tests/Reports/", reportMappings$Report, "/Report.md)"),
+  "Script" = paste0("[", reportMappings$Script, ".R](./R/", reportMappings$Script, ".R)"),
   "Run Time" = availableDurations,
   check.names = FALSE
 ))
