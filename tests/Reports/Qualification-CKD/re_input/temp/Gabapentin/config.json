@@ -1,0 +1,34 @@
+{
+  "Project": "Gabapentin",
+  "SnapshotFile": "D:\\a\\RE-Test-Reports\\RE-Test-Reports\\tests\\Reports\\Qualification-CKD\\input\\Models/Gabapentin.json",
+  "OutputFolder": "D:\\a\\RE-Test-Reports\\RE-Test-Reports\\tests\\Reports\\Qualification-CKD/re_input",
+  "ObservedDataFolder": "D:\\a\\RE-Test-Reports\\RE-Test-Reports\\tests\\Reports\\Qualification-CKD/re_input\\ObservedData",
+  "InputsFolder": "D:\\a\\RE-Test-Reports\\RE-Test-Reports\\tests\\Reports\\Qualification-CKD/re_input\\Inputs",
+  "MappingFile": "D:\\a\\RE-Test-Reports\\RE-Test-Reports\\tests\\Reports\\Qualification-CKD/re_input\\temp\\Gabapentin\\mapping.json",
+  "TempFolder": "D:\\a\\RE-Test-Reports\\RE-Test-Reports\\tests\\Reports\\Qualification-CKD/re_input\\temp\\Gabapentin",
+  "ReportConfigurationFile": "D:\\a\\RE-Test-Reports\\RE-Test-Reports\\tests\\Reports\\Qualification-CKD/re_input\\report-configuration-plan.json",
+  "SimulationPlots": [
+    {
+      "Simulation": "Blum Healthy 400 mg PO",
+      "Project": "Gabapentin",
+      "SectionReference": "gabapentin_healthy"
+    },
+    {
+      "Simulation": "Blum CKD3 400 mg PO",
+      "Project": "Gabapentin",
+      "SectionReference": "gabapentin_ckd"
+    },
+    {
+      "Simulation": "Blum CKD5 400 mg PO",
+      "Project": "Gabapentin",
+      "SectionReference": "gabapentin_ckd"
+    }
+  ],
+  "Inputs": [],
+  "BuildingBlocks": [],
+  "Simulations": [
+    "Blum Healthy 400 mg PO",
+    "Blum CKD3 400 mg PO",
+    "Blum CKD5 400 mg PO"
+  ]
+}

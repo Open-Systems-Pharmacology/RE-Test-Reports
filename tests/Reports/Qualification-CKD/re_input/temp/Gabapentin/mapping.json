@@ -1,0 +1,267 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Gabapentin",
+      "Simulation": "Blum Healthy 400 mg PO",
+      "Path": "Gabapentin/Blum Healthy 400 mg PO/",
+      "SimulationFile": "Blum Healthy 400 mg PO"
+    },
+    {
+      "Project": "Gabapentin",
+      "Simulation": "Blum CKD3 400 mg PO",
+      "Path": "Gabapentin/Blum CKD3 400 mg PO/",
+      "SimulationFile": "Blum CKD3 400 mg PO"
+    },
+    {
+      "Project": "Gabapentin",
+      "Simulation": "Blum CKD5 400 mg PO",
+      "Path": "Gabapentin/Blum CKD5 400 mg PO/",
+      "SimulationFile": "Blum CKD5 400 mg PO"
+    }
+  ],
+  "ObservedDataMappings": [
+    {
+      "Id": "Blum_CKD5",
+      "Path": "ObservedData/Blum_CKD5.csv"
+    },
+    {
+      "Id": "Blum_Healthy",
+      "Path": "ObservedData/Blum_Healthy.csv"
+    },
+    {
+      "Id": "Blum_CKD3",
+      "Path": "ObservedData/Blum_CKD3.csv"
+    }
+  ],
+  "Plots": [
+    {
+      "Project": "Gabapentin",
+      "Simulation": "Blum Healthy 400 mg PO",
+      "SectionReference": "gabapentin_healthy",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Gabapentin-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Gabapentin|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Blum_Healthy"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Blum_Healthy-Gabapentin-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Blum_Healthy|ObservedData|Peripheral Venous Blood|Plasma|Gabapentin|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Gabapentin after a single dose of 400 mg in healthy subjects. Observed data (circles) presented from Blum.",
+        "OriginText": "Gabapentin\nBlum Healthy 400 mg PO\n2022-04-05 14:06"
+      }
+    },
+    {
+      "Project": "Gabapentin",
+      "Simulation": "Blum CKD3 400 mg PO",
+      "SectionReference": "gabapentin_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Gabapentin-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Gabapentin|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Blum_CKD3"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Blum_CKD3-Gabapentin-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Blum_CKD3|ObservedData|Peripheral Venous Blood|Plasma|Gabapentin|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": true
+        },
+        "YAxisSettings": {
+          "AutoRange": true
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Gabapentin after a single dose of 400 mg in subjects with CKD. Observed data (circles) presented from Blum.",
+        "OriginText": "Gabapentin\nBlum CKD3 400 mg PO\n2022-04-05 14:06"
+      }
+    },
+    {
+      "Project": "Gabapentin",
+      "Simulation": "Blum CKD5 400 mg PO",
+      "SectionReference": "gabapentin_ckd",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.PopulationAnalysisChart, PKSim.Core",
+        "Type": "TimeProfile",
+        "Analysis": {
+          "Fields": [
+            {
+              "Name": "Gabapentin-Peripheral Venous Blood-Plasma-Concentration",
+              "Dimension": "Concentration (molar)",
+              "Scaling": "Log",
+              "Unit": "µmol/l",
+              "QuantityPath": "Organism|PeripheralVenousBlood|Gabapentin|Plasma (Peripheral Venous Blood)",
+              "QuantityType": "Drug, Observer",
+              "Color": "#000000",
+              "Area": "DataArea"
+            }
+          ],
+          "Statistics": [
+            {
+              "Id": "GeometricMean",
+              "LineStyle": "Solid"
+            },
+            {
+              "Id": "Range90",
+              "LineStyle": "Solid"
+            }
+          ]
+        },
+        "ObservedDataCollection": {
+          "ObservedData": [
+            "Blum_CKD5"
+          ],
+          "ApplyGrouping": false,
+          "CurveOptions": [
+            {
+              "Caption": "Blum_CKD5-Gabapentin-Peripheral Venous Blood-Plasma-Concentration ",
+              "Path": "Blum_CKD5|ObservedData|Peripheral Venous Blood|Plasma|Gabapentin|Concentration ",
+              "CurveOptions": {
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ]
+        },
+        "XAxisSettings": {
+          "AutoRange": false
+        },
+        "YAxisSettings": {
+          "AutoRange": false
+        },
+        "SecondaryYAxisSettings": [],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "Title": "Simulation of the pharmacokinetics of Gabapentin after a single dose of 400 mg in subjects with CKD. Observed data (circles) presented from Blum.",
+        "OriginText": "Gabapentin\nBlum CKD5 400 mg PO\n2022-04-05 14:06"
+      }
+    }
+  ],
+  "Inputs": []
+}

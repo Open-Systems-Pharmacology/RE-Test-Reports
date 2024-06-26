@@ -1,0 +1,3099 @@
+{
+  "Version": 77,
+  "Individuals": [
+    {
+      "Name": "Gyselynck",
+      "Seed": 28809219,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.0,
+          "Unit": "year(s)"
+        }
+      }
+    },
+    {
+      "Name": "Meunier",
+      "Seed": 37616427,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 28.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 64.2,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 169.0,
+          "Unit": "cm"
+        }
+      }
+    },
+    {
+      "Name": "Merritt",
+      "Seed": 38318213,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 32.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 83.2,
+          "Unit": "kg"
+        }
+      }
+    },
+    {
+      "Name": "Dume",
+      "Seed": 39028439,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      }
+    },
+    {
+      "Name": "Lorentzen",
+      "Seed": 4721073,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.5,
+          "Unit": "year(s)"
+        }
+      }
+    }
+  ],
+  "Populations": [
+    {
+      "Name": "Dume Pop",
+      "Seed": 35787487,
+      "Settings": {
+        "NumberOfIndividuals": 100,
+        "ProportionOfFemales": 0,
+        "Age": {
+          "Min": 20.0,
+          "Max": 45.0,
+          "Unit": "year(s)"
+        },
+        "Individual": {
+          "Name": "Dume",
+          "Seed": 39028439,
+          "OriginData": {
+            "CalculationMethods": [
+              "SurfaceAreaPlsInt_VAR1",
+              "Body surface area - Mosteller"
+            ],
+            "Species": "Human",
+            "Population": "European_ICRP_2002",
+            "Gender": "MALE",
+            "Age": {
+              "Value": 30.0,
+              "Unit": "year(s)"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Gentamicin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -1.8438814192,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2020-03-04 19:59"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "DrugBank",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -3.1,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Internet",
+                "Description": "DrugBank"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 100.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "DrugBank"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "DrugBank"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.2,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Dagil 2013"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 7.4,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Dagil 2013"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 7.7,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Dagil 2013"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 477.59,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "IV",
+      "FormulationType": "Formulation_Dissolved"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "2 mg/kg IV",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 2.0,
+          "Unit": "mg/kg"
+        }
+      ]
+    },
+    {
+      "Name": "1 mg/kg IV",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1.0,
+          "Unit": "mg/kg"
+        }
+      ]
+    },
+    {
+      "Name": "1 mg/kg IV inf 20min",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1.0,
+          "Unit": "mg/kg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 20.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "1.5 mg/kg IV inf 20min",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1.5,
+          "Unit": "mg/kg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 20.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "1.5 mg/kg IV inf 30min",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1.5,
+          "Unit": "mg/kg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "80mg IV Bolus",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 80.0,
+          "Unit": "mg"
+        }
+      ]
+    },
+    {
+      "Name": "80mg IV inf 15min",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 80.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 15.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "40mg Bolus",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 40.0,
+          "Unit": "mg"
+        }
+      ]
+    },
+    {
+      "Name": "240mg IV bolus",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 240.0,
+          "Unit": "mg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Dume Pop",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Dume_40_healthy"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Gentamicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Dume Pop",
+      "Compounds": [
+        {
+          "Name": "Gentamicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "40mg Bolus"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Gentamicin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Dume_40_healthy"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Observed Mean and SD",
+                "Path": "Dume_40_healthy|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "Min": -0.1230434783,
+            "Max": 6.7410144928,
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "Min": 0.1718151995,
+            "Max": 8.1855673161,
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Figure 3.4.1: Predicted gentamicin plasma concentration after a 40mg IV dose in a healthy population vs data from Dume (1971).",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 500,
+            "Fonts": {
+              "AxisSize": 16,
+              "LegendSize": 14,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Gentamicin\nDume Pop\n2020-03-04 20:10"
+        }
+      ]
+    },
+    {
+      "Name": "Ervin ESRD 1 mg/kg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Ervin_1"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 40.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|1 mg/kg IV inf 20min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 20.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Gentamicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Dume Pop",
+      "Compounds": [
+        {
+          "Name": "Gentamicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1 mg/kg IV inf 20min"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Gentamicin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Ervin_1"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Observed",
+                "Path": "Ervin_1|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Figure 3.4.2: Predicted gentamicin plasma concentration after a 1 mg/kg IV dose in a dialisys population vs data from Ervin (1976).",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 500,
+            "Fonts": {
+              "AxisSize": 16,
+              "LegendSize": 14,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Gentamicin\nErvin ESRD 1 mg/kg\n2020-04-15 16:45"
+        }
+      ]
+    },
+    {
+      "Name": "Ervin ESRD 1.5 mg/kg IV",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Ervin_2"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 40.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|1.5 mg/kg IV inf 20min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 20.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Gentamicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Population": "Dume Pop",
+      "Compounds": [
+        {
+          "Name": "Gentamicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1.5 mg/kg IV inf 20min"
+          }
+        }
+      ],
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Simulation",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Gentamicin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Ervin_2"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Observed",
+                "Path": "Ervin_2|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Figure 3.4.3: Predicted gentamicin plasma concentration after a 1.5 mg/kg IV dose in a dialisys population vs data from Ervin (1976).",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 500,
+            "Fonts": {
+              "AxisSize": 16,
+              "LegendSize": 14,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Gentamicin\nErvin ESRD 1.5 mg/kg IV\n2020-04-15 16:47"
+        }
+      ]
+    }
+  ],
+  "ParameterIdentifications": [
+    {
+      "Name": "Parameter Identification 1",
+      "Simulations": [],
+      "Configuration": {
+        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
+        "RemoveLLOQMode": "Never",
+        "CalculateJacobian": false,
+        "Algorithm": {
+          "Name": "Monte - Carlo",
+          "Properties": [
+            {
+              "Name": "BreakCondition",
+              "Value": 0.001
+            },
+            {
+              "Name": "InitialAlpha",
+              "Value": 30.0
+            },
+            {
+              "Name": "MaxIterations",
+              "Value": 10000
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Gyselynck_Healthy",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet1"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Gisel_Healthy"
+        },
+        {
+          "Name": "Dose",
+          "Value": "2 mg/kg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Gyselynck_Healthy|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-02-05T17:50:54.6539836-05:00",
+            "Source": "Gentamicin Data.Sheet1.1.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            6.191166,
+            3.38192534,
+            1.5499965,
+            0.791840434
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Gyselynck_Healthy|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-02-05T17:50:54.6539836-05:00",
+          "Source": "Gentamicin Data.Sheet1.1.Time [h]"
+        },
+        "Values": [
+          1.0,
+          2.0,
+          4.0,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Ervin_1",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet2"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet2"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Ervin_1"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg/kg IV inf 20min"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "Error ",
+              "QuantityInfo": {
+                "Name": "Error ",
+                "Path": "Ervin_1|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Error "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-03-02T19:24:35.9545555-05:00",
+                "Source": "Gentamicin Data.Sheet2.1.Error [mg/L]",
+                "MolWeight": 477.59
+              },
+              "Values": [
+                0.388093024,
+                0.3308746,
+                0.27836442,
+                0.27178812,
+                0.248623192,
+                0.2740745
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Ervin_1|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-02T19:24:35.9545555-05:00",
+            "Source": "Gentamicin Data.Sheet2.1.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            4.280068,
+            3.616358,
+            2.9875443,
+            2.47496152,
+            2.01652861,
+            1.700111
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Ervin_1|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-02T19:24:35.9545555-05:00",
+          "Source": "Gentamicin Data.Sheet2.1.Time [h]"
+        },
+        "Values": [
+          1.0,
+          8.0,
+          16.0,
+          24.0,
+          32.0,
+          40.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Ervin_2",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet2"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet2"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Ervin_2"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1.5 mg/kg IV inf 20min"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "Error ",
+              "QuantityInfo": {
+                "Name": "Error ",
+                "Path": "Ervin_2|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Error "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-03-02T19:24:35.9545555-05:00",
+                "Source": "Gentamicin Data.Sheet2.2.Error [mg/L]",
+                "MolWeight": 477.59
+              },
+              "Values": [
+                0.6,
+                0.3898337,
+                0.44814682,
+                0.4,
+                0.338146,
+                0.3
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Ervin_2|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-02T19:24:35.9545555-05:00",
+            "Source": "Gentamicin Data.Sheet2.2.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            6.3,
+            5.42352772,
+            4.70573568,
+            4.1,
+            3.51370573,
+            3.1
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Ervin_2|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-02T19:24:35.9545555-05:00",
+          "Source": "Gentamicin Data.Sheet2.2.Time [h]"
+        },
+        "Values": [
+          1.0,
+          8.0,
+          16.0,
+          24.0,
+          32.0,
+          40.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Meunier_Bolus",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet3"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet3"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Meunier_Bolus"
+        },
+        {
+          "Name": "Dose",
+          "Value": "80 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "Error ",
+              "QuantityInfo": {
+                "Name": "Error ",
+                "Path": "Meunier_Bolus|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Error "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-03-02T19:57:00.8206277-05:00",
+                "Source": "Gentamicin Data.Sheet3.1.Error [mg/L]",
+                "MolWeight": 477.59
+              },
+              "Values": [
+                4.609909,
+                3.75114036,
+                3.599983,
+                1.09922373,
+                0.8725263,
+                0.5152468,
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Meunier_Bolus|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-02T19:57:00.8206277-05:00",
+            "Source": "Gentamicin Data.Sheet3.1.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            17.8,
+            12.5263405,
+            9.8129015,
+            5.89114761,
+            4.182165,
+            2.39933157,
+            0.45
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Meunier_Bolus|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-02T19:57:00.8206277-05:00",
+          "Source": "Gentamicin Data.Sheet3.1.Time [h]"
+        },
+        "Values": [
+          0.033,
+          0.083,
+          0.17,
+          0.5,
+          1.0,
+          2.0,
+          8.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Meunier_Infusion",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet3"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet3"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Meunier_Infusion"
+        },
+        {
+          "Name": "Dose",
+          "Value": "80 mg IV inf 15min"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "Error ",
+              "QuantityInfo": {
+                "Name": "Error ",
+                "Path": "Meunier_Infusion|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Error "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-03-02T19:57:00.8206277-05:00",
+                "Source": "Gentamicin Data.Sheet3.2.Error [mg/L]",
+                "MolWeight": 477.59
+              },
+              "Values": [
+                1.016796,
+                0.638919,
+                0.831288,
+                1.03741074,
+                0.996189535,
+                0.851918936,
+                0.590846837,
+                0.412205517,
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Meunier_Infusion|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-02T19:57:00.8206277-05:00",
+            "Source": "Gentamicin Data.Sheet3.2.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            4.411873,
+            7.8,
+            7.545271,
+            6.858409,
+            6.206019,
+            4.77129841,
+            3.7,
+            2.165748,
+            0.44
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Meunier_Infusion|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-02T19:57:00.8206277-05:00",
+          "Source": "Gentamicin Data.Sheet3.2.Time [h]"
+        },
+        "Values": [
+          0.125,
+          0.25,
+          0.283,
+          0.333,
+          0.420000017,
+          0.75,
+          1.25,
+          2.25,
+          8.25
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Merritt",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet4"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet4"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Merritt"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1.5 mg/kg LBW IV inf 30min"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "Error ",
+              "QuantityInfo": {
+                "Name": "Error ",
+                "Path": "Merritt|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Error "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-03-02T20:09:05.3679519-05:00",
+                "Source": "Gentamicin Data.Sheet4.Error [mg/L]",
+                "MolWeight": 477.59
+              },
+              "Values": [
+                1.326201,
+                1.01691747,
+                0.653644,
+                0.6649399,
+                0.4709374,
+                0.5135372,
+                0.4369738,
+                0.3844412,
+                0.29885,
+                0.183720246
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Merritt|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-02T20:09:05.3679519-05:00",
+            "Source": "Gentamicin Data.Sheet4.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            3.69400072,
+            7.02507448,
+            5.086187,
+            4.0863204,
+            3.4669466,
+            3.01492834,
+            2.37400961,
+            1.62881839,
+            1.13376331,
+            0.817290246
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Merritt|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-02T20:09:05.3679519-05:00",
+          "Source": "Gentamicin Data.Sheet4.Time [h]"
+        },
+        "Values": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Dume_40_healthy",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet5"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet5"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Dume_40_healthy"
+        },
+        {
+          "Name": "Dose",
+          "Value": "40"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "RelatedColumns": [
+            {
+              "Name": "Error ",
+              "QuantityInfo": {
+                "Name": "Error ",
+                "Path": "Dume_40_healthy|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Error "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2020-03-02T20:19:24.149054-05:00",
+                "Source": "Gentamicin Data.Sheet5.Error [mg/L]",
+                "MolWeight": 477.59
+              },
+              "Values": [
+                0.344373018,
+                0.165960208,
+                0.0741435,
+                0.07528067,
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Dume_40_healthy|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-02T20:19:24.149054-05:00",
+            "Source": "Gentamicin Data.Sheet5.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            1.30297649,
+            0.9036709,
+            0.5012722,
+            0.297914028,
+            0.09896303
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Dume_40_healthy|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-02T20:19:24.149054-05:00",
+          "Source": "Gentamicin Data.Sheet5.Time [h]"
+        },
+        "Values": [
+          1.0,
+          2.0,
+          4.0,
+          6.0,
+          10.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen1_Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen1_Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen1_Plasma|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.1.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            14.639225,
+            10.87332,
+            9.102875,
+            6.893159,
+            3.70599985,
+            2.49592,
+            2.12122917,
+            1.99013817
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen1_Plasma|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.1.Time [h]"
+        },
+        "Values": [
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349,
+          5.33333349,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen1_Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Interstitial"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen1_Fat"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen1_Fat|ObservedData|Fat|Interstitial|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.2.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            7.104735,
+            5.60866642,
+            5.129319,
+            4.02013636,
+            2.44890714,
+            2.66520715,
+            2.44907331,
+            2.12144542,
+            1.96606612
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen1_Fat|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.2.Time [h]"
+        },
+        "Values": [
+          0.166666672,
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349,
+          5.33333349,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen5_Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen5_Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen5_Plasma|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.3.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            17.2361889,
+            13.9057455,
+            11.3832026,
+            5.726175,
+            5.22489,
+            3.70302558,
+            3.0833993,
+            2.6941793
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen5_Plasma|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.3.Time [h]"
+        },
+        "Values": [
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349,
+          5.33333349,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen5_Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Interstitial"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen5_Fat"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen5_Fat|ObservedData|Fat|Interstitial|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.4.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            5.01676369,
+            4.19473553,
+            3.16027951,
+            2.95722485,
+            2.98040748,
+            2.47945762,
+            2.23551059,
+            2.12614131
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen5_Fat|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.4.Time [h]"
+        },
+        "Values": [
+          0.166666672,
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen2_Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen2_Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen2_Plasma|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.5.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            20.2172222,
+            14.0042439,
+            10.0586109,
+            4.492952,
+            3.00942421
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen2_Plasma|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.5.Time [h]"
+        },
+        "Values": [
+          0.25,
+          0.5,
+          1.0,
+          2.75,
+          4.75
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen2_Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Interstitial"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen2_Fat"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen2_Fat|ObservedData|Fat|Interstitial|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.6.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            6.46012831,
+            5.92409,
+            5.276538,
+            3.6743958,
+            2.89127445,
+            2.43755317,
+            1.97281659,
+            0.965572
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen2_Fat|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.6.Time [h]"
+        },
+        "Values": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          2.75,
+          3.5,
+          4.75,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen6_Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen6_Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen6_Plasma|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.7.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            24.3368111,
+            12.8405371,
+            9.466288,
+            7.098903,
+            5.864159
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen6_Plasma|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.7.Time [h]"
+        },
+        "Values": [
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen6_Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Interstitial"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen6_Fat"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen6_Fat|ObservedData|Fat|Interstitial|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.8.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            9.111499,
+            6.632788,
+            5.1248064,
+            6.88637543,
+            5.323876,
+            4.63324833,
+            4.05786467,
+            3.60425329
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen6_Fat|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.8.Time [h]"
+        },
+        "Values": [
+          0.166666672,
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349,
+          5.33333349
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen3_Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen3_Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen3_Plasma|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.9.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            19.1782265,
+            12.0672874,
+            9.888589,
+            5.7018714,
+            3.440291,
+            1.57914829
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen3_Plasma|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.9.Time [h]"
+        },
+        "Values": [
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          5.33333349
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen3_Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Interstitial"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen3_Fat"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen3_Fat|ObservedData|Fat|Interstitial|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.10.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            2.00379753,
+            3.154479,
+            3.138807,
+            2.76951218,
+            2.22591686,
+            1.91639626,
+            1.88856852,
+            1.66614759
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen3_Fat|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.10.Time [h]"
+        },
+        "Values": [
+          0.166666672,
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen4_Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen4_Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen4_Plasma|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.11.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            18.3345737,
+            8.8317585,
+            7.38228941,
+            4.26955032,
+            3.56639385,
+            2.590196
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen4_Plasma|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.11.Time [h]"
+        },
+        "Values": [
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen4_Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Interstitial"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen4_Fat"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen4_Fat|ObservedData|Fat|Interstitial|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.12.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            7.78872728,
+            5.50549126,
+            8.051527,
+            5.65098,
+            3.26957369,
+            3.907238,
+            3.17945433
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen4_Fat|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.12.Time [h]"
+        },
+        "Values": [
+          0.166666672,
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          4.33333349,
+          5.33333349
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen7_Plasma",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen7_Plasma"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen7_Plasma|ObservedData|Peripheral Venous Blood|Plasma|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.13.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            12.1873341,
+            9.78902149,
+            8.186543,
+            4.69569063,
+            3.70214367,
+            2.56152487,
+            2.04881835,
+            1.84279346
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen7_Plasma|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.13.Time [h]"
+        },
+        "Values": [
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          4.33333349,
+          5.33333349,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Lorentzen7_Fat",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\Private\\prvmalik\\CKD\\Gentamicin\\Gentamicin Data.xlsx.Sheet6"
+        },
+        {
+          "Name": "File",
+          "Value": "Gentamicin Data"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet6"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Gentamicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Fat"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Interstitial"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Lorentzen7_Fat"
+        },
+        {
+          "Name": "Dose",
+          "Value": "240 mg IV"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Concentration ",
+          "QuantityInfo": {
+            "Name": "Concentration ",
+            "Path": "Lorentzen7_Fat|ObservedData|Fat|Interstitial|Gentamicin|Concentration "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2020-03-03T12:03:50.1310553-05:00",
+            "Source": "Gentamicin Data.Sheet6.14.Concentration [mg/L]",
+            "MolWeight": 477.59
+          },
+          "Values": [
+            8.191603,
+            5.745074,
+            7.57740641,
+            4.86908674,
+            1.1620245,
+            3.10118,
+            2.515942
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Lorentzen7_Fat|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2020-03-03T12:03:50.1310553-05:00",
+          "Source": "Gentamicin Data.Sheet6.14.Time [h]"
+        },
+        "Values": [
+          0.166666672,
+          0.5,
+          0.8333333,
+          1.33333337,
+          2.5,
+          3.5,
+          6.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "ObservedDataClassifications": [
+    {
+      "Name": "CKD",
+      "Classifiables": [
+        "Ervin_1",
+        "Ervin_2"
+      ]
+    },
+    {
+      "Name": "Healthy",
+      "Classifiables": [
+        "Gyselynck_Healthy",
+        "Meunier_Bolus",
+        "Meunier_Infusion",
+        "Merritt",
+        "Dume_40_healthy"
+      ]
+    },
+    {
+      "Name": "Lorentzen",
+      "Classifiables": [
+        "Lorentzen1_Plasma",
+        "Lorentzen1_Fat",
+        "Lorentzen5_Plasma",
+        "Lorentzen5_Fat",
+        "Lorentzen2_Plasma",
+        "Lorentzen2_Fat",
+        "Lorentzen6_Plasma",
+        "Lorentzen6_Fat",
+        "Lorentzen3_Plasma",
+        "Lorentzen3_Fat",
+        "Lorentzen4_Plasma",
+        "Lorentzen4_Fat",
+        "Lorentzen7_Plasma",
+        "Lorentzen7_Fat"
+      ]
+    }
+  ]
+}
