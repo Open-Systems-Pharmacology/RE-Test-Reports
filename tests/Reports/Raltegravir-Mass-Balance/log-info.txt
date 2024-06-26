@@ -1,25 +1,25 @@
-25/06/2024 - 15:13:11
+27/05/2024 - 01:12:30
 Reporting Engine Information:
-Date: 25/06/2024 - 15:13:10
+Date: 27/05/2024 - 01:12:30
 User Information:
-Computer Name: fv-az1115-515
+Computer Name: fv-az534-287
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
-R version: R version 4.4.1 (2024-06-14 ucrt)
-OSP Suite Package version: 12.0.1088
-OSP Reporting Engine version: 2.2.346
+R version: R version 4.4.0 (2024-04-24 ucrt)
+OSP Suite Package version: 12.0.537
+OSP Reporting Engine version: 2.2.345
 tlf version: 1.5.167
-25/06/2024 - 15:13:11
+27/05/2024 - 01:12:30
 Starting run of Mean Model Workflow
-25/06/2024 - 15:13:11
+27/05/2024 - 01:12:30
 Starting run of Plot Mass Balance task
-25/06/2024 - 15:13:11
+27/05/2024 - 01:12:30
 Starting run of Plot Mass Balance task for Single Dose (100 mg)
-25/06/2024 - 15:13:21
+27/05/2024 - 01:12:42
 Starting run of Plot Mass Balance task for Multiple Doses (100 mg)
-25/06/2024 - 15:13:45
+27/05/2024 - 01:13:07
 Plot Mass Balance task completed in 0.6 min
-25/06/2024 - 15:13:46
+27/05/2024 - 01:13:07
 Mean Model Workflow completed in 0.6 min

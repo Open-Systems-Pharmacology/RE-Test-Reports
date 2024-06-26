@@ -1,22 +1,22 @@
 ﻿"IndividualId","QuantityPath","Parameter","Value","Unit"
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",22.425316,µmol/l
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",19.567839,µmol/l
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",15.944821,µmol/l
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",18.962402,µmol/l
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",15.044995,µmol/l
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",17.032913,µmol/l
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",18.614597,µmol/l
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",16.053703,µmol/l
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",18.163677,µmol/l
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",22.42532,µmol/l
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",19.56784,µmol/l
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",15.94482,µmol/l
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",18.9624,µmol/l
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",15.045,µmol/l
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",17.03291,µmol/l
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",18.6146,µmol/l
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",16.0537,µmol/l
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",18.16368,µmol/l
 9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max",22.35364,µmol/l
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",5050405.5,mg/l
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",4406872.5,mg/l
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3590933.2,mg/l
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",4270522.5,mg/l
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3388283.5,mg/l
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3835982.2,mg/l
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",4192193.5,mg/l
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3615454.5,mg/l
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",5050407,mg/l
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",4406873,mg/l
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3590933,mg/l
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",4270522,mg/l
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3388285,mg/l
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3835982,mg/l
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",4192194,mg/l
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",3615454,mg/l
 8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",4090642,mg/l
 9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_max_norm",5034263,mg/l
 0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","t_max",0.05,h
@@ -31,134 +31,134 @@
 9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","t_max",0.05,h
 0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.6173996,µmol/l
 1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.09380961,µmol/l
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.040921193,µmol/l
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.23538217,µmol/l
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.04092119,µmol/l
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.2353822,µmol/l
 4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.009646618,µmol/l
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.031293575,µmol/l
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.03129357,µmol/l
 6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.03654552,µmol/l
 7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.008412066,µmol/l
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.16912958,µmol/l
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",1.1844116,µmol/l
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",3277.0767,µmol*min/l
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1943.4102,µmol*min/l
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",0.1691296,µmol/l
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","C_tEnd",1.184412,µmol/l
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",3277.077,µmol*min/l
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1943.41,µmol*min/l
 2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1557.409,µmol*min/l
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",2496.5024,µmol*min/l
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1087.9363,µmol*min/l
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1476.4163,µmol*min/l
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1466.7864,µmol*min/l
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1084.2554,µmol*min/l
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",2267.3901,µmol*min/l
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",4314.0063,µmol*min/l
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",2496.502,µmol*min/l
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1087.936,µmol*min/l
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1476.416,µmol*min/l
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1466.786,µmol*min/l
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",1084.255,µmol*min/l
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",2267.39,µmol*min/l
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd",4314.006,µmol*min/l
 0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",7.380304E+11,µg*min/l
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",4.3767543E+11,µg*min/l
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",3.5074412E+11,µg*min/l
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",4.376754E+11,µg*min/l
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",3.507441E+11,µg*min/l
 3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",5.622373E+11,µg*min/l
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",2.4501415E+11,µg*min/l
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",3.3250368E+11,µg*min/l
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",3.3033496E+11,µg*min/l
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",2.4418514E+11,µg*min/l
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",2.450142E+11,µg*min/l
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",3.325037E+11,µg*min/l
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",3.30335E+11,µg*min/l
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",2.441851E+11,µg*min/l
 8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",5.106389E+11,µg*min/l
 9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_tEnd_norm",9.715573E+11,µg*min/l
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",3696.7295,µmol*min/l
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1978.0905,µmol*min/l
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1570.4492,µmol*min/l
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",2607.6257,µmol*min/l
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1090.5521,µmol*min/l
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",3696.731,µmol*min/l
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1978.09,µmol*min/l
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1570.449,µmol*min/l
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",2607.626,µmol*min/l
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1090.552,µmol*min/l
 5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1485.775,µmol*min/l
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1478.2467,µmol*min/l
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1086.4045,µmol*min/l
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",2338.9087,µmol*min/l
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",5397.112,µmol*min/l
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",8.3254044E+11,µg*min/l
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",4.4548574E+11,µg*min/l
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1478.247,µmol*min/l
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",1086.405,µmol*min/l
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",2338.909,µmol*min/l
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf",5397.119,µmol*min/l
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",8.325408E+11,µg*min/l
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",4.454857E+11,µg*min/l
 2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",3.536809E+11,µg*min/l
 3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",5.872634E+11,µg*min/l
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",2.4560324E+11,µg*min/l
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",3.3461138E+11,µg*min/l
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",3.3291593E+11,µg*min/l
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",2.4466915E+11,µg*min/l
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",5.267456E+11,µg*min/l
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",1.2154835E+12,µg*min/l
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",10.740961,h
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",5.524275,h
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",4.5065365,h
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",7.2316465,h
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",3.2979066,h
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",4.3126273,h
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",2.456032E+11,µg*min/l
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",3.346114E+11,µg*min/l
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",3.329159E+11,µg*min/l
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",2.446692E+11,µg*min/l
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",5.267457E+11,µg*min/l
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","AUC_inf_norm",1.215485E+12,µg*min/l
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",10.74098,h
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",5.524274,h
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",4.506536,h
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",7.231647,h
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",3.297907,h
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",4.312626,h
 6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",4.463258,h
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",3.2914577,h
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",6.589267,h
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",14.793306,h
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",7.8523226,h
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",4.2707963,h
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.6813529,h
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",3.291458,h
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",6.589272,h
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","MRT",14.79336,h
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",7.852356,h
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",4.270788,h
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.681346,h
 3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",5.453881,h
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.1325727,h
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.4549298,h
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.6227088,h
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",2.9515684,h
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",4.885094,h
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",10.564338,h
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.11352005,
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.017532175,
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.008303432,
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.04261473,
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.0023985878,
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.0062989355,
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.0077525834,
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.001978289,
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.030577717,
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.20068242,
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",1.2011429,ml/min/kg
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",2.2447407,ml/min/kg
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",2.8274078,ml/min/kg
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",1.7028135,ml/min/kg
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",4.0716076,ml/min/kg
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",2.9885416,ml/min/kg
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",3.0037613,ml/min/kg
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",4.0871515,ml/min/kg
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",1.8984497,ml/min/kg
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",0.82271785,ml/min/kg
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",774.08563,ml/kg
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",744.0339,ml/kg
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.132583,h
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.454914,h
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",3.622716,h
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",2.951563,h
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",4.885118,h
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Thalf",10.5644,h
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.1135205,
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.01753214,
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.008303415,
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.04261474,
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.002398596,
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.006298906,
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.007752599,
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.001978286,
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.03057786,
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","FractionAucLastToInf",0.2006835,
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",1.201142,ml/min/kg
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",2.244741,ml/min/kg
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",2.827408,ml/min/kg
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",1.702813,ml/min/kg
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",4.071608,ml/min/kg
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",2.988542,ml/min/kg
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",3.003761,ml/min/kg
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",4.087152,ml/min/kg
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",1.898449,ml/min/kg
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","CL",0.8227168,ml/min/kg
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",774.0865,ml/kg
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",744.0338,ml/kg
 2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",764.5089,ml/kg
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",738.84875,ml/kg
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",805.66693,ml/kg
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",773.3079,ml/kg
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",804.3937,ml/kg
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",738.8488,ml/kg
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",805.6669,ml/kg
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",773.3078,ml/kg
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",804.3938,ml/kg
 7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",807.1612,ml/kg
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",750.5635,ml/kg
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",730.2431,ml/kg
-0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",816.42926,ml/kg
-1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",829.8523,ml/kg
-2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",900.9935,ml/kg
-3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",803.89343,ml/kg
-4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",1104.0604,ml/kg
-5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",893.767,ml/kg
-6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",941.94305,ml/kg
-7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",1044.2378,ml/kg
-8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",802.78235,ml/kg
-9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",752.3484,ml/kg
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",4.4487777,µmol/l
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.7902393,µmol/l
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.6666644,µmol/l
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.8633986,µmol/l
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.3584316,µmol/l
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.8195634,µmol/l
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",750.5639,ml/kg
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vss",730.2447,ml/kg
+0,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",816.4324,ml/kg
+1,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",829.8508,ml/kg
+2,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",900.9918,ml/kg
+3,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",803.8936,ml/kg
+4,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",1104.064,ml/kg
+5,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",893.7629,ml/kg
+6,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",941.9449,ml/kg
+7,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",1044.236,ml/kg
+8,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",802.7862,ml/kg
+9,"Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)","Vd",752.3522,ml/kg
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",4.448778,µmol/l
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.790239,µmol/l
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.666664,µmol/l
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.863399,µmol/l
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.358432,µmol/l
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.819563,µmol/l
 6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",4.059714,µmol/l
 7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.657589,µmol/l
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.9619842,µmol/l
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",4.4308715,µmol/l
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",1001909.25,mg/l
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",3.961984,µmol/l
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max",4.430871,µmol/l
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",1001909,mg/l
 1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",853599.8,mg/l
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",825769.5,mg/l
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",870076,mg/l
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",756352.4,mg/l
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",860203.9,mg/l
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",825769.4,mg/l
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",870076.1,mg/l
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",756352.5,mg/l
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",860203.8,mg/l
 6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",914288.2,mg/l
-7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",823725.56,mg/l
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",892278.44,mg/l
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",997876.56,mg/l
+7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",823725.6,mg/l
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",892278.4,mg/l
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_max_norm",997876.4,mg/l
 0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","t_max",0.3,h
 1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","t_max",0.35,h
 2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","t_max",0.4,h
@@ -170,112 +170,112 @@
 8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","t_max",0.35,h
 9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","t_max",0.3,h
 0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.4099069,µmol/l
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.058678634,µmol/l
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.025162382,µmol/l
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.14833002,µmol/l
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.0055490155,µmol/l
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.05867863,µmol/l
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.02516238,µmol/l
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.14833,µmol/l
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.005549015,µmol/l
 5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.01956729,µmol/l
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.023427112,µmol/l
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.02342711,µmol/l
 7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.005165824,µmol/l
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.108015426,µmol/l
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.1080154,µmol/l
 9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","C_tEnd",0.745095,µmol/l
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",2134.1938,µmol*min/l
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",1189.1328,µmol*min/l
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",954.3886,µmol*min/l
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",1527.0874,µmol*min/l
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",677.46014,µmol*min/l
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",2134.194,µmol*min/l
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",1189.133,µmol*min/l
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",954.3887,µmol*min/l
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",1527.087,µmol*min/l
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",677.4601,µmol*min/l
 5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",926.8626,µmol*min/l
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",950.54877,µmol*min/l
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",950.5488,µmol*min/l
 7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",693.876,µmol*min/l
 8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",1418.945,µmol*min/l
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",2675.5217,µmol*min/l
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd",2675.522,µmol*min/l
 0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",4.806418E+11,µg*min/l
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.6780459E+11,µg*min/l
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.1493786E+11,µg*min/l
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",3.4391536E+11,µg*min/l
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.678046E+11,µg*min/l
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.149379E+11,µg*min/l
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",3.439154E+11,µg*min/l
 4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",1.525708E+11,µg*min/l
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.0873873E+11,µg*min/l
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.1407308E+11,µg*min/l
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.087387E+11,µg*min/l
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",2.140731E+11,µg*min/l
 7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",1.562678E+11,µg*min/l
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",3.1956058E+11,µg*min/l
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",6.0255424E+11,µg*min/l
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",2412.0415,µmol*min/l
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",1210.6727,µmol*min/l
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",962.28094,µmol*min/l
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",1596.7921,µmol*min/l
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",3.195606E+11,µg*min/l
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_tEnd_norm",6.025542E+11,µg*min/l
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",2412.042,µmol*min/l
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",1210.673,µmol*min/l
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",962.281,µmol*min/l
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",1596.792,µmol*min/l
 4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",678.8949,µmol*min/l
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",932.6504,µmol*min/l
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",957.79315,µmol*min/l
-7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",695.16284,µmol*min/l
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",1464.4873,µmol*min/l
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",3355.8047,µmol*min/l
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",5.4321588E+11,µg*min/l
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",2.7265561E+11,µg*min/l
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",932.6505,µmol*min/l
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",957.7932,µmol*min/l
+7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",695.1628,µmol*min/l
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",1464.487,µmol*min/l
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf",3355.808,µmol*min/l
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",5.432159E+11,µg*min/l
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",2.726556E+11,µg*min/l
 2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",2.167153E+11,µg*min/l
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",3.5961356E+11,µg*min/l
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",1.5289392E+11,µg*min/l
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",2.1004221E+11,µg*min/l
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",3.596136E+11,µg*min/l
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",1.528939E+11,µg*min/l
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",2.100422E+11,µg*min/l
 6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",2.157046E+11,µg*min/l
-7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",1.5655762E+11,µg*min/l
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",3.2981716E+11,µg*min/l
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",7.557608E+11,µg*min/l
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",10.971167,h
+7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",1.565576E+11,µg*min/l
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",3.298171E+11,µg*min/l
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","AUC_inf_norm",7.557615E+11,µg*min/l
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",10.97117,h
 1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",5.785791,h
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",4.7645874,h
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",7.527434,h
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",4.764587,h
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",7.527437,h
 4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",3.563409,h
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",4.4974985,h
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",4.6328297,h
-7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",3.4981678,h
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",6.79838,h
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",14.979285,h
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",7.8306093,h
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",4.2407103,h
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",3.6235008,h
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",5.4288416,h
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",2.9870303,h
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",3.4170976,h
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",3.5723789,h
-7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",2.8778296,h
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",4.8708386,h
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",10.547565,h
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.11519186,
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.017791707,
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.0082017025,
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.04365295,
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.002113386,
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.0062057595,
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.0075636306,
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",4.497499,h
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",4.63283,h
+7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",3.498168,h
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",6.798374,h
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","MRT",14.97932,h
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",7.830609,h
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",4.24071,h
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",3.623501,h
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",5.428858,h
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",2.987022,h
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",3.417104,h
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",3.572384,h
+7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",2.87783,h
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",4.87081,h
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Thalf",10.54762,h
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.1151919,
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.01779171,
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.008201701,
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.04365307,
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.00211338,
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.00620577,
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.007563641,
 7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.00185116,
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.031097801,
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.20271833,
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",1.8408887,ml/min/kg
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",3.6676304,ml/min/kg
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",4.614349,ml/min/kg
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",2.7807627,ml/min/kg
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",6.5404825,ml/min/kg
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.03109762,
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","FractionAucLastToInf",0.2027191,
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",1.840889,ml/min/kg
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",3.66763,ml/min/kg
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",4.614348,ml/min/kg
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",2.780762,ml/min/kg
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",6.540483,ml/min/kg
 5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",4.760948,ml/min/kg
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",4.6359696,ml/min/kg
-7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",6.3874245,ml/min/kg
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",4.63597,ml/min/kg
+7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",6.387424,ml/min/kg
 8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",3.031983,ml/min/kg
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",1.3231701,ml/min/kg
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1211.8019,ml/kg
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1273.2085,ml/kg
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","CL",1.323169,ml/min/kg
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1211.802,ml/kg
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1273.208,ml/kg
 2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1319.128,ml/kg
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1255.9204,ml/kg
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1398.3849,ml/kg
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1284.7415,ml/kg
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1288.6595,ml/kg
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1255.921,ml/kg
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1398.385,ml/kg
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1284.741,ml/kg
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1288.66,ml/kg
 7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1340.657,ml/kg
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1236.7542,ml/kg
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1189.2084,ml/kg
-0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1247.8112,ml/kg
-1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1346.3252,ml/kg
-2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1447.3201,ml/kg
-3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1306.7633,ml/kg
-4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1691.123,ml/kg
-5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1408.2397,ml/kg
-6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1433.5864,ml/kg
-7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1591.1702,ml/kg
-8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1278.369,ml/kg
-9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1208.0745,ml/kg
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1236.753,ml/kg
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vss",1189.21,ml/kg
+0,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1247.811,ml/kg
+1,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1346.325,ml/kg
+2,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1447.32,ml/kg
+3,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1306.767,ml/kg
+4,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1691.118,ml/kg
+5,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1408.242,ml/kg
+6,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1433.589,ml/kg
+7,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1591.17,ml/kg
+8,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1278.362,ml/kg
+9,"Organism|Bone|Intracellular|Aciclovir|Concentration in container","Vd",1208.079,ml/kg
