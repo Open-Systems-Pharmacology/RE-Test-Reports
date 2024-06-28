@@ -1,59 +1,59 @@
-14/03/2024 - 10:46:13
+26/06/2024 - 14:01:36
 Reporting Engine Information:
-Date: 14/03/2024 - 10:46:13
+Date: 26/06/2024 - 14:01:36
 User Information:
-Computer Name: fv-az731-952
+Computer Name: fv-az1489-381
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
-R version: R version 4.3.3 (2024-02-29 ucrt)
-OSP Suite Package version: 12.0.482
-OSP Reporting Engine version: 2.2.329
-tlf version: 1.5.165
-14/03/2024 - 10:46:13
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.0.1088
+OSP Reporting Engine version: 2.2.346
+tlf version: 1.5.167
+26/06/2024 - 14:01:36
 Starting run of Mean Model Workflow
-14/03/2024 - 10:46:13
+26/06/2024 - 14:01:36
 Starting run of Simulation task
-14/03/2024 - 10:46:13
+26/06/2024 - 14:01:36
 Splitting simulations for parallel run: 1 simulations split into 1 subsets
-14/03/2024 - 10:46:13
+26/06/2024 - 14:01:36
 Starting run of subset simulations
-14/03/2024 - 10:46:15
+26/06/2024 - 14:01:37
 Simulation task completed in 0 min
-14/03/2024 - 10:46:15
+26/06/2024 - 14:01:37
 Starting run of Calculate PK Parameters task
-14/03/2024 - 10:46:15
+26/06/2024 - 14:01:37
 Starting run of Calculate PK Parameters task for Aciclovir
-14/03/2024 - 10:46:16
+26/06/2024 - 14:01:38
 Calculate PK Parameters task completed in 0 min
-14/03/2024 - 10:46:16
+26/06/2024 - 14:01:38
 Starting run of Sensitivity Analysis task
-14/03/2024 - 10:46:16
+26/06/2024 - 14:01:38
 Starting run of Sensitivity Analysis task for Aciclovir
-14/03/2024 - 10:46:17
+26/06/2024 - 14:01:39
 Starting run of Sensitivity Analysis for path(s) 'Organism|Protein ratio (interstial/plasma)', 'Organism|Vf (lipid, blood cells)', 'Organism|Vf (protein,blood cells)', 'Organism|Vf (water,blood cells)', 'Organism|Vf (water,interstitial)', 'Organism|Vf (water,plasma)', 'Organism|Ontogeny factor (albumin)', 'Organism|Ontogeny factor (alpha1-acid glycoprotein)', 'Organism|Plasma protein scale factor', 'Organism|Hematocrit', 'Organism|VenousBlood|Volume', 'Organism|ArterialBlood|Volume', 'Organism|Bone|Vf (lipid)', 'Organism|Bone|Vf (protein)', 'Organism|Bone|Vf (water)', 'Organism|Bone|Specific blood flow rate', 'Organism|Bone|Volume', 'Organism|Gallbladder|Gallbladder ejection half-time', 'Organism|Gallbladder|Gallbladder ejection fraction', 'Organism|Brain|Vf (lipid)', 'Organism|Brain|Vf (protein)', 'Organism|Brain|Vf (water)', 'Organism|Brain|Volume', 'Organism|Brain|Specific blood flow rate', 'Organism|Fat|Vf (protein)', 'Organism|Fat|Volume', 'Organism|Fat|Vf (lipid)', 'Organism|Fat|Vf (water)', 'Organism|Fat|Specific blood flow rate', 'Organism|Gonads|Vf (lipid)', 'Organism|Gonads|Vf (protein)', 'Organism|Gonads|Vf (water)', 'Organism|Gonads|Volume', 'Organism|Gonads|Specific blood flow rate', 'Organism|Heart|Vf (lipid)', 'Organism|Heart|Vf (protein)', 'Organism|Heart|Vf (water)', 'Organism|Heart|Volume', 'Organism|Heart|Specific blood flow rate', 'Organism|Kidney|Vf (lipid)', 'Organism|Kidney|Vf (protein)', 'Organism|Kidney|Vf (water)', 'Organism|Kidney|Volume', 'Organism|Kidney|Specific blood flow rate', 'Organism|Lumen|Effective surface area variability factor', 'Organism|Lumen|Stomach|Fractional steady state fill level', 'Organism|Lumen|Stomach|pH in fasted state', 'Organism|Lumen|Stomach|Distal radius', 'Organism|Lumen|Stomach|Gastric emptying time', 'Organism|Lumen|Stomach|Length', 'Organism|Lumen|Stomach|Proximal radius', 'Organism|Lumen|Duodenum|Fractional steady state fill level', 'Organism|Lumen|Duodenum|pH', 'Organism|Lumen|Duodenum|Effective surface area enhancement factor', 'Organism|Lumen|UpperJejunum|Fractional steady state fill level', 'Organism|Lumen|UpperJejunum|pH', 'Organism|Lumen|UpperJejunum|Effective surface area enhancement factor', 'Organism|Lumen|LowerJejunum|Fractional steady state fill level', 'Organism|Lumen|LowerJejunum|pH', 'Organism|Lumen|LowerJejunum|Effective surface area enhancement factor', 'Organism|Lumen|UpperIleum|Fractional steady state fill level', 'Organism|Lumen|UpperIleum|pH', 'Organism|Lumen|UpperIleum|Effective surface area enhancement factor', 'Organism|Lumen|LowerIleum|Fractional steady state fill level', 'Organism|Lumen|LowerIleum|pH', 'Organism|Lumen|LowerIleum|Effective surface area enhancement factor', 'Organism|Lumen|Caecum|Fractional steady state fill level', 'Organism|Lumen|Caecum|pH', 'Organism|Lumen|Caecum|Effective surface area enhancement factor', 'Organism|Lumen|ColonAscendens|Fractional steady state fill level', 'Organism|Lumen|ColonAscendens|pH', 'Organism|Lumen|ColonAscendens|Effective surface area enhancement factor', 'Organism|Lumen|ColonTransversum|Fractional steady state fill level', 'Organism|Lumen|ColonTransversum|pH', 'Organism|Lumen|ColonTransversum|Effective surface area enhancement factor', 'Organism|Lumen|ColonDescendens|Fractional steady state fill level', 'Organism|Lumen|ColonDescendens|pH', 'Organism|Lumen|ColonDescendens|Effective surface area enhancement factor', 'Organism|Lumen|ColonSigmoid|Fractional steady state fill level', 'Organism|Lumen|ColonSigmoid|pH', 'Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor', 'Organism|Lumen|Rectum|Fractional steady state fill level', 'Organism|Lumen|Rectum|pH', 'Organism|Lumen|Rectum|Effective surface area enhancement factor', 'Organism|Stomach|Vf (lipid)', 'Organism|Stomach|Vf (protein)', 'Organism|Stomach|Vf (water)', 'Organism|Stomach|Volume', 'Organism|Stomach|Specific blood flow rate', 'Organism|SmallIntestine|Vf (lipid)', 'Organism|SmallIntestine|Vf (protein)', 'Organism|SmallIntestine|Vf (water)', 'Organism|SmallIntestine|Small intestinal transit time', 'Organism|SmallIntestine|Volume', 'Organism|SmallIntestine|Specific blood flow rate', 'Organism|SmallIntestine|Mucosa|Duodenum|Fraction mucosa', 'Organism|SmallIntestine|Mucosa|Duodenum|Vf (lipid)', 'Organism|SmallIntestine|Mucosa|Duodenum|Vf (protein)', 'Organism|SmallIntestine|Mucosa|Duodenum|Vf (water)', 'Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|pH', 'Organism|SmallIntestine|Mucosa|UpperJejunum|Fraction mucosa', 'Organism|SmallIntestine|Mucosa|UpperJejunum|Vf (lipid)', 'Organism|SmallIntestine|Mucosa|UpperJejunum|Vf (protein)', 'Organism|SmallIntestine|Mucosa|UpperJejunum|Vf (water)', 'Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|pH', 'Organism|SmallIntestine|Mucosa|LowerJejunum|Fraction mucosa', 'Organism|SmallIntestine|Mucosa|LowerJejunum|Vf (lipid)', 'Organism|SmallIntestine|Mucosa|LowerJejunum|Vf (protein)', 'Organism|SmallIntestine|Mucosa|LowerJejunum|Vf (water)', 'Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|pH', 'Organism|SmallIntestine|Mucosa|UpperIleum|Fraction mucosa', 'Organism|SmallIntestine|Mucosa|UpperIleum|Vf (lipid)', 'Organism|SmallIntestine|Mucosa|UpperIleum|Vf (protein)', 'Organism|SmallIntestine|Mucosa|UpperIleum|Vf (water)', 'Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|pH', 'Organism|SmallIntestine|Mucosa|LowerIleum|Fraction mucosa', 'Organism|SmallIntestine|Mucosa|LowerIleum|Vf (lipid)', 'Organism|SmallIntestine|Mucosa|LowerIleum|Vf (protein)', 'Organism|SmallIntestine|Mucosa|LowerIleum|Vf (water)', 'Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|pH', 'Organism|LargeIntestine|Vf (lipid)', 'Organism|LargeIntestine|Vf (protein)', 'Organism|LargeIntestine|Vf (water)', 'Organism|LargeIntestine|Large intestinal transit time', 'Organism|LargeIntestine|Volume', 'Organism|LargeIntestine|Specific blood flow rate', 'Organism|LargeIntestine|Mucosa|Caecum|Fraction mucosa', 'Organism|LargeIntestine|Mucosa|Caecum|Vf (lipid)', 'Organism|LargeIntestine|Mucosa|Caecum|Vf (protein)', 'Organism|LargeIntestine|Mucosa|Caecum|Vf (water)', 'Organism|LargeIntestine|Mucosa|Caecum|Intracellular|pH', 'Organism|LargeIntestine|Mucosa|ColonAscendens|Fraction mucosa', 'Organism|LargeIntestine|Mucosa|ColonAscendens|Vf (lipid)', 'Organism|LargeIntestine|Mucosa|ColonAscendens|Vf (protein)', 'Organism|LargeIntestine|Mucosa|ColonAscendens|Vf (water)', 'Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|pH', 'Organism|LargeIntestine|Mucosa|ColonTransversum|Fraction mucosa', 'Organism|LargeIntestine|Mucosa|ColonTransversum|Vf (lipid)', 'Organism|LargeIntestine|Mucosa|ColonTransversum|Vf (protein)', 'Organism|LargeIntestine|Mucosa|ColonTransversum|Vf (water)', 'Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|pH', 'Organism|LargeIntestine|Mucosa|ColonDescendens|Fraction mucosa', 'Organism|LargeIntestine|Mucosa|ColonDescendens|Vf (lipid)', 'Organism|LargeIntestine|Mucosa|ColonDescendens|Vf (protein)', 'Organism|LargeIntestine|Mucosa|ColonDescendens|Vf (water)', 'Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|pH', 'Organism|LargeIntestine|Mucosa|ColonSigmoid|Fraction mucosa', 'Organism|LargeIntestine|Mucosa|ColonSigmoid|Vf (lipid)', 'Organism|LargeIntestine|Mucosa|ColonSigmoid|Vf (protein)', 'Organism|LargeIntestine|Mucosa|ColonSigmoid|Vf (water)', 'Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|pH', 'Organism|LargeIntestine|Mucosa|Rectum|Fraction mucosa', 'Organism|LargeIntestine|Mucosa|Rectum|Vf (lipid)', 'Organism|LargeIntestine|Mucosa|Rectum|Vf (protein)', 'Organism|LargeIntestine|Mucosa|Rectum|Vf (water)', 'Organism|LargeIntestine|Mucosa|Rectum|Intracellular|pH', 'Organism|Liver|Fraction of periportal zone', 'Organism|Liver|Vf (lipid)', 'Organism|Liver|Vf (protein)', 'Organism|Liver|Vf (water)', 'Organism|Liver|Volume', 'Organism|Liver|Specific blood flow rate', 'Organism|Lung|Vf (lipid)', 'Organism|Lung|Vf (protein)', 'Organism|Lung|Vf (water)', 'Organism|Lung|Volume', 'Organism|Muscle|Peripheral blood flow fraction', 'Organism|Muscle|Volume', 'Organism|Muscle|Vf (lipid)', 'Organism|Muscle|Vf (protein)', 'Organism|Muscle|Vf (water)', 'Organism|Muscle|Specific blood flow rate', 'Organism|Pancreas|Vf (lipid)', 'Organism|Pancreas|Vf (protein)', 'Organism|Pancreas|Vf (water)', 'Organism|Pancreas|Volume', 'Organism|Pancreas|Specific blood flow rate', 'Organism|PortalVein|Volume', 'Organism|Skin|Peripheral blood flow fraction', 'Organism|Skin|Vf (lipid)', 'Organism|Skin|Vf (protein)', 'Organism|Skin|Vf (water)', 'Organism|Skin|Volume', 'Organism|Skin|Specific blood flow rate', 'Organism|Spleen|Vf (lipid)', 'Organism|Spleen|Vf (protein)', 'Organism|Spleen|Vf (water)', 'Organism|Spleen|Volume', 'Organism|Spleen|Specific blood flow rate', 'Organism|Saliva|Saliva flow rate', 'Neighborhoods|Bone_pls_Bone_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Fat_pls_Fat_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Gonads_pls_Gonads_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Heart_pls_Heart_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Kidney_pls_Kidney_ur|Aciclovir|Renal Clearances-TS|Volume (kidney)', 'Neighborhoods|Kidney_pls_Kidney_ur|Aciclovir|Renal Clearances-TS|Tubular secretion', 'Neighborhoods|Kidney_pls_Kidney_ur|Aciclovir|Glomerular Filtration-GFR|GFR fraction', 'Neighborhoods|Kidney_pls_Kidney_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Stomach_pls_Stomach_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|SmallIntestine_pls_SmallIntestine_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|LargeIntestine_pls_LargeIntestine_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Periportal_pls_Periportal_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Pericentral_pls_Pericentral_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Lung_pls_Lung_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Muscle_pls_Muscle_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Pancreas_pls_Pancreas_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Skin_pls_Skin_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Spleen_pls_Spleen_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Duodenum_pls_Duodenum_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|UpperJejunum_pls_UpperJejunum_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|LowerJejunum_pls_LowerJejunum_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|UpperIleum_pls_UpperIleum_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|LowerIleum_pls_LowerIleum_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Caecum_pls_Caecum_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|ColonAscendens_pls_ColonAscendens_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|ColonTransversum_pls_ColonTransversum_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|ColonDescendens_pls_ColonDescendens_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|ColonSigmoid_pls_ColonSigmoid_int|Aciclovir|P (plasma<->interstitial)', 'Neighborhoods|Rectum_pls_Rectum_int|Aciclovir|P (plasma<->interstitial)', 'Aciclovir|pKa value 0', 'Aciclovir|pKa value 1', 'Aciclovir|Lipophilicity', 'Aciclovir|Fraction unbound (plasma, reference value)', 'Aciclovir|Solubility at reference pH', 'Aciclovir|Reference pH', 'Aciclovir|Solubility gain per charge', 'Applications|IV 250mg 10min|Application_1|ProtocolSchemaItem|Dose', 'Applications|IV 250mg 10min|Application_1|ProtocolSchemaItem|Infusion time'
-14/03/2024 - 10:46:44
+26/06/2024 - 14:02:06
 Sensitivity Analysis completed in 0.4 min
-14/03/2024 - 10:46:44
+26/06/2024 - 14:02:06
 Sensitivity Analysis task completed in 0.5 min
-14/03/2024 - 10:46:44
+26/06/2024 - 14:02:06
 Starting run of Plot Sensitivity task
-14/03/2024 - 10:46:44
+26/06/2024 - 14:02:06
 Starting run of Plot Sensitivity task for Aciclovir
-14/03/2024 - 10:46:47
-Plot Sensitivity task completed in 0.1 min
-14/03/2024 - 10:46:47
+26/06/2024 - 14:02:09
+Plot Sensitivity task completed in 0 min
+26/06/2024 - 14:02:09
 Starting run of Plot PK Parameters task
-14/03/2024 - 10:46:47
+26/06/2024 - 14:02:09
 Starting run of Plot PK Parameters task for Aciclovir
-14/03/2024 - 10:46:47
+26/06/2024 - 14:02:09
 Plot PK Parameters task completed in 0 min
-14/03/2024 - 10:46:47
+26/06/2024 - 14:02:09
 Starting run of Plot Time profiles and Residuals task
-14/03/2024 - 10:46:47
+26/06/2024 - 14:02:09
 Starting run of Plot Time profiles and Residuals task for Aciclovir
-14/03/2024 - 10:46:50
+26/06/2024 - 14:02:11
 Plot Time profiles and Residuals task completed in 0 min
-14/03/2024 - 10:46:50
+26/06/2024 - 14:02:11
 Mean Model Workflow completed in 0.6 min
