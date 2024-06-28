@@ -1,45 +1,45 @@
-14/03/2024 - 10:43:18
+26/06/2024 - 13:59:22
 Reporting Engine Information:
-Date: 14/03/2024 - 10:43:18
+Date: 26/06/2024 - 13:59:22
 User Information:
-Computer Name: fv-az731-952
+Computer Name: fv-az1489-381
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
-R version: R version 4.3.3 (2024-02-29 ucrt)
-OSP Suite Package version: 12.0.482
-OSP Reporting Engine version: 2.2.329
-tlf version: 1.5.165
-14/03/2024 - 10:43:18
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.0.1088
+OSP Reporting Engine version: 2.2.346
+tlf version: 1.5.167
+26/06/2024 - 13:59:22
 Starting run of Population Workflow for parallelComparison
-14/03/2024 - 10:43:18
+26/06/2024 - 13:59:22
 Starting run of Simulation task
-14/03/2024 - 10:43:18
+26/06/2024 - 13:59:22
 Starting run of Population Simulations
-14/03/2024 - 10:43:18
+26/06/2024 - 13:59:22
 Starting run of single IV application (Pop_10)
-14/03/2024 - 10:43:21
-Simulation task completed in 0.1 min
-14/03/2024 - 10:43:21
+26/06/2024 - 13:59:24
+Simulation task completed in 0 min
+26/06/2024 - 13:59:24
 Starting run of Calculate PK Parameters task
-14/03/2024 - 10:43:21
+26/06/2024 - 13:59:24
 Starting run of Calculate PK Parameters task for single IV application
-14/03/2024 - 10:43:22
+26/06/2024 - 13:59:25
 Calculate PK Parameters task completed in 0 min
-14/03/2024 - 10:43:22
+26/06/2024 - 13:59:25
 Starting run of Plot PK Parameters task
-14/03/2024 - 10:44:01
-Plot PK Parameters task completed in 0.6 min
-14/03/2024 - 10:44:01
+26/06/2024 - 13:59:45
+Plot PK Parameters task completed in 0.3 min
+26/06/2024 - 13:59:45
 Starting run of Plot Time profiles and Residuals task
-14/03/2024 - 10:44:01
+26/06/2024 - 13:59:45
 Starting run of Plot Time profiles and Residuals task for single IV application
-14/03/2024 - 10:44:04
-Plot Time profiles and Residuals task completed in 0.1 min
-14/03/2024 - 10:44:04
+26/06/2024 - 13:59:48
+Plot Time profiles and Residuals task completed in 0 min
+26/06/2024 - 13:59:48
 Starting run of Plot Demography task
-14/03/2024 - 10:44:12
+26/06/2024 - 13:59:52
 Plot Demography task completed in 0.1 min
-14/03/2024 - 10:44:12
-Population Workflow for parallelComparison completed in 0.9 min
+26/06/2024 - 13:59:53
+Population Workflow for parallelComparison completed in 0.5 min
