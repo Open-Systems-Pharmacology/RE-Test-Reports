@@ -26,12 +26,14 @@ jobs:
       - name: Install ospsuite ecosystem and cran packages
         run: |
           Rscript .github/workflows/install_dependencies.R
-      - name: Check where runner and pk sim were saved
-        run: | 
-          Rscript -e 'print(list.files(path = "D:/", pattern = "QualificationRunner", recursive = TRUE, full.names = TRUE))'
       - name: Run Tests through README.Rmd
         run: |
           Rscript -e 'rmarkdown::render("README.Rmd", encoding = "UTF-8")'
+      - name: Save test results as zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-log
+          path: log.json
       - name: Commit and push test files
         run: |
           git config --local user.email "actions@github.com"

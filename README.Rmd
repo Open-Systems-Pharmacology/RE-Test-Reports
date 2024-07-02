@@ -12,6 +12,47 @@ knitr::opts_chunk$set(echo = FALSE)
 library(dplyr)
 ```
 
+```{r helpers, include=FALSE}
+#' @description Format backtrace to display errors in logs
+backtrace <- function(errorTrace) {
+  if (is.null(errorTrace)) {
+    return()
+  }
+  traceMessage <- paste0(
+    "Call ", errorTrace$parent, ", in ",
+    errorTrace$namespace, " (", errorTrace$scope, ") ",
+    errorTrace$call
+  )
+  return(traceMessage)
+}
+#' @description Function to log test results as JSON file
+logTestResults <- function(testResultsRaw, logFile = "log.json") {
+  # For each test, get all results messages and potential error backtraces
+  jsonResults <- vector("list", length(testResultsRaw))
+  index <- 1
+  for (testResult in testResultsRaw) {
+    resultMessage <- vector("list", length(testResult$results))
+    resultIndex <- 1
+    for (testResultContent in testResult$results) {
+      resultMessage[[resultIndex]] <- list(
+        test = testResultContent$test,
+        message = testResultContent$message,
+        backtrace = backtrace(testResultContent$trace),
+        code = as.character(testResultContent$srcref)
+      )
+      resultIndex <- resultIndex + 1
+    }
+    jsonResults[[index]] <- c(
+      testResult[setdiff(names(testResult), "results")],
+      results = list(resultMessage)
+    )
+    index <- index + 1
+  }
+  jsonlite::write_json(jsonResults, auto_unbox = TRUE, pretty = TRUE, path = logFile)
+  return(invisible())
+}
+```
+
 <!-- 
 Run testthat and get list of test results 
 Note that "test_local" runs the scripts in ./R and then performs the tests
@@ -30,6 +71,9 @@ testResultsRaw <- testthat::test_local(
   reporter = testthat::ListReporter,
   stop_on_failure = FALSE
 )
+# Creates a log.json file with the test results
+logTestResults(testResultsRaw)
+
 testResultsRaw <- as.data.frame(testResultsRaw)
 testResults <- testResultsRaw %>%
   mutate(
@@ -46,13 +90,13 @@ testResults <- testResultsRaw %>%
     ),
     Duration = real,
     N = if_else(skipped, 0, nb),
-    Success = if_else(nb ==0 | skipped, "", paste0(
+    Success = if_else(nb == 0 | skipped, "", paste0(
       "![](https://geps.dev/progress/",
       round(100 * passed / nb, 0),
       ")"
     )),
-    Warning = if_else(nb ==0 | skipped, "", paste0(round(100 * warning / nb, 0), "%")),
-    Failed = if_else(nb ==0 | skipped, "", paste0(round(100 * failed / nb, 0), "%"))
+    Warning = if_else(nb == 0 | skipped, "", paste0(round(100 * warning / nb, 0), "%")),
+    Failed = if_else(nb == 0 | skipped, "", paste0(round(100 * failed / nb, 0), "%"))
   ) %>%
   filter(N > 0) %>%
   select(Report, Test, Status, N, Success, Warning, Failed)
@@ -87,9 +131,11 @@ availableDurations <- unname(sapply(
       pattern = "log-info",
       full.names = TRUE,
       recursive = TRUE
-      ), 1)
-    
-    if(length(logFile)==0){return(NA)}
+    ), 1)
+
+    if (length(logFile) == 0) {
+      return(NA)
+    }
     logInfo <- readLines(logFile, warn = FALSE)
     lastLine <- tail(logInfo[grepl(pattern = "completed in", logInfo)], 1)
     duration <- tail(unlist(strsplit(split = "completed in", x = lastLine)), 1)
@@ -99,10 +145,10 @@ availableDurations <- unname(sapply(
 
 knitr::kable(data.frame(
   "Reference" = paste0(
-    "[", reportMappings$Report, "](", 
-    ifelse(reportMappings$Reference, ".", "https://github.com/Open-Systems-Pharmacology"), 
+    "[", reportMappings$Report, "](",
+    ifelse(reportMappings$Reference, ".", "https://github.com/Open-Systems-Pharmacology"),
     "/Reports/", reportMappings$Report, ")"
-    ),
+  ),
   "Test Report" = paste0("[", reportMappings$Report, "](./tests/Reports/", reportMappings$Report, "/Report.md)"),
   "Script" = paste0("[", reportMappings$Script, ".R](./R/", reportMappings$Script, ".R)"),
   "Run Time" = availableDurations,
