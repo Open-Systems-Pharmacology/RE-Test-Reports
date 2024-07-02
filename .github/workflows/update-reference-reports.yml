@@ -31,14 +31,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Clean Current Report
+      - name: Update reference report with test report
         run: |
           rm -r Reports/${{ inputs.report }}
-      - name: Copy files from Test Reports
-        uses: canastro/copy-file-action@master
-        with:  
-          source: "tests/Reports/${{ inputs.report }}"
-          target: "Reports/${{ inputs.report }}"
+          cp -R tests/Reports/${{ inputs.report }} Reports/${{ inputs.report }}
       - name: Commit updates
         run: |
           git config --local user.email "actions@github.com"
