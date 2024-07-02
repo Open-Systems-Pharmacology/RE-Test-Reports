@@ -120,7 +120,7 @@ globalResult <- round(100 * sum(testResultsRaw$passed) / totalTests, 0)
 sessionInfo()
 ```
 
-<details>
+</details>
 
 ## Using Reports and Scripts as template
 
