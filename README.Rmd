@@ -112,6 +112,16 @@ globalResult <- round(100 * sum(testResultsRaw$passed) / totalTests, 0)
 | `r totalReports` | `r totalTests` | ![](https://geps.dev/progress/`r globalResult`) |
 
 
+## Test Infrastructure
+
+<details><summary>Click to expand</summary>
+
+```{r, echo=FALSE}
+sessionInfo()
+```
+
+</details>
+
 ## Using Reports and Scripts as template
 
 Users can find the reports and their description in the [/Reports](./Reports) folder as well as the corresponding R code in the [/R](./R) folder.
