@@ -43,3 +43,11 @@ jobs:
           git commit -m "Update ${{ inputs.report }}" || echo "No changes to commit"
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
+        with:
+          branch: 30_update_${{ inputs.report }}
+          title: 'Update ${{ inputs.report }}'
+          body: |
+            Update Reference Report ${{ inputs.report }} #30
+          labels: |
+            update
+
