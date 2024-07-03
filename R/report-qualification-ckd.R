@@ -2,7 +2,7 @@
 #' @description
 #' Qualification Report for `Open-Systems-Pharmacology/Qualification-CKD` repository
 
-# Clean environent and (re-)load the ospsuite.reportingengine package
+# Clean environment and (re-)load the ospsuite.reportingengine package
 rm(list = ls())
 library(ospsuite.reportingengine)
 
@@ -36,7 +36,7 @@ configurationPlanFile <- file.path(reInputFolder, paste0(configurationPlanName, 
 
 #' Set watermark that will appear in all generated plots
 #' Default is no watermark. `Label` objects from `tlf` package can be used to specify watermark font.
-watermark <- "Draft"
+watermark <- "draft"
 
 #' If not set, report created will be named `report.md` and located in the workflow folder namely `reOutputFolder`
 #' Here, the report will be copied in the test reports at the end of the workflow
