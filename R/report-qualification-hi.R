@@ -1,24 +1,24 @@
-#' @title report-qualification-ckd
+#' @title report-qualification-hi
 #' @description
-#' Qualification Report for `Open-Systems-Pharmacology/Qualification-CKD` repository
+#' Qualification Report for `Open-Systems-Pharmacology/Qualification-HI` repository
 
 # Clean environment and (re-)load the ospsuite.reportingengine package
 rm(list = ls())
 library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow
-qualificationProject <- "Qualification-CKD"
+qualificationProject <- "Qualification-HI"
 workingDirectory <- normalizePath(qualificationProject, mustWork = FALSE, winslash = "/")
 qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
 pkSimPortableFolder <- "PK-Sim/PK-Sim"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
 
 # Load repository content and clean up downloads
-download.file("https://github.com/Open-Systems-Pharmacology/Qualification-CKD/archive/refs/heads/main.zip", destfile = "archive.zip")
+download.file("https://github.com/Open-Systems-Pharmacology/Qualification-HI/archive/refs/heads/main.zip", destfile = "archive.zip")
 unzip("archive.zip", exdir = "archive")
 unlink("archive.zip")
 dir.create(workingDirectory)
-file.copy("archive/Qualification-CKD-main/Qualification/Input", workingDirectory, recursive = TRUE)
+file.copy("archive/Qualification-HI-main/Qualification/Input", workingDirectory, recursive = TRUE)
 unlink("archive", recursive = TRUE)
 
 #' @description Code hereafter is adapted from `createQualificationReport()` template

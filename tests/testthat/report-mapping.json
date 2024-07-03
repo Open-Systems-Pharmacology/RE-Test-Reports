@@ -58,5 +58,10 @@
     "Script": "report-qualification-ckd",
     "Report": "Qualification-CKD",
     "Reference": false
+  },
+  {
+    "Script": "report-qualification-hi",
+    "Report": "Qualification-HI",
+    "Reference": false
   }
 ]
