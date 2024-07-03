@@ -63,5 +63,15 @@
     "Script": "report-qualification-hi",
     "Report": "Qualification-HI",
     "Reference": false
+  },
+  {
+    "Script": "report-qualification-ugt",
+    "Report": "Pediatric_Qualification_Package_UGT1A1_Ontogeny",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-pgp",
+    "Report": "Pediatric_Qualification_Package_P-gp_Ontogeny",
+    "Reference": false
   }
 ]
