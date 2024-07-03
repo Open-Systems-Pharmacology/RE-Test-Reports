@@ -14,11 +14,11 @@ pkSimPortableFolder <- "PK-Sim/PK-Sim"
 versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
 
 # Load repository content and clean up downloads
-download.file("https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_P-gp_Ontogeny/archive/refs/heads/main.zip", destfile = "archive.zip")
+download.file("https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_P-gp_Ontogeny/archive/refs/heads/master.zip", destfile = "archive.zip")
 unzip("archive.zip", exdir = "archive")
 unlink("archive.zip")
 dir.create(workingDirectory)
-file.copy("archive/Pediatric_Qualification_Package_P-gp_Ontogeny-main/Qualification/Input", workingDirectory, recursive = TRUE)
+file.copy("archive/Pediatric_Qualification_Package_P-gp_Ontogeny-master/Qualification/Input", workingDirectory, recursive = TRUE)
 unlink("archive", recursive = TRUE)
 
 #' @description Code hereafter is adapted from `createQualificationReport()` template
