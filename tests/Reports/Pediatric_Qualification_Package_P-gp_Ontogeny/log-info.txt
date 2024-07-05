@@ -1,0 +1,63 @@
+05/07/2024 - 15:54:48
+Loading Simulations onto Qualification Workflow
+05/07/2024 - 15:55:04
+Simulations loading completed in 0.3 min
+05/07/2024 - 15:55:04
+Reporting Engine Information:
+Date: 05/07/2024 - 15:55:04
+User Information:
+Computer Name: fv-az742-366
+User: runneradmin
+Login: runneradmin
+System is NOT validated
+System versions:
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.0.1088
+OSP Reporting Engine version: 2.2.351
+tlf version: 1.5.168
+05/07/2024 - 15:55:04
+Starting run of Qualification Workflow
+05/07/2024 - 15:55:04
+Starting run of Simulation task
+05/07/2024 - 15:55:05
+Splitting simulations for parallel run: 13 simulations split into 3 subsets
+05/07/2024 - 15:55:05
+Starting run of subset simulations
+05/07/2024 - 15:55:42
+Simulation task completed in 0.6 min
+05/07/2024 - 15:55:42
+Starting run of Calculate PK Parameters task
+05/07/2024 - 15:55:42
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Nyberg 1980 0.5m infants (mean)
+05/07/2024 - 15:55:43
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Nyberg 1980 6.5m infants (mean)
+05/07/2024 - 15:55:45
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Rane 1976 6d
+05/07/2024 - 15:55:47
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Rane 1976 6.15m
+05/07/2024 - 15:55:49
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Rane 1976 3.5y
+05/07/2024 - 15:55:50
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID1 - 1y
+05/07/2024 - 15:55:52
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID1 - 16m
+05/07/2024 - 15:55:54
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID2 - 9m
+05/07/2024 - 15:55:56
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID3 - 3y8m
+05/07/2024 - 15:55:58
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID4 - 1y7m
+05/07/2024 - 15:55:59
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID5 - 2w
+05/07/2024 - 15:56:01
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID6 - 6m
+05/07/2024 - 15:56:03
+Starting run of Calculate PK Parameters task for Digoxin-Pediatrics-Ratnapalan 2003 ID7 - 8m
+05/07/2024 - 15:56:05
+Calculate PK Parameters task completed in 0.4 min
+05/07/2024 - 15:56:05
+Starting run of Plot PK Ratio task
+05/07/2024 - 15:56:21
+Plot PK Ratio task completed in 0.3 min
+05/07/2024 - 15:56:21
+Qualification Workflow completed in 1.3 min
