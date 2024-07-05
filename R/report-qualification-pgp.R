@@ -22,7 +22,7 @@ file.copy("archive/Pediatric_Qualification_Package_P-gp_Ontogeny-master/Qualific
 unlink("archive", recursive = TRUE)
 
 #' @description Code hereafter is adapted from `createQualificationReport()` template
-qualificationPlanName <- "qualification_plan.json"
+qualificationPlanName <- "Qualification-Ontogeny-Pgp.json"
 qualificationPlanFile <- file.path(workingDirectory, "input", qualificationPlanName)
 
 #' The default outputs of qualification runner should be generated under `<workingDirectory>/re_input`
