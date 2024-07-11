@@ -18,7 +18,7 @@ download.file("https://github.com/Open-Systems-Pharmacology/MEDI524-Model/archiv
 unzip("archive.zip", exdir = "archive")
 unlink("archive.zip")
 dir.create(workingDirectory)
-file.copy("archive/MEDI524-Model-master/Qualification/Input", workingDirectory, recursive = TRUE)
+file.copy("archive/MEDI524-Model-master/Evaluation/Input", workingDirectory, recursive = TRUE)
 unlink("archive", recursive = TRUE)
 
 #' @description Code hereafter is adapted from `createQualificationReport()` template

@@ -18,12 +18,12 @@ download.file("https://github.com/Open-Systems-Pharmacology/dAb2-Model/archive/r
 unzip("archive.zip", exdir = "archive")
 unlink("archive.zip")
 dir.create(workingDirectory)
-file.copy("archive/dAb2-Model-master/Qualification/Input", workingDirectory, recursive = TRUE)
+file.copy("archive/dAb2-Model-master/Evaluation/Input", workingDirectory, recursive = TRUE)
 unlink("archive", recursive = TRUE)
 
 #' @description Code hereafter is adapted from `createQualificationReport()` template
 qualificationPlanName <- "evaluation_plan.json"
-qualificationPlanFile <- file.path(workingDirectory, "Input", qualificationPlanName)
+qualificationPlanFile <- file.path(workingDirectory, "input", qualificationPlanName)
 
 #' The default outputs of qualification runner should be generated under `<workingDirectory>/re_input`
 reInputFolder <- file.path(workingDirectory, "re_input")
