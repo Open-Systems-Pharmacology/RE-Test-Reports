@@ -73,5 +73,30 @@
     "Script": "report-qualification-pgp",
     "Report": "Pediatric_Qualification_Package_P-gp_Ontogeny",
     "Reference": false
+  },
+  {
+    "Script": "report-qualification-digoxin",
+    "Report": "Digoxin-Model",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-propofol",
+    "Report": "Propofol-Model",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-dab2",
+    "Report": "dAb2-Model",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-medi524yte",
+    "Report": "MEDI524YTE-Model",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-medi524",
+    "Report": "MEDI524-Model",
+    "Reference": false
   }
 ]
