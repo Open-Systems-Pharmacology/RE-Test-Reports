@@ -28,8 +28,8 @@ unlink("archive", recursive = TRUE)
 qualificationPlanName <- "evaluation_plan.json"
 qualificationPlanFile <- file.path(workingDirectory, "input", qualificationPlanName)
 jsonContent <- readLines(qualificationPlanFile)
-jsonContent <- gsub(pattern = paste0('../../', snapshotFile), replacement = snapshotFile, x = jsonContent)
-qualificationPlanFile <- writeLines(jsonContent, qualificationPlanFile)
+jsonContent <- gsub(pattern = paste0('../', snapshotFile), replacement = snapshotFile, x = jsonContent)
+writeLines(jsonContent, qualificationPlanFile)
 
 #' The default outputs of qualification runner should be generated under `<workingDirectory>/re_input`
 reInputFolder <- file.path(workingDirectory, "re_input")
