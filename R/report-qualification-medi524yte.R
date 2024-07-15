@@ -8,6 +8,7 @@ library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow
 qualificationProject <- "MEDI524YTE-Model"
+snapshotFile <- "MEDI524YTE.json"
 workingDirectory <- normalizePath(qualificationProject, mustWork = FALSE, winslash = "/")
 qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
 pkSimPortableFolder <- "PK-Sim/PK-Sim"
@@ -19,11 +20,16 @@ unzip("archive.zip", exdir = "archive")
 unlink("archive.zip")
 dir.create(workingDirectory)
 file.copy("archive/MEDI524YTE-Model-master/Evaluation/Input", workingDirectory, recursive = TRUE)
+# In this repo, the snapshot is outside the evaluation folder and its path needs to be updated
+file.copy(file.path("archive/MEDI524YTE-Model-master/", snapshotFile), workingDirectory, recursive = TRUE)
 unlink("archive", recursive = TRUE)
 
 #' @description Code hereafter is adapted from `createQualificationReport()` template
 qualificationPlanName <- "evaluation_plan.json"
 qualificationPlanFile <- file.path(workingDirectory, "input", qualificationPlanName)
+jsonContent <- readLines(qualificationPlanFile)
+jsonContent <- gsub(pattern = paste0('../', snapshotFile), replacement = snapshotFile, x = jsonContent)
+writeLines(jsonContent, qualificationPlanFile)
 
 #' The default outputs of qualification runner should be generated under `<workingDirectory>/re_input`
 reInputFolder <- file.path(workingDirectory, "re_input")
