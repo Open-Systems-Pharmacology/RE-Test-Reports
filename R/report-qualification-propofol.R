@@ -19,7 +19,7 @@ download.file("https://github.com/Open-Systems-Pharmacology/Propofol-Model/archi
 unzip("archive.zip", exdir = "archive")
 unlink("archive.zip")
 dir.create(workingDirectory)
-file.copy("archive/Propofol-Model-master/Qualification/Input", workingDirectory, recursive = TRUE)
+file.copy("archive/Propofol-Model-master/evaluation/Input", workingDirectory, recursive = TRUE)
 # In this repo, the snapshot is outside the evaluation folder and its path needs to be updated
 file.copy(file.path("archive/Propofol-Model-master/", snapshotFile), workingDirectory, recursive = TRUE)
 unlink("archive", recursive = TRUE)
