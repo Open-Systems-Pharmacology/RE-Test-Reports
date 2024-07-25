@@ -12,4 +12,5 @@ __Table__: Metadata regarding the files in this directory.
 |test-NO8| Population file used in test NO8|
 |test-NO9| Population files used in tests NO9 and NO10|
 |test-NO11| Data and dictionary used in test NO11 (using LLOQ)|
+|test-DDI| All input files for DDI Qualification workflow test|
 

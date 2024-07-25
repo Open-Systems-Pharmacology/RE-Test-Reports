@@ -1,0 +1,545 @@
+{
+  "$schema": "./OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Mefenamic_acid",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mefenamic-acid-Model/v1.1/Mefenamic_acid-Model.json",
+      "BuildingBlocks": []
+    },
+    {
+      "Id": "Dapagliflozin",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dapagliflozin-Model/v1.1/Dapagliflozin-Model.json",
+      "BuildingBlocks": []
+    },
+    {
+      "Id": "Raltegravir",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Raltegravir-Model/v1.2/Raltegravir-Model.json",
+      "BuildingBlocks": []
+    },
+    {
+      "Id": "Atazanavir",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atazanavir-Model/v1.1/Atazanavir-Model.json",
+      "BuildingBlocks": []
+    },
+    {
+      "Id": "Mefenamic_acid-Dapagliflozin-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mefenamic_acid-Dapagliflozin-DDI/v1.1/Mefenamic_acid-Dapagliflozin-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Individual",
+          "Name": "Standard_Adult_UGT",
+          "Project": "Dapagliflozin"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Mefenamic acid",
+          "Project": "Mefenamic_acid"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Dapagliflozin",
+          "Project": "Dapagliflozin"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Ponstan capsule",
+          "Project": "Mefenamic_acid"
+        }
+      ],
+      "SimulationParameters": [
+        {
+          "Project": "Dapagliflozin",
+          "Simulation": "PO SD 10 mg (perm)",
+          "Path": "Dapagliflozin|logP (veg.oil/water)",
+          "TargetSimulations": [
+            "DDI Control - Dapagliflozin - Kasichayanula 2013a",
+            "DDI Treatment - Mefenamic acid/Dapagliflozin - Kasichayanula 2013a"
+          ]
+        },
+        {
+          "Project": "Dapagliflozin",
+          "Simulation": "PO SD 10 mg (perm)",
+          "Path": "Dapagliflozin|Blood/Plasma concentration ratio",
+          "TargetSimulations": [
+            "DDI Control - Dapagliflozin - Kasichayanula 2013a",
+            "DDI Treatment - Mefenamic acid/Dapagliflozin - Kasichayanula 2013a"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "Atazanavir-Raltegravir-DDI",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atazanavir-Raltegravir-DDI/v1.1/Atazanavir-Raltegravir-DDI.json",
+      "BuildingBlocks": [
+        {
+          "Type": "Compound",
+          "Name": "Raltegravir",
+          "Project": "Raltegravir"
+        },
+        {
+          "Type": "Compound",
+          "Name": "Atazanavir",
+          "Project": "Atazanavir"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "Reyataz capsule",
+          "Project": "Atazanavir"
+        },
+        {
+          "Type": "Formulation",
+          "Name": "filmcoated tablet (original Merck formulation)",
+          "Project": "Raltegravir"
+        }
+      ]
+    }
+  ],
+  "ObservedDataSets": [
+    {
+      "Id": "DDI Ratios",
+      "Path": "DDI.csv",
+      "Type": "DDIRatio"
+    }
+  ],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AxesSettings": {
+      "ComparisonTimeProfile": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsPredictedVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsResidualsVsObserved": [
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ]
+    },
+    "ComparisonTimeProfilePlots": [
+      {
+        "SectionId": 31,
+        "Title": "Iwamoto 2008",
+        "SimulationDuration": 176,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Iwamoto2008_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Iwamoto 2008 - Study I, Period 1 (control) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Iwamoto2008_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Iwamoto 2008 - Study I, Period 2 (ATV treatment) - Raltegravir - PO - 100 mg - Plasma - agg. (n=10)",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 31,
+        "Title": "Krishna 2016",
+        "SimulationDuration": 216,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Krishna2016_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Krishna 2016 - Period 1, Day 1 (1200 mg raltegravir SD) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=14)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Krishna2016_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Krishna 2016 - Period 2, Day 7 (1200 mg raltegravir SD with OD doses of 400 mg ATV) - Raltegravir - PO - 1200 mg - Plasma - agg. (n=12)",
+            "StartTime": 144,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 31,
+        "Title": "Neely 2010",
+        "SimulationDuration": 192,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Neely2010_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neely 2010 - Study arm A (Raltegravir 400mg BID) - Raltegravir - PO - 400 mg - Plasma - agg. (n=20)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Neely2010_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Neely 2010 - Study arm B (Raltegravir 400mg OD + Atazanavir 400 mg OD) - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+            "StartTime": 168,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 31,
+        "Title": "Zhu 2010",
+        "SimulationDuration": 612,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Zhu2010_Raltegravir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Zhu 2010 - Raltegravir 400 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=22)",
+            "StartTime": 96,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without atazanavir)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Atazanavir-Raltegravir-DDI",
+            "Simulation": "Zhu2010_Raltegravir+Atazanavir",
+            "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Zhu 2010 - Raltegravir 400 mg twice daily plus atazanavir 300 mg twice daily - Raltegravir - PO - 400 mg - Plasma - agg. (n=19)",
+            "StartTime": 600,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with atazanavir)",
+            "Symbol": "Square"
+          }
+        ]
+      },
+      {
+        "SectionId": 32,
+        "Title": "Kasichayanula 2013a",
+        "SimulationDuration": 48,
+        "TimeUnit": "h",
+        "OutputMappings": [
+          {
+            "Project": "Mefenamic_acid-Dapagliflozin-DDI",
+            "Simulation": "DDI Control - Dapagliflozin - Kasichayanula 2013a",
+            "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kasichayanula 2013a - Study 2: Control (Perpetrator Placebo) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)",
+            "StartTime": 0,
+            "TimeUnit": "h",
+            "Color": "#2166ac",
+            "Caption": "Control (without mefenamic acid)",
+            "Symbol": "Circle"
+          },
+          {
+            "Project": "Mefenamic_acid-Dapagliflozin-DDI",
+            "Simulation": "DDI Treatment - Mefenamic acid/Dapagliflozin - Kasichayanula 2013a",
+            "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "Kasichayanula 2013a - Study 2: with Perpetrator (Mefenamic Acid) - Dapagliflozin - PO - 10 mg - Plasma - agg. (n=16)",
+            "StartTime": 24,
+            "TimeUnit": "h",
+            "Color": "#b2182b",
+            "Caption": "Treatment (with mefenamic acid)",
+            "Symbol": "Square"
+          }
+        ]
+      }
+    ],
+    "DDIRatioPlots": [
+      {
+        "SectionId": 2,
+        "Title": "UGT1A1 and UGT1A9 Inhibition DDI",
+        "PKParameters": [
+          "AUC",
+          "CMAX"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsVsObserved"
+        ],
+        "Subunits": [
+          "Mechanism",
+          "Perpetrator",
+          "Victim"
+        ],
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure",
+          "Table"
+        ],
+        "GuestDelta": [
+          {
+            "PKParameters": [
+              "CMAX"
+            ],
+            "Value": 1.4
+          }
+        ],
+        "Groups": [
+          {
+            "Caption": "Atazanavir + Raltegravir",
+            "Color": "#b2182b",
+            "Symbol": "Circle",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 571,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Iwamoto2008_Raltegravir",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Iwamoto2008_Raltegravir+Atazanavir",
+                  "StartTime": 144,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 575,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Krishna2016_Raltegravir",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Krishna2016_Raltegravir+Atazanavir",
+                  "StartTime": 144,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 573,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Neely2010_Raltegravir",
+                  "StartTime": 168,
+                  "EndTime": 180,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Neely2010_Raltegravir+Atazanavir",
+                  "StartTime": 168,
+                  "EndTime": 192,
+                  "TimeUnit": "h"
+                }
+              },
+              {
+                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 579,
+                "SimulationControl": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Zhu2010_Raltegravir",
+                  "StartTime": 96,
+                  "EndTime": 108,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Atazanavir-Raltegravir-DDI",
+                  "Simulation": "Zhu2010_Raltegravir+Atazanavir",
+                  "StartTime": 600,
+                  "EndTime": 612,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          },
+          {
+            "Caption": "Mefenamic acid + Dapagliflozin",
+            "Color": "#2166ac",
+            "Symbol": "Square",
+            "DDIRatios": [
+              {
+                "Output": "Organism|PeripheralVenousBlood|Dapagliflozin|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "DDI Ratios",
+                "ObservedDataRecordId": 642,
+                "SimulationControl": {
+                  "Project": "Mefenamic_acid-Dapagliflozin-DDI",
+                  "Simulation": "DDI Control - Dapagliflozin - Kasichayanula 2013a",
+                  "StartTime": 0,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                },
+                "SimulationDDI": {
+                  "Project": "Mefenamic_acid-Dapagliflozin-DDI",
+                  "Simulation": "DDI Treatment - Mefenamic acid/Dapagliflozin - Kasichayanula 2013a",
+                  "StartTime": 24,
+                  "EndTime": 9999,
+                  "TimeUnit": "h"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Inputs": [],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Introduction",
+      "Sections": [
+        {
+          "Id": 11,
+          "Title": "Objective",
+          "Content": "Content/Qualification_DDI_UGT_objective.md"
+        },
+        {
+          "Id": 12,
+          "Title": "UGT DDI Network",
+          "Content": "Content/Qualification_DDI_UGT_network_description.md",
+          "Sections": [
+            {
+              "Id": 121,
+              "Title": "Atazanavir - Raltegravir DDI",
+              "Content": "Content/ATV-RAL-DDI.md"
+            },
+            {
+              "Id": 122,
+              "Title": "Mefenamic acid - Dapagliflozin DDI",
+              "Content": "Content/MEFA-Dapa-DDI.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Title": "Qualification of Use Case UGT-mediated DDI"
+    },
+    {
+      "Id": 3,
+      "Title": "Concentration-Time Profiles",
+      "Content": "Content/Intro_evaluation_DDI_network.md",
+      "Sections": [
+        {
+          "Id": 31,
+          "Title": "Atazanavir - Raltegravir DDI"
+        },
+        {
+          "Id": 32,
+          "Title": "Mefenamic acid - Dapagliflozin DDI"
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Title": "References",
+      "Content": "Content/References.md",
+      "Sections": []
+    },
+    {
+      "Id": 5,
+      "Title": "Appendix",
+      "Sections": [
+        {
+          "Id": 51,
+          "Title": "Open Systems Pharmacology Suite (OSPS) Introduction",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/OSPS_Introduction.md"
+        },
+        {
+          "Id": 52,
+          "Title": "Mathematical Implementation of Drug-Drug Interactions",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Mathematical_Implementation_of_DDI.md"
+        },
+        {
+          "Id": 53,
+          "Title": "Automatic (re)-qualification workflow",
+          "Content": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Qualification-text-modules/v1.2/Qualification_Workflow.md"
+        }
+      ]
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Content/titlepage.md"
+    }
+  ]
+}

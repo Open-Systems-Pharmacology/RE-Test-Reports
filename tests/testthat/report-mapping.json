@@ -98,5 +98,10 @@
     "Script": "report-qualification-medi524",
     "Report": "MEDI524-Model",
     "Reference": false
+  },
+  {
+    "Script": "report-qualification-ddi",
+    "Report": "TestInput01_DDI",
+    "Reference": false
   }
 ]
