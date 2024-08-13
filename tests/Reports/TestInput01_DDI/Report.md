@@ -185,7 +185,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-3: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-3: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -198,7 +198,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-4: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-4: UGT1A1 and UGT1A9 Inhibition DDI.  Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -238,13 +238,13 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 <a id="table-2-3"></a>
 
-**Table 2-3: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Table 2-3: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |5      |-        |
-|Points within Guest *et al.* |4      |80        |
+|Points within Guest *et al.* |5      |100       |
 |Points within 2 fold         |5      |100       |
 
 
@@ -308,7 +308,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-7: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-7: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -321,7 +321,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-8: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-8: UGT1A1 and UGT1A9 Inhibition DDI. Mechanism: Reversible Inhibition. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -361,13 +361,13 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 <a id="table-2-7"></a>
 
-**Table 2-7: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Table 2-7: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |5      |-        |
-|Points within Guest *et al.* |4      |80        |
+|Points within Guest *et al.* |5      |100       |
 |Points within 2 fold         |5      |100       |
 
 
@@ -413,7 +413,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-11: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-11: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -426,7 +426,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-12: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-12: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Atazanavir. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -466,13 +466,13 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 <a id="table-2-10"></a>
 
-**Table 2-10: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Table 2-10: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |4      |-        |
-|Points within Guest *et al.* |3      |75        |
+|Points within Guest *et al.* |4      |100       |
 |Points within 2 fold         |4      |100       |
 
 
@@ -515,7 +515,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-15: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-15: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -528,7 +528,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-16: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-16: UGT1A1 and UGT1A9 Inhibition DDI. Perpetrator: Mefenamic Acid. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -568,7 +568,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 <a id="table-2-13"></a>
 
-**Table 2-13: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Table 2-13: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -620,7 +620,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-19: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-19: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -633,7 +633,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-20: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-20: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Dapagliflozin. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -673,7 +673,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 <a id="table-2-16"></a>
 
-**Table 2-16: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Table 2-16: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
@@ -722,7 +722,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-23: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-23: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -735,7 +735,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-**Figure 2-24: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Figure 2-24: UGT1A1 and UGT1A9 Inhibition DDI. Victim: Raltegravir. Predicted/Observed vs. Observed CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 <br>
@@ -775,13 +775,13 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 <a id="table-2-19"></a>
 
-**Table 2-19: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1 in Guest *et al.* formula)**
+**Table 2-19: Summary table for UGT1A1 and UGT1A9 Inhibition DDI - CMAX Ratio. (&delta; = 1.4 in Guest *et al.* formula)**
 
 
 |CMAX                         |Number |Ratio [%] |
 |:----------------------------|:------|:---------|
 |Points total                 |4      |-        |
-|Points within Guest *et al.* |3      |75        |
+|Points within Guest *et al.* |4      |100       |
 |Points within 2 fold         |4      |100       |
 
 
