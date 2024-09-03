@@ -8,7 +8,7 @@ library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow
 qualificationProject <- "Digoxin-Model"
-snapshotFile <- "Digoxin.json"
+snapshotFile <- "Digoxin-Model.json"
 workingDirectory <- normalizePath(qualificationProject, mustWork = FALSE, winslash = "/")
 qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
 pkSimPortableFolder <- "PK-Sim/PK-Sim"
@@ -25,7 +25,7 @@ file.copy(file.path("archive/Digoxin-Model-master/", snapshotFile), workingDirec
 unlink("archive", recursive = TRUE)
 
 #' @description Code hereafter is adapted from `createQualificationReport()` template
-qualificationPlanName <- "Evaluation_plan.json"
+qualificationPlanName <- "evaluation_plan.json"
 qualificationPlanFile <- file.path(workingDirectory, "input", qualificationPlanName)
 jsonContent <- readLines(qualificationPlanFile)
 jsonContent <- gsub(pattern = paste0('../', snapshotFile), replacement = snapshotFile, x = jsonContent)
