@@ -577,7 +577,7 @@
 
 <a id="figure-2-1"></a>
 
-![](TimeProfiles/single_IV_application-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/single_IV_application-3_timeProfile_1_total.png)
 
 
 
@@ -590,11 +590,37 @@
 
 <a id="figure-2-2"></a>
 
-![](TimeProfiles/single_IV_application-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/single_IV_application-4_timeProfileLog_2_total.png)
 
 
 
 **Figure 2-2: Time profiles for single IV application. Time profiles are plotted in a logarithmic scale.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-3"></a>
+
+![](TimeProfiles/single_IV_application-5_timeProfile_3_total.png)
+
+
+
+**Figure 2-3: Time profiles for single IV application. Time profiles are plotted in a linear scale.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-4"></a>
+
+![](TimeProfiles/single_IV_application-6_timeProfileLog_4_total.png)
+
+
+
+**Figure 2-4: Time profiles for single IV application. Time profiles are plotted in a logarithmic scale.**
 
 
 <br>

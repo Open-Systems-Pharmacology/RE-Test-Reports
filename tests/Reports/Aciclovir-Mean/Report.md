@@ -114,7 +114,7 @@
 
 <a id="figure-3-1"></a>
 
-![](TimeProfiles/Aciclovir-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/Aciclovir-3_timeProfile_1_total.png)
 
 
 
@@ -127,7 +127,7 @@
 
 <a id="figure-3-2"></a>
 
-![](TimeProfiles/Aciclovir-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/Aciclovir-4_timeProfileLog_2_total.png)
 
 
 

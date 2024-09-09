@@ -55,7 +55,7 @@
 
 <a id="figure-2-1"></a>
 
-![](TimeProfiles/PO320mg-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/PO320mg-3_timeProfile_1_total.png)
 
 
 
@@ -68,7 +68,7 @@
 
 <a id="figure-2-2"></a>
 
-![](TimeProfiles/PO320mg-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/PO320mg-4_timeProfileLog_2_total.png)
 
 
 

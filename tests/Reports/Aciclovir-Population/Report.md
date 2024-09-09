@@ -434,7 +434,7 @@
 
 <a id="figure-3-1"></a>
 
-![](TimeProfiles/Aciclovir_Adults-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Adults-3_timeProfile_1_total.png)
 
 
 
@@ -447,7 +447,7 @@
 
 <a id="figure-3-2"></a>
 
-![](TimeProfiles/Aciclovir_Adults-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Adults-4_timeProfileLog_2_total.png)
 
 
 
@@ -463,7 +463,7 @@
 
 <a id="figure-3-3"></a>
 
-![](TimeProfiles/Aciclovir_Children-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Children-3_timeProfile_1_total.png)
 
 
 
@@ -476,7 +476,7 @@
 
 <a id="figure-3-4"></a>
 
-![](TimeProfiles/Aciclovir_Children-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/Aciclovir_Children-4_timeProfileLog_2_total.png)
 
 
 
