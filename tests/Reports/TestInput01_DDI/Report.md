@@ -25,40 +25,40 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
 
 # Table of Contents
 
- * [1 Introduction ](#1)
-   * [1.1 Objective ](#11)
-   * [1.2 UGT DDI Network ](#12)
-     * [1.2.1 Atazanavir - Raltegravir DDI ](#121)
-     * [1.2.2 Mefenamic acid - Dapagliflozin DDI ](#122)
- * [2 Qualification of Use Case UGT-mediated DDI ](#2)
-   * [2.1 Mechanism ](#2-ddi-subunit-9)
-     * [2.1.1 Reversible Inhibition ](#2-ddi-subunit-10)
-   * [2.2 Perpetrator ](#2-ddi-subunit-18)
-     * [2.2.1 Atazanavir ](#2-ddi-subunit-19)
-     * [2.2.2 Mefenamic Acid ](#2-ddi-subunit-27)
-   * [2.3 Victim ](#2-ddi-subunit-35)
-     * [2.3.1 Dapagliflozin ](#2-ddi-subunit-36)
-     * [2.3.2 Raltegravir ](#2-ddi-subunit-44)
- * [3 Concentration-Time Profiles ](#3)
-   * [3.1 Atazanavir - Raltegravir DDI ](#31)
-   * [3.2 Mefenamic acid - Dapagliflozin DDI ](#32)
- * [4 References ](#4)
- * [5 Appendix ](#5)
-   * [5.1 Open Systems Pharmacology Suite (OSPS) Introduction ](#51)
-   * [5.2 Mathematical Implementation of Drug-Drug Interactions ](#52)
-   * [5.3 Automatic (re)-qualification workflow ](#53)
+ * [1 Introduction](#1)
+   * [1.1 Objective](#11)
+   * [1.2 UGT DDI Network](#12)
+     * [1.2.1 Atazanavir - Raltegravir DDI](#121)
+     * [1.2.2 Mefenamic acid - Dapagliflozin DDI](#122)
+ * [2 Qualification of Use Case UGT-mediated DDI](#2)
+   * [2.1 Mechanism](#2-ddi-subunit-9)
+     * [2.1.1 Reversible Inhibition](#2-ddi-subunit-10)
+   * [2.2 Perpetrator](#2-ddi-subunit-18)
+     * [2.2.1 Atazanavir](#2-ddi-subunit-19)
+     * [2.2.2 Mefenamic Acid](#2-ddi-subunit-27)
+   * [2.3 Victim](#2-ddi-subunit-35)
+     * [2.3.1 Dapagliflozin](#2-ddi-subunit-36)
+     * [2.3.2 Raltegravir](#2-ddi-subunit-44)
+ * [3 Concentration-Time Profiles](#3)
+   * [3.1 Atazanavir - Raltegravir DDI](#31)
+   * [3.2 Mefenamic acid - Dapagliflozin DDI](#32)
+ * [4 References](#4)
+ * [5 Appendix](#5)
+   * [5.1 Open Systems Pharmacology Suite (OSPS) Introduction](#51)
+   * [5.2 Mathematical Implementation of Drug-Drug Interactions](#52)
+   * [5.3 Automatic (re)-qualification workflow](#53)
 
 
 
 
 
-# 1 Introduction <a id="1"></a>
+# 1 Introduction<a id="1"></a>
 
 
 
 
 
-## 1.1 Objective <a id="11"></a>
+## 1.1 Objective<a id="11"></a>
 
 
 This **qualification report** evaluates for the PBPK platform **PK-Sim** (as part of the open systems pharmacology (OSP) suite) the ability to perform simulations with the intended purpose to predict UGT1A1- and UGT1A9-mediated drug-drug interactions (**DDI**)
@@ -81,7 +81,7 @@ Please refer to the [Appendix](#5-appendix) to learn more details:
 
 
 
-## 1.2 UGT DDI Network <a id="12"></a>
+## 1.2 UGT DDI Network<a id="12"></a>
 
 
 The following perpetrator compounds were selected:
@@ -109,7 +109,7 @@ The published DDI studies between the respective perpetrators and victim drugs w
 
 
 
-### 1.2.1 Atazanavir - Raltegravir DDI <a id="121"></a>
+### 1.2.1 Atazanavir - Raltegravir DDI<a id="121"></a>
 
 
 The release of the snapshot containing the respective simulations can be found here:
@@ -131,7 +131,7 @@ The atazanavir / raltegravir interaction was evaluated using four clinical DDI s
 
 
 
-### 1.2.2 Mefenamic acid - Dapagliflozin DDI <a id="122"></a>
+### 1.2.2 Mefenamic acid - Dapagliflozin DDI<a id="122"></a>
 
 
 The release of the snapshot containing the respective simulations can be found here:
@@ -150,7 +150,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-# 2 Qualification of Use Case UGT-mediated DDI <a id="2"></a>
+# 2 Qualification of Use Case UGT-mediated DDI<a id="2"></a>
 
 
 <a id="figure-2-1"></a>
@@ -270,10 +270,10 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-## 2.1 Mechanism <a id="2-ddi-subunit-9"></a>
+## 2.1 Mechanism<a id="2-ddi-subunit-9"></a>
 
 
-### 2.1.1 Reversible Inhibition <a id="2-ddi-subunit-10"></a>
+### 2.1.1 Reversible Inhibition<a id="2-ddi-subunit-10"></a>
 
 
 <a id="figure-2-5"></a>
@@ -375,10 +375,10 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-## 2.2 Perpetrator <a id="2-ddi-subunit-18"></a>
+## 2.2 Perpetrator<a id="2-ddi-subunit-18"></a>
 
 
-### 2.2.1 Atazanavir <a id="2-ddi-subunit-19"></a>
+### 2.2.1 Atazanavir<a id="2-ddi-subunit-19"></a>
 
 
 <a id="figure-2-9"></a>
@@ -480,7 +480,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-### 2.2.2 Mefenamic Acid <a id="2-ddi-subunit-27"></a>
+### 2.2.2 Mefenamic Acid<a id="2-ddi-subunit-27"></a>
 
 
 <a id="figure-2-13"></a>
@@ -582,10 +582,10 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-## 2.3 Victim <a id="2-ddi-subunit-35"></a>
+## 2.3 Victim<a id="2-ddi-subunit-35"></a>
 
 
-### 2.3.1 Dapagliflozin <a id="2-ddi-subunit-36"></a>
+### 2.3.1 Dapagliflozin<a id="2-ddi-subunit-36"></a>
 
 
 <a id="figure-2-17"></a>
@@ -687,7 +687,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 <br>
 
 
-### 2.3.2 Raltegravir <a id="2-ddi-subunit-44"></a>
+### 2.3.2 Raltegravir<a id="2-ddi-subunit-44"></a>
 
 
 <a id="figure-2-21"></a>
@@ -792,7 +792,7 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 
 
 
-# 3 Concentration-Time Profiles <a id="3"></a>
+# 3 Concentration-Time Profiles<a id="3"></a>
 
 
 The following section shows the correlations between observed and model-predicted AUC and C<sub>max</sub> ratios, respectively.
@@ -834,7 +834,7 @@ In the plots,
 
 
 
-## 3.1 Atazanavir - Raltegravir DDI <a id="31"></a>
+## 3.1 Atazanavir - Raltegravir DDI<a id="31"></a>
 
 
 <a id="figure-3-1"></a>
@@ -892,7 +892,7 @@ In the plots,
 
 
 
-## 3.2 Mefenamic acid - Dapagliflozin DDI <a id="32"></a>
+## 3.2 Mefenamic acid - Dapagliflozin DDI<a id="32"></a>
 
 
 <a id="figure-3-5"></a>
@@ -911,7 +911,7 @@ In the plots,
 
 
 
-# 4 References <a id="4"></a>
+# 4 References<a id="4"></a>
 
 
 **Guest 2011** Guest EJ, Aarons L, Houston JB, Rostami-Hodjegan A, Galetin A. Critique of the twofold measure of prediction success for ratios: application for the assessment of drug-drug
@@ -940,13 +940,13 @@ individuals. Antiviral therapy. 2010;15(8):1107-14.
 
 
 
-# 5 Appendix <a id="5"></a>
+# 5 Appendix<a id="5"></a>
 
 
 
 
 
-## 5.1 Open Systems Pharmacology Suite (OSPS) Introduction <a id="51"></a>
+## 5.1 Open Systems Pharmacology Suite (OSPS) Introduction<a id="51"></a>
 
 
 Open Systems Pharmacology Suite (OSP suite) is a tool for PBPK modeling and simulation of drugs in laboratory animals and humans. PK-Sim® and MoBi® are part of the OSP suite [[1](#references-for-osps-introduction)].  PK-Sim® is based on a generic PBPK-model with 18 organs and tissues. One of the main assumptions is that all compartments are well-stirred. Represented organs/tissues include arterial and venous blood, adipose tissue (separable adipose, excluding yellow marrow), brain, lung, bone (including yellow marrow), gonads, heart, kidneys, large intestine, liver, muscle, portal vein, pancreas, skin, small intestine, spleen and stomach, as shown in **Figure 1**.
@@ -990,7 +990,7 @@ Physiological databases included in the software incorporate the dependencies of
 
 
 
-## 5.2 Mathematical Implementation of Drug-Drug Interactions <a id="52"></a>
+## 5.2 Mathematical Implementation of Drug-Drug Interactions<a id="52"></a>
 
 
 
@@ -1016,7 +1016,7 @@ A detailed representation of the mathematical implementation of enzyme induction
 
 
 
-## 5.3 Automatic (re)-qualification workflow <a id="53"></a>
+## 5.3 Automatic (re)-qualification workflow<a id="53"></a>
 
 
 [Open Systems Pharmacology](http://www.open-systems-pharmacology.org) provides a dynamic landscape of model repositories and a database of observed clinical data. Additionally, a technical framework to assess confidence of a specific intended use has been developed (qualification runner and reporting engine). This framework allows for an automatic (re)-qualification workflow of the OSP suite, comprising the following steps (**Figure 1**):
