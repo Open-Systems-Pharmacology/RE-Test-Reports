@@ -156,7 +156,7 @@ availableDurations <- unname(sapply(
 knitr::kable(data.frame(
   "Reference" = paste0(
     "[", reportMappings$Report, "](",
-    ifelse(reportMappings$Reference, ".", "https://github.com/Open-Systems-Pharmacology/"),
+    ifelse(reportMappings$Reference, "./Reports/", "https://github.com/Open-Systems-Pharmacology/"),
     reportMappings$Report, ")"
   ),
   "Test Report" = paste0("[", reportMappings$Report, "](./tests/Reports/", reportMappings$Report, "/Report.md)"),
