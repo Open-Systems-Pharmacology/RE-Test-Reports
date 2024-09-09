@@ -8,19 +8,19 @@
 
 # Table of Contents
 
- * [1 PK parameters ](#pk-parameters)
-   * [1.1 PK parameters for PO320mg ](#pk-parameters-po320mg)
- * [2 Time profiles and residual plots ](#time-profiles)
-   * [2.1 Time profiles and residual plots for PO320mg ](#time-profiles-po320mg)
+ * [1 PK parameters](#pk-parameters)
+   * [1.1 PK parameters for PO320mg](#pk-parameters-po320mg)
+ * [2 Time profiles and residual plots](#time-profiles)
+   * [2.1 Time profiles and residual plots for PO320mg](#time-profiles-po320mg)
 
 
 
 
 
-# 1 PK parameters <a id="pk-parameters"></a>
+# 1 PK parameters<a id="pk-parameters"></a>
 
 
-## 1.1 PK parameters for PO320mg <a id="pk-parameters-po320mg"></a>
+## 1.1 PK parameters for PO320mg<a id="pk-parameters-po320mg"></a>
 
 
 <a id="table-1-1"></a>
@@ -43,15 +43,15 @@
 
 
 
-# 2 Time profiles and residual plots <a id="time-profiles"></a>
+# 2 Time profiles and residual plots<a id="time-profiles"></a>
 
 
-## 2.1 Time profiles and residual plots for PO320mg <a id="time-profiles-po320mg"></a>
+## 2.1 Time profiles and residual plots for PO320mg<a id="time-profiles-po320mg"></a>
 
 
 <a id="figure-2-1"></a>
 
-![](TimeProfiles/PO320mg-3_timeProfile_Concentration_total.png)
+![](TimeProfiles/PO320mg-3_timeProfile_1_total.png)
 
 
 
@@ -64,7 +64,7 @@
 
 <a id="figure-2-2"></a>
 
-![](TimeProfiles/PO320mg-4_timeProfileLog_Concentration_total.png)
+![](TimeProfiles/PO320mg-4_timeProfileLog_2_total.png)
 
 
 
