@@ -21,26 +21,26 @@ https://github.com/Open-Systems-Pharmacology/Qualification-CKD
 
 # Table of Contents
 
- * [1 Introduction ](#introduction)
- * [2 CKD Population Development ](#ckd_population_development)
- * [3 Compounds ](#compounds)
-   * [3.1 Gabapentin ](#gabapentin)
-     * [3.1.1 Gabapentin in a Healthy Population ](#gabapentin_healthy)
-     * [3.1.2 Gabapentin in a CKD Population ](#gabapentin_ckd)
-   * [3.2 Acebutolol ](#acebutolol)
-     * [3.2.1 Acebutolol in a Healthy Population ](#acebutolol_healthy)
-     * [3.2.2 Acebutolol in a CKD Population ](#acebutolol_ckd)
-   * [3.3 Atenolol ](#atenolol)
-     * [3.3.1 Atenolol in a Healthy Population ](#atenolol_healthy)
-     * [3.3.2 Atenolol in a CKD Population ](#atenolol_ckd)
- * [4 Conclusion ](#conclusion)
- * [5 References ](#references)
+ * [1 Introduction](#introduction)
+ * [2 CKD Population Development](#ckd_population_development)
+ * [3 Compounds](#compounds)
+   * [3.1 Gabapentin](#gabapentin)
+     * [3.1.1 Gabapentin in a Healthy Population](#gabapentin_healthy)
+     * [3.1.2 Gabapentin in a CKD Population](#gabapentin_ckd)
+   * [3.2 Acebutolol](#acebutolol)
+     * [3.2.1 Acebutolol in a Healthy Population](#acebutolol_healthy)
+     * [3.2.2 Acebutolol in a CKD Population](#acebutolol_ckd)
+   * [3.3 Atenolol](#atenolol)
+     * [3.3.1 Atenolol in a Healthy Population](#atenolol_healthy)
+     * [3.3.2 Atenolol in a CKD Population](#atenolol_ckd)
+ * [4 Conclusion](#conclusion)
+ * [5 References](#references)
 
 
 
 
 
-# 1 Introduction <a id="introduction"></a>
+# 1 Introduction<a id="introduction"></a>
 
 
 The presented qualification report performs simulations of drug disposition and pharmacokinetics in subjects with chronic kidney disease (CKD) to qualify the parameterization of the foundational anatomy and physiology parameters for virtual populations with CKD in the Open Systems Pharmacology (OSP) Suite.
@@ -55,7 +55,7 @@ This report replicates in part the evaluation of the parameterization done by Ma
 
 
 
-# 2 CKD Population Development <a id="ckd_population_development"></a>
+# 2 CKD Population Development<a id="ckd_population_development"></a>
 
 
 In order to generate a virtual population of subjects with CKD, the user must specify a target range for glomerular filtration rate (GFR) (minimum to maximum). PK-Sim will first generate a healthy population using the standard algorithm<sup>2</sup> - including the effects of aging as appropriate - and modify the physiological parameters of the simulated individuals to replicate a realistic CKD phenotype. The details of this process are outlined in **Figure 2-2**, with references to **Figure 2-1**, **Table 2-1** and **Table 2-2**. For a complete description, see Malik et al.<sup>1</sup>
@@ -99,7 +99,7 @@ In order to generate a virtual population of subjects with CKD, the user must sp
 
 
 
-# 3 Compounds <a id="compounds"></a>
+# 3 Compounds<a id="compounds"></a>
 
 
 The method to generate virtual populations with CKD was qualified by testing its predictive performance when used in combination with PBPK models for healthy subjects in order to predict the pharmacokinetics of drugs in patients with CKD from literature.
@@ -112,7 +112,7 @@ Each subsection that follows will contain an introduction to the test compound, 
 
 
 
-## 3.1 Gabapentin <a id="gabapentin"></a>
+## 3.1 Gabapentin<a id="gabapentin"></a>
 
 
 Gabapentin is structurally related to the neurotransmitter, gamma aminobutyric acid (GABA). In adults, it is indicated for the management of post-herpetic neuralgia; and in adults and children 3 years and older with epilepsy, it is used as an adjunctive therapy in treating partial onset seizures with and without secondary generalization.
@@ -125,7 +125,7 @@ Gabapentin is not metabolized and completely renally cleared as unchanged drug b
 
 
 
-### 3.1.1 Gabapentin in a Healthy Population <a id="gabapentin_healthy"></a>
+### 3.1.1 Gabapentin in a Healthy Population<a id="gabapentin_healthy"></a>
 
 
 **Table 3-1** presents the drug-specific parameters of gabapentin and the values used for the oral administration model. Parameter optimization was carried out in PK-Sim using a Monte Carlo approach for exploring the parameter space, using the datasets summarized in **Table 3-2**.
@@ -196,7 +196,7 @@ LAT1 was added as an influx transporter and its relative expression throughout t
 
 
 
-### 3.1.2 Gabapentin in a CKD Population <a id="gabapentin_ckd"></a>
+### 3.1.2 Gabapentin in a CKD Population<a id="gabapentin_ckd"></a>
 
 
 With the drug-specific parameters fixed, the healthy PBPK model was translated to a CKD PBPK model CKD according to the defined method. 
@@ -235,7 +235,7 @@ A population with Stage 4-5 CKD was created according to the demographic paramet
 
 
 
-## 3.2 Acebutolol <a id="acebutolol"></a>
+## 3.2 Acebutolol<a id="acebutolol"></a>
 
 
 Acebutolol is a cardioselective beta-blocker with mild intrinsic sympathomimetic activity indicated for hypertension and ventricular arrhythmias. It is administered orally and classified as a BCS Class 3 drug. Acebutolol is well absorbed from the gastrointestinal tract with an absolute bioavailability of approximately 40%. Its elimination half life is 3–4 hours.<sup>35</sup>
@@ -246,7 +246,7 @@ Acebutolol undergoes extensive first pass metabolism in the liver by the two enz
 
 
 
-### 3.2.1 Acebutolol in a Healthy Population <a id="acebutolol_healthy"></a>
+### 3.2.1 Acebutolol in a Healthy Population<a id="acebutolol_healthy"></a>
 
 
 **Table 3-3** presents the drug-specific parameters of acebutolol and the values used for the combined IV-oral model. Parameter optimization was carried out in PK-Sim using a Monte Carlo approach for exploring the parameter space, using the datasets summarized in **Table 3-4**.
@@ -324,7 +324,7 @@ The estimated fraction excreted to urine of 12% approximated the observed value 
 
 
 
-### 3.2.2 Acebutolol in a CKD Population <a id="acebutolol_ckd"></a>
+### 3.2.2 Acebutolol in a CKD Population<a id="acebutolol_ckd"></a>
 
 
 With the drug-specific parameters fixed, the healthy PBPK model was translated to a CKD PBPK model CKD according to the defined method. 
@@ -348,7 +348,7 @@ A population with Stage 3-5 CKD was created according to the demographic paramet
 
 
 
-## 3.3 Atenolol <a id="atenolol"></a>
+## 3.3 Atenolol<a id="atenolol"></a>
 
 
 Atenolol is a beta-selective beta-adrenergic receptor blocking agent. It is indicated for hypertension, angina pectoris due to coronary atherosclerosis, and acute myocardial infarction. Atenolol is 6-16% bound to proteins in plasma.<sup>47</sup> The elimination half-life of atenolol from plasma is 6-7 hours in healthy adults.
@@ -361,7 +361,7 @@ Atenolol is a substrate of the organic cation transporter 2 (OCT2/SLC22A2) on th
 
 
 
-### 3.3.1 Atenolol in a Healthy Population <a id="atenolol_healthy"></a>
+### 3.3.1 Atenolol in a Healthy Population<a id="atenolol_healthy"></a>
 
 
 **Table 3-5** and **Table 3-7** present the drug-specific parameters of atenolol and the values used for the IV and Oral administration models. Parameter optimization was carried out in PK-Sim using a Monte Carlo approach for exploring the parameter space, using the datasets summarized in **Table 3-6** and **Table 3-8**.
@@ -496,7 +496,7 @@ Atenolol is predominantly absorbed in the ileum.<sup>57-60</sup> The transporter
 
 
 
-### 3.3.2 Atenolol in a CKD Population <a id="atenolol_ckd"></a>
+### 3.3.2 Atenolol in a CKD Population<a id="atenolol_ckd"></a>
 
 
 With the drug-specific parameters fixed, the healthy PBPK model was translated to a CKD PBPK model CKD according to the defined method. 
@@ -595,7 +595,7 @@ A population with Stage 3-4 CKD was created according to the demographic paramet
 
 
 
-# 4 Conclusion <a id="conclusion"></a>
+# 4 Conclusion<a id="conclusion"></a>
 
 
 Success of the virtual population with the test models for predicting drug pharmacokinetics in subjects with CKD qualifies the method to support the use of the population for PBPK-CKD modeling.
@@ -606,7 +606,7 @@ The evaluation was performed for compounds with significant renal elimination, f
 
 
 
-# 5 References <a id="references"></a>
+# 5 References<a id="references"></a>
 
 
 1. Malik PR, Yeung CH, Ismaeil S, Advani U, Djie S, Edginton AN. A physiological approach to pharmacokinetics in chronic kidney disease. J Clin Pharmacol. 2020 Nov;60:S52-62.

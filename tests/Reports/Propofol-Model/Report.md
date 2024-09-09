@@ -27,23 +27,23 @@ https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
 
 # Table of Contents
 
- * [1 Introduction ](#introduction)
- * [2 Methods ](#methods)
-   * [2.1 Modeling strategy ](#modeling-strategy)
-   * [2.2 Data used ](#data)
-   * [2.3 Model parameters and assumptions ](#model-parameters-and-assumptions)
- * [3 Results and Discussion ](#results-and-discussion)
-   * [3.1 Propofol final input parameters ](#final-input-parameters)
-   * [3.2 Propofol Diagnostics Plots ](#diagnostics-plots)
-   * [3.3 Propofol Concentration-Time profiles ](#ct-profiles-model-building)
- * [4 Conclusion ](#conclusion)
- * [5 References ](#references)
+ * [1 Introduction](#introduction)
+ * [2 Methods](#methods)
+   * [2.1 Modeling strategy](#modeling-strategy)
+   * [2.2 Data used](#data)
+   * [2.3 Model parameters and assumptions](#model-parameters-and-assumptions)
+ * [3 Results and Discussion](#results-and-discussion)
+   * [3.1 Propofol final input parameters](#final-input-parameters)
+   * [3.2 Propofol Diagnostics Plots](#diagnostics-plots)
+   * [3.3 Propofol Concentration-Time profiles](#ct-profiles-model-building)
+ * [4 Conclusion](#conclusion)
+ * [5 References](#references)
 
 
 
 
 
-# 1 Introduction <a id="introduction"></a>
+# 1 Introduction<a id="introduction"></a>
 
 
 The presented model building and evaluation report evaluates the performance of a PBPK model for propofol in adults.
@@ -57,7 +57,7 @@ The propofol model is a whole-body PBPK model, allowing for dynamic translation 
 
 
 
-# 2 Methods <a id="methods"></a>
+# 2 Methods<a id="methods"></a>
 
 
 
@@ -66,7 +66,7 @@ The propofol model is a whole-body PBPK model, allowing for dynamic translation 
 
 
 
-## 2.1 Modeling strategy <a id="modeling-strategy"></a>
+## 2.1 Modeling strategy<a id="modeling-strategy"></a>
 
 
 The general concept of building a PBPK model has previously been described by Kuepfer et al. ([Kuepfer 2016](#5-references)). Relevant information on anthropometric (height, weight) and physiological parameters (e.g. blood flows, organ volumes, binding protein concentrations, hematocrit, cardiac output) in adults was gathered from the literature and has been previously published ([Schlender 2016](#5-references)). The information was incorporated into PK-Sim® and was used as default values for the simulations in adults.
@@ -84,7 +84,7 @@ During model building, uncertainties in data quality, as well as study differenc
 
 
 
-## 2.2 Data used <a id="data"></a>
+## 2.2 Data used<a id="data"></a>
 
 
 ### 2.2.1 In vitro / physicochemical data
@@ -120,7 +120,7 @@ The following publications were used in adults for model building and evaluation
 
 
 
-## 2.3 Model parameters and assumptions <a id="model-parameters-and-assumptions"></a>
+## 2.3 Model parameters and assumptions<a id="model-parameters-and-assumptions"></a>
 
 
 ### 2.3.1 Absorption
@@ -160,7 +160,7 @@ Finally, as ~0.3% of the dose is excreted in human urine as unchanged parent com
 
 
 
-# 3 Results and Discussion <a id="results-and-discussion"></a>
+# 3 Results and Discussion<a id="results-and-discussion"></a>
 
 
 The PBPK model propofol was developed with clinical pharmacokinetic data after intravenous administration covering a dose range of 1-36mg/kg, including bolus infusion as well as continuous infusion clinical data. 
@@ -179,7 +179,7 @@ Overall, the model results show that the PBPK model of propofol adequately descr
 
 
 
-## 3.1 Propofol final input parameters <a id="final-input-parameters"></a>
+## 3.1 Propofol final input parameters<a id="final-input-parameters"></a>
 
 
 The compound parameter values of the final propofol PBPK model are illustrated below.
@@ -259,7 +259,7 @@ kcat                                        | 141.007756417 1/min           | Pa
 
 
 
-## 3.2 Propofol Diagnostics Plots <a id="diagnostics-plots"></a>
+## 3.2 Propofol Diagnostics Plots<a id="diagnostics-plots"></a>
 
 
 Below you find the goodness-of-fit visual diagnostic plots for propofol PBPK model performance (individually simulated versus observed plasma concentration and weighted residuals versus time, including the geometric mean fold error (GMFE)) of all data used for model building.
@@ -312,7 +312,7 @@ Below you find the goodness-of-fit visual diagnostic plots for propofol PBPK mod
 
 
 
-## 3.3 Propofol Concentration-Time profiles <a id="ct-profiles-model-building"></a>
+## 3.3 Propofol Concentration-Time profiles<a id="ct-profiles-model-building"></a>
 
 
 Simulated versus observed plasma concentration-time profiles of all data are listed below.
@@ -608,7 +608,7 @@ Simulated versus observed plasma concentration-time profiles of all data are lis
 
 
 
-# 4 Conclusion <a id="conclusion"></a>
+# 4 Conclusion<a id="conclusion"></a>
 
 
 The final propofol PBPK model applies metabolism by UGT1A9,  CYP2B6 and glomerular filtration and adequately describes the pharmacokinetics of propofol in adults receiving intravenous bolus and continuous infusion of propofol ranging from 1 mg/kg to 36 mg/kg. 
@@ -620,7 +620,7 @@ This model could be applied for the investigation of drug-drug interactions (DDI
 
 
 
-# 5 References <a id="references"></a>
+# 5 References<a id="references"></a>
 
 
 **Al-Jahdari 2006** Al-Jahdari WS, Yamamoto K, Hiraoka H, Nakamura K, Goto F, Horiuchi R. Prediction of total propofol clearance based on enzyme activities in microsomes from human kidney and liver. Eur J Clin Pharmacol. 2006 Jul;62(7):527-33. doi: 10.1007/s00228-006-0130-2. Epub 2006 Jun 9.

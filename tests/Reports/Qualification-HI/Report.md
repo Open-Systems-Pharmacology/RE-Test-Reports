@@ -21,37 +21,37 @@ https://github.com/Open-Systems-Pharmacology/Qualification-HI
 
 # Table of Contents
 
- * [1 Introduction ](#undefined-section-1)
- * [2 HI Population Development ](#undefined-section-2)
- * [3 Compounds ](#undefined-section-3)
-   * [3.1 Alfentanil ](#undefined-section-4)
-     * [3.1.1 Alfentanil in a Healthy Population - IV ](#alfentanil_healthy)
-     * [3.1.2 Alfentanil in a HI Population - IV ](#alfentanil_hi)
-   * [3.2 Levetiracetam ](#undefined-section-7)
-     * [3.2.1 Levetiracetam in a Healthy Population - Oral ](#levetiracetam_healthy)
-     * [3.2.2 Levetiracetam in a HI Population - Oral ](#levetiracetam_hi)
-   * [3.3 Metoprolol ](#undefined-section-10)
-     * [3.3.1 Metoprolol in a Healthy Population ](#metoprolol_healthy)
-     * [3.3.2 Metoprolol in a HI Population ](#metoprolol_hi)
-   * [3.4 Midazolam ](#undefined-section-13)
-     * [3.4.1 Midazolam in a Healthy Population – IV/PO ](#midazolam_healthy)
-     * [3.4.2 Midazolam in a HI Population ](#midazolam_hi)
-   * [3.5 Sildenafil ](#undefined-section-16)
-     * [3.5.1 Sildenafil in a Healthy Population - PO ](#sildenafil_healthy)
-     * [3.5.2 Sildenafil in a HI Population - PO ](#sildenafil_hi)
-   * [3.6 Theophylline ](#undefined-section-19)
-     * [3.6.1 Theophylline in a Healthy Population - IV ](#theophylline_healthy)
-     * [3.6.2 Theophylline in a HI Population - IV ](#theophylline_hi)
-   * [3.7 Lidocaine ](#undefined-section-22)
-     * [3.7.1 Lidocaine in a Healthy Population - IV ](#lidocaine_healthy)
-     * [3.7.2 Lidocaine in a HI Population - IV ](#lidocaine_hi)
- * [4 References ](#undefined-section-25)
+ * [1 Introduction](#undefined-section-1)
+ * [2 HI Population Development](#undefined-section-2)
+ * [3 Compounds](#undefined-section-3)
+   * [3.1 Alfentanil](#undefined-section-4)
+     * [3.1.1 Alfentanil in a Healthy Population - IV](#alfentanil_healthy)
+     * [3.1.2 Alfentanil in a HI Population - IV](#alfentanil_hi)
+   * [3.2 Levetiracetam](#undefined-section-7)
+     * [3.2.1 Levetiracetam in a Healthy Population - Oral](#levetiracetam_healthy)
+     * [3.2.2 Levetiracetam in a HI Population - Oral](#levetiracetam_hi)
+   * [3.3 Metoprolol](#undefined-section-10)
+     * [3.3.1 Metoprolol in a Healthy Population](#metoprolol_healthy)
+     * [3.3.2 Metoprolol in a HI Population](#metoprolol_hi)
+   * [3.4 Midazolam](#undefined-section-13)
+     * [3.4.1 Midazolam in a Healthy Population – IV/PO](#midazolam_healthy)
+     * [3.4.2 Midazolam in a HI Population](#midazolam_hi)
+   * [3.5 Sildenafil](#undefined-section-16)
+     * [3.5.1 Sildenafil in a Healthy Population - PO](#sildenafil_healthy)
+     * [3.5.2 Sildenafil in a HI Population - PO](#sildenafil_hi)
+   * [3.6 Theophylline](#undefined-section-19)
+     * [3.6.1 Theophylline in a Healthy Population - IV](#theophylline_healthy)
+     * [3.6.2 Theophylline in a HI Population - IV](#theophylline_hi)
+   * [3.7 Lidocaine](#undefined-section-22)
+     * [3.7.1 Lidocaine in a Healthy Population - IV](#lidocaine_healthy)
+     * [3.7.2 Lidocaine in a HI Population - IV](#lidocaine_hi)
+ * [4 References](#undefined-section-25)
 
 
 
 
 
-# 1 Introduction <a id="undefined-section-1"></a>
+# 1 Introduction<a id="undefined-section-1"></a>
 
 
 The presented qualification report performs simulations of drug disposition and pharmacokinetics in subjects with hepatic impairment (HI) to qualify the parameterization of the foundational anatomy and physiology parameters for virtual populations with HI in the Open Systems Pharmacology (OSP) Suite.
@@ -76,7 +76,7 @@ This report builds upon the work by Edginton and Willmann (1) and Johnson, Bouss
 
 
 
-# 2 HI Population Development <a id="undefined-section-2"></a>
+# 2 HI Population Development<a id="undefined-section-2"></a>
 
 
 HI population development followed the physiological scaling methods by Edginton and Willmann (1) and Johnson, Boussery (2) and the set of modified parameters are presented in [Table 2](#table_2). The values for each Child-Pugh score and parameter are considered "disease factors", which are multiplied by a healthy adult to produce the HI state.
@@ -138,7 +138,7 @@ The disease factor ([Table 2](#table_2) was applied to Glomerular filtration wit
 
 
 
-# 3 Compounds <a id="undefined-section-3"></a>
+# 3 Compounds<a id="undefined-section-3"></a>
 
 
 The method to generate virtual populations with HI was qualified by testing its predictive performance when used in combination with PBPK models for healthy subjects in order to predict the pharmacokinetics of drugs in patients with HI from literature.
@@ -151,7 +151,7 @@ Each subsection that follows will contain an introduction to the test compound, 
 
 
 
-## 3.1 Alfentanil <a id="undefined-section-4"></a>
+## 3.1 Alfentanil<a id="undefined-section-4"></a>
 
 
 Alfentanil is a potent, synthetic opioid used to provide analgesia for various surgical procedures and in patients admitted within intensive care units. Alfentanil is typically administered intravenously and offers several advantages to alternative analgesics due to its potency at the opioid receptor and quick onset of effect (3).
@@ -177,7 +177,7 @@ The alfentanil healthy PBPK model was based on the development by Hanke, Frechen
 
 
 
-### 3.1.1 Alfentanil in a Healthy Population - IV <a id="alfentanil_healthy"></a>
+### 3.1.1 Alfentanil in a Healthy Population - IV<a id="alfentanil_healthy"></a>
 
 
 Alfentanil physicochemical properties and ADME parameters were incorporated from the model developed by Hanke et al. [5] [Table 4](#table_4) presents the drug specific parameters of alfentanil and the values used within the healthy adult intravenous model.
@@ -204,7 +204,7 @@ The healthy PBPK model development was based on eight single dose IV PK studies 
 
 
 
-### 3.1.2 Alfentanil in a HI Population - IV <a id="alfentanil_hi"></a>
+### 3.1.2 Alfentanil in a HI Population - IV<a id="alfentanil_hi"></a>
 
 
 Levetiracetam is an antiepileptic used for the treatment of patients with partial seizures, with or without secondary generalization (11, 12). The mechanism of antiseizure activity has not been fully elucidated, however animal models have shown that levetiracetam binds to synaptic vesicle proteins SV2A modulating neurotransmitter release (13). 
@@ -253,7 +253,7 @@ Simulated pharmacokinetics of alfentanil after a single IV bolus dose of 0.05 mg
 
 
 
-## 3.2 Levetiracetam <a id="undefined-section-7"></a>
+## 3.2 Levetiracetam<a id="undefined-section-7"></a>
 
 
 Levetiracetam is an antiepileptic used for the treatment of patients with partial seizures, with or without secondary generalization (11, 12). The mechanism of antiseizure activity has not been fully elucidated, however animal models have shown that levetiracetam binds to synaptic vesicle proteins SV2A modulating neurotransmitter release (13). 
@@ -278,7 +278,7 @@ The levetiracetam healthy PBPK model was based on the development by Sinha, Kara
 
 
 
-### 3.2.1 Levetiracetam in a Healthy Population - Oral <a id="levetiracetam_healthy"></a>
+### 3.2.1 Levetiracetam in a Healthy Population - Oral<a id="levetiracetam_healthy"></a>
 
 
 Levetiracetam physicochemical properties and ADME parameters were incorporated from the model developed by Sinha, Karatza (14). [Table 7](#table_7) presents the drug specific parameters of levetiracetam and the values used within the healthy adult model.
@@ -310,7 +310,7 @@ T<sub>50%</sub>, T<sub>90%</sub>, T<sub>100%</sub>: Time to dissolve 50%, 90%, a
 
 
 
-### 3.2.2 Levetiracetam in a HI Population - Oral <a id="levetiracetam_hi"></a>
+### 3.2.2 Levetiracetam in a HI Population - Oral<a id="levetiracetam_hi"></a>
 
 
 With the drug-specific parameters fixed, the healthy PBPK model was translated to a HI-PBPK model. Stages of HI used within the simulations were defined by the Child-Pugh Score. A population with Child-Pugh A, B and C was created according to the patient demographics of the population enrolled in the studies by Brockmöller, Thomsen (18) ([Table 8](#table_8)).
@@ -368,7 +368,7 @@ Simulated population HI-PBPK models of levetiracetam administered as 1000 mg ora
 
 
 
-## 3.3 Metoprolol <a id="undefined-section-10"></a>
+## 3.3 Metoprolol<a id="undefined-section-10"></a>
 
 
 Metoprolol is a cardioselective beta-1-adregenic receptor inhibitor that competitively inhibits beta1-receptors specific to cardiac cells. It is approved for the treatment of angina, heart failure, myocardial infarction, atrial fibrillation/flutter, and hypertension. 
@@ -393,7 +393,7 @@ The metoprolol healthy PBPK model was based on the development by Rüdesheim, Wo
 
 
 
-### 3.3.1 Metoprolol in a Healthy Population <a id="metoprolol_healthy"></a>
+### 3.3.1 Metoprolol in a Healthy Population<a id="metoprolol_healthy"></a>
 
 
 #### IV model
@@ -435,7 +435,7 @@ The healthy PBPK model development was based on multiple oral PK studies describ
 
 
 
-### 3.3.2 Metoprolol in a HI Population <a id="metoprolol_hi"></a>
+### 3.3.2 Metoprolol in a HI Population<a id="metoprolol_hi"></a>
 
 
 #### IV model
@@ -498,7 +498,7 @@ Child-Pugh prognostication was not documented within this study, and limited cli
 
 
 
-## 3.4 Midazolam <a id="undefined-section-13"></a>
+## 3.4 Midazolam<a id="undefined-section-13"></a>
 
 
 Midazolam is a benzodiazepine used to induce drowsiness and anxiety relief before surgery and certain procedures. The drug is also indicated for the management of acute seizures. Midazolam acts through increasing the activity of GABA to produce sedative effects.
@@ -523,7 +523,7 @@ The midazolam healthy PBPK model was based on the development by Hanke, Frechen 
 
 
 
-### 3.4.1 Midazolam in a Healthy Population – IV/PO <a id="midazolam_healthy"></a>
+### 3.4.1 Midazolam in a Healthy Population – IV/PO<a id="midazolam_healthy"></a>
 
 
 Midazolam physicochemical properties and ADME parameters were incorporated from the model developed by Hanke, Frechen (5). Table 14. presents the drug specific parameters of midazolam and the values used within the healthy adult model.
@@ -563,7 +563,7 @@ The healthy PBPK model development by Hanke, Frechen (5) was based on PK studies
 
 
 
-### 3.4.2 Midazolam in a HI Population <a id="midazolam_hi"></a>
+### 3.4.2 Midazolam in a HI Population<a id="midazolam_hi"></a>
 
 
 #### IV model
@@ -721,7 +721,7 @@ Additionally, model evaluation was assessed by determining the fold-error betwee
 
 
 
-## 3.5 Sildenafil <a id="undefined-section-16"></a>
+## 3.5 Sildenafil<a id="undefined-section-16"></a>
 
 
 Sildenafil is a phosphodiesterase 5 (PDE5) inhibitor, approved for use in the treatment of erectile dysfunction and pulmonary hypertension. It exhibits its vasodilatory effects by promoting the accumulation of intracellular cGMP, resulting in the enhancement of nitric-oxide mediated vasodilation (33, 34).
@@ -748,7 +748,7 @@ The sildenafil healthy PBPK model was based on the development by Open Systems P
 
 
 
-### 3.5.1 Sildenafil in a Healthy Population - PO <a id="sildenafil_healthy"></a>
+### 3.5.1 Sildenafil in a Healthy Population - PO<a id="sildenafil_healthy"></a>
 
 
 Sildenafil physicochemical properties and ADME parameters were incorporated from the model developed by Open-System Pharmacology (37). [Table 21](#table_21). presents the drug specific parameters of sildenafil and the values used within the healthy adult model.
@@ -788,7 +788,7 @@ The clinical data used to develop the sildenafil PBPK model may be found within 
 
 
 
-### 3.5.2 Sildenafil in a HI Population - PO <a id="sildenafil_hi"></a>
+### 3.5.2 Sildenafil in a HI Population - PO<a id="sildenafil_hi"></a>
 
 
 Sildenafil was included within the HI-PBPK model evaluation as a representative substrate of CYP219, CYP2C9, along with CYP3A4. The healthy model as developed by OSP (37) was altered with physiological parameters seen with liver disease. The population HI-PBPK model was evaluated with the pharmacokinetic study conducted by Muirhead, Wilner (38). This study included participants with biopsy confirmed hepatic cirrhosis, classified with Child-Pugh A and B. Twelve participants were enrolled within the pharmacokinetic analysis, 7 being Child-Pugh A and 5 being Child-Pugh B. Study participant demographics used for the population simulations may be found in [Table 22](#table_22). 
@@ -840,7 +840,7 @@ The developed sildenafil population HI-PBPK model was assessed against the avera
 
 
 
-## 3.6 Theophylline <a id="undefined-section-19"></a>
+## 3.6 Theophylline<a id="undefined-section-19"></a>
 
 
 Theophylline is a methylxanthine that is administer either orally or intravenously for the management of asthma or chronic obstructive pulmonary disease (COPD) (39). Theophylline induces its bronchodilatory effects through antagonism and inhibition of the adenosine and phosphodiesterase pathways, respectively (40, 41).
@@ -867,7 +867,7 @@ The following theophylline PBPK model is based on that developed by Britz, Hanke
 
 
 
-### 3.6.1 Theophylline in a Healthy Population - IV <a id="theophylline_healthy"></a>
+### 3.6.1 Theophylline in a Healthy Population - IV<a id="theophylline_healthy"></a>
 
 
 Theophylline physicochemical properties and absorption, distribution, metabolism and elimination parameters were incorporated from the model developed by Britz, Hanke (12). [Table 25](#table_)25. presents the drug specific drug parameters of theophylline and the values used within the healthy adult intravenous model. 
@@ -896,7 +896,7 @@ Theophylline physicochemical properties and absorption, distribution, metabolism
 
 
 
-### 3.6.2 Theophylline in a HI Population - IV <a id="theophylline_hi"></a>
+### 3.6.2 Theophylline in a HI Population - IV<a id="theophylline_hi"></a>
 
 
 Drug specific parameters were fixed from the healthy theophylline PBPK model. Physiological alterations within hepatic impairment were applied to the model and simulations were conducted for virtual patients with classified as Child-Pugh B and Child-Pugh C.  Virtual populations with liver disease were created according to the patient demographics of study participants within the study conducted by Froomes, Morgan (46). Study participant weight was not recorded within the study by Froomes, Morgan (46) therefore average height, weight, and BMI we incorporated by PK-Sim based on the corresponding age. [Table 26](#table_26) provides the patient demographics of participants incorporated within the study by Froomes, Morgan (46) used to developed the virtual hepatic impairment populations.
@@ -928,7 +928,7 @@ c: Observed half-life presented as mean ± standard deviation
 
 
 
-## 3.7 Lidocaine <a id="undefined-section-22"></a>
+## 3.7 Lidocaine<a id="undefined-section-22"></a>
 
 
 Lidocaine is approved for use as a local anaesthetic and as an antiarrhythmic drug. In addition to its anesthetic and antiarrhythmic properties, it may also be used as an analgesic. The analgesic effects of lidocaine are thought to be due to the inhibition of spontaneous impulses generated by the injured nerve fibres. (47) 
@@ -955,7 +955,7 @@ The following lidocaine PBPK model applies CYP1A2 and CYP3A4 metabolism, in addi
 
 
 
-### 3.7.1 Lidocaine in a Healthy Population - IV <a id="lidocaine_healthy"></a>
+### 3.7.1 Lidocaine in a Healthy Population - IV<a id="lidocaine_healthy"></a>
 
 
 Lidocaine physicochemical properties and absorption, distribution, metabolism and elimination parameters used in the healthy PBPK model are shown in [Table 29](#table_29). 
@@ -983,7 +983,7 @@ Lidocaine physicochemical properties and absorption, distribution, metabolism an
 
 
 
-### 3.7.2 Lidocaine in a HI Population - IV <a id="lidocaine_hi"></a>
+### 3.7.2 Lidocaine in a HI Population - IV<a id="lidocaine_hi"></a>
 
 
 Drug specific parameters were fixed from the healthy lidocaine PBPK model. Physiological alterations within hepatic impairment were applied to the model and simulations were conducted for virtual patients with classified as Child-Pugh A and Child-Pugh C.  Virtual populations with liver disease were created according to the patient demographics of study participants within the study conducted by Orlando, Piccoli (50). [Table 30](#table_30). provides the patient demographics of participants incorporated within the study by Orlando, Piccoli (50) used to develop the virtual hepatic impairment populations.
@@ -1027,7 +1027,7 @@ A visual representation of the HI-PBPK lidocaine simulations for Child-Pugh A an
 
 
 
-# 4 References <a id="undefined-section-25"></a>
+# 4 References<a id="undefined-section-25"></a>
 
 
 1.	Edginton AN, Willmann S. Physiology-based simulations of a pathological condition: prediction of pharmacokinetics in patients with liver cirrhosis. Clin Pharmacokinet. 2008;47(11):743-52.
