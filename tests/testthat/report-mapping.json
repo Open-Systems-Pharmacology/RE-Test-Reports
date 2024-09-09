@@ -70,11 +70,6 @@
     "Reference": false
   },
   {
-    "Script": "report-qualification-pgp",
-    "Report": "Pediatric_Qualification_Package_P-gp_Ontogeny",
-    "Reference": false
-  },
-  {
     "Script": "report-qualification-propofol",
     "Report": "Propofol-Model",
     "Reference": false
