@@ -6,6 +6,7 @@
 rm(list=ls())
 library(ospsuite.reportingengine)
 ospsuite::removeAllUserDefinedPKParameters()
+ospsuite::clearMemory(clearSimulationsCache = TRUE)
 
 # Define inputs for workflow
 simulationFile <- "Models/Theophylline (Boeckmann 1994) PO.pkml"
