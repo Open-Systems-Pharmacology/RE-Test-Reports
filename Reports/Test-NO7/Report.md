@@ -28,12 +28,12 @@
 **Table 1-1: PK parameters for PO320mg**
 
 
-|Path         |Parameter |Value |Unit   |
-|:------------|:---------|:-----|:------|
-|Theophylline |C_max     |0     |mg/l   |
-|Theophylline |t_max     |0     |h      |
-|Theophylline |C_tEnd    |0     |mg/l   |
-|Theophylline |AUC_tEnd  |0     |mg*h/l |
+|Path         |Parameter |Value  |Unit   |
+|:------------|:---------|:------|:------|
+|Theophylline |C_max     |8.68   |mg/l   |
+|Theophylline |t_max     |1.55   |h      |
+|Theophylline |C_tEnd    |3.46   |mg/l   |
+|Theophylline |AUC_tEnd  |151.57 |mg*h/l |
 
 
 <br>
@@ -69,6 +69,84 @@
 
 
 **Figure 2-2: Time profiles for PO320mg. Data source: Boeckmann 1994. Time profiles are plotted in a logarithmic scale.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-3"></a>
+
+![](TimeProfiles/PO320mg-5_obsVsPred_1_total.png)
+
+
+
+**Figure 2-3: Predicted vs observed for PO320mg. Data source: Boeckmann 1994. Predictions and observations are plotted in a linear scale.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-4"></a>
+
+![](TimeProfiles/PO320mg-6_obsVsPredLog_1_total.png)
+
+
+
+**Figure 2-4: Predicted vs observed for PO320mg. Data source: Boeckmann 1994. Predictions and observations are plotted in a logarithmic scale.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-5"></a>
+
+![](TimeProfiles/PO320mg-7_resVsPred_1_total.png)
+
+
+
+**Figure 2-5: Logarithmic residuals vs predicted values for PO320mg. Data source: Boeckmann 1994.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-6"></a>
+
+![](TimeProfiles/PO320mg-8_resVsTime_1_total.png)
+
+
+
+**Figure 2-6: Logarithmic residuals vs time values for PO320mg. Data source: Boeckmann 1994.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-7"></a>
+
+![](TimeProfiles/PO320mg-9_resHisto_1_total.png)
+
+
+
+**Figure 2-7: Logarithmic residuals distribution (stacked) for PO320mg. Data source: Boeckmann 1994.**
+
+
+<br>
+<br>
+
+
+<a id="figure-2-8"></a>
+
+![](TimeProfiles/PO320mg-10_resQQPlot_1_total.png)
+
+
+
+**Figure 2-8: Logarithmic residuals for PO320mg as quantile-quantile plot. Data source: Boeckmann 1994.**
 
 
 <br>
