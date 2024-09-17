@@ -1,8 +1,8 @@
-09/09/2024 - 15:29:06
+17/09/2024 - 10:10:41
 Reporting Engine Information:
-Date: 09/09/2024 - 15:29:06
+Date: 17/09/2024 - 10:10:41
 User Information:
-Computer Name: fv-az1388-205
+Computer Name: fv-az836-677
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -11,33 +11,33 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.367
 tlf version: 1.5.170
-09/09/2024 - 15:29:06
+17/09/2024 - 10:10:41
 Starting run of Mean Model Workflow
-09/09/2024 - 15:29:06
+17/09/2024 - 10:10:41
 Starting run of Simulation task
-09/09/2024 - 15:29:06
+17/09/2024 - 10:10:41
 Splitting simulations for parallel run: 1 simulations split into 1 subsets
-09/09/2024 - 15:29:06
+17/09/2024 - 10:10:41
 Starting run of subset simulations
-09/09/2024 - 15:29:09
-Simulation task completed in 0 min
-09/09/2024 - 15:29:09
+17/09/2024 - 10:10:45
+Simulation task completed in 0.1 min
+17/09/2024 - 10:10:45
 Starting run of Calculate PK Parameters task
-09/09/2024 - 15:29:09
+17/09/2024 - 10:10:45
 Starting run of Calculate PK Parameters task for PO320mg
-09/09/2024 - 15:29:11
+17/09/2024 - 10:10:46
 Calculate PK Parameters task completed in 0 min
-09/09/2024 - 15:29:11
+17/09/2024 - 10:10:46
 Starting run of Plot PK Parameters task
-09/09/2024 - 15:29:11
+17/09/2024 - 10:10:46
 Starting run of Plot PK Parameters task for PO320mg
-09/09/2024 - 15:29:12
+17/09/2024 - 10:10:47
 Plot PK Parameters task completed in 0 min
-09/09/2024 - 15:29:12
+17/09/2024 - 10:10:47
 Starting run of Plot Time profiles and Residuals task
-09/09/2024 - 15:29:12
+17/09/2024 - 10:10:47
 Starting run of Plot Time profiles and Residuals task for PO320mg
-09/09/2024 - 15:29:15
-Plot Time profiles and Residuals task completed in 0.1 min
-09/09/2024 - 15:29:15
-Mean Model Workflow completed in 0.1 min
+17/09/2024 - 10:10:58
+Plot Time profiles and Residuals task completed in 0.2 min
+17/09/2024 - 10:10:58
+Mean Model Workflow completed in 0.3 min
