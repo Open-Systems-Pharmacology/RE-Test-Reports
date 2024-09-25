@@ -8,23 +8,23 @@
 
 # Table of Contents
 
- * [1 Mass Balance ](#mass-balance)
-   * [1.1 Mass Balance for Single Dose (100 mg) ](#mass-balance-single_dose__100_mg_)
-     * [1.1.1 Mass Balance for Raltegravir ](#1_mass_balance)
-   * [1.2 Mass Balance for Multiple Doses (100 mg) ](#mass-balance-multiple_doses__100_mg_)
-     * [1.2.1 Mass Balance for Raltegravir ](#1_mass_balance)
+ * [1 Mass Balance](#mass-balance)
+   * [1.1 Mass Balance for Single Dose (100 mg)](#mass-balance-single_dose__100_mg_)
+     * [1.1.1 Mass Balance for Raltegravir](#1_mass_balance)
+   * [1.2 Mass Balance for Multiple Doses (100 mg)](#mass-balance-multiple_doses__100_mg_)
+     * [1.2.1 Mass Balance for Raltegravir](#1_mass_balance)
 
 
 
 
 
-# 1 Mass Balance <a id="mass-balance"></a>
+# 1 Mass Balance<a id="mass-balance"></a>
 
 
-## 1.1 Mass Balance for Single Dose (100 mg) <a id="mass-balance-single_dose__100_mg_"></a>
+## 1.1 Mass Balance for Single Dose (100 mg)<a id="mass-balance-single_dose__100_mg_"></a>
 
 
-### 1.1.1 Mass Balance for Raltegravir <a id="1_mass_balance"></a>
+### 1.1.1 Mass Balance for Raltegravir<a id="1_mass_balance"></a>
 
 
 <a id="figure-1-1"></a>
@@ -92,10 +92,10 @@
 <br>
 
 
-## 1.2 Mass Balance for Multiple Doses (100 mg) <a id="mass-balance-multiple_doses__100_mg_"></a>
+## 1.2 Mass Balance for Multiple Doses (100 mg)<a id="mass-balance-multiple_doses__100_mg_"></a>
 
 
-### 1.2.1 Mass Balance for Raltegravir <a id="1_mass_balance"></a>
+### 1.2.1 Mass Balance for Raltegravir<a id="1_mass_balance"></a>
 
 
 <a id="figure-1-6"></a>
