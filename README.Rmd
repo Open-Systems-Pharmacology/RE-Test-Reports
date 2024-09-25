@@ -51,6 +51,17 @@ logTestResults <- function(testResultsRaw, logFile = "log.json") {
   jsonlite::write_json(jsonResults, auto_unbox = TRUE, pretty = TRUE, path = logFile)
   return(invisible())
 }
+
+#' @description Function to make nice line breaks for displaying the table
+strWrap <- function(text){
+  paste(
+    stringi::stri_wrap(
+      gsub(pattern = "_", replacement = "-", text), 
+      width = 30
+      ), 
+    collapse = "<br>"
+  )
+}
 ```
 
 <!-- 
@@ -76,8 +87,10 @@ logTestResults(testResultsRaw)
 
 testResultsRaw <- as.data.frame(testResultsRaw)
 testResults <- testResultsRaw %>%
+  # Keep only performed tests
+  filter(!skipped, nb>0) %>%
   mutate(
-    Report = paste0("[", context, "](./tests/Reports/", context, ")"),
+    Report = paste0("[", strWrap(context), "](./tests/Reports/", context, ")"),
     Test = test,
     Status = if_else(
       failed > 0,
@@ -88,28 +101,24 @@ testResults <- testResultsRaw %>%
         "![](https://img.shields.io/badge/%E2%9C%93-Passed%20tests-success)"
       )
     ),
-    Duration = real,
-    N = if_else(skipped, 0, nb),
-    Success = if_else(nb == 0 | skipped, "", paste0(
-      "![](https://geps.dev/progress/",
-      round(100 * passed / nb, 0),
-      ")"
-    )),
-    Warning = if_else(nb == 0 | skipped, "", paste0(round(100 * warning / nb, 0), "%")),
-    Failed = if_else(nb == 0 | skipped, "", paste0(round(100 * failed / nb, 0), "%"))
+    # Commenting this information as it is not relevant for the user. 
+    # Duration = real,
+    # N = if_else(skipped, 0, nb),
+    Success = passed,
+    Failed = warning+failed
   ) %>%
-  filter(N > 0) %>%
-  select(Report, Test, Status, N, Success, Warning, Failed)
+  select(Report, Test, Status, Success, Failed)
 
 totalReports <- n_distinct(testResults$Report)
-totalTests <- sum(testResults$N)
-globalResult <- round(100 * sum(testResultsRaw$passed) / totalTests, 0)
+totalTests <- nrow(testResults)
+totalFailedTests <- sum(testResults$Failed)
+globalResult <- round(100 * sum(testResults$Success) / totalTests, 1)
 ```
 
 
-| &#x1F4D4; Total Reports | &#x1F575; Total Tests | &#x1F4CA; Global Success Rate |
-|-------------------------|-----------------------|-------------------------------|
-| `r totalReports` | `r totalTests` | ![](https://geps.dev/progress/`r globalResult`) |
+| &#x1F4DA; Total Reports | &#x1F575; Total Tests | &#x26A0; Failed Tests | &#x1F4CA; Global Success Rate |
+|-------------------------|-----------------------|--------------|-------------------------------|
+| `r totalReports` | `r totalTests` | `r totalFailedTests` | `r globalResult` % |
 
 
 ## Test Infrastructure
@@ -155,21 +164,24 @@ availableDurations <- unname(sapply(
 
 knitr::kable(data.frame(
   "Reference" = paste0(
-    "[", reportMappings$Report, "](",
+    "[", strWrap(reportMappings$Report), "](",
     ifelse(reportMappings$Reference, "./Reports/", "https://github.com/Open-Systems-Pharmacology/"),
     reportMappings$Report, ")"
   ),
-  "Test Report" = paste0("[", reportMappings$Report, "](./tests/Reports/", reportMappings$Report, "/Report.md)"),
-  "Script" = paste0("[", reportMappings$Script, ".R](./R/", reportMappings$Script, ".R)"),
+  "Test Report" = paste0("[", strWrap(reportMappings$Report), "](./tests/Reports/", reportMappings$Report, "/Report.md)"),
+  "Script" = paste0("[", strWrap(reportMappings$Script), ".R](./R/", reportMappings$Script, ".R)"),
   "Run Time" = availableDurations,
   check.names = FALSE
 ))
 ```
 
-## Test Results
+## Detailed Test Results
 
 ```{r, results='asis'}
-names(testResults) <- c("Report", "Test", "Status", "N", "Success [%]", "Warning [%]", "Failed [%]")
+names(testResults) <- c(
+  "&#x1F4D3; Report", "&#x1F50E; Test", "&#x1F6A6; Status", 
+  "&#x2705; Success", "&#x26A0; Warning &<br>&#x274C; Failed"
+  )
 
 knitr::kable(testResults)
 ```
