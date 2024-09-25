@@ -53,13 +53,13 @@ logTestResults <- function(testResultsRaw, logFile = "log.json") {
 }
 
 #' @description Function to make nice line breaks for displaying the table
-strWrap <- function(text){
+strWrap <- function(text, width = 30){
   gsub(
     pattern = "\n", 
     replacement = "<br>", 
     stringr::str_wrap(
       gsub(pattern = "_", replacement = "-", text), 
-      width = 30,
+      width = width,
       whitespace_only = FALSE
       )
   )
@@ -93,7 +93,7 @@ testResults <- testResultsRaw %>%
   filter(!skipped, nb>0) %>%
   mutate(
     Report = paste0("[", strWrap(context), "](./tests/Reports/", context, ")"),
-    Test = test,
+    Test = strWrap(test, width = 15),
     Status = if_else(
       failed > 0,
       "![](https://img.shields.io/badge/%E2%9A%A0-Failed%20tests-red)",
