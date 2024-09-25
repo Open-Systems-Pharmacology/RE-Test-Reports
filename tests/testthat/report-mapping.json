@@ -70,19 +70,11 @@
     "Reference": false
   },
   {
-<<<<<<< HEAD
-=======
-    "Script": "report-qualification-pgp",
-    "Report": "Pediatric_Qualification_Package_P-gp_Ontogeny",
-    "Reference": false
-  },
-  {
     "Script": "report-qualification-digoxin",
     "Report": "Digoxin-Model",
     "Reference": false
   },
   {
->>>>>>> parent of dd73cb1 (Remove digoxin from json report mapping)
     "Script": "report-qualification-propofol",
     "Report": "Propofol-Model",
     "Reference": false
