@@ -1,25 +1,25 @@
-26/06/2024 - 14:17:58
+23/09/2024 - 09:41:38
 Reporting Engine Information:
-Date: 26/06/2024 - 14:17:58
+Date: 23/09/2024 - 09:41:38
 User Information:
-Computer Name: fv-az1489-381
+Computer Name: fv-az731-969
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
 R version: R version 4.4.1 (2024-06-14 ucrt)
-OSP Suite Package version: 12.0.1088
-OSP Reporting Engine version: 2.2.346
-tlf version: 1.5.167
-26/06/2024 - 14:17:58
+OSP Suite Package version: 12.1.0
+OSP Reporting Engine version: 2.2.368
+tlf version: 1.5.170
+23/09/2024 - 09:41:38
 Starting run of Mean Model Workflow
-26/06/2024 - 14:17:58
+23/09/2024 - 09:41:38
 Starting run of Plot Absorption task
-26/06/2024 - 14:17:58
+23/09/2024 - 09:41:38
 Starting run of Plot Absorption task for Single Dose (100 mg)
-26/06/2024 - 14:18:15
+23/09/2024 - 09:41:55
 Starting run of Plot Absorption task for Multiple Doses (100 mg)
-26/06/2024 - 14:18:52
-Plot Absorption task completed in 0.9 min
-26/06/2024 - 14:18:52
-Mean Model Workflow completed in 0.9 min
+23/09/2024 - 09:42:35
+Plot Absorption task completed in 1 min
+23/09/2024 - 09:42:35
+Mean Model Workflow completed in 1 min
