@@ -54,12 +54,14 @@ logTestResults <- function(testResultsRaw, logFile = "log.json") {
 
 #' @description Function to make nice line breaks for displaying the table
 strWrap <- function(text){
-  paste(
-    stringi::stri_wrap(
+  gsub(
+    pattern = "\n", 
+    replacement = "<br>", 
+    stringr::str_wrap(
       gsub(pattern = "_", replacement = "-", text), 
-      width = 30
-      ), 
-    collapse = "<br>"
+      width = 30,
+      whitespace_only = FALSE
+      )
   )
 }
 ```
@@ -110,7 +112,7 @@ testResults <- testResultsRaw %>%
   select(Report, Test, Status, Success, Failed)
 
 totalReports <- n_distinct(testResults$Report)
-totalTests <- nrow(testResults)
+totalTests <- sum(testResults$Success, testResults$Failed)
 totalFailedTests <- sum(testResults$Failed)
 globalResult <- round(100 * sum(testResults$Success) / totalTests, 1)
 ```
