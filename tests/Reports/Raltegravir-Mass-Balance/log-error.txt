@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 30/09/2024 - 02:12:06
 No molecule paths included in group 'Raltegravir - Endosome'.
 30/09/2024 - 02:12:06
@@ -5,4 +6,13 @@ No molecule paths included in group 'Rest of Raltegravir'.
 30/09/2024 - 02:12:25
 No molecule paths included in group 'Raltegravir - Endosome'.
 30/09/2024 - 02:12:25
+=======
+26/09/2024 - 08:32:37
+No molecule paths included in group 'Raltegravir - Endosome'.
+26/09/2024 - 08:32:37
+No molecule paths included in group 'Rest of Raltegravir'.
+26/09/2024 - 08:32:57
+No molecule paths included in group 'Raltegravir - Endosome'.
+26/09/2024 - 08:32:58
+>>>>>>> 2aeffd4 (Added/modified test reports and updated README)
 No molecule paths included in group 'Rest of Raltegravir'.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 30/09/2024 - 02:11:16
 Figure 'tests/Reports/Raltegravir-Absorption/Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.png' was successfully saved.
 30/09/2024 - 02:11:16
@@ -17,4 +18,25 @@ In 'tests/Reports/Raltegravir-Absorption/Report.md', table of content of 3 lines
 30/09/2024 - 02:11:57
 'tests/Reports/Raltegravir-Absorption/Report.md' already exists. Overwriting 'tests/Reports/Raltegravir-Absorption/Report.md'.
 30/09/2024 - 02:11:57
+=======
+26/09/2024 - 08:31:43
+Figure 'tests/Reports/Raltegravir-Absorption/Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.png' was successfully saved.
+26/09/2024 - 08:31:43
+Table 'tests/Reports/Raltegravir-Absorption/Absorption/Single_Dose__100_mg_-1_absorption_Raltegravir.csv' was successfully saved.
+26/09/2024 - 08:32:28
+Figure 'tests/Reports/Raltegravir-Absorption/Absorption/Multiple_Doses__100_mg_-1_absorption_Raltegravir.png' was successfully saved.
+26/09/2024 - 08:32:28
+Table 'tests/Reports/Raltegravir-Absorption/Absorption/Multiple_Doses__100_mg_-1_absorption_Raltegravir.csv' was successfully saved.
+26/09/2024 - 08:32:28
+Reports 'tests/Reports/Raltegravir-Absorption/appendix-absorption.md' were successfully merged into 'tests/Reports/Raltegravir-Absorption/Report.md'
+26/09/2024 - 08:32:28
+In 'tests/Reports/Raltegravir-Absorption/Report.md', 0 tables and 2 figures were referenced.
+26/09/2024 - 08:32:28
+In 'tests/Reports/Raltegravir-Absorption/Report.md', 5 sections were numbered
+26/09/2024 - 08:32:28
+In 'tests/Reports/Raltegravir-Absorption/Report.md', table of content of 3 lines was included.
+26/09/2024 - 08:32:28
+'tests/Reports/Raltegravir-Absorption/Report.md' already exists. Overwriting 'tests/Reports/Raltegravir-Absorption/Report.md'.
+26/09/2024 - 08:32:28
+>>>>>>> 2aeffd4 (Added/modified test reports and updated README)
 Reports 'temp-report-title.md', 'tests/Reports/Raltegravir-Absorption/Report.md' were successfully merged into 'tests/Reports/Raltegravir-Absorption/Report.md'

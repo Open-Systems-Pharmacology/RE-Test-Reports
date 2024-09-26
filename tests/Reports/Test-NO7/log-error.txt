@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 30/09/2024 - 01:12:41
+=======
+26/09/2024 - 07:30:46
+>>>>>>> 2aeffd4 (Added/modified test reports and updated README)
 incomplete final line found on 'Data/test-NO7/data.nmdat'

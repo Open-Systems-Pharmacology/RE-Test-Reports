@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 30/09/2024 - 01:11:58
 Reporting Engine Information:
 Date: 30/09/2024 - 01:11:58
 User Information:
 Computer Name: fv-az521-264
+=======
+26/09/2024 - 07:30:04
+Reporting Engine Information:
+Date: 26/09/2024 - 07:30:04
+User Information:
+Computer Name: fv-az1390-839
+>>>>>>> 2aeffd4 (Added/modified test reports and updated README)
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -11,6 +19,7 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
+<<<<<<< HEAD
 30/09/2024 - 01:11:58
 Starting run of Mean Model Workflow
 30/09/2024 - 01:11:58
@@ -52,4 +61,47 @@ Starting run of Plot Time profiles and Residuals task for PO administration of 3
 30/09/2024 - 01:12:34
 Plot Time profiles and Residuals task completed in 0.2 min
 30/09/2024 - 01:12:34
+=======
+26/09/2024 - 07:30:04
+Starting run of Mean Model Workflow
+26/09/2024 - 07:30:04
+Starting run of Simulation task
+26/09/2024 - 07:30:05
+Splitting simulations for parallel run: 1 simulations split into 1 subsets
+26/09/2024 - 07:30:05
+Starting run of subset simulations
+26/09/2024 - 07:30:08
+Simulation task completed in 0.1 min
+26/09/2024 - 07:30:08
+Starting run of Calculate PK Parameters task
+26/09/2024 - 07:30:08
+Starting run of Calculate PK Parameters task for PO administration of 320 mg
+26/09/2024 - 07:30:09
+Calculate PK Parameters task completed in 0 min
+26/09/2024 - 07:30:09
+Starting run of Plot PK Parameters task
+26/09/2024 - 07:30:09
+Starting run of Plot PK Parameters task for PO administration of 320 mg
+26/09/2024 - 07:30:10
+Plot PK Parameters task completed in 0 min
+26/09/2024 - 07:30:10
+Starting run of Plot Absorption task
+26/09/2024 - 07:30:10
+Starting run of Plot Absorption task for PO administration of 320 mg
+26/09/2024 - 07:30:18
+Plot Absorption task completed in 0.1 min
+26/09/2024 - 07:30:18
+Starting run of Plot Mass Balance task
+26/09/2024 - 07:30:18
+Starting run of Plot Mass Balance task for PO administration of 320 mg
+26/09/2024 - 07:30:28
+Plot Mass Balance task completed in 0.2 min
+26/09/2024 - 07:30:28
+Starting run of Plot Time profiles and Residuals task
+26/09/2024 - 07:30:28
+Starting run of Plot Time profiles and Residuals task for PO administration of 320 mg
+26/09/2024 - 07:30:39
+Plot Time profiles and Residuals task completed in 0.2 min
+26/09/2024 - 07:30:39
+>>>>>>> 2aeffd4 (Added/modified test reports and updated README)
 Mean Model Workflow completed in 0.6 min
