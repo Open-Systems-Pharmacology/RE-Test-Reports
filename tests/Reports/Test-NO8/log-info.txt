@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 30/09/2024 - 01:12:52
 Reporting Engine Information:
 Date: 30/09/2024 - 01:12:52
@@ -6,11 +7,18 @@ User Information:
 Computer Name: fv-az521-264
 =======
 26/09/2024 - 07:30:57
+=======
+30/09/2024 - 00:22:11
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 Reporting Engine Information:
-Date: 26/09/2024 - 07:30:57
+Date: 30/09/2024 - 00:22:11
 User Information:
+<<<<<<< HEAD
 Computer Name: fv-az1390-839
 >>>>>>> 2aeffd4 (Added/modified test reports and updated README)
+=======
+Computer Name: fv-az653-128
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -19,6 +27,7 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
+<<<<<<< HEAD
 <<<<<<< HEAD
 30/09/2024 - 01:12:52
 Starting run of Population Workflow for parallelComparison
@@ -53,35 +62,42 @@ Plot Demography task completed in 0.1 min
 30/09/2024 - 01:13:27
 =======
 26/09/2024 - 07:30:57
+=======
+30/09/2024 - 00:22:11
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 Starting run of Population Workflow for parallelComparison
-26/09/2024 - 07:30:57
+30/09/2024 - 00:22:11
 Starting run of Simulation task
-26/09/2024 - 07:30:57
+30/09/2024 - 00:22:11
 Starting run of Population Simulations
-26/09/2024 - 07:30:57
+30/09/2024 - 00:22:12
 Starting run of single IV application (Pop_10)
-26/09/2024 - 07:30:59
+30/09/2024 - 00:22:14
 Simulation task completed in 0 min
-26/09/2024 - 07:30:59
+30/09/2024 - 00:22:14
 Starting run of Calculate PK Parameters task
-26/09/2024 - 07:30:59
+30/09/2024 - 00:22:14
 Starting run of Calculate PK Parameters task for single IV application
-26/09/2024 - 07:31:00
+30/09/2024 - 00:22:15
 Calculate PK Parameters task completed in 0 min
-26/09/2024 - 07:31:00
+30/09/2024 - 00:22:15
 Starting run of Plot PK Parameters task
-26/09/2024 - 07:31:20
+30/09/2024 - 00:22:35
 Plot PK Parameters task completed in 0.3 min
-26/09/2024 - 07:31:20
+30/09/2024 - 00:22:35
 Starting run of Plot Time profiles and Residuals task
-26/09/2024 - 07:31:20
+30/09/2024 - 00:22:35
 Starting run of Plot Time profiles and Residuals task for single IV application
-26/09/2024 - 07:31:25
+30/09/2024 - 00:22:40
 Plot Time profiles and Residuals task completed in 0.1 min
-26/09/2024 - 07:31:25
+30/09/2024 - 00:22:40
 Starting run of Plot Demography task
-26/09/2024 - 07:31:30
+30/09/2024 - 00:22:45
 Plot Demography task completed in 0.1 min
+<<<<<<< HEAD
 26/09/2024 - 07:31:30
 >>>>>>> 2aeffd4 (Added/modified test reports and updated README)
+=======
+30/09/2024 - 00:22:46
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 Population Workflow for parallelComparison completed in 0.6 min

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 30/09/2024 - 02:04:05
 Loading Simulations onto Qualification Workflow
 30/09/2024 - 02:04:05
@@ -10,15 +11,22 @@ User Information:
 Computer Name: fv-az521-264
 =======
 26/09/2024 - 08:24:09
+=======
+30/09/2024 - 01:13:21
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 Loading Simulations onto Qualification Workflow
-26/09/2024 - 08:24:10
+30/09/2024 - 01:13:21
 Simulations loading completed in 0 min
-26/09/2024 - 08:24:10
+30/09/2024 - 01:13:21
 Reporting Engine Information:
-Date: 26/09/2024 - 08:24:10
+Date: 30/09/2024 - 01:13:21
 User Information:
+<<<<<<< HEAD
 Computer Name: fv-az1390-839
 >>>>>>> 2aeffd4 (Added/modified test reports and updated README)
+=======
+Computer Name: fv-az653-128
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -27,6 +35,7 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
+<<<<<<< HEAD
 <<<<<<< HEAD
 30/09/2024 - 02:04:05
 Starting run of Qualification Workflow
@@ -49,23 +58,30 @@ Plot Time Profiles task completed in 0.5 min
 30/09/2024 - 02:04:45
 =======
 26/09/2024 - 08:24:10
+=======
+30/09/2024 - 01:13:21
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 Starting run of Qualification Workflow
-26/09/2024 - 08:24:10
+30/09/2024 - 01:13:21
 Starting run of Simulation task
-26/09/2024 - 08:24:10
+30/09/2024 - 01:13:22
 Splitting simulations for parallel run: 1 simulations split into 1 subsets
-26/09/2024 - 08:24:10
+30/09/2024 - 01:13:22
 Starting run of subset simulations
-26/09/2024 - 08:24:13
+30/09/2024 - 01:13:25
 Simulation task completed in 0.1 min
-26/09/2024 - 08:24:13
+30/09/2024 - 01:13:25
 Starting run of Plot Merged Goodness of Fit task
-26/09/2024 - 08:24:17
+30/09/2024 - 01:13:28
 Plot Merged Goodness of Fit task completed in 0.1 min
-26/09/2024 - 08:24:17
+30/09/2024 - 01:13:28
 Starting run of Plot Time Profiles task
-26/09/2024 - 08:24:50
+30/09/2024 - 01:14:01
 Plot Time Profiles task completed in 0.5 min
+<<<<<<< HEAD
 26/09/2024 - 08:24:50
 >>>>>>> 2aeffd4 (Added/modified test reports and updated README)
+=======
+30/09/2024 - 01:14:01
+>>>>>>> b94a8e2 (Added/modified test reports and updated README)
 Qualification Workflow completed in 0.7 min
