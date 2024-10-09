@@ -1,12 +1,12 @@
-30/09/2024 - 01:35:58
+09/10/2024 - 11:13:17
 Loading Simulations onto Qualification Workflow
-30/09/2024 - 01:36:09
+09/10/2024 - 11:13:28
 Simulations loading completed in 0.2 min
-30/09/2024 - 01:36:09
+09/10/2024 - 11:13:28
 Reporting Engine Information:
-Date: 30/09/2024 - 01:36:09
+Date: 09/10/2024 - 11:13:28
 User Information:
-Computer Name: fv-az521-264
+Computer Name: fv-az742-632
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -15,47 +15,47 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
-30/09/2024 - 01:36:10
+09/10/2024 - 11:13:28
 Starting run of Qualification Workflow
-30/09/2024 - 01:36:10
+09/10/2024 - 11:13:28
 Starting run of Simulation task
-30/09/2024 - 01:36:10
+09/10/2024 - 11:13:28
 Splitting simulations for parallel run: 10 simulations split into 2 subsets
-30/09/2024 - 01:36:10
+09/10/2024 - 11:13:28
 Starting run of subset simulations
-30/09/2024 - 01:38:21
-Simulation task completed in 2.2 min
-30/09/2024 - 01:38:21
+09/10/2024 - 11:15:33
+Simulation task completed in 2.1 min
+09/10/2024 - 11:15:33
 Starting run of Calculate PK Parameters task
-30/09/2024 - 01:38:21
+09/10/2024 - 11:15:33
 Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Control - Dapagliflozin - Kasichayanula 2013a
-30/09/2024 - 01:38:23
+09/10/2024 - 11:15:35
 Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Treatment - Mefenamic acid_Dapagliflozin - Kasichayanula 2013a
-30/09/2024 - 01:38:26
+09/10/2024 - 11:15:37
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir
-30/09/2024 - 01:38:27
+09/10/2024 - 11:15:39
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir+Atazanavir
-30/09/2024 - 01:38:29
+09/10/2024 - 11:15:40
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir
-30/09/2024 - 01:38:30
+09/10/2024 - 11:15:42
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir+Atazanavir
-30/09/2024 - 01:38:32
+09/10/2024 - 11:15:44
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir
-30/09/2024 - 01:38:34
+09/10/2024 - 11:15:45
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir+Atazanavir
-30/09/2024 - 01:38:36
+09/10/2024 - 11:15:47
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir
-30/09/2024 - 01:38:37
+09/10/2024 - 11:15:48
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir+Atazanavir
-30/09/2024 - 01:38:39
+09/10/2024 - 11:15:50
 Calculate PK Parameters task completed in 0.3 min
-30/09/2024 - 01:38:39
+09/10/2024 - 11:15:50
 Starting run of Plot DDI Ratio task
-30/09/2024 - 01:39:30
+09/10/2024 - 11:16:39
 Plot DDI Ratio task completed in 0.8 min
-30/09/2024 - 01:39:30
+09/10/2024 - 11:16:39
 Starting run of Plot Comparison Time Profiles task
-30/09/2024 - 01:39:55
+09/10/2024 - 11:17:04
 Plot Comparison Time Profiles task completed in 0.4 min
-30/09/2024 - 01:39:55
-Qualification Workflow completed in 3.8 min
+09/10/2024 - 11:17:04
+Qualification Workflow completed in 3.6 min
