@@ -84,12 +84,12 @@ readmeContent <- readLines("README.md")
 toKeep <- grep(
   pattern = "## Using Reports and Scripts as template",
   readmeContent
-)
+)-1
 # Insert in line 5 (after title, author and dates)
 # Some text for the website
 toInsert <- c(
   "",
-  "## Welcome to the OSPSuite Reporting Engine test reports.",
+  "## Welcome !",
   "",
   paste(
     "This website aims at providing a simple and easy way",
@@ -98,8 +98,8 @@ toInsert <- c(
   "",
   paste(
     "The tested reports were split in the navigation bar above",
-    "between reports obtained from standard tests for Mean and Population Model Workflows,",
-    "and reports obtained from Qualification Workflows."
+    "between reports obtained from standard tests for __Mean and Population Model Workflows__,",
+    "and reports obtained from __Qualification Workflows__."
   ),
   "",
   paste(
@@ -110,6 +110,6 @@ toInsert <- c(
   "## Results Overview",
   ""
 )
-readmeContent <- c(readmeContent[1:5], toInsert, readmeContent[1:toKeep])
+readmeContent <- c(readmeContent[1:5], toInsert, readmeContent[6:toKeep])
 writeLines(readmeContent, con = "index.md")
 pkgdown::build_home()
