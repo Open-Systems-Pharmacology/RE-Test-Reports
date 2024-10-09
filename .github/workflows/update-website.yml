@@ -1,8 +1,9 @@
 name: Update website
 on:
-  push: 
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Run RE Report Tests"]
+    types:
+      - completed
 # The action needs permissions to update the branch
 permissions:
   contents: write
@@ -35,7 +36,7 @@ jobs:
         # only target folder of repo from gh-pages branch is updated
         with:
           folder: docs
-          clean: false
+          clean: true
           branch: gh-pages
           target-folder: docs
           token: ${{ secrets.GITHUB_TOKEN }}
