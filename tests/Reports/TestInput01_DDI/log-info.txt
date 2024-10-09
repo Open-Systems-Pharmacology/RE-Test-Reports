@@ -1,32 +1,12 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-30/09/2024 - 01:35:58
+09/10/2024 - 12:00:11
 Loading Simulations onto Qualification Workflow
-30/09/2024 - 01:36:09
+09/10/2024 - 12:00:23
 Simulations loading completed in 0.2 min
-30/09/2024 - 01:36:09
+09/10/2024 - 12:00:23
 Reporting Engine Information:
-Date: 30/09/2024 - 01:36:09
+Date: 09/10/2024 - 12:00:23
 User Information:
-Computer Name: fv-az521-264
-=======
-26/09/2024 - 07:54:29
-=======
-30/09/2024 - 00:45:21
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
-Loading Simulations onto Qualification Workflow
-30/09/2024 - 00:45:32
-Simulations loading completed in 0.2 min
-30/09/2024 - 00:45:32
-Reporting Engine Information:
-Date: 30/09/2024 - 00:45:32
-User Information:
-<<<<<<< HEAD
-Computer Name: fv-az1390-839
->>>>>>> 2aeffd4 (Added/modified test reports and updated README)
-=======
-Computer Name: fv-az653-128
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
+Computer Name: fv-az1390-400
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -35,103 +15,47 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
-<<<<<<< HEAD
-<<<<<<< HEAD
-30/09/2024 - 01:36:10
+09/10/2024 - 12:00:24
 Starting run of Qualification Workflow
-30/09/2024 - 01:36:10
+09/10/2024 - 12:00:24
 Starting run of Simulation task
-30/09/2024 - 01:36:10
+09/10/2024 - 12:00:24
 Splitting simulations for parallel run: 10 simulations split into 2 subsets
-30/09/2024 - 01:36:10
+09/10/2024 - 12:00:24
 Starting run of subset simulations
-30/09/2024 - 01:38:21
-Simulation task completed in 2.2 min
-30/09/2024 - 01:38:21
+09/10/2024 - 12:02:57
+Simulation task completed in 2.6 min
+09/10/2024 - 12:02:57
 Starting run of Calculate PK Parameters task
-30/09/2024 - 01:38:21
+09/10/2024 - 12:02:57
 Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Control - Dapagliflozin - Kasichayanula 2013a
-30/09/2024 - 01:38:23
+09/10/2024 - 12:02:59
 Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Treatment - Mefenamic acid_Dapagliflozin - Kasichayanula 2013a
-30/09/2024 - 01:38:26
+09/10/2024 - 12:03:02
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir
-30/09/2024 - 01:38:27
+09/10/2024 - 12:03:03
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir+Atazanavir
-30/09/2024 - 01:38:29
+09/10/2024 - 12:03:05
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir
-30/09/2024 - 01:38:30
+09/10/2024 - 12:03:07
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir+Atazanavir
-30/09/2024 - 01:38:32
+09/10/2024 - 12:03:09
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir
-30/09/2024 - 01:38:34
+09/10/2024 - 12:03:11
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir+Atazanavir
-30/09/2024 - 01:38:36
+09/10/2024 - 12:03:12
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir
-30/09/2024 - 01:38:37
+09/10/2024 - 12:03:14
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir+Atazanavir
-30/09/2024 - 01:38:39
+09/10/2024 - 12:03:16
 Calculate PK Parameters task completed in 0.3 min
-30/09/2024 - 01:38:39
+09/10/2024 - 12:03:16
 Starting run of Plot DDI Ratio task
-30/09/2024 - 01:39:30
+09/10/2024 - 12:04:07
 Plot DDI Ratio task completed in 0.8 min
-30/09/2024 - 01:39:30
+09/10/2024 - 12:04:07
 Starting run of Plot Comparison Time Profiles task
-30/09/2024 - 01:39:55
+09/10/2024 - 12:04:32
 Plot Comparison Time Profiles task completed in 0.4 min
-30/09/2024 - 01:39:55
-Qualification Workflow completed in 3.8 min
-=======
-26/09/2024 - 07:54:40
-=======
-30/09/2024 - 00:45:32
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
-Starting run of Qualification Workflow
-30/09/2024 - 00:45:32
-Starting run of Simulation task
-30/09/2024 - 00:45:32
-Splitting simulations for parallel run: 10 simulations split into 2 subsets
-30/09/2024 - 00:45:32
-Starting run of subset simulations
-30/09/2024 - 00:47:42
-Simulation task completed in 2.2 min
-30/09/2024 - 00:47:42
-Starting run of Calculate PK Parameters task
-30/09/2024 - 00:47:42
-Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Control - Dapagliflozin - Kasichayanula 2013a
-30/09/2024 - 00:47:44
-Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Treatment - Mefenamic acid_Dapagliflozin - Kasichayanula 2013a
-30/09/2024 - 00:47:46
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir
-30/09/2024 - 00:47:48
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir+Atazanavir
-30/09/2024 - 00:47:50
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir
-30/09/2024 - 00:47:51
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir+Atazanavir
-30/09/2024 - 00:47:53
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir
-30/09/2024 - 00:47:55
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir+Atazanavir
-30/09/2024 - 00:47:56
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir
-30/09/2024 - 00:47:58
-Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir+Atazanavir
-30/09/2024 - 00:48:00
-Calculate PK Parameters task completed in 0.3 min
-30/09/2024 - 00:48:00
-Starting run of Plot DDI Ratio task
-30/09/2024 - 00:48:49
-Plot DDI Ratio task completed in 0.8 min
-30/09/2024 - 00:48:49
-Starting run of Plot Comparison Time Profiles task
-30/09/2024 - 00:49:13
-Plot Comparison Time Profiles task completed in 0.4 min
-<<<<<<< HEAD
-26/09/2024 - 07:58:41
-Qualification Workflow completed in 4 min
->>>>>>> 2aeffd4 (Added/modified test reports and updated README)
-=======
-30/09/2024 - 00:49:13
-Qualification Workflow completed in 3.7 min
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
+09/10/2024 - 12:04:33
+Qualification Workflow completed in 4.2 min

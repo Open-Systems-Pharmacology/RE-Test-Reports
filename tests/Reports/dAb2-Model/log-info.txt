@@ -1,32 +1,12 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-30/09/2024 - 01:31:49
+09/10/2024 - 11:55:55
 Loading Simulations onto Qualification Workflow
-30/09/2024 - 01:31:50
+09/10/2024 - 11:55:56
 Simulations loading completed in 0 min
-30/09/2024 - 01:31:51
+09/10/2024 - 11:55:56
 Reporting Engine Information:
-Date: 30/09/2024 - 01:31:51
+Date: 09/10/2024 - 11:55:56
 User Information:
-Computer Name: fv-az521-264
-=======
-26/09/2024 - 07:50:09
-=======
-30/09/2024 - 00:41:10
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
-Loading Simulations onto Qualification Workflow
-30/09/2024 - 00:41:11
-Simulations loading completed in 0 min
-30/09/2024 - 00:41:11
-Reporting Engine Information:
-Date: 30/09/2024 - 00:41:11
-User Information:
-<<<<<<< HEAD
-Computer Name: fv-az1390-839
->>>>>>> 2aeffd4 (Added/modified test reports and updated README)
-=======
-Computer Name: fv-az653-128
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
+Computer Name: fv-az1390-400
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -35,53 +15,23 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
-<<<<<<< HEAD
-<<<<<<< HEAD
-30/09/2024 - 01:31:51
+09/10/2024 - 11:55:56
 Starting run of Qualification Workflow
-30/09/2024 - 01:31:51
+09/10/2024 - 11:55:57
 Starting run of Simulation task
-30/09/2024 - 01:31:51
+09/10/2024 - 11:55:57
 Splitting simulations for parallel run: 2 simulations split into 1 subsets
-30/09/2024 - 01:31:51
+09/10/2024 - 11:55:57
 Starting run of subset simulations
-30/09/2024 - 01:31:55
+09/10/2024 - 11:56:01
 Simulation task completed in 0.1 min
-30/09/2024 - 01:31:55
+09/10/2024 - 11:56:01
 Starting run of Plot Merged Goodness of Fit task
-30/09/2024 - 01:32:00
+09/10/2024 - 11:56:07
 Plot Merged Goodness of Fit task completed in 0.1 min
-30/09/2024 - 01:32:00
+09/10/2024 - 11:56:07
 Starting run of Plot Time Profiles task
-30/09/2024 - 01:32:42
+09/10/2024 - 11:56:48
 Plot Time Profiles task completed in 0.7 min
-30/09/2024 - 01:32:42
-=======
-26/09/2024 - 07:50:11
-=======
-30/09/2024 - 00:41:11
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
-Starting run of Qualification Workflow
-30/09/2024 - 00:41:11
-Starting run of Simulation task
-30/09/2024 - 00:41:11
-Splitting simulations for parallel run: 2 simulations split into 1 subsets
-30/09/2024 - 00:41:11
-Starting run of subset simulations
-30/09/2024 - 00:41:15
-Simulation task completed in 0.1 min
-30/09/2024 - 00:41:15
-Starting run of Plot Merged Goodness of Fit task
-30/09/2024 - 00:41:21
-Plot Merged Goodness of Fit task completed in 0.1 min
-30/09/2024 - 00:41:21
-Starting run of Plot Time Profiles task
-30/09/2024 - 00:42:02
-Plot Time Profiles task completed in 0.7 min
-<<<<<<< HEAD
-26/09/2024 - 07:51:04
->>>>>>> 2aeffd4 (Added/modified test reports and updated README)
-=======
-30/09/2024 - 00:42:02
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
+09/10/2024 - 11:56:48
 Qualification Workflow completed in 0.9 min

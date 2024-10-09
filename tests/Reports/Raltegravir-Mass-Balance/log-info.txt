@@ -1,24 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-30/09/2024 - 02:12:00
+09/10/2024 - 12:37:16
 Reporting Engine Information:
-Date: 30/09/2024 - 02:12:00
+Date: 09/10/2024 - 12:37:16
 User Information:
-Computer Name: fv-az521-264
-=======
-26/09/2024 - 08:32:31
-=======
-30/09/2024 - 01:21:24
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
-Reporting Engine Information:
-Date: 30/09/2024 - 01:21:24
-User Information:
-<<<<<<< HEAD
-Computer Name: fv-az1390-839
->>>>>>> 2aeffd4 (Added/modified test reports and updated README)
-=======
-Computer Name: fv-az653-128
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
+Computer Name: fv-az1390-400
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -27,37 +11,15 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
-<<<<<<< HEAD
-<<<<<<< HEAD
-30/09/2024 - 02:12:00
+09/10/2024 - 12:37:16
 Starting run of Mean Model Workflow
-30/09/2024 - 02:12:00
+09/10/2024 - 12:37:16
 Starting run of Plot Mass Balance task
-30/09/2024 - 02:12:00
+09/10/2024 - 12:37:16
 Starting run of Plot Mass Balance task for Single Dose (100 mg)
-30/09/2024 - 02:12:14
+09/10/2024 - 12:37:31
 Starting run of Plot Mass Balance task for Multiple Doses (100 mg)
-30/09/2024 - 02:13:05
+09/10/2024 - 12:38:21
 Plot Mass Balance task completed in 1.1 min
-30/09/2024 - 02:13:05
-=======
-26/09/2024 - 08:32:31
-=======
-30/09/2024 - 01:21:24
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
-Starting run of Mean Model Workflow
-30/09/2024 - 01:21:25
-Starting run of Plot Mass Balance task
-30/09/2024 - 01:21:25
-Starting run of Plot Mass Balance task for Single Dose (100 mg)
-30/09/2024 - 01:21:38
-Starting run of Plot Mass Balance task for Multiple Doses (100 mg)
-30/09/2024 - 01:22:28
-Plot Mass Balance task completed in 1.1 min
-<<<<<<< HEAD
-26/09/2024 - 08:33:40
->>>>>>> 2aeffd4 (Added/modified test reports and updated README)
-=======
-30/09/2024 - 01:22:28
->>>>>>> b94a8e2 (Added/modified test reports and updated README)
+09/10/2024 - 12:38:21
 Mean Model Workflow completed in 1.1 min
