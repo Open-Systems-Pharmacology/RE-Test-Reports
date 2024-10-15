@@ -95,6 +95,16 @@
     "Reference": false
   },
   {
+    "Script": "report-qualification-7e3",
+    "Report": "7E3-Model",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-cda1",
+    "Report": "CDA1-Model",
+    "Reference": false
+  },
+  {
     "Script": "report-qualification-ddi",
     "Report": "TestInput01_DDI",
     "Reference": false
