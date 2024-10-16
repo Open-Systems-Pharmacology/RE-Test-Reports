@@ -105,6 +105,21 @@
     "Reference": false
   },
   {
+    "Script": "report-qualification-inulin",
+    "Report": "Inulin-Model",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-bay794620",
+    "Report": "BAY794620-Model",
+    "Reference": false
+  },
+  {
+    "Script": "report-qualification-tefibazumab",
+    "Report": "Tefibazumab-Model",
+    "Reference": false
+  },
+  {
     "Script": "report-qualification-ddi",
     "Report": "TestInput01_DDI",
     "Reference": false
