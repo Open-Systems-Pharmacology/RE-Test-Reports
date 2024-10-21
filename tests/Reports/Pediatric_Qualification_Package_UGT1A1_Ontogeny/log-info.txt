@@ -1,12 +1,12 @@
-16/10/2024 - 12:10:38
+21/10/2024 - 02:23:27
 Loading Simulations onto Qualification Workflow
-16/10/2024 - 12:10:46
+21/10/2024 - 02:23:35
 Simulations loading completed in 0.1 min
-16/10/2024 - 12:10:46
+21/10/2024 - 02:23:35
 Reporting Engine Information:
-Date: 16/10/2024 - 12:10:46
+Date: 21/10/2024 - 02:23:35
 User Information:
-Computer Name: fv-az844-185
+Computer Name: fv-az980-22
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -15,53 +15,53 @@ R version: R version 4.4.1 (2024-06-14 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
-16/10/2024 - 12:10:46
+21/10/2024 - 02:23:36
 Starting run of Qualification Workflow
-16/10/2024 - 12:10:46
+21/10/2024 - 02:23:36
 Starting run of Simulation task
-16/10/2024 - 12:10:46
+21/10/2024 - 02:23:36
 Starting run of Population Simulations
-16/10/2024 - 12:10:47
+21/10/2024 - 02:23:36
 Starting run of Raltegravir-Pediatrics-Larson 2013 8-18y meal (Larson 2013 8-18y meal-Population)
-16/10/2024 - 12:11:23
+21/10/2024 - 02:24:13
 Splitting simulations for parallel run: 10 simulations split into 2 subsets
-16/10/2024 - 12:11:23
+21/10/2024 - 02:24:13
 Starting run of subset simulations
-16/10/2024 - 12:11:44
+21/10/2024 - 02:24:35
 Simulation task completed in 1 min
-16/10/2024 - 12:11:44
+21/10/2024 - 02:24:35
 Starting run of Calculate PK Parameters task
-16/10/2024 - 12:11:44
+21/10/2024 - 02:24:35
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Larson 2013 8-18y meal
-16/10/2024 - 12:11:46
+21/10/2024 - 02:24:37
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Rizk 2015 3.5m meal
-16/10/2024 - 12:11:48
+21/10/2024 - 02:24:38
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Rizk 2015 15m meal
-16/10/2024 - 12:11:49
+21/10/2024 - 02:24:40
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Nachmann 2013 cohort 3 - 3.2y fed
-16/10/2024 - 12:11:51
+21/10/2024 - 02:24:41
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Nachmann 2013 cohort 2b 8.8y fed
-16/10/2024 - 12:11:52
+21/10/2024 - 02:24:43
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Nachmann 2013 cohort 2a 10y fed
-16/10/2024 - 12:11:54
+21/10/2024 - 02:24:45
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Nachmann 2013 cohort 1 15.2y fed
-16/10/2024 - 12:11:55
+21/10/2024 - 02:24:46
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Larson 2013 3y meal
-16/10/2024 - 12:11:57
+21/10/2024 - 02:24:48
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Larson 2013 9y meal
-16/10/2024 - 12:11:58
+21/10/2024 - 02:24:49
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Larson 2013 10.5y meal
-16/10/2024 - 12:11:59
+21/10/2024 - 02:24:51
 Starting run of Calculate PK Parameters task for Raltegravir-Pediatrics-Larson 2013 15y meal
-16/10/2024 - 12:12:01
+21/10/2024 - 02:24:52
 Calculate PK Parameters task completed in 0.3 min
-16/10/2024 - 12:12:01
+21/10/2024 - 02:24:52
 Starting run of Plot PK Ratio task
-16/10/2024 - 12:12:11
+21/10/2024 - 02:25:03
 Plot PK Ratio task completed in 0.2 min
-16/10/2024 - 12:12:11
+21/10/2024 - 02:25:03
 Starting run of Plot Time Profiles task
-16/10/2024 - 12:12:20
-Plot Time Profiles task completed in 0.1 min
-16/10/2024 - 12:12:20
+21/10/2024 - 02:25:12
+Plot Time Profiles task completed in 0.2 min
+21/10/2024 - 02:25:12
 Qualification Workflow completed in 1.6 min

@@ -1,60 +1,60 @@
-16/10/2024 - 10:59:50
+21/10/2024 - 01:11:35
 Simulation file 'Simulation file 'Models/Theophylline (Boeckmann 1994) PO for fitting (fitted specific int.perm) popsim.pkml' successfully loaded' successfully loaded
-16/10/2024 - 10:59:53
+21/10/2024 - 01:11:39
 Simulation results 'tests/Reports/Test-NO11/SimulationResults/PO320mg-SimulationResults.csv' successfully loaded
-16/10/2024 - 10:59:53
+21/10/2024 - 01:11:39
 Calculation of PK parameters complete
-16/10/2024 - 10:59:53
+21/10/2024 - 01:11:39
 PK parameters for 'PO320mg' saved in 'tests/Reports/Test-NO11/PKAnalysisResults/PO320mg-PKAnalysisResults.csv
-16/10/2024 - 10:59:54
+21/10/2024 - 01:11:40
 Table 'tests/Reports/Test-NO11/PKAnalysis/PO320mg-pk_parameters_PO320mg.csv' was successfully saved.
-16/10/2024 - 10:59:55
+21/10/2024 - 01:11:40
 Output 'Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)'. Number of selected observations: 132
-16/10/2024 - 10:59:55
+21/10/2024 - 01:11:40
 '1' applications identified for path 'Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)' in simulation 'Theophylline (Boeckmann 1994) PO for fitting (fitted specific int.perm) popsim'
-16/10/2024 - 10:59:55
+21/10/2024 - 01:11:40
 Time ranges for 'Theophylline (Boeckmann 1994) PO for fitting (fitted specific int.perm) popsim' timeRanges
-16/10/2024 - 10:59:55
+21/10/2024 - 01:11:40
 137 simulated data were included in the analysis between 0 and 26 h.
-16/10/2024 - 10:59:55
+21/10/2024 - 01:11:40
 132 observed data were included in the analysis between 0 and 26 h.
-16/10/2024 - 10:59:56
+21/10/2024 - 01:11:41
 1 values from variable 'Concentration' were negative and removed from the analysis
-16/10/2024 - 10:59:56
+21/10/2024 - 01:11:41
 12 values from variable 'Concentration' were negative and removed from the analysis
-16/10/2024 - 10:59:57
+21/10/2024 - 01:11:43
 12 values were missing (NA) from variable 'Residuals' and removed from the analysis
-16/10/2024 - 10:59:57
+21/10/2024 - 01:11:43
 120 residuals data were included in the analysis between 0 and 26 h.
-16/10/2024 - 11:00:01
+21/10/2024 - 01:11:47
 Table 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-1_time_profile_data.csv' was successfully saved.
-16/10/2024 - 11:00:01
+21/10/2024 - 01:11:47
 Table 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-2_residuals_data.csv' was successfully saved.
-16/10/2024 - 11:00:02
+21/10/2024 - 01:11:48
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-3_timeProfile_1_total.png' was successfully saved.
-16/10/2024 - 11:00:03
+21/10/2024 - 01:11:49
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-4_timeProfileLog_2_total.png' was successfully saved.
-16/10/2024 - 11:00:04
+21/10/2024 - 01:11:49
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-5_obsVsPred_1_total.png' was successfully saved.
-16/10/2024 - 11:00:05
+21/10/2024 - 01:11:50
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-6_obsVsPredLog_1_total.png' was successfully saved.
-16/10/2024 - 11:00:05
+21/10/2024 - 01:11:51
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-7_resVsPred_1_total.png' was successfully saved.
-16/10/2024 - 11:00:06
+21/10/2024 - 01:11:51
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-8_resVsTime_1_total.png' was successfully saved.
-16/10/2024 - 11:00:06
+21/10/2024 - 01:11:52
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-9_resHisto_1_total.png' was successfully saved.
-16/10/2024 - 11:00:07
+21/10/2024 - 01:11:52
 Figure 'tests/Reports/Test-NO11/TimeProfiles/PO320mg-10_resQQPlot_1_total.png' was successfully saved.
-16/10/2024 - 11:00:07
+21/10/2024 - 01:11:52
 Reports 'tests/Reports/Test-NO11/appendix-pk-parameters.md', 'tests/Reports/Test-NO11/appendix-time-profile.md' were successfully merged into 'tests/Reports/Test-NO11/Report.md'
-16/10/2024 - 11:00:07
+21/10/2024 - 01:11:52
 In 'tests/Reports/Test-NO11/Report.md', 0.666666666666667 tables and 8 figures were referenced.
-16/10/2024 - 11:00:07
+21/10/2024 - 01:11:52
 In 'tests/Reports/Test-NO11/Report.md', 5 sections were numbered
-16/10/2024 - 11:00:07
+21/10/2024 - 01:11:52
 In 'tests/Reports/Test-NO11/Report.md', table of content of 4 lines was included.
-16/10/2024 - 11:00:07
+21/10/2024 - 01:11:52
 'tests/Reports/Test-NO11/Report.md' already exists. Overwriting 'tests/Reports/Test-NO11/Report.md'.
-16/10/2024 - 11:00:07
+21/10/2024 - 01:11:52
 Reports 'temp-report-title.md', 'tests/Reports/Test-NO11/Report.md' were successfully merged into 'tests/Reports/Test-NO11/Report.md'
