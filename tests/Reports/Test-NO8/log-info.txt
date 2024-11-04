@@ -1,45 +1,45 @@
-28/10/2024 - 01:13:09
+04/11/2024 - 01:12:54
 Reporting Engine Information:
-Date: 28/10/2024 - 01:13:09
+Date: 04/11/2024 - 01:12:54
 User Information:
-Computer Name: fv-az742-134
+Computer Name: fv-az1564-159
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
-R version: R version 4.4.1 (2024-06-14 ucrt)
+R version: R version 4.4.2 (2024-10-31 ucrt)
 OSP Suite Package version: 12.1.0
 OSP Reporting Engine version: 2.2.368
 tlf version: 1.5.171
-28/10/2024 - 01:13:09
+04/11/2024 - 01:12:54
 Starting run of Population Workflow for parallelComparison
-28/10/2024 - 01:13:09
+04/11/2024 - 01:12:54
 Starting run of Simulation task
-28/10/2024 - 01:13:09
+04/11/2024 - 01:12:54
 Starting run of Population Simulations
-28/10/2024 - 01:13:09
+04/11/2024 - 01:12:55
 Starting run of single IV application (Pop_10)
-28/10/2024 - 01:13:12
+04/11/2024 - 01:12:57
 Simulation task completed in 0 min
-28/10/2024 - 01:13:12
+04/11/2024 - 01:12:57
 Starting run of Calculate PK Parameters task
-28/10/2024 - 01:13:12
+04/11/2024 - 01:12:57
 Starting run of Calculate PK Parameters task for single IV application
-28/10/2024 - 01:13:13
+04/11/2024 - 01:12:58
 Calculate PK Parameters task completed in 0 min
-28/10/2024 - 01:13:13
+04/11/2024 - 01:12:58
 Starting run of Plot PK Parameters task
-28/10/2024 - 01:13:34
-Plot PK Parameters task completed in 0.4 min
-28/10/2024 - 01:13:34
+04/11/2024 - 01:13:18
+Plot PK Parameters task completed in 0.3 min
+04/11/2024 - 01:13:18
 Starting run of Plot Time profiles and Residuals task
-28/10/2024 - 01:13:34
+04/11/2024 - 01:13:18
 Starting run of Plot Time profiles and Residuals task for single IV application
-28/10/2024 - 01:13:39
+04/11/2024 - 01:13:23
 Plot Time profiles and Residuals task completed in 0.1 min
-28/10/2024 - 01:13:39
+04/11/2024 - 01:13:23
 Starting run of Plot Demography task
-28/10/2024 - 01:13:44
+04/11/2024 - 01:13:28
 Plot Demography task completed in 0.1 min
-28/10/2024 - 01:13:44
+04/11/2024 - 01:13:29
 Population Workflow for parallelComparison completed in 0.6 min
