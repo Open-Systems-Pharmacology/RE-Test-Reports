@@ -31,6 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Add dot prefix to images
+        run: |
+           reportContent <- readLines("Reports/${{ inputs.report }}/Report.md")
+           reportContent <- gsub(pattern = "!\\[\\]\\(.*\\)", replacement = "![](./", x = reportContent)
+           writeLines(reportContent, "Reports/${{ inputs.report }}/Report.md")
+        shell: Rscript {0}
       - name: Convert Markdown to PDF and HTML
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
