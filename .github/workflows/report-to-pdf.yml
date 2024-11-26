@@ -35,14 +35,16 @@ jobs:
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_path: Reports/${{ inputs.report }}
-          output_dir: pdfs
+          output_dir: pdfs-${{ inputs.report }}
           images_dir: Reports/${{ inputs.report }}
-          image_import: ''
+          image_import: .
           build_html: true
           theme: osp.css
           table_of_contents: false
+      - name: Copy pdf and html in report folder
+        run: cp -R pdfs-${{ inputs.report }} Reports/${{ inputs.report }}
       - name: Save PDF and HTML files as artifacts
         uses: actions/upload-artifact@v3
         with:
           name: ${{ inputs.report }}-pdf
-          path: pdfs
+          path: Reports/${{ inputs.report }}
