@@ -35,7 +35,7 @@ jobs:
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_path: Reports/${{ inputs.report }}
-          output_dir: Reports/${{ inputs.report }}
+          output_dir: pdfs
           images_dir: Reports/${{ inputs.report }}
           build_html: true
           theme: osp.css
@@ -44,4 +44,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ${{ inputs.report }}-pdf
-          path: Reports/${{ inputs.report }}
+          path: pdfs
