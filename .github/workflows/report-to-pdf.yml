@@ -34,7 +34,7 @@ jobs:
       - name: Add dot prefix to images
         run: |
            reportContent <- readLines("Reports/${{ inputs.report }}/Report.md")
-           reportContent <- gsub(pattern = "!\\[\\]\\(.*\\)", replacement = "![](./", x = reportContent)
+           reportContent <- gsub(pattern = "!\\[\\]\\(", replacement = "![](./", x = reportContent)
            writeLines(reportContent, "Reports/${{ inputs.report }}/Report.md")
         shell: Rscript {0}
       - name: Convert Markdown to PDF and HTML
