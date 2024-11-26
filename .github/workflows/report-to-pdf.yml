@@ -1,0 +1,48 @@
+name: Convert Report to PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      report:
+        description: 'Report to convert'
+        required: true
+        type: choice
+        # TODO options to be called from a script or code
+        options:
+        - Aciclovir-Mean
+        - Aciclovir-Mean-SVG
+        - Aciclovir-Population
+        - Raltegravir-Absorption
+        - Raltegravir-Mass-Balance
+        - Test-NO7
+        - Test-NO8
+        - Test-NO9
+        - Test-NO10
+        - Test-NO11
+        - Test-NO12
+  
+jobs:
+  report-to-pdf:
+    runs-on: ubuntu-latest
+    # Allow only authorized collaborators to trigger GA:
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+# All steps in workflow:
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Convert Markdown to PDF and HTML
+        uses: BaileyJM02/markdown-to-pdf@v1.2.0
+        with:
+          input_path: Reports/${{ inputs.report }}
+          output_dir: pdfs
+          images_dir: Reports/${{ inputs.report }}
+          # Keep true to check html rendering
+          build_html: true
+          theme: osp.css
+          table_of_contents: false
+      - name: Save PDF and HTML files as artifacts
+        uses: actions/upload-artifact@v3
+          with:
+            name: ${{ inputs.report }}-pdf
+            path: pdfs
