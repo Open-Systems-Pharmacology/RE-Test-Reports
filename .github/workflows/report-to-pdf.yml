@@ -34,21 +34,21 @@ jobs:
       - name: Add dot prefix to images
         run: |
            reportContent <- readLines("Reports/${{ inputs.report }}/Report.md")
-           reportContent <- gsub(pattern = "!\\[\\]\\(", replacement = "![](./", x = reportContent)
+           reportContent <- gsub(pattern = "!\\[\\]\\(", replacement = "![](./tmp-images/", x = reportContent)
            writeLines(reportContent, "Reports/${{ inputs.report }}/Report.md")
         shell: Rscript {0}
       - name: Convert Markdown to PDF and HTML
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_path: Reports/${{ inputs.report }}
-          output_dir: pdfs-${{ inputs.report }}
+          output_dir: ${{ inputs.report }}-pdfs
           images_dir: Reports/${{ inputs.report }}
-          image_import: .
+          image_import: ./tmp-images
           build_html: true
           theme: osp.css
           table_of_contents: false
       - name: Copy pdf and html in report folder
-        run: cp -R pdfs-${{ inputs.report }} Reports/${{ inputs.report }}
+        run: cp -R ${{ inputs.report }}-pdfs Reports/${{ inputs.report }}
       - name: Save PDF and HTML files as artifacts
         uses: actions/upload-artifact@v3
         with:
