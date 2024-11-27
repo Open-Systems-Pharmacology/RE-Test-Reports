@@ -37,11 +37,17 @@ jobs:
           sudo apt install pandoc
       - name: Perform html conversion with pandoc
         run: |
-          pandoc -f markdown -t html5 \
+          pandoc -f markdown -t html5 --embed-resources --standalone \
           -o Reports/${{ inputs.report }}/Report.html \
           Reports/${{ inputs.report }}/Report.md -c osp.css
+      # Run the HTML to PDF converter action
+      - name: HTML website to PDF converter
+        uses: ferdinandkeller/html-to-pdf-action@v2
+        with:
+          source-path: "./Reports/${{ inputs.report }}/Report.html"
+          destination-path: "./Reports/${{ inputs.report }}/Report.pdf"
       - name: Save PDF file as artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ inputs.report }}-html
-          path: Reports/${{ inputs.report }}/Report.html
+          name: ${{ inputs.report }}-pdf
+          path: Reports/${{ inputs.report }}
