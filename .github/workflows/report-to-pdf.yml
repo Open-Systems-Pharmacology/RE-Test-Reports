@@ -39,10 +39,12 @@ jobs:
       - name: Perform pdf conversion using pandoc
         run: |
           pandoc -f gfm -t html5 --metadata pagetitle="Test Report" --css osp.css \
+          --pdf-engine=wkhtmltopdf \
           --pdf-engine-opt="--enable-local-file-access" \
           --pdf-engine-opt="--enable-external-links" \
           --pdf-engine-opt="--keep-relative-links" \
-          --pdf-engine-opt="--enable-smart-shrinking"
+          --pdf-engine-opt="--enable-smart-shrinking" \
+          --pdf-engine-opt="--footer-right" --pdf-engine-opt="[page] / [topage]" \
           Reports/${{ inputs.report }}/Report.md -o Reports/${{ inputs.report }}/Report.pdf
       - name: Save PDF file as artifacts
         uses: actions/upload-artifact@v4
