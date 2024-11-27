@@ -31,10 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install pandoc and wkhtmltopdf
-        run: |
-          sudo apt update
-          sudo apt install pandoc
+      - name: Install Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
       - name: Perform html conversion with pandoc
         run: |
           pandoc -f markdown -t html5 --embed-resources --standalone \
