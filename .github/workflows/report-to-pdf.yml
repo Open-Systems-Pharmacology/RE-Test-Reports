@@ -44,12 +44,7 @@ jobs:
         with:
           htmlFile: ./Reports/${{ inputs.report }}/Report.html
           outputFile: ./Reports/${{ inputs.report }}/Report.pdf
-          pdfOptions: |
-            '{"format": "A4", 
-            "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"},
-            "displayHeaderFooter": true,
-            "footerTemplate": "<span>pageNumber/totalPages</span>"
-            }'
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}, "displayHeaderFooter": true, "footerTemplate": "<span>pageNumber/totalPages</span>"}'
       - name: Save PDF file as artifacts
         uses: actions/upload-artifact@v4
         with:
