@@ -1,124 +1,124 @@
-27/11/2024 - 17:44:52
+02/12/2024 - 01:20:03
 Simulation file 'Models/Aciclovir.pkml' successfully loaded
-27/11/2024 - 17:44:52
+02/12/2024 - 01:20:04
 Population file 'Data/adult-population.csv' successfully loaded
-27/11/2024 - 17:44:56
+02/12/2024 - 01:20:07
 Simulation run complete
-27/11/2024 - 17:44:57
+02/12/2024 - 01:20:08
 Simulation file 'Models/Aciclovir.pkml' successfully loaded
-27/11/2024 - 17:44:57
+02/12/2024 - 01:20:09
 Population file 'Data/children-population.csv' successfully loaded
-27/11/2024 - 17:45:01
+02/12/2024 - 01:20:13
 Simulation run complete
-27/11/2024 - 17:45:02
+02/12/2024 - 01:20:13
 Simulation results 'tests/Reports/Aciclovir-Population/SimulationResults/Aciclovir Adults-SimulationResults.csv' successfully loaded
-27/11/2024 - 17:45:02
+02/12/2024 - 01:20:13
 Calculation of PK parameters complete
-27/11/2024 - 17:45:02
+02/12/2024 - 01:20:13
 PK parameters for 'Aciclovir Adults' saved in 'tests/Reports/Aciclovir-Population/PKAnalysisResults/Aciclovir Adults-PKAnalysisResults.csv
-27/11/2024 - 17:45:03
+02/12/2024 - 01:20:14
 Simulation results 'tests/Reports/Aciclovir-Population/SimulationResults/Aciclovir Children-SimulationResults.csv' successfully loaded
-27/11/2024 - 17:45:03
+02/12/2024 - 01:20:14
 Calculation of PK parameters complete
-27/11/2024 - 17:45:03
+02/12/2024 - 01:20:14
 PK parameters for 'Aciclovir Children' saved in 'tests/Reports/Aciclovir-Population/PKAnalysisResults/Aciclovir Children-PKAnalysisResults.csv
-27/11/2024 - 17:52:18
+02/12/2024 - 01:27:26
 Figure 'tests/Reports/Aciclovir-Population/Sensitivity/1_sensitivity_AUC_tEnd.png' was successfully saved.
-27/11/2024 - 17:52:19
+02/12/2024 - 01:27:27
 Figure 'tests/Reports/Aciclovir-Population/Sensitivity/2_sensitivity_CL.png' was successfully saved.
-27/11/2024 - 17:52:19
+02/12/2024 - 01:27:27
 Figure 'tests/Reports/Aciclovir-Population/Sensitivity/3_sensitivity_Vss.png' was successfully saved.
-27/11/2024 - 17:52:20
+02/12/2024 - 01:27:28
 Figure 'tests/Reports/Aciclovir-Population/Sensitivity/4_sensitivity_C_max.png' was successfully saved.
-27/11/2024 - 17:52:29
+02/12/2024 - 01:27:37
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/3_pk_parameters_AUC_tEnd_log.png' was successfully saved.
-27/11/2024 - 17:52:29
+02/12/2024 - 01:27:38
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/4_pk_parameters_AUC_tEnd.png' was successfully saved.
-27/11/2024 - 17:52:29
+02/12/2024 - 01:27:38
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/4_pk_parameters_AUC_tEnd.csv' was successfully saved.
-27/11/2024 - 17:52:30
+02/12/2024 - 01:27:38
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/5_pk_parameters_AUC_tEnd_log.png' was successfully saved.
-27/11/2024 - 17:52:30
+02/12/2024 - 01:27:38
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/6_pk_parameters_AUC_tEnd.png' was successfully saved.
-27/11/2024 - 17:52:30
+02/12/2024 - 01:27:38
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/6_pk_parameters_AUC_tEnd.csv' was successfully saved.
-27/11/2024 - 17:52:30
+02/12/2024 - 01:27:39
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/8_pk_parameters_CL_log.png' was successfully saved.
-27/11/2024 - 17:52:31
+02/12/2024 - 01:27:39
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/9_pk_parameters_CL.png' was successfully saved.
-27/11/2024 - 17:52:31
+02/12/2024 - 01:27:39
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/9_pk_parameters_CL.csv' was successfully saved.
-27/11/2024 - 17:52:31
+02/12/2024 - 01:27:39
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/10_pk_parameters_CL_log.png' was successfully saved.
-27/11/2024 - 17:52:31
+02/12/2024 - 01:27:40
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/11_pk_parameters_CL.png' was successfully saved.
-27/11/2024 - 17:52:31
+02/12/2024 - 01:27:40
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/11_pk_parameters_CL.csv' was successfully saved.
-27/11/2024 - 17:52:32
+02/12/2024 - 01:27:40
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/13_pk_parameters_Vss_log.png' was successfully saved.
-27/11/2024 - 17:52:32
+02/12/2024 - 01:27:40
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/14_pk_parameters_Vss.png' was successfully saved.
-27/11/2024 - 17:52:32
+02/12/2024 - 01:27:40
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/14_pk_parameters_Vss.csv' was successfully saved.
-27/11/2024 - 17:52:33
+02/12/2024 - 01:27:41
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/15_pk_parameters_Vss_log.png' was successfully saved.
-27/11/2024 - 17:52:33
+02/12/2024 - 01:27:41
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/16_pk_parameters_Vss.png' was successfully saved.
-27/11/2024 - 17:52:33
+02/12/2024 - 01:27:41
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/16_pk_parameters_Vss.csv' was successfully saved.
-27/11/2024 - 17:52:33
+02/12/2024 - 01:27:42
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/18_pk_parameters_C_max_log.png' was successfully saved.
-27/11/2024 - 17:52:34
+02/12/2024 - 01:27:42
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/19_pk_parameters_C_max.png' was successfully saved.
-27/11/2024 - 17:52:34
+02/12/2024 - 01:27:42
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/19_pk_parameters_C_max.csv' was successfully saved.
-27/11/2024 - 17:52:34
+02/12/2024 - 01:27:42
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/20_pk_parameters_C_max_log.png' was successfully saved.
-27/11/2024 - 17:52:34
+02/12/2024 - 01:27:43
 Figure 'tests/Reports/Aciclovir-Population/PKAnalysis/21_pk_parameters_C_max.png' was successfully saved.
-27/11/2024 - 17:52:34
+02/12/2024 - 01:27:43
 Table 'tests/Reports/Aciclovir-Population/PKAnalysis/21_pk_parameters_C_max.csv' was successfully saved.
-27/11/2024 - 17:52:35
+02/12/2024 - 01:27:43
 '1' applications identified for path 'Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)' in simulation 'Vergin 1995 IV'
-27/11/2024 - 17:52:35
+02/12/2024 - 01:27:43
 Time ranges for 'Vergin 1995 IV' timeRanges
-27/11/2024 - 17:52:35
+02/12/2024 - 01:27:43
 491 simulated data were included in the analysis between 0 and 24 h.
-27/11/2024 - 17:52:35
+02/12/2024 - 01:27:43
 0 observed data were included in the analysis between 0 and 24 h.
-27/11/2024 - 17:52:36
+02/12/2024 - 01:27:45
 1 values from variable 'Concentration' were negative and removed from the analysis
-27/11/2024 - 17:52:38
+02/12/2024 - 01:27:46
 Table 'tests/Reports/Aciclovir-Population/TimeProfiles/Aciclovir_Adults-1_time_profile_simulated_data.csv' was successfully saved.
-27/11/2024 - 17:52:38
+02/12/2024 - 01:27:47
 Figure 'tests/Reports/Aciclovir-Population/TimeProfiles/Aciclovir_Adults-3_timeProfile_1_total.png' was successfully saved.
-27/11/2024 - 17:52:39
+02/12/2024 - 01:27:47
 Figure 'tests/Reports/Aciclovir-Population/TimeProfiles/Aciclovir_Adults-4_timeProfileLog_2_total.png' was successfully saved.
-27/11/2024 - 17:52:39
+02/12/2024 - 01:27:48
 '1' applications identified for path 'Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)' in simulation 'Vergin 1995 IV'
-27/11/2024 - 17:52:39
+02/12/2024 - 01:27:48
 Time ranges for 'Vergin 1995 IV' timeRanges
-27/11/2024 - 17:52:39
+02/12/2024 - 01:27:48
 982 simulated data were included in the analysis between 0 and 24 h.
-27/11/2024 - 17:52:39
+02/12/2024 - 01:27:48
 0 observed data were included in the analysis between 0 and 24 h.
-27/11/2024 - 17:52:42
+02/12/2024 - 01:27:51
 2 values from variable 'Concentration' were negative and removed from the analysis
-27/11/2024 - 17:52:45
+02/12/2024 - 01:27:54
 Table 'tests/Reports/Aciclovir-Population/TimeProfiles/Aciclovir_Children-1_time_profile_simulated_data.csv' was successfully saved.
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:54
 Figure 'tests/Reports/Aciclovir-Population/TimeProfiles/Aciclovir_Children-3_timeProfile_1_total.png' was successfully saved.
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:55
 Figure 'tests/Reports/Aciclovir-Population/TimeProfiles/Aciclovir_Children-4_timeProfileLog_2_total.png' was successfully saved.
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:55
 Reports 'tests/Reports/Aciclovir-Population/appendix-sensitivity-analysis.md', 'tests/Reports/Aciclovir-Population/appendix-pk-parameters.md', 'tests/Reports/Aciclovir-Population/appendix-time-profile.md' were successfully merged into 'tests/Reports/Aciclovir-Population/Report.md'
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:55
 In 'tests/Reports/Aciclovir-Population/Report.md', 5.33333333333333 tables and 24 figures were referenced.
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:55
 In 'tests/Reports/Aciclovir-Population/Report.md', 5 sections were numbered
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:55
 In 'tests/Reports/Aciclovir-Population/Report.md', table of content of 10 lines was included.
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:55
 'tests/Reports/Aciclovir-Population/Report.md' already exists. Overwriting 'tests/Reports/Aciclovir-Population/Report.md'.
-27/11/2024 - 17:52:46
+02/12/2024 - 01:27:55
 Reports 'temp-report-title.md', 'tests/Reports/Aciclovir-Population/Report.md' were successfully merged into 'tests/Reports/Aciclovir-Population/Report.md'
