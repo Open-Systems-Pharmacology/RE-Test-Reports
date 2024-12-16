@@ -78,7 +78,8 @@
 
 
 
-<script src="CDA1-Model_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
+
+<div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1></h1>
@@ -91,7 +92,8 @@
     
     
 <div class="section level2">
-<h2 id="building-and-evaluation-of-a-pbpk-model-for-antibody-cda1-in-healthy-adults">Building and evaluation of a PBPK model for antibody CDA1 in healthy adults<a class="anchor" aria-label="anchor" href="#building-and-evaluation-of-a-pbpk-model-for-antibody-cda1-in-healthy-adults"></a>
+<h2 id="building-and-evaluation-of-a-pbpk-model-for-antibody-cda1-in-healthy-adults">Building and evaluation of a PBPK model for antibody CDA1 in healthy
+adults<a class="anchor" aria-label="anchor" href="#building-and-evaluation-of-a-pbpk-model-for-antibody-cda1-in-healthy-adults"></a>
 </h2>
 <table class="table">
 <colgroup>
@@ -118,7 +120,8 @@
 </tr>
 </tbody>
 </table>
-<p>This evaluation report and the corresponding PK-Sim project file are filed at:</p>
+<p>This evaluation report and the corresponding PK-Sim project file are
+filed at:</p>
 <p><a href="https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/" class="external-link uri">https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/</a></p>
 </div>
 <div class="section level2">
@@ -133,19 +136,22 @@
 <li>
 <a href="#methods-data">2.2 Data</a>
 <ul>
-<li><a href="#invitro-and-physico-chemical-data">2.2.1 In vitro / physico-chemical Data</a></li>
+<li><a href="#invitro-and-physico-chemical-data">2.2.1 In vitro /
+physico-chemical Data</a></li>
 <li>
 <a href="#PK-data">2.2.2 PK Data </a><a id="PK-data"></a>
 </li>
 </ul>
 </li>
-<li><a href="#model-parameters-and-assumptions">2.3 Model Parameters and Assumptions</a></li>
+<li><a href="#model-parameters-and-assumptions">2.3 Model Parameters and
+Assumptions</a></li>
 </ul>
 </li>
 <li>
 <a href="#results-and-discussion">3 Results and Discussion</a>
 <ul>
-<li><a href="#final-input-parameters">3.1 Final input parameters</a></li>
+<li><a href="#final-input-parameters">3.1 Final input
+parameters</a></li>
 <li><a href="#diagnostics-plots">3.2 Diagnostics Plots</a></li>
 <li><a href="#ct-profiles">3.3 Concentration-Time Profiles</a></li>
 </ul>
@@ -157,10 +163,20 @@
 <div class="section level2">
 <h2 id="introduction">1 Introduction<a id="introduction"></a><a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
-<p>CDA1 is a human monoclonal antibody (IgG1) against the toxin A of <em>Clostridium difficile</em>.</p>
-<p>CDA1 shows a pharmacokinetic behavior which is typical for an antibody without endogenous target. The plasma concentration–time profiles after i.v. infusion of 5, 10 and 20 mg/kg CDA1 in healthy adults (<a href="#5-references">Taylor 2008</a>) were used together with pharmacokinetic (PK) data from 5 other compounds to identify unknown parameters during the development of the generic large molecule physiologically based pharmacokinetic (PBPK) model in PK-Sim (<a href="#5-references">Niederalt 2018</a>).</p>
-<p>The herein presented evaluation report evaluates the performance of the PBPK model for CDA1 in healthy adults for the PK data used for the development of the generic large molecule model in PK-Sim.</p>
-<p>The presented CDA1 PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (<a href="https://github.com/Open-Systems-Pharmacology/CDA1-Model" class="external-link uri">https://github.com/Open-Systems-Pharmacology/CDA1-Model</a>).</p>
+<p>CDA1 is a human monoclonal antibody (IgG1) against the toxin A of
+<em>Clostridium difficile</em>.</p>
+<p>CDA1 shows a pharmacokinetic behavior which is typical for an
+antibody without endogenous target. The plasma concentration–time
+profiles after i.v. infusion of 5, 10 and 20 mg/kg CDA1 in healthy
+adults (<a href="#id_5-references">Taylor 2008</a>) were used together
+with pharmacokinetic (PK) data from 5 other compounds to identify
+unknown parameters during the development of the generic large molecule
+physiologically based pharmacokinetic (PBPK) model in PK-Sim (<a href="#id_5-references">Niederalt 2018</a>).</p>
+<p>The herein presented evaluation report evaluates the performance of
+the PBPK model for CDA1 in healthy adults for the PK data used for the
+development of the generic large molecule model in PK-Sim.</p>
+<p>The presented CDA1 PBPK model as well as the respective evaluation
+plan and evaluation report are provided open-source (<a href="https://github.com/Open-Systems-Pharmacology/CDA1-Model" class="external-link uri">https://github.com/Open-Systems-Pharmacology/CDA1-Model</a>).</p>
 </div>
 <div class="section level2">
 <h2 id="methods">2 Methods<a id="methods"></a><a class="anchor" aria-label="anchor" href="#methods"></a>
@@ -168,20 +184,42 @@
 <div class="section level3">
 <h3 id="modeling-strategy">2.1 Modeling Strategy<a id="modeling-strategy"></a><a class="anchor" aria-label="anchor" href="#modeling-strategy"></a>
 </h3>
-<p>The development of the large molecule PBPK model in PK-Sim® has previously been described by Niederalt et al. (<a href="#5-references">Niederalt 2018</a>). In short, the model was built as an extension of the PK-Sim® model for small molecules incorporating (i) the two-pore formalism for drug extravasation from blood plasma to interstitial space, (ii) lymph flow, (iii) endosomal clearance and (iv) protection from endosomal clearance by neonatal Fc receptor (FcRn) mediated recycling.</p>
-<p>For model development and evaluation, PK data were used from compounds with a wide range of solute radii and from different species. The PK data used for parameter estimation were from the following compounds: antibody–drug conjugate BAY 79-4620 in mice (Bayer in house data), antibody 7E3 in wild-type and FcRn knockout mice (<a href="#5-references">Garg 2007</a>, <a href="#5-references">Garg2009</a>), domain antibody dAb2 in mice (<a href="#5-references">Sepp 2015</a>), antibodies MEDI-524 and MEDI-524-YTE in monkeys (<a href="#5-references">Dall’Acqua 2006</a>), and antibody CDA1 in humans (<a href="#5-references">Taylor 2008</a>). The PK data used for model evaluation were from inulin in rats (<a href="#5-references">Tsuji1983</a>) and tefibazumab in humans (<a href="#5-references">Reilly 2005</a>).</p>
-<p>The PBPK model including the estimated physiological parameters as described by Niederalt et al. (<a href="#5-references">Niederalt 2018</a>) is available in the Open Systems Pharmacology Suite from version 7.1 onwards.</p>
-<p>This evaluation report focuses on the PBPK model for the antibody CDA1.</p>
-<p>Details about input data (physicochemical, <em>in vitro</em> and PK) can be found in <a href="#22-data">Section 2.2</a>.</p>
-<p>Details about the structural model and its parameters can be found in <a href="#23-model-parameters-and-assumptions">Section 2.3</a>.</p>
+<p>The development of the large molecule PBPK model in PK-Sim® has
+previously been described by Niederalt et al. (<a href="#id_5-references">Niederalt 2018</a>). In short, the model was
+built as an extension of the PK-Sim® model for small molecules
+incorporating (i) the two-pore formalism for drug extravasation from
+blood plasma to interstitial space, (ii) lymph flow, (iii) endosomal
+clearance and (iv) protection from endosomal clearance by neonatal Fc
+receptor (FcRn) mediated recycling.</p>
+<p>For model development and evaluation, PK data were used from
+compounds with a wide range of solute radii and from different species.
+The PK data used for parameter estimation were from the following
+compounds: antibody–drug conjugate BAY 79-4620 in mice (Bayer in house
+data), antibody 7E3 in wild-type and FcRn knockout mice (<a href="#id_5-references">Garg 2007</a>, <a href="#id_5-references">Garg2009</a>), domain antibody dAb2 in mice (<a href="#id_5-references">Sepp 2015</a>), antibodies MEDI-524 and
+MEDI-524-YTE in monkeys (<a href="#id_5-references">Dall’Acqua
+2006</a>), and antibody CDA1 in humans (<a href="#id_5-references">Taylor 2008</a>). The PK data used for model
+evaluation were from inulin in rats (<a href="#id_5-references">Tsuji1983</a>) and tefibazumab in humans (<a href="#id_5-references">Reilly 2005</a>).</p>
+<p>The PBPK model including the estimated physiological parameters as
+described by Niederalt et al. (<a href="#id_5-references">Niederalt
+2018</a>) is available in the Open Systems Pharmacology Suite from
+version 7.1 onwards.</p>
+<p>This evaluation report focuses on the PBPK model for the antibody
+CDA1.</p>
+<p>Details about input data (physicochemical, <em>in vitro</em> and PK)
+can be found in <a href="#id_22-data">Section 2.2</a>.</p>
+<p>Details about the structural model and its parameters can be found in
+<a href="#id_23-model-parameters-and-assumptions">Section 2.3</a>.</p>
 </div>
 <div class="section level3">
 <h3 id="data">2.2 Data<a id="methods-data"></a><a class="anchor" aria-label="anchor" href="#data"></a>
 </h3>
 <div class="section level4">
-<h4 id="in-vitro-physico-chemical-data">2.2.1 In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a><a class="anchor" aria-label="anchor" href="#in-vitro-physico-chemical-data"></a>
+<h4 id="in-vitro-physico-chemical-data">2.2.1 In vitro / physico-chemical Data
+<a id="invitro-and-physico-chemical-data"></a><a class="anchor" aria-label="anchor" href="#in-vitro-physico-chemical-data"></a>
 </h4>
-<p>A literature search was performed to collect available information on physicochemical properties of CDA1. The obtained information from literature is summarized in the table below.</p>
+<p>A literature search was performed to collect available information on
+physicochemical properties of CDA1. The obtained information from
+literature is summarized in the table below.</p>
 <table class="table">
 <colgroup>
 <col width="11%">
@@ -202,22 +240,23 @@
 <td align="left">MW</td>
 <td>g/mol</td>
 <td>150000</td>
-<td><a href="#5-references">Lobo 2004</a></td>
+<td><a href="#id_5-references">Lobo 2004</a></td>
 <td>Molecular weight</td>
 </tr>
 <tr class="even">
 <td align="left">r</td>
 <td>nm</td>
 <td>5.34</td>
-<td><a href="#5-references">Taylor 1984</a></td>
+<td><a href="#id_5-references">Taylor 1984</a></td>
 <td>Hydrodynamic solute radius</td>
 </tr>
 <tr class="odd">
 <td align="left">Kd (FcRn)</td>
 <td>µM</td>
 <td>0.63</td>
-<td><a href="#5-references">Zhou 2003</a></td>
-<td>Dissociation constant for binding of a human IgG1 antibody to human FcRn at pH 6</td>
+<td><a href="#id_5-references">Zhou 2003</a></td>
+<td>Dissociation constant for binding of a human IgG1 antibody to human
+FcRn at pH 6</td>
 </tr>
 </tbody>
 </table>
@@ -236,52 +275,76 @@
 <th align="left">Description</th>
 </tr></thead>
 <tbody><tr class="odd">
-<td align="left"><a href="#5-references">Taylor2008</a></td>
-<td align="left">The plasma concentration–time profiles after single i.v. infusion of 5, 10 and 20 mg/kg CDA1 in healthy adults were used. The data for the dosages 0.3 and 1 mg/kg were not used since the PK data could not be read with sufficient accuracy from the published figure.</td>
+<td align="left"><a href="#id_5-references">Taylor2008</a></td>
+<td align="left">The plasma concentration–time profiles after single
+i.v. infusion of 5, 10 and 20 mg/kg CDA1 in healthy adults were used.
+The data for the dosages 0.3 and 1 mg/kg were not used since the PK data
+could not be read with sufficient accuracy from the published
+figure.</td>
 </tr></tbody>
 </table>
 </div>
 </div>
 <div class="section level3">
-<h3 id="model-parameters-and-assumptions">2.3 Model Parameters and Assumptions<a id="model-parameters-and-assumptions"></a><a class="anchor" aria-label="anchor" href="#model-parameters-and-assumptions"></a>
+<h3 id="model-parameters-and-assumptions">2.3 Model Parameters and
+Assumptions<a id="model-parameters-and-assumptions"></a><a class="anchor" aria-label="anchor" href="#model-parameters-and-assumptions"></a>
 </h3>
 <div class="section level4">
 <h4 id="absorption">2.3.1 Absorption<a class="anchor" aria-label="anchor" href="#absorption"></a>
 </h4>
-<p>There is no absorption process since CDA1 was administered intravenously.</p>
+<p>There is no absorption process since CDA1 was administered
+intravenously.</p>
 </div>
 <div class="section level4">
 <h4 id="distribution">2.3.2 Distribution<a class="anchor" aria-label="anchor" href="#distribution"></a>
 </h4>
-<p>The standard lymph and fluid recirculation flow rates and the standard vascular properties of the different tissues (hydraulic conductivity, pore radii, fraction of flow via large pores) from PK-Sim were used. CDA1, among other compounds, has been used to identify these lymph and fluid recirculation flow rates used in PK-Sim (<a href="#5-references">Niederalt 2018</a>).</p>
+<p>The standard lymph and fluid recirculation flow rates and the
+standard vascular properties of the different tissues (hydraulic
+conductivity, pore radii, fraction of flow via large pores) from PK-Sim
+were used. CDA1, among other compounds, has been used to identify these
+lymph and fluid recirculation flow rates used in PK-Sim (<a href="#id_5-references">Niederalt 2018</a>).</p>
 </div>
 <div class="section level4">
 <h4 id="metabolism-and-elimination">2.3.3 Metabolism and Elimination<a class="anchor" aria-label="anchor" href="#metabolism-and-elimination"></a>
 </h4>
-<p>The FcRn mediated clearance present in the standard PK-Sim model was used as only clearance process. The standard physiological parameters related to FcRn mediated clearance were used (rate constants for endosomal uptake and recycling, association rate constant for FcRn binding and concentration of FcRn in the endosomal space). CDA1, among other compounds, has been used to identify these parameters using literature values for the drug affinities to FcRn in the endosomal space (<a href="#5-references">Niederalt 2018</a>).</p>
+<p>The FcRn mediated clearance present in the standard PK-Sim model was
+used as only clearance process. The standard physiological parameters
+related to FcRn mediated clearance were used (rate constants for
+endosomal uptake and recycling, association rate constant for FcRn
+binding and concentration of FcRn in the endosomal space). CDA1, among
+other compounds, has been used to identify these parameters using
+literature values for the drug affinities to FcRn in the endosomal space
+(<a href="#id_5-references">Niederalt 2018</a>).</p>
 </div>
 <div class="section level4">
 <h4 id="automated-parameter-identification">2.3.4 Automated Parameter Identification<a class="anchor" aria-label="anchor" href="#automated-parameter-identification"></a>
 </h4>
-<p>No drug specific parameters were fitted. CDA1, among other compounds, has been used to develop the model for proteins and large molecules in PK-Sim (<a href="#5-references">Niederalt 2018</a>).</p>
+<p>No drug specific parameters were fitted. CDA1, among other compounds,
+has been used to develop the model for proteins and large molecules in
+PK-Sim (<a href="#id_5-references">Niederalt 2018</a>).</p>
 </div>
 </div>
 </div>
 <div class="section level2">
 <h2 id="results-and-discussion">3 Results and Discussion<a id="results-and-discussion"></a><a class="anchor" aria-label="anchor" href="#results-and-discussion"></a>
 </h2>
-<p>The PBPK model for CDA1 was evaluated with clinical PK data in healthy adults.</p>
-<p>These PK data have been used together with PK data from 5 other compounds to simultaneously identify parameters during the development of the generic model for proteins and large molecules in PK-Sim (<a href="#5-references">Niederalt 2018</a>).</p>
+<p>The PBPK model for CDA1 was evaluated with clinical PK data in
+healthy adults.</p>
+<p>These PK data have been used together with PK data from 5 other
+compounds to simultaneously identify parameters during the development
+of the generic model for proteins and large molecules in PK-Sim (<a href="#id_5-references">Niederalt 2018</a>).</p>
 <p>The next sections show:</p>
 <ol style="list-style-type: decimal">
-<li>the final model parameters for the building blocks: <a href="#31-final-input-parameters">Section 3.1</a>.</li>
-<li>the overall goodness of fit: <a href="#32-diagnostics-plots">Section 3.2</a>.</li>
-<li>simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: <a href="#33-concentration-time-profiles">Section 3.3</a>.</li>
+<li>the final model parameters for the building blocks: <a href="#id_31-final-input-parameters">Section 3.1</a>.</li>
+<li>the overall goodness of fit: <a href="#id_32-diagnostics-plots">Section 3.2</a>.</li>
+<li>simulated vs. observed concentration-time profiles for the clinical
+studies used for model building and for model verification: <a href="#id_33-concentration-time-profiles">Section 3.3</a>.</li>
 </ol>
 <div class="section level3">
 <h3 id="final-input-parameters">3.1 Final input parameters<a id="final-input-parameters"></a><a class="anchor" aria-label="anchor" href="#final-input-parameters"></a>
 </h3>
-<p>The compound parameter values of the final PBPK model are illustrated below.</p>
+<p>The compound parameter values of the final PBPK model are illustrated
+below.</p>
 <div class="section level4">
 <h4 id="compound-cda1">Compound: CDA1<a class="anchor" aria-label="anchor" href="#compound-cda1"></a>
 </h4>
@@ -399,10 +462,13 @@
 <div class="section level3">
 <h3 id="diagnostics-plots">3.2 Diagnostics Plots<a id="diagnostics-plots"></a><a class="anchor" aria-label="anchor" href="#diagnostics-plots"></a>
 </h3>
-<p>Below you find the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data used presented in <a href="#PK-data">Section 2.2.2</a>.</p>
-<p>The first plot shows observed versus simulated plasma concentration, the second weighted residuals versus time.</p>
+<p>Below you find the goodness-of-fit visual diagnostic plots for the
+PBPK model performance of all data used presented in <a href="#PK-data">Section 2.2.2</a>.</p>
+<p>The first plot shows observed versus simulated plasma concentration,
+the second weighted residuals versus time.</p>
 <p><a id="table-3-1"></a></p>
-<p><strong>Table 3-1: GMFE for Goodness of fit plot for concentration in plasma</strong></p>
+<p><strong>Table 3-1: GMFE for Goodness of fit plot for concentration in
+plasma</strong></p>
 <table class="table">
 <thead><tr class="header">
 <th align="left">Group</th>
@@ -430,63 +496,117 @@
 <p><br><br></p>
 <p><a id="figure-3-1"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F008_section_diagnostics-plots%2F2_gof_plot_predictedVsObserved.png"></p>
-<p><strong>Figure 3-1: Goodness of fit plot for concentration in plasma</strong></p>
+<p><strong>Figure 3-1: Goodness of fit plot for concentration in
+plasma</strong></p>
 <p><br><br></p>
 <p><a id="figure-3-2"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F008_section_diagnostics-plots%2F3_gof_plot_residualsOverTime.png"></p>
-<p><strong>Figure 3-2: Goodness of fit plot for concentration in plasma</strong></p>
+<p><strong>Figure 3-2: Goodness of fit plot for concentration in
+plasma</strong></p>
 <p><br><br></p>
 </div>
 <div class="section level3">
 <h3 id="concentration-time-profiles">3.3 Concentration-Time Profiles<a id="ct-profiles"></a><a class="anchor" aria-label="anchor" href="#concentration-time-profiles"></a>
 </h3>
-<p>Simulated versus observed concentration-time profiles of all data listed in <a href="#PK-data">Section 2.2.2</a> are presented below.</p>
+<p>Simulated versus observed concentration-time profiles of all data
+listed in <a href="#PK-data">Section 2.2.2</a> are presented below.</p>
 <p><a id="figure-3-3"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F009_section_ct-profiles%2F1_time_profile_plot_CDA1_Sim_5mgkg.png"></p>
-<p><strong>Figure 3-3: Plasma concentration - Dose 5 mg/kg (log scale)</strong></p>
+<p><strong>Figure 3-3: Plasma concentration - Dose 5 mg/kg (log
+scale)</strong></p>
 <p><br><br></p>
 <p><a id="figure-3-4"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F009_section_ct-profiles%2F2_time_profile_plot_CDA1_Sim_5mgkg.png"></p>
-<p><strong>Figure 3-4: Plasma concentration - Dose 5 mg/kg (linear scale)</strong></p>
+<p><strong>Figure 3-4: Plasma concentration - Dose 5 mg/kg (linear
+scale)</strong></p>
 <p><br><br></p>
 <p><a id="figure-3-5"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F009_section_ct-profiles%2F3_time_profile_plot_CDA1_Sim_10mgkg.png"></p>
-<p><strong>Figure 3-5: Plasma concentration - Dose 10 mg/kg (log scale)</strong></p>
+<p><strong>Figure 3-5: Plasma concentration - Dose 10 mg/kg (log
+scale)</strong></p>
 <p><br><br></p>
 <p><a id="figure-3-6"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F009_section_ct-profiles%2F4_time_profile_plot_CDA1_Sim_10mgkg.png"></p>
-<p><strong>Figure 3-6: Plasma concentration - Dose 10 mg/kg (linear scale)</strong></p>
+<p><strong>Figure 3-6: Plasma concentration - Dose 10 mg/kg (linear
+scale)</strong></p>
 <p><br><br></p>
 <p><a id="figure-3-7"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F009_section_ct-profiles%2F5_time_profile_plot_CDA1_Sim_20mgkg.png"></p>
-<p><strong>Figure 3-7: Plasma concentration - Dose 20 mg/kg (log scale)</strong></p>
+<p><strong>Figure 3-7: Plasma concentration - Dose 20 mg/kg (log
+scale)</strong></p>
 <p><br><br></p>
 <p><a id="figure-3-8"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F009_section_ct-profiles%2F6_time_profile_plot_CDA1_Sim_20mgkg.png"></p>
-<p><strong>Figure 3-8: Plasma concentration - Dose 20 mg/kg (linear scale)</strong></p>
+<p><strong>Figure 3-8: Plasma concentration - Dose 20 mg/kg (linear
+scale)</strong></p>
 <p><br><br></p>
 </div>
 </div>
 <div class="section level2">
 <h2 id="conclusion">4 Conclusion<a id="conclusion"></a><a class="anchor" aria-label="anchor" href="#conclusion"></a>
 </h2>
-<p>The herein presented PBPK model overall adequately describes the pharmacokinetics of CDA1 in healthy humans. The initial plasma concentrations are slightly underestimated especially for the higher dose.</p>
-<p>The PK data had been used during the development of the generic large molecule PBPK model in PK-Sim (<a href="#5-references">Niederalt 2018</a>) together with PK data from 5 other compounds (7E3, BAY 79-4620, dAb2, MEDI-524 &amp; MEDI-524-YTE).</p>
+<p>The herein presented PBPK model overall adequately describes the
+pharmacokinetics of CDA1 in healthy humans. The initial plasma
+concentrations are slightly underestimated especially for the higher
+dose.</p>
+<p>The PK data had been used during the development of the generic large
+molecule PBPK model in PK-Sim (<a href="#id_5-references">Niederalt
+2018</a>) together with PK data from 5 other compounds (7E3, BAY
+79-4620, dAb2, MEDI-524 &amp; MEDI-524-YTE).</p>
 </div>
 <div class="section level2">
 <h2 id="references">5 References<a id="main-references"></a><a class="anchor" aria-label="anchor" href="#references"></a>
 </h2>
-<p><strong>Dall’Acqua 2006</strong> Dall’Acqua WF, Kiener PA, Wu H. Properties of human IgG1s engineered for enhanced binding to the neonatal Fc receptor (FcRn). J Biol Chem. 2006 Aug; 281(33):23514-23524. doi: 10.1074/jbc.M604292200.</p>
-<p><strong>Garg 2007</strong> Garg A, Balthasar JP. Physiologically-based pharmacokinetic (PBPK) model to predict IgG tissue kinetics in wild-type and FcRn-knockout mice. J Pharmacokinet Pharmacodyn. 2007 Jul; 34(5):687-709. doi: 10.1007/s10928-007-9065-1.</p>
-<p><strong>Garg 2009</strong> Garg A, Balthasar J. Investigation of the influence of FcRn on the distribution of IgG to the brain. AAPS J. 2009 July; 11(3):553-557. doi: 10.1208/s12248-009-9129-9.</p>
-<p><strong>Lobo 2004</strong> Lobo ED, Hansen R J, Balthasar JP. Antibody pharmacokinetics and pharmacodynamics. J Pharm Sci. 2004 Nov;93(11):2645-2668. doi: 10.1002/jps.20178.</p>
-<p><strong>Niederalt 2018</strong> Niederalt C, Kuepfer L, Solodenko J, Eissing T, Siegmund HU, Block M, Willmann S, Lippert J. A generic whole body physiologically based pharmacokinetic model for therapeutic proteins in PK-Sim. J Pharmacokinet Pharmacodyn. 2018 Apr;45(2):235-257. doi: 10.1007/s10928-017-9559-4.</p>
-<p><strong>Reilly 2005</strong> Reilley S, Wenzel E, Reynolds L, Bennett B, Patti JM, Hetherington S. Open-label, dose escalation study of the safety and pharmacokinetic profile of tefibazumab in healthy volunteers. Antimicrob Agents Chemother. 2005 Mar;49(3):959–962. doi: 10.1128/AAC.49.3.959-962.2005.</p>
-<p><strong>Sepp 2015</strong> Sepp A, Berges A, Sanderson A, Meno-Tetang G. Development of a physiologically based pharmacokinetic model for a domain antibody in mice using the two-pore theory. J Pharmacokinet Pharmacodyn. 2015 Jan;42(2):97-109. doi: 10.1007/s10928-014-9402-0.</p>
-<p><strong>Taylor 1984</strong> Taylor AE, Granger DN. Exchange of macromolecules across the microcirculation. Handbook of Physiology - Cardiovascular System. Microcirculation (Eds. Renkin EM and Michel CC. Bethesda, MD, American Physiological Society). 1984; Vol. 4(Pt 2):467–520.</p>
-<p><strong>Taylor 2008</strong> Taylor CP, Tummala S, Molrine D, Davidson L, Farrell RJ, Lembo A, Hibberd PL, Lowy I, Kelly CP. Open-label, dose escalation phase I study in healthy volunteers to evaluate the safety and pharmacokinetics of a human monoclonal antibody to Clostridium difficile toxin A. Vaccine. 2008 Jun;26(27-28):3404–3409. doi: 10.1016/j.vaccine.2008.04.042.</p>
-<p><strong>Tsuji 1983</strong> Tsuji A, Yoshikawa T, Nishide K, Minami H, Kimura M, Nakashima E, Terasaki T, Miyamoto E, Nightingale CH, Yamana T. Physiologically based pharmacokinetic model for beta-lactam antibiotics I: tissue distribution and elimination in rats. J Pharm Sci. 1983 Nov;72(11):1239-1252. doi: 10.1002/jps.2600721103.</p>
-<p><strong>Zhou 2003</strong> Zhou J, Johnson JE, Ghetie V, Ober RJ, Ward ES. Generation of mutated variants of the human form of the MHC class I-related receptor, FcRn, with increased affinity for mouse immunoglobulin G. J Mol Biol. 2003 Sep;332(4):901-913. doi: 10.1016/s0022-2836(03)00952-5.</p>
+<p><strong>Dall’Acqua 2006</strong> Dall’Acqua WF, Kiener PA, Wu H.
+Properties of human IgG1s engineered for enhanced binding to the
+neonatal Fc receptor (FcRn). J Biol Chem. 2006 Aug; 281(33):23514-23524.
+doi: 10.1074/jbc.M604292200.</p>
+<p><strong>Garg 2007</strong> Garg A, Balthasar JP.
+Physiologically-based pharmacokinetic (PBPK) model to predict IgG tissue
+kinetics in wild-type and FcRn-knockout mice. J Pharmacokinet
+Pharmacodyn. 2007 Jul; 34(5):687-709. doi:
+10.1007/s10928-007-9065-1.</p>
+<p><strong>Garg 2009</strong> Garg A, Balthasar J. Investigation of the
+influence of FcRn on the distribution of IgG to the brain. AAPS J. 2009
+July; 11(3):553-557. doi: 10.1208/s12248-009-9129-9.</p>
+<p><strong>Lobo 2004</strong> Lobo ED, Hansen R J, Balthasar JP.
+Antibody pharmacokinetics and pharmacodynamics. J Pharm Sci. 2004
+Nov;93(11):2645-2668. doi: 10.1002/jps.20178.</p>
+<p><strong>Niederalt 2018</strong> Niederalt C, Kuepfer L, Solodenko J,
+Eissing T, Siegmund HU, Block M, Willmann S, Lippert J. A generic whole
+body physiologically based pharmacokinetic model for therapeutic
+proteins in PK-Sim. J Pharmacokinet Pharmacodyn. 2018 Apr;45(2):235-257.
+doi: 10.1007/s10928-017-9559-4.</p>
+<p><strong>Reilly 2005</strong> Reilley S, Wenzel E, Reynolds L, Bennett
+B, Patti JM, Hetherington S. Open-label, dose escalation study of the
+safety and pharmacokinetic profile of tefibazumab in healthy volunteers.
+Antimicrob Agents Chemother. 2005 Mar;49(3):959–962. doi:
+10.1128/AAC.49.3.959-962.2005.</p>
+<p><strong>Sepp 2015</strong> Sepp A, Berges A, Sanderson A, Meno-Tetang
+G. Development of a physiologically based pharmacokinetic model for a
+domain antibody in mice using the two-pore theory. J Pharmacokinet
+Pharmacodyn. 2015 Jan;42(2):97-109. doi: 10.1007/s10928-014-9402-0.</p>
+<p><strong>Taylor 1984</strong> Taylor AE, Granger DN. Exchange of
+macromolecules across the microcirculation. Handbook of Physiology -
+Cardiovascular System. Microcirculation (Eds. Renkin EM and Michel CC.
+Bethesda, MD, American Physiological Society). 1984; Vol. 4(Pt
+2):467–520.</p>
+<p><strong>Taylor 2008</strong> Taylor CP, Tummala S, Molrine D,
+Davidson L, Farrell RJ, Lembo A, Hibberd PL, Lowy I, Kelly CP.
+Open-label, dose escalation phase I study in healthy volunteers to
+evaluate the safety and pharmacokinetics of a human monoclonal antibody
+to Clostridium difficile toxin A. Vaccine. 2008 Jun;26(27-28):3404–3409.
+doi: 10.1016/j.vaccine.2008.04.042.</p>
+<p><strong>Tsuji 1983</strong> Tsuji A, Yoshikawa T, Nishide K, Minami
+H, Kimura M, Nakashima E, Terasaki T, Miyamoto E, Nightingale CH, Yamana
+T. Physiologically based pharmacokinetic model for beta-lactam
+antibiotics I: tissue distribution and elimination in rats. J Pharm Sci.
+1983 Nov;72(11):1239-1252. doi: 10.1002/jps.2600721103.</p>
+<p><strong>Zhou 2003</strong> Zhou J, Johnson JE, Ghetie V, Ober RJ,
+Ward ES. Generation of mutated variants of the human form of the MHC
+class I-related receptor, FcRn, with increased affinity for mouse
+immunoglobulin G. J Mol Biol. 2003 Sep;332(4):901-913. doi:
+10.1016/s0022-2836(03)00952-5.</p>
 </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside>

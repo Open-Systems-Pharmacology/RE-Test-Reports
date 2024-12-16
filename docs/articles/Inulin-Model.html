@@ -78,7 +78,8 @@
 
 
 
-<script src="Inulin-Model_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
+
+<div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1></h1>
@@ -118,7 +119,8 @@
 </tr>
 </tbody>
 </table>
-<p>This evaluation report and the corresponding PK-Sim project file are filed at:</p>
+<p>This evaluation report and the corresponding PK-Sim project file are
+filed at:</p>
 <p><a href="https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/" class="external-link uri">https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/</a></p>
 </div>
 <div class="section level2">
@@ -133,20 +135,27 @@
 <li>
 <a href="#methods-data">2.2 Data</a>
 <ul>
-<li><a href="#invitro-and-physico-chemical-data">2.2.1 In vitro / physico-chemical Data</a></li>
+<li><a href="#invitro-and-physico-chemical-data">2.2.1 In vitro /
+physico-chemical Data</a></li>
 <li>
 <a href="#PK-data">2.2.2 PK Data </a><a id="PK-data"></a>
 </li>
 </ul>
 </li>
 <li>
-<a href="#model-parameters-and-assumptions">2.3 Model Parameters and Assumptions</a>
+<a href="#model-parameters-and-assumptions">2.3 Model Parameters and
+Assumptions</a>
 <ul>
-<li><a href="#model-parameters-and-assumptions-absorption">2.3.1 Absorption</a></li>
-<li><a href="#model-parameters-and-assumptions-distribution">2.3.2 Distribution</a></li>
-<li><a href="#model-parameters-and-assumptions-metabolism-and-elimination">2.3.3 Metabolism and Elimination</a></li>
-<li><a href="#model-parameters-and-assumptions-tissue-concentrations">2.3.4 Tissue Concentrations</a></li>
-<li><a href="#model-parameters-and-assumptions-parameter-identification">2.3.5 Automated Parameter Identification</a></li>
+<li><a href="#model-parameters-and-assumptions-absorption">2.3.1
+Absorption</a></li>
+<li><a href="#model-parameters-and-assumptions-distribution">2.3.2
+Distribution</a></li>
+<li><a href="#model-parameters-and-assumptions-metabolism-and-elimination">2.3.3
+Metabolism and Elimination</a></li>
+<li><a href="#model-parameters-and-assumptions-tissue-concentrations">2.3.4
+Tissue Concentrations</a></li>
+<li><a href="#model-parameters-and-assumptions-parameter-identification">2.3.5
+Automated Parameter Identification</a></li>
 </ul>
 </li>
 </ul>
@@ -154,7 +163,8 @@
 <li>
 <a href="#results-and-discussion">3 Results and Discussion</a>
 <ul>
-<li><a href="#final-input-parameters">3.1 Final input parameters</a></li>
+<li><a href="#final-input-parameters">3.1 Final input
+parameters</a></li>
 <li><a href="#diagnostics-plots">3.2 Diagnostics Plots</a></li>
 <li><a href="#ct-profiles">3.3 Concentration-Time Profiles</a></li>
 </ul>
@@ -166,10 +176,16 @@
 <div class="section level2">
 <h2 id="introduction">1 Introduction<a id="introduction"></a><a class="anchor" aria-label="anchor" href="#introduction"></a>
 </h2>
-<p>Inulin is a highly hydrophilic polysaccharide which does not distribute into cells and is cleared via glomerular filtration.</p>
-<p>Inulin has a considerably smaller solute radius than the proteins which had been used to develop the generic large molecule physiologically based pharmacokinetic (PBPK) model in PK-Sim (<a href="#5-references">Niederalt 2018</a>).</p>
-<p>The herein presented evaluation report evaluates the performance of the PBPK model for inulin in rats using the large molecule model in PK-Sim.</p>
-<p>The presented inulin PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (<a href="https://github.com/Open-Systems-Pharmacology/Inulin-Model" class="external-link uri">https://github.com/Open-Systems-Pharmacology/Inulin-Model</a>).</p>
+<p>Inulin is a highly hydrophilic polysaccharide which does not
+distribute into cells and is cleared via glomerular filtration.</p>
+<p>Inulin has a considerably smaller solute radius than the proteins
+which had been used to develop the generic large molecule
+physiologically based pharmacokinetic (PBPK) model in PK-Sim (<a href="#id_5-references">Niederalt 2018</a>).</p>
+<p>The herein presented evaluation report evaluates the performance of
+the PBPK model for inulin in rats using the large molecule model in
+PK-Sim.</p>
+<p>The presented inulin PBPK model as well as the respective evaluation
+plan and evaluation report are provided open-source (<a href="https://github.com/Open-Systems-Pharmacology/Inulin-Model" class="external-link uri">https://github.com/Open-Systems-Pharmacology/Inulin-Model</a>).</p>
 </div>
 <div class="section level2">
 <h2 id="methods">2 Methods<a id="methods"></a><a class="anchor" aria-label="anchor" href="#methods"></a>
@@ -177,20 +193,41 @@
 <div class="section level3">
 <h3 id="modeling-strategy">2.1 Modeling Strategy<a id="modeling-strategy"></a><a class="anchor" aria-label="anchor" href="#modeling-strategy"></a>
 </h3>
-<p>The development of the large molecule PBPK model in PK-Sim® has previously been described by Niederalt et al. (<a href="#5-references">Niederalt 2018</a>). In short, the model was built as an extension of the PK-Sim® model for small molecules incorporating (i) the two-pore formalism for drug extravasation from blood plasma to interstitial space, (ii) lymph flow, (iii) endosomal clearance and (iv) protection from endosomal clearance by neonatal Fc receptor (FcRn) mediated recycling.</p>
-<p>For model development and evaluation, PK data were used from compounds with a wide range of solute radii and from different species. The PK data used for parameter estimation were from the following compounds: antibody–drug conjugate BAY 79-4620 in mice (Bayer in house data), antibody 7E3 in wild-type and FcRn knockout mice (<a href="#5-references">Garg 2007</a>, <a href="#5-references">Garg2009</a>), domain antibody dAb2 in mice (<a href="#5-references">Sepp 2015</a>), antibodies MEDI-524 and MEDI-524-YTE in monkeys (<a href="#5-references">Dall’Acqua 2006</a>), and antibody CDA1 in humans (<a href="#5-references">Taylor 2008</a>). The PK data used for model evaluation were from inulin in rats (<a href="#5-references">Tsuji1983</a>) and tefibazumab in humans (<a href="#5-references">Reilly 2005</a>).</p>
-<p>The PBPK model including the estimated physiological parameters as described by Niederalt et al. (<a href="#5-references">Niederalt 2018</a>) is available in the Open Systems Pharmacology Suite from version 7.1 onwards.</p>
+<p>The development of the large molecule PBPK model in PK-Sim® has
+previously been described by Niederalt et al. (<a href="#id_5-references">Niederalt 2018</a>). In short, the model was
+built as an extension of the PK-Sim® model for small molecules
+incorporating (i) the two-pore formalism for drug extravasation from
+blood plasma to interstitial space, (ii) lymph flow, (iii) endosomal
+clearance and (iv) protection from endosomal clearance by neonatal Fc
+receptor (FcRn) mediated recycling.</p>
+<p>For model development and evaluation, PK data were used from
+compounds with a wide range of solute radii and from different species.
+The PK data used for parameter estimation were from the following
+compounds: antibody–drug conjugate BAY 79-4620 in mice (Bayer in house
+data), antibody 7E3 in wild-type and FcRn knockout mice (<a href="#id_5-references">Garg 2007</a>, <a href="#id_5-references">Garg2009</a>), domain antibody dAb2 in mice (<a href="#id_5-references">Sepp 2015</a>), antibodies MEDI-524 and
+MEDI-524-YTE in monkeys (<a href="#id_5-references">Dall’Acqua
+2006</a>), and antibody CDA1 in humans (<a href="#id_5-references">Taylor 2008</a>). The PK data used for model
+evaluation were from inulin in rats (<a href="#id_5-references">Tsuji1983</a>) and tefibazumab in humans (<a href="#id_5-references">Reilly 2005</a>).</p>
+<p>The PBPK model including the estimated physiological parameters as
+described by Niederalt et al. (<a href="#id_5-references">Niederalt
+2018</a>) is available in the Open Systems Pharmacology Suite from
+version 7.1 onwards.</p>
 <p>This evaluation report focuses on the PBPK model for inulin.</p>
-<p>Details about input data (physicochemical, <em>in vitro</em> and PK) can be found in <a href="#22-data">Section 2.2</a>.</p>
-<p>Details about the structural model and its parameters can be found in <a href="#23-model-parameters-and-assumptions">Section 2.3</a>.</p>
+<p>Details about input data (physicochemical, <em>in vitro</em> and PK)
+can be found in <a href="#id_22-data">Section 2.2</a>.</p>
+<p>Details about the structural model and its parameters can be found in
+<a href="#id_23-model-parameters-and-assumptions">Section 2.3</a>.</p>
 </div>
 <div class="section level3">
 <h3 id="data">2.2 Data<a id="methods-data"></a><a class="anchor" aria-label="anchor" href="#data"></a>
 </h3>
 <div class="section level4">
-<h4 id="in-vitro-physico-chemical-data">2.2.1 In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a><a class="anchor" aria-label="anchor" href="#in-vitro-physico-chemical-data"></a>
+<h4 id="in-vitro-physico-chemical-data">2.2.1 In vitro / physico-chemical Data
+<a id="invitro-and-physico-chemical-data"></a><a class="anchor" aria-label="anchor" href="#in-vitro-physico-chemical-data"></a>
 </h4>
-<p>A literature search was performed to collect available information on physicochemical properties of Inulin. The obtained information from literature is summarized in the table below.</p>
+<p>A literature search was performed to collect available information on
+physicochemical properties of Inulin. The obtained information from
+literature is summarized in the table below.</p>
 <table class="table">
 <colgroup>
 <col width="10%">
@@ -211,29 +248,32 @@
 <td align="left">MW</td>
 <td>g/mol</td>
 <td>5000-5500</td>
-<td><a href="#5-references">Ohno 1978</a></td>
+<td><a href="#id_5-references">Ohno 1978</a></td>
 <td>Molecular weight</td>
 </tr>
 <tr class="even">
 <td align="left">r</td>
 <td>nm</td>
 <td>1.39</td>
-<td><a href="#5-references">Ghandehari 1997</a></td>
+<td><a href="#id_5-references">Ghandehari 1997</a></td>
 <td>Hydrodynamic solute radius</td>
 </tr>
 <tr class="odd">
 <td align="left">logP</td>
 <td>µM</td>
 <td>&lt; -10</td>
-<td><a href="#5-references">Dubbelboer 2022</a></td>
-<td>Lipophilicity (octanol/water partition coefficient). Inulin is highly hydrophilic. A logP = -10 is insensitively small in the PBPK model.</td>
+<td><a href="#id_5-references">Dubbelboer 2022</a></td>
+<td>Lipophilicity (octanol/water partition coefficient). Inulin is
+highly hydrophilic. A logP = -10 is insensitively small in the PBPK
+model.</td>
 </tr>
 <tr class="even">
 <td align="left">Kd (FcRn)</td>
 <td>µM</td>
 <td>999,999</td>
 <td></td>
-<td>Dissociation constant for binding to FcRn. High value representing no FcRn binding.</td>
+<td>Dissociation constant for binding to FcRn. High value representing
+no FcRn binding.</td>
 </tr>
 </tbody>
 </table>
@@ -252,34 +292,53 @@
 <th align="left">Description</th>
 </tr></thead>
 <tbody><tr class="odd">
-<td align="left"><a href="#5-references">Tsuji 1983</a></td>
-<td align="left">Plasma and tissue concentrations after i.v. application of 20 and 200 mg/kg inulin in rats (for 200 mg/kg plasma only).</td>
+<td align="left"><a href="#id_5-references">Tsuji 1983</a></td>
+<td align="left">Plasma and tissue concentrations after i.v. application
+of 20 and 200 mg/kg inulin in rats (for 200 mg/kg plasma only).</td>
 </tr></tbody>
 </table>
 </div>
 </div>
 <div class="section level3">
-<h3 id="model-parameters-and-assumptions">2.3 Model Parameters and Assumptions<a id="model-parameters-and-assumptions"></a><a class="anchor" aria-label="anchor" href="#model-parameters-and-assumptions"></a>
+<h3 id="model-parameters-and-assumptions">2.3 Model Parameters and
+Assumptions<a id="model-parameters-and-assumptions"></a><a class="anchor" aria-label="anchor" href="#model-parameters-and-assumptions"></a>
 </h3>
 <div class="section level4">
-<h4 id="absorption">2.3.1 Absorption <a id="model-parameters-and-assumptions-absorption"></a><a class="anchor" aria-label="anchor" href="#absorption"></a>
+<h4 id="absorption">2.3.1 Absorption
+<a id="model-parameters-and-assumptions-absorption"></a><a class="anchor" aria-label="anchor" href="#absorption"></a>
 </h4>
-<p>There is no absorption process since inulin was administered intravenously</p>
+<p>There is no absorption process since inulin was administered
+intravenously</p>
 </div>
 <div class="section level4">
-<h4 id="distribution">2.3.2 Distribution <a id="model-parameters-and-assumptions-distribution"></a><a class="anchor" aria-label="anchor" href="#distribution"></a>
+<h4 id="distribution">2.3.2 Distribution
+<a id="model-parameters-and-assumptions-distribution"></a><a class="anchor" aria-label="anchor" href="#distribution"></a>
 </h4>
-<p>The standard vascular properties of the different tissues (hydraulic conductivity, pore radii, fraction of flow via large pores) and standard lymph and fluid recirculation flow rates from PK-Sim were used (<a href="#5-references">Niederalt 2018</a>).</p>
+<p>The standard vascular properties of the different tissues (hydraulic
+conductivity, pore radii, fraction of flow via large pores) and standard
+lymph and fluid recirculation flow rates from PK-Sim were used (<a href="#id_5-references">Niederalt 2018</a>).</p>
 </div>
 <div class="section level4">
-<h4 id="metabolism-and-elimination">2.3.3 Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a><a class="anchor" aria-label="anchor" href="#metabolism-and-elimination"></a>
+<h4 id="metabolism-and-elimination">2.3.3 Metabolism and Elimination
+<a id="model-parameters-and-assumptions-metabolism-and-elimination"></a><a class="anchor" aria-label="anchor" href="#metabolism-and-elimination"></a>
 </h4>
-<p>Inulin is renally excreted via glomerular filtration. The standard glomerular filtration rate from the PK-Sim library was used (GFR fraction = 1).</p>
+<p>Inulin is renally excreted via glomerular filtration. The standard
+glomerular filtration rate from the PK-Sim library was used (GFR
+fraction = 1).</p>
 </div>
 <div class="section level4">
-<h4 id="tissue-concentrations">2.3.4 Tissue Concentrations <a id="model-parameters-and-assumptions-tissue-concentrations"></a><a class="anchor" aria-label="anchor" href="#tissue-concentrations"></a>
+<h4 id="tissue-concentrations">2.3.4 Tissue Concentrations
+<a id="model-parameters-and-assumptions-tissue-concentrations"></a><a class="anchor" aria-label="anchor" href="#tissue-concentrations"></a>
 </h4>
-<p>For the comparison with experimental data the parameters <code>Fraction of blood for sampling</code> used in the Observer for the tissue concentrations were set for all organs to 0.18. This value is based on the parameter identification for different compounds reported in Ref. (<a href="#5-references">Niederalt 2018</a>) for comparison with tissue dissection data. (The parameter <code>Fraction of blood for sampling</code> specifies residual blood in tissue as ratio of blood volume contributing to the measured tissue concentration to the total in vivo capillary blood volume.)</p>
+<p>For the comparison with experimental data the parameters
+<code>Fraction of blood for sampling</code> used in the Observer for the
+tissue concentrations were set for all organs to 0.18. This value is
+based on the parameter identification for different compounds reported
+in Ref. (<a href="#id_5-references">Niederalt 2018</a>) for comparison
+with tissue dissection data. (The parameter
+<code>Fraction of blood for sampling</code> specifies residual blood in
+tissue as ratio of blood volume contributing to the measured tissue
+concentration to the total in vivo capillary blood volume.)</p>
 <table class="table">
 <thead><tr class="header">
 <th>Model Parameter</th>
@@ -293,10 +352,16 @@
 <td></td>
 </tr></tbody>
 </table>
-<p>Experimentally, gut concentrations (from duodenum to the cecum) were measured (<a href="#5-references">Tsuji 1983</a>). In the present evaluation report, the experimental gut concentrations were compared to simulated organ concentrations for small and large intestine separately in the goodness of fit plots as well as in the concentration-time profile plot.</p>
+<p>Experimentally, gut concentrations (from duodenum to the cecum) were
+measured (<a href="#id_5-references">Tsuji 1983</a>). In the present
+evaluation report, the experimental gut concentrations were compared to
+simulated organ concentrations for small and large intestine separately
+in the goodness of fit plots as well as in the concentration-time
+profile plot.</p>
 </div>
 <div class="section level4">
-<h4 id="automated-parameter-identification">2.3.5 Automated Parameter Identification <a id="model-parameters-and-assumptions-parameter-identification"></a><a class="anchor" aria-label="anchor" href="#automated-parameter-identification"></a>
+<h4 id="automated-parameter-identification">2.3.5 Automated Parameter Identification
+<a id="model-parameters-and-assumptions-parameter-identification"></a><a class="anchor" aria-label="anchor" href="#automated-parameter-identification"></a>
 </h4>
 <p>No drug specific parameters were fitted.</p>
 </div>
@@ -305,17 +370,21 @@
 <div class="section level2">
 <h2 id="results-and-discussion">3 Results and Discussion<a id="results-and-discussion"></a><a class="anchor" aria-label="anchor" href="#results-and-discussion"></a>
 </h2>
-<p>The PBPK model for inulin was evaluated with plasma and tissue PK data from rats.</p>
+<p>The PBPK model for inulin was evaluated with plasma and tissue PK
+data from rats.</p>
 <p>The next sections show:</p>
 <ol style="list-style-type: decimal">
 <li>the final model parameters for the building blocks: <a href="#final-input-parameters">Section 3.1</a>.</li>
-<li>the overall goodness of fit: <a href="#diagnostics-plots">Section 3.2</a>.</li>
-<li>simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: <a href="#ct-profiles">Section 3.3</a>.</li>
+<li>the overall goodness of fit: <a href="#diagnostics-plots">Section
+3.2</a>.</li>
+<li>simulated vs. observed concentration-time profiles for the clinical
+studies used for model building and for model verification: <a href="#ct-profiles">Section 3.3</a>.</li>
 </ol>
 <div class="section level3">
 <h3 id="final-input-parameters">3.1 Final input parameters<a id="final-input-parameters"></a><a class="anchor" aria-label="anchor" href="#final-input-parameters"></a>
 </h3>
-<p>The compound parameter values of the final PBPK model are illustrated below.</p>
+<p>The compound parameter values of the final PBPK model are illustrated
+below.</p>
 <div class="section level4">
 <h4 id="compound-inulin">Compound: Inulin<a class="anchor" aria-label="anchor" href="#compound-inulin"></a>
 </h4>
@@ -428,6 +497,11 @@
 <h6 id="parameters-1">Parameters<a class="anchor" aria-label="anchor" href="#parameters-1"></a>
 </h6>
 <table class="table">
+<colgroup>
+<col width="16%">
+<col width="8%">
+<col width="76%">
+</colgroup>
 <thead><tr class="header">
 <th>Name</th>
 <th align="right">Value</th>
@@ -447,10 +521,13 @@
 <div class="section level3">
 <h3 id="diagnostics-plots">3.2 Diagnostics Plots<a id="diagnostics-plots"></a><a class="anchor" aria-label="anchor" href="#diagnostics-plots"></a>
 </h3>
-<p>Below you find the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data used presented in <a href="#PK-data">Section 2.2.2</a>.</p>
-<p>The first plot shows observed versus simulated plasma concentration, the second weighted residuals versus time.</p>
+<p>Below you find the goodness-of-fit visual diagnostic plots for the
+PBPK model performance of all data used presented in <a href="#PK-data">Section 2.2.2</a>.</p>
+<p>The first plot shows observed versus simulated plasma concentration,
+the second weighted residuals versus time.</p>
 <p><a id="table-3-1"></a></p>
-<p><strong>Table 3-1: GMFE for Goodness of fit plot for concentration in plasma and tissues</strong></p>
+<p><strong>Table 3-1: GMFE for Goodness of fit plot for concentration in
+plasma and tissues</strong></p>
 <table class="table">
 <thead><tr class="header">
 <th align="left">Group</th>
@@ -474,17 +551,20 @@
 <p><br><br></p>
 <p><a id="figure-3-1"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F008_section_diagnostics-plots%2F2_gof_plot_predictedVsObserved.png"></p>
-<p><strong>Figure 3-1: Goodness of fit plot for concentration in plasma and tissues</strong></p>
+<p><strong>Figure 3-1: Goodness of fit plot for concentration in plasma
+and tissues</strong></p>
 <p><br><br></p>
 <p><a id="figure-3-2"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F008_section_diagnostics-plots%2F3_gof_plot_residualsOverTime.png"></p>
-<p><strong>Figure 3-2: Goodness of fit plot for concentration in plasma and tissues</strong></p>
+<p><strong>Figure 3-2: Goodness of fit plot for concentration in plasma
+and tissues</strong></p>
 <p><br><br></p>
 </div>
 <div class="section level3">
 <h3 id="concentration-time-profiles">3.3 Concentration-Time Profiles<a id="ct-profiles"></a><a class="anchor" aria-label="anchor" href="#concentration-time-profiles"></a>
 </h3>
-<p>Simulated versus observed concentration-time profiles of all data listed in <a href="#PK-data">Section 2.2.2</a> are presented below.</p>
+<p>Simulated versus observed concentration-time profiles of all data
+listed in <a href="#PK-data">Section 2.2.2</a> are presented below.</p>
 <p><a id="figure-3-3"></a></p>
 <p><img src="images%2F006_section_results-and-discussion%2F009_section_ct-profiles%2F1_time_profile_plot_Inulin_Inulin_200mgkg.png"></p>
 <p><strong>Figure 3-3: Plasma concentration (linear scale)</strong></p>
@@ -530,24 +610,77 @@
 <div class="section level2">
 <h2 id="conclusion">4 Conclusion<a id="conclusion"></a><a class="anchor" aria-label="anchor" href="#conclusion"></a>
 </h2>
-<p>The herein presented PBPK model overall adequately describes the plasma pharmacokinetics of inulin in rats. Tissue concentrations tend to be overestimated by the model, the largest deviations being observed for lung, gut, and heart concentrations. Simulations are predictions without adjusting any compound specific parameter (i.e., using a literature value for the solute radius of inulin and the default physiological parameters in PK-Sim especially for the glomerular filtration rate, vascular properties and compartment volumes).</p>
+<p>The herein presented PBPK model overall adequately describes the
+plasma pharmacokinetics of inulin in rats. Tissue concentrations tend to
+be overestimated by the model, the largest deviations being observed for
+lung, gut, and heart concentrations. Simulations are predictions without
+adjusting any compound specific parameter (i.e., using a literature
+value for the solute radius of inulin and the default physiological
+parameters in PK-Sim especially for the glomerular filtration rate,
+vascular properties and compartment volumes).</p>
 </div>
 <div class="section level2">
 <h2 id="references">5 References<a id="main-references"></a><a class="anchor" aria-label="anchor" href="#references"></a>
 </h2>
-<p><strong>Dall’Acqua 2006</strong> Dall’Acqua WF, Kiener PA, Wu H. Properties of human IgG1s engineered for enhanced binding to the neonatal Fc receptor (FcRn). J Biol Chem. 2006 Aug; 281(33):23514-23524. doi: 10.1074/jbc.M604292200.</p>
-<p><strong>Dubbelboer 2022</strong> Dubbelboer, I. R., Sjögren, E. Overview of authorized drug products for subcutaneous administration: Pharmaceutical, therapeutic, and physicochemical properties. European Journal of Pharmaceutical Sciences. 2022 Jun; 173:106181. doi.org/10.1016/j.ejps.2022.106181.</p>
-<p><strong>Garg 2007</strong> Garg A, Balthasar JP. Physiologically-based pharmacokinetic (PBPK) model to predict IgG tissue kinetics in wild-type and FcRn-knockout mice. J Pharmacokinet Pharmacodyn. 2007 Jul; 34(5):687-709. doi: 10.1007/s10928-007-9065-1.</p>
-<p><strong>Garg 2009</strong> Garg A, Balthasar J. Investigation of the influence of FcRn on the distribution of IgG to the brain. AAPS J. 2009 July; 11(3):553-557. doi: 10.1208/s12248-009-9129-9.</p>
-<p><strong>Ghandehari 1997</strong> Ghandehari H, Smith PL, Ellens H, Yeh PY, Kopecek J. Size-dependent permeability of hydrophilic probes across rabbit colonic epithelium. J Pharmacol Exp Ther. 1997 Feb; 280(2):747-753.</p>
-<p><strong>Lobo 2004</strong> Lobo ED, Hansen R J, Balthasar JP. Antibody pharmacokinetics and pharmacodynamics. J Pharm Sci. 2004 Nov;93(11):2645-2668. doi: 10.1002/jps.20178.</p>
-<p><strong>Niederalt 2018</strong> Niederalt C, Kuepfer L, Solodenko J, Eissing T, Siegmund HU, Block M, Willmann S, Lippert J. A generic whole body physiologically based pharmacokinetic model for therapeutic proteins in PK-Sim. J Pharmacokinet Pharmacodyn. 2018 Apr;45(2):235-257. doi: 10.1007/s10928-017-9559-4.</p>
-<p><strong>Ohno 1978</strong> Ohno K, Pettigrew KD, Rapoport SI. Lower limits of cerebrovascular permeability to nonelectrolytes in the conscious rat. American Journal of Physiology-Heart and Circulatory Physiology. 1978 Sep;235(3):H299-H307. doi: 10.1152/ajpheart.1978.235.3.H299.</p>
-<p><strong>Reilly 2005</strong> Reilley S, Wenzel E, Reynolds L, Bennett B, Patti JM, Hetherington S. Open-label, dose escalation study of the safety and pharmacokinetic profile of tefibazumab in healthy volunteers. Antimicrob Agents Chemother. 2005 Mar;49(3):959–962. doi: 10.1128/AAC.49.3.959-962.2005.</p>
-<p><strong>Sepp 2015</strong> Sepp A, Berges A, Sanderson A, Meno-Tetang G. Development of a physiologically based pharmacokinetic model for a domain antibody in mice using the two-pore theory. J Pharmacokinet Pharmacodyn. 2015 Jan;42(2):97-109. doi: 10.1007/s10928-014-9402-0.</p>
-<p><strong>Taylor 1984</strong> Taylor AE, Granger DN. Exchange of macromolecules across the microcirculation. Handbook of Physiology - Cardiovascular System. Microcirculation (Eds. Renkin EM and Michel CC. Bethesda, MD, American Physiological Society). 1984; Vol. 4(Pt 2):467–520.</p>
-<p><strong>Taylor 2008</strong> Taylor CP, Tummala S, Molrine D, Davidson L, Farrell RJ, Lembo A, Hibberd PL, Lowy I, Kelly CP. Open-label, dose escalation phase I study in healthy volunteers to evaluate the safety and pharmacokinetics of a human monoclonal antibody to Clostridium difficile toxin A. Vaccine. 2008 Jun;26(27-28):3404–3409. doi: 10.1016/j.vaccine.2008.04.042.</p>
-<p><strong>Tsuji 1983</strong> Tsuji A, Yoshikawa T, Nishide K, Minami H, Kimura M, Nakashima E, Terasaki T, Miyamoto E, Nightingale CH, Yamana T. Physiologically based pharmacokinetic model for beta-lactam antibiotics I: tissue distribution and elimination in rats. J Pharm Sci. 1983 Nov;72(11):1239-1252. doi: 10.1002/jps.2600721103.</p>
+<p><strong>Dall’Acqua 2006</strong> Dall’Acqua WF, Kiener PA, Wu H.
+Properties of human IgG1s engineered for enhanced binding to the
+neonatal Fc receptor (FcRn). J Biol Chem. 2006 Aug; 281(33):23514-23524.
+doi: 10.1074/jbc.M604292200.</p>
+<p><strong>Dubbelboer 2022</strong> Dubbelboer, I. R., Sjögren, E.
+Overview of authorized drug products for subcutaneous administration:
+Pharmaceutical, therapeutic, and physicochemical properties. European
+Journal of Pharmaceutical Sciences. 2022 Jun; 173:106181.
+doi.org/10.1016/j.ejps.2022.106181.</p>
+<p><strong>Garg 2007</strong> Garg A, Balthasar JP.
+Physiologically-based pharmacokinetic (PBPK) model to predict IgG tissue
+kinetics in wild-type and FcRn-knockout mice. J Pharmacokinet
+Pharmacodyn. 2007 Jul; 34(5):687-709. doi:
+10.1007/s10928-007-9065-1.</p>
+<p><strong>Garg 2009</strong> Garg A, Balthasar J. Investigation of the
+influence of FcRn on the distribution of IgG to the brain. AAPS J. 2009
+July; 11(3):553-557. doi: 10.1208/s12248-009-9129-9.</p>
+<p><strong>Ghandehari 1997</strong> Ghandehari H, Smith PL, Ellens H,
+Yeh PY, Kopecek J. Size-dependent permeability of hydrophilic probes
+across rabbit colonic epithelium. J Pharmacol Exp Ther. 1997 Feb;
+280(2):747-753.</p>
+<p><strong>Lobo 2004</strong> Lobo ED, Hansen R J, Balthasar JP.
+Antibody pharmacokinetics and pharmacodynamics. J Pharm Sci. 2004
+Nov;93(11):2645-2668. doi: 10.1002/jps.20178.</p>
+<p><strong>Niederalt 2018</strong> Niederalt C, Kuepfer L, Solodenko J,
+Eissing T, Siegmund HU, Block M, Willmann S, Lippert J. A generic whole
+body physiologically based pharmacokinetic model for therapeutic
+proteins in PK-Sim. J Pharmacokinet Pharmacodyn. 2018 Apr;45(2):235-257.
+doi: 10.1007/s10928-017-9559-4.</p>
+<p><strong>Ohno 1978</strong> Ohno K, Pettigrew KD, Rapoport SI. Lower
+limits of cerebrovascular permeability to nonelectrolytes in the
+conscious rat. American Journal of Physiology-Heart and Circulatory
+Physiology. 1978 Sep;235(3):H299-H307. doi:
+10.1152/ajpheart.1978.235.3.H299.</p>
+<p><strong>Reilly 2005</strong> Reilley S, Wenzel E, Reynolds L, Bennett
+B, Patti JM, Hetherington S. Open-label, dose escalation study of the
+safety and pharmacokinetic profile of tefibazumab in healthy volunteers.
+Antimicrob Agents Chemother. 2005 Mar;49(3):959–962. doi:
+10.1128/AAC.49.3.959-962.2005.</p>
+<p><strong>Sepp 2015</strong> Sepp A, Berges A, Sanderson A, Meno-Tetang
+G. Development of a physiologically based pharmacokinetic model for a
+domain antibody in mice using the two-pore theory. J Pharmacokinet
+Pharmacodyn. 2015 Jan;42(2):97-109. doi: 10.1007/s10928-014-9402-0.</p>
+<p><strong>Taylor 1984</strong> Taylor AE, Granger DN. Exchange of
+macromolecules across the microcirculation. Handbook of Physiology -
+Cardiovascular System. Microcirculation (Eds. Renkin EM and Michel CC.
+Bethesda, MD, American Physiological Society). 1984; Vol. 4(Pt
+2):467–520.</p>
+<p><strong>Taylor 2008</strong> Taylor CP, Tummala S, Molrine D,
+Davidson L, Farrell RJ, Lembo A, Hibberd PL, Lowy I, Kelly CP.
+Open-label, dose escalation phase I study in healthy volunteers to
+evaluate the safety and pharmacokinetics of a human monoclonal antibody
+to Clostridium difficile toxin A. Vaccine. 2008 Jun;26(27-28):3404–3409.
+doi: 10.1016/j.vaccine.2008.04.042.</p>
+<p><strong>Tsuji 1983</strong> Tsuji A, Yoshikawa T, Nishide K, Minami
+H, Kimura M, Nakashima E, Terasaki T, Miyamoto E, Nightingale CH, Yamana
+T. Physiologically based pharmacokinetic model for beta-lactam
+antibiotics I: tissue distribution and elimination in rats. J Pharm Sci.
+1983 Nov;72(11):1239-1252. doi: 10.1002/jps.2600721103.</p>
 </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside>
