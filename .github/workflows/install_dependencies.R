@@ -7,10 +7,7 @@ pak::pak("Open-Systems-Pharmacology/OSPSuite.RUtils")
 pak::pak("Open-Systems-Pharmacology/rSharp")
 pak::pak("Open-Systems-Pharmacology/TLF-Library")
 pak::pak("Open-Systems-Pharmacology/OSPSuite-R")
-
-download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/ospsuite-reportingengine/artifacts/ospsuite.reportingengine.zip?pr=false', destfile = 'ospsuite.reportingengine.zip', mode='wb')
-install.packages('ospsuite.reportingengine.zip', repos = NULL, type = 'binary')
-unlink('ospsuite.reportingengine.zip')
+pak::pak("Open-Systems-Pharmacology/OSPSuite.ReportingEngine")
 
 # Setup PK-Sim portable and Qualification Runner released versions
 # Rename their sub-folder to prevent path issues because the use version numbers
