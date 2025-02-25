@@ -1,45 +1,45 @@
-23/12/2024 - 01:12:16
+25/02/2025 - 18:03:33
 Reporting Engine Information:
-Date: 23/12/2024 - 01:12:16
+Date: 25/02/2025 - 18:03:33
 User Information:
-Computer Name: fv-az1435-822
+Computer Name: fv-az1390-755
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
 R version: R version 4.4.2 (2024-10-31 ucrt)
-OSP Suite Package version: 12.1.0
-OSP Reporting Engine version: 2.2.369
-tlf version: 1.5.171
-23/12/2024 - 01:12:16
+OSP Suite Package version: 12.2.0.9004
+OSP Reporting Engine version: 2.2.0
+tlf version: 1.6.0
+25/02/2025 - 18:03:33
 Starting run of Population Workflow for parallelComparison
-23/12/2024 - 01:12:16
+25/02/2025 - 18:03:33
 Starting run of Simulation task
-23/12/2024 - 01:12:16
+25/02/2025 - 18:03:33
 Starting run of Population Simulations
-23/12/2024 - 01:12:16
+25/02/2025 - 18:03:34
 Starting run of single IV application (Pop_10)
-23/12/2024 - 01:12:19
+25/02/2025 - 18:03:36
 Simulation task completed in 0 min
-23/12/2024 - 01:12:19
+25/02/2025 - 18:03:36
 Starting run of Calculate PK Parameters task
-23/12/2024 - 01:12:19
+25/02/2025 - 18:03:36
 Starting run of Calculate PK Parameters task for single IV application
-23/12/2024 - 01:12:20
+25/02/2025 - 18:03:37
 Calculate PK Parameters task completed in 0 min
-23/12/2024 - 01:12:20
+25/02/2025 - 18:03:37
 Starting run of Plot PK Parameters task
-23/12/2024 - 01:12:40
-Plot PK Parameters task completed in 0.3 min
-23/12/2024 - 01:12:40
+25/02/2025 - 18:03:59
+Plot PK Parameters task completed in 0.4 min
+25/02/2025 - 18:03:59
 Starting run of Plot Time profiles and Residuals task
-23/12/2024 - 01:12:40
+25/02/2025 - 18:03:59
 Starting run of Plot Time profiles and Residuals task for single IV application
-23/12/2024 - 01:12:45
+25/02/2025 - 18:04:04
 Plot Time profiles and Residuals task completed in 0.1 min
-23/12/2024 - 01:12:45
+25/02/2025 - 18:04:04
 Starting run of Plot Demography task
-23/12/2024 - 01:12:50
+25/02/2025 - 18:04:09
 Plot Demography task completed in 0.1 min
-23/12/2024 - 01:12:50
+25/02/2025 - 18:04:09
 Population Workflow for parallelComparison completed in 0.6 min

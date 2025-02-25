@@ -1,46 +1,90 @@
-23/12/2024 - 01:14:34
+25/02/2025 - 18:06:02
 Simulation file 'Simulation file 'Models/Aciclovir.pkml' successfully loaded' successfully loaded
-23/12/2024 - 01:14:36
+25/02/2025 - 18:06:04
 Simulation results 'tests/Reports/Aciclovir-Mean/SimulationResults/Aciclovir-SimulationResults.csv' successfully loaded
-23/12/2024 - 01:14:36
+25/02/2025 - 18:06:04
 Calculation of PK parameters complete
-23/12/2024 - 01:14:36
+25/02/2025 - 18:06:04
 PK parameters for 'Aciclovir' saved in 'tests/Reports/Aciclovir-Mean/PKAnalysisResults/Aciclovir-PKAnalysisResults.csv
-23/12/2024 - 01:15:04
+25/02/2025 - 18:06:33
+font family not found in Windows font database
+25/02/2025 - 18:06:33
 Figure 'tests/Reports/Aciclovir-Mean/Sensitivity/Aciclovir-1_sensitivity_AUC_tEnd.png' was successfully saved.
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:33
 Figure 'tests/Reports/Aciclovir-Mean/Sensitivity/Aciclovir-2_sensitivity_CL.png' was successfully saved.
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:34
 Figure 'tests/Reports/Aciclovir-Mean/Sensitivity/Aciclovir-3_sensitivity_Vss.png' was successfully saved.
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:34
 Figure 'tests/Reports/Aciclovir-Mean/Sensitivity/Aciclovir-4_sensitivity_C_max.png' was successfully saved.
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:34
 Table 'tests/Reports/Aciclovir-Mean/PKAnalysis/Aciclovir-pk_parameters_Aciclovir.csv' was successfully saved.
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:34
 '1' applications identified for path 'Organism|PeripheralVenousBlood|Aciclovir|Plasma (Peripheral Venous Blood)' in simulation 'Vergin 1995 IV'
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:34
 Time ranges for 'Vergin 1995 IV' timeRanges
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:34
 491 simulated data were included in the analysis between 0 and 24 h.
-23/12/2024 - 01:15:05
+25/02/2025 - 18:06:34
 0 observed data were included in the analysis between 0 and 24 h.
-23/12/2024 - 01:15:07
+25/02/2025 - 18:06:36
 1 values from variable 'Concentration' were negative and removed from the analysis
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
 Table 'tests/Reports/Aciclovir-Mean/TimeProfiles/Aciclovir-1_time_profile_data.csv' was successfully saved.
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
 Figure 'tests/Reports/Aciclovir-Mean/TimeProfiles/Aciclovir-3_timeProfile_1_total.png' was successfully saved.
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
+font family not found in Windows font database
+25/02/2025 - 18:06:38
 Figure 'tests/Reports/Aciclovir-Mean/TimeProfiles/Aciclovir-4_timeProfileLog_2_total.png' was successfully saved.
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
 Reports 'tests/Reports/Aciclovir-Mean/appendix-sensitivity-analysis.md', 'tests/Reports/Aciclovir-Mean/appendix-pk-parameters.md', 'tests/Reports/Aciclovir-Mean/appendix-time-profile.md' were successfully merged into 'tests/Reports/Aciclovir-Mean/Report.md'
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
 In 'tests/Reports/Aciclovir-Mean/Report.md', 0.666666666666667 tables and 6 figures were referenced.
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
 In 'tests/Reports/Aciclovir-Mean/Report.md', 5 sections were numbered
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
 In 'tests/Reports/Aciclovir-Mean/Report.md', table of content of 6 lines was included.
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
 'tests/Reports/Aciclovir-Mean/Report.md' already exists. Overwriting 'tests/Reports/Aciclovir-Mean/Report.md'.
-23/12/2024 - 01:15:09
+25/02/2025 - 18:06:38
 Reports 'temp-report-title.md', 'tests/Reports/Aciclovir-Mean/Report.md' were successfully merged into 'tests/Reports/Aciclovir-Mean/Report.md'
