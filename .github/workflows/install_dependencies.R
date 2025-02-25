@@ -1,22 +1,15 @@
 # Install CRAN R packages
-install.packages(c('dplyr','purrr','covr','readr','tidyr','webshot','spelling','readxl','data.table','gridtext','ggtext','tidyselect','testthat','rmarkdown','rsvg','svglite','cowplot','showtext'), repos = 'http://cran.us.r-project.org', type='win.binary')
-# Install OSPSuite packages
-download.file('https://github.com/Open-Systems-Pharmacology/rSharp/releases/download/v1.0.0/rSharp-v1.0.0-Windows-r_4.4.0.zip', destfile = "rsharp.zip", mode = "wb")
-download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/ospsuite-rutils/artifacts/ospsuite.utils.zip?pr=false', destfile = 'ospsuite.utils.zip', mode='wb')
-download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/tlf-library/artifacts/tlf.zip?pr=false', destfile = 'tlf.zip', mode='wb')
-download.file('https://github.com/Open-Systems-Pharmacology/OSPSuite-R/releases/download/v12.1.0/ospsuite_12.1.0.zip', destfile = "ospsuite.zip", mode = "wb")
+install.packages(c('dplyr','purrr','readr','tidyr','webshot','spelling','readxl','data.table','tidyselect','openxlsx'), repos = 'http://cran.us.r-project.org', type='win.binary')
+install.packages(c('gridtext','ggtext','showtext','testthat','covr','rmarkdown','pkgdown'), repos = 'http://cran.us.r-project.org', type='win.binary')
+install.packages(c("remotes", "pak"))
+
+pak::pak("Open-Systems-Pharmacology/OSPSuite.RUtils")
+pak::pak("Open-Systems-Pharmacology/rSharp")
+pak::pak("Open-Systems-Pharmacology/TLF-Library")
+pak::pak("Open-Systems-Pharmacology/OSPSuite-R")
+
 download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/ospsuite-reportingengine/artifacts/ospsuite.reportingengine.zip?pr=false', destfile = 'ospsuite.reportingengine.zip', mode='wb')
-unzip("rsharp.zip")
-rSharp_archive <- list.files( pattern = "rSharp.*\\.zip")
-install.packages(rSharp_archive, repos = NULL, type = "binary")
-install.packages("ospsuite.utils.zip", repos = NULL, type = "binary")
-install.packages("tlf.zip", repos = NULL, type = "binary")
-install.packages("ospsuite.zip", repos = NULL, type = "binary")
 install.packages('ospsuite.reportingengine.zip', repos = NULL, type = 'binary')
-unlink("rsharp.zip")
-unlink("ospsuite-utils.zip")
-unlink("tlf.zip")
-unlink("ospsuite.zip")
 unlink('ospsuite.reportingengine.zip')
 
 # Setup PK-Sim portable and Qualification Runner released versions
