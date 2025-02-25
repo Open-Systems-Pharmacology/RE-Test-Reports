@@ -1,6 +1,6 @@
 # Install CRAN R packages
 install.packages(c('dplyr','purrr','readr','tidyr','webshot','spelling','readxl','data.table','tidyselect','openxlsx'), repos = 'http://cran.us.r-project.org', type='win.binary')
-install.packages(c('gridtext','ggtext','showtext','rsvg","svglite","cowplot",'testthat','covr','rmarkdown','pkgdown'), repos = 'http://cran.us.r-project.org', type='win.binary')
+install.packages(c('gridtext','ggtext','showtext','rsvg','svglite','cowplot','testthat','covr','rmarkdown','pkgdown'), repos = 'http://cran.us.r-project.org', type='win.binary')
 install.packages(c("remotes", "pak"))
 
 pak::pak("Open-Systems-Pharmacology/OSPSuite.RUtils")
