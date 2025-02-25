@@ -1,5 +1,5 @@
 # Install CRAN R packages
-install.packages(c('dplyr','purrr','covr','readr','tidyr','webshot','spelling','readxl','data.table','gridtext','ggtext','tidyselect','testthat','rmarkdown','rsvg','svglite','cowplot'), repos = 'http://cran.us.r-project.org', type='win.binary')
+install.packages(c('dplyr','purrr','covr','readr','tidyr','webshot','spelling','readxl','data.table','gridtext','ggtext','tidyselect','testthat','rmarkdown','rsvg','svglite','cowplot','showtext'), repos = 'http://cran.us.r-project.org', type='win.binary')
 # Install OSPSuite packages
 download.file('https://github.com/Open-Systems-Pharmacology/rSharp/releases/download/v1.0.0/rSharp-v1.0.0-Windows-r_4.4.0.zip', destfile = "rsharp.zip", mode = "wb")
 download.file('https://ci.appveyor.com/api/projects/open-systems-pharmacology-ci/ospsuite-rutils/artifacts/ospsuite.utils.zip?pr=false', destfile = 'ospsuite.utils.zip', mode='wb')
