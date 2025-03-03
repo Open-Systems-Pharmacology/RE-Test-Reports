@@ -1,45 +1,45 @@
-25/02/2025 - 18:03:33
+03/03/2025 - 01:17:46
 Reporting Engine Information:
-Date: 25/02/2025 - 18:03:33
+Date: 03/03/2025 - 01:17:46
 User Information:
-Computer Name: fv-az1390-755
+Computer Name: fv-az1785-304
 User: runneradmin
 Login: runneradmin
 System is NOT validated
 System versions:
-R version: R version 4.4.2 (2024-10-31 ucrt)
+R version: R version 4.4.3 (2025-02-28 ucrt)
 OSP Suite Package version: 12.2.0.9004
 OSP Reporting Engine version: 2.2.0
 tlf version: 1.6.0
-25/02/2025 - 18:03:33
+03/03/2025 - 01:17:46
 Starting run of Population Workflow for parallelComparison
-25/02/2025 - 18:03:33
+03/03/2025 - 01:17:46
 Starting run of Simulation task
-25/02/2025 - 18:03:33
+03/03/2025 - 01:17:46
 Starting run of Population Simulations
-25/02/2025 - 18:03:34
+03/03/2025 - 01:17:46
 Starting run of single IV application (Pop_10)
-25/02/2025 - 18:03:36
-Simulation task completed in 0 min
-25/02/2025 - 18:03:36
+03/03/2025 - 01:17:49
+Simulation task completed in 0.1 min
+03/03/2025 - 01:17:49
 Starting run of Calculate PK Parameters task
-25/02/2025 - 18:03:36
+03/03/2025 - 01:17:49
 Starting run of Calculate PK Parameters task for single IV application
-25/02/2025 - 18:03:37
+03/03/2025 - 01:17:50
 Calculate PK Parameters task completed in 0 min
-25/02/2025 - 18:03:37
+03/03/2025 - 01:17:50
 Starting run of Plot PK Parameters task
-25/02/2025 - 18:03:59
+03/03/2025 - 01:18:12
 Plot PK Parameters task completed in 0.4 min
-25/02/2025 - 18:03:59
+03/03/2025 - 01:18:12
 Starting run of Plot Time profiles and Residuals task
-25/02/2025 - 18:03:59
+03/03/2025 - 01:18:12
 Starting run of Plot Time profiles and Residuals task for single IV application
-25/02/2025 - 18:04:04
+03/03/2025 - 01:18:17
 Plot Time profiles and Residuals task completed in 0.1 min
-25/02/2025 - 18:04:04
+03/03/2025 - 01:18:17
 Starting run of Plot Demography task
-25/02/2025 - 18:04:09
+03/03/2025 - 01:18:23
 Plot Demography task completed in 0.1 min
-25/02/2025 - 18:04:09
+03/03/2025 - 01:18:23
 Population Workflow for parallelComparison completed in 0.6 min
