@@ -1,436 +1,160 @@
-03/03/2025 - 01:18:28
+24/03/2025 - 07:53:43
 Simulation file 'Models/Adults_SingleIV_Bolus.pkml' successfully loaded
-03/03/2025 - 01:18:29
+24/03/2025 - 07:53:44
 Population file 'Data/test-NO9/Adults_18_100_years-Population.csv' successfully loaded
-03/03/2025 - 01:18:32
+24/03/2025 - 07:53:47
 Simulation run complete
-03/03/2025 - 01:18:34
+24/03/2025 - 07:53:49
 Simulation file 'Models/Adults_SingleIV_Bolus.pkml' successfully loaded
-03/03/2025 - 01:18:35
+24/03/2025 - 07:53:50
 Population file 'Data/test-NO9/Kids_0_3_years-Population.csv' successfully loaded
-03/03/2025 - 01:18:38
+24/03/2025 - 07:53:53
 Simulation run complete
-03/03/2025 - 01:18:40
+24/03/2025 - 07:53:55
 Simulation file 'Models/Adults_SingleIV_Bolus.pkml' successfully loaded
-03/03/2025 - 01:18:41
+24/03/2025 - 07:53:56
 Population file 'Data/test-NO9/Kids_3_6_years-Population.csv' successfully loaded
-03/03/2025 - 01:18:44
+24/03/2025 - 07:53:59
 Simulation run complete
-03/03/2025 - 01:18:46
+24/03/2025 - 07:54:01
 Simulation file 'Models/Adults_SingleIV_Bolus.pkml' successfully loaded
-03/03/2025 - 01:18:46
+24/03/2025 - 07:54:02
 Population file 'Data/test-NO9/Kids_6_9_years-Population.csv' successfully loaded
-03/03/2025 - 01:18:49
+24/03/2025 - 07:54:05
 Simulation run complete
-03/03/2025 - 01:18:50
+24/03/2025 - 07:54:06
 Simulation results 'tests/Reports/Test-NO9/SimulationResults/single IV administration-SimulationResults.csv' successfully loaded
-03/03/2025 - 01:18:50
+24/03/2025 - 07:54:06
 Calculation of PK parameters complete
-03/03/2025 - 01:18:50
+24/03/2025 - 07:54:06
 PK parameters for 'single IV administration' saved in 'tests/Reports/Test-NO9/PKAnalysisResults/single IV administration-PKAnalysisResults.csv
-03/03/2025 - 01:18:52
+24/03/2025 - 07:54:08
 Simulation results 'tests/Reports/Test-NO9/SimulationResults/children_0_3y-SimulationResults.csv' successfully loaded
-03/03/2025 - 01:18:52
+24/03/2025 - 07:54:08
 Calculation of PK parameters complete
-03/03/2025 - 01:18:52
+24/03/2025 - 07:54:08
 PK parameters for 'children_0_3y' saved in 'tests/Reports/Test-NO9/PKAnalysisResults/children_0_3y-PKAnalysisResults.csv
-03/03/2025 - 01:18:53
+24/03/2025 - 07:54:09
 Simulation results 'tests/Reports/Test-NO9/SimulationResults/children_3_6y-SimulationResults.csv' successfully loaded
-03/03/2025 - 01:18:53
+24/03/2025 - 07:54:09
 Calculation of PK parameters complete
-03/03/2025 - 01:18:53
+24/03/2025 - 07:54:09
 PK parameters for 'children_3_6y' saved in 'tests/Reports/Test-NO9/PKAnalysisResults/children_3_6y-PKAnalysisResults.csv
-03/03/2025 - 01:18:55
+24/03/2025 - 07:54:11
 Simulation results 'tests/Reports/Test-NO9/SimulationResults/children_6_9y-SimulationResults.csv' successfully loaded
-03/03/2025 - 01:18:55
+24/03/2025 - 07:54:11
 Calculation of PK parameters complete
-03/03/2025 - 01:18:55
+24/03/2025 - 07:54:11
 PK parameters for 'children_6_9y' saved in 'tests/Reports/Test-NO9/PKAnalysisResults/children_6_9y-PKAnalysisResults.csv
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:08
+24/03/2025 - 07:54:25
 Figure 'tests/Reports/Test-NO9/PKAnalysis/3_pk_parameters_AUC_tEnd_log.png' was successfully saved.
-03/03/2025 - 01:19:08
-font family not found in Windows font database
-03/03/2025 - 01:19:09
+24/03/2025 - 07:54:25
 Figure 'tests/Reports/Test-NO9/PKAnalysis/4_pk_parameters_AUC_tEnd.png' was successfully saved.
-03/03/2025 - 01:19:09
+24/03/2025 - 07:54:25
 Table 'tests/Reports/Test-NO9/PKAnalysis/4_pk_parameters_AUC_tEnd.csv' was successfully saved.
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
+24/03/2025 - 07:54:25
 Figure 'tests/Reports/Test-NO9/PKAnalysis/6_pk_parameters_C_max_log.png' was successfully saved.
-03/03/2025 - 01:19:09
-font family not found in Windows font database
-03/03/2025 - 01:19:09
+24/03/2025 - 07:54:26
 Figure 'tests/Reports/Test-NO9/PKAnalysis/7_pk_parameters_C_max.png' was successfully saved.
-03/03/2025 - 01:19:09
+24/03/2025 - 07:54:26
 Table 'tests/Reports/Test-NO9/PKAnalysis/7_pk_parameters_C_max.csv' was successfully saved.
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
+24/03/2025 - 07:54:26
 Figure 'tests/Reports/Test-NO9/PKAnalysis/9_pk_parameters_C_tEnd_log.png' was successfully saved.
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
+24/03/2025 - 07:54:27
 Figure 'tests/Reports/Test-NO9/PKAnalysis/10_pk_parameters_C_tEnd.png' was successfully saved.
-03/03/2025 - 01:19:10
+24/03/2025 - 07:54:27
 Table 'tests/Reports/Test-NO9/PKAnalysis/10_pk_parameters_C_tEnd.csv' was successfully saved.
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:10
-font family not found in Windows font database
-03/03/2025 - 01:19:11
+24/03/2025 - 07:54:27
 Figure 'tests/Reports/Test-NO9/PKAnalysis/12_pk_parameters_t_max_log.png' was successfully saved.
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
+24/03/2025 - 07:54:28
 Figure 'tests/Reports/Test-NO9/PKAnalysis/13_pk_parameters_t_max.png' was successfully saved.
-03/03/2025 - 01:19:11
+24/03/2025 - 07:54:28
 Table 'tests/Reports/Test-NO9/PKAnalysis/13_pk_parameters_t_max.csv' was successfully saved.
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:11
-font family not found in Windows font database
-03/03/2025 - 01:19:12
+24/03/2025 - 07:54:28
 Figure 'tests/Reports/Test-NO9/PKAnalysis/15_pk_parameters_CL_log.png' was successfully saved.
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
+24/03/2025 - 07:54:29
 Figure 'tests/Reports/Test-NO9/PKAnalysis/16_pk_parameters_CL.png' was successfully saved.
-03/03/2025 - 01:19:12
+24/03/2025 - 07:54:29
 Table 'tests/Reports/Test-NO9/PKAnalysis/16_pk_parameters_CL.csv' was successfully saved.
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:12
-font family not found in Windows font database
-03/03/2025 - 01:19:13
+24/03/2025 - 07:54:29
 Figure 'tests/Reports/Test-NO9/PKAnalysis/18_pk_parameters_Vss_log.png' was successfully saved.
-03/03/2025 - 01:19:13
-font family not found in Windows font database
-03/03/2025 - 01:19:13
+24/03/2025 - 07:54:29
 Figure 'tests/Reports/Test-NO9/PKAnalysis/19_pk_parameters_Vss.png' was successfully saved.
-03/03/2025 - 01:19:13
+24/03/2025 - 07:54:29
 Table 'tests/Reports/Test-NO9/PKAnalysis/19_pk_parameters_Vss.csv' was successfully saved.
-03/03/2025 - 01:19:13
+24/03/2025 - 07:54:30
 '1' applications identified for path 'Organism|PeripheralVenousBlood|C1|Plasma (Peripheral Venous Blood)' in simulation 'Adults_SingleIV_Bolus'
-03/03/2025 - 01:19:13
+24/03/2025 - 07:54:30
 Time ranges for 'Adults_SingleIV_Bolus' timeRanges
-03/03/2025 - 01:19:13
+24/03/2025 - 07:54:30
 129 simulated data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:13
+24/03/2025 - 07:54:30
 0 observed data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:14
+24/03/2025 - 07:54:30
 1 values from variable 'Concentration' were negative and removed from the analysis
-03/03/2025 - 01:19:15
+24/03/2025 - 07:54:31
 Table 'tests/Reports/Test-NO9/TimeProfiles/single_IV_administration-1_time_profile_simulated_data.csv' was successfully saved.
-03/03/2025 - 01:19:15
-font family not found in Windows font database
-03/03/2025 - 01:19:15
+24/03/2025 - 07:54:32
 Figure 'tests/Reports/Test-NO9/TimeProfiles/single_IV_administration-3_timeProfile_1_total.png' was successfully saved.
-03/03/2025 - 01:19:15
-font family not found in Windows font database
-03/03/2025 - 01:19:15
-font family not found in Windows font database
-03/03/2025 - 01:19:15
-font family not found in Windows font database
-03/03/2025 - 01:19:15
-font family not found in Windows font database
-03/03/2025 - 01:19:15
-font family not found in Windows font database
-03/03/2025 - 01:19:16
+24/03/2025 - 07:54:32
 Figure 'tests/Reports/Test-NO9/TimeProfiles/single_IV_administration-4_timeProfileLog_2_total.png' was successfully saved.
-03/03/2025 - 01:19:16
+24/03/2025 - 07:54:32
 '1' applications identified for path 'Organism|PeripheralVenousBlood|C1|Plasma (Peripheral Venous Blood)' in simulation 'Adults_SingleIV_Bolus'
-03/03/2025 - 01:19:16
+24/03/2025 - 07:54:32
 Time ranges for 'Adults_SingleIV_Bolus' timeRanges
-03/03/2025 - 01:19:16
+24/03/2025 - 07:54:32
 129 simulated data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:16
+24/03/2025 - 07:54:32
 0 observed data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:16
+24/03/2025 - 07:54:33
 1 values from variable 'Concentration' were negative and removed from the analysis
-03/03/2025 - 01:19:17
+24/03/2025 - 07:54:34
 Table 'tests/Reports/Test-NO9/TimeProfiles/children_0_3y-1_time_profile_simulated_data.csv' was successfully saved.
-03/03/2025 - 01:19:17
-font family not found in Windows font database
-03/03/2025 - 01:19:17
-font family not found in Windows font database
-03/03/2025 - 01:19:18
+24/03/2025 - 07:54:34
 Figure 'tests/Reports/Test-NO9/TimeProfiles/children_0_3y-3_timeProfile_1_total.png' was successfully saved.
-03/03/2025 - 01:19:18
-font family not found in Windows font database
-03/03/2025 - 01:19:18
-font family not found in Windows font database
-03/03/2025 - 01:19:18
-font family not found in Windows font database
-03/03/2025 - 01:19:18
-font family not found in Windows font database
-03/03/2025 - 01:19:18
-font family not found in Windows font database
-03/03/2025 - 01:19:18
+24/03/2025 - 07:54:35
 Figure 'tests/Reports/Test-NO9/TimeProfiles/children_0_3y-4_timeProfileLog_2_total.png' was successfully saved.
-03/03/2025 - 01:19:18
+24/03/2025 - 07:54:35
 '1' applications identified for path 'Organism|PeripheralVenousBlood|C1|Plasma (Peripheral Venous Blood)' in simulation 'Adults_SingleIV_Bolus'
-03/03/2025 - 01:19:18
+24/03/2025 - 07:54:35
 Time ranges for 'Adults_SingleIV_Bolus' timeRanges
-03/03/2025 - 01:19:18
+24/03/2025 - 07:54:35
 129 simulated data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:18
+24/03/2025 - 07:54:35
 0 observed data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:19
+24/03/2025 - 07:54:36
 1 values from variable 'Concentration' were negative and removed from the analysis
-03/03/2025 - 01:19:20
+24/03/2025 - 07:54:36
 Table 'tests/Reports/Test-NO9/TimeProfiles/children_3_6y-1_time_profile_simulated_data.csv' was successfully saved.
-03/03/2025 - 01:19:20
-font family not found in Windows font database
-03/03/2025 - 01:19:20
-font family not found in Windows font database
-03/03/2025 - 01:19:20
+24/03/2025 - 07:54:37
 Figure 'tests/Reports/Test-NO9/TimeProfiles/children_3_6y-3_timeProfile_1_total.png' was successfully saved.
-03/03/2025 - 01:19:20
-font family not found in Windows font database
-03/03/2025 - 01:19:20
-font family not found in Windows font database
-03/03/2025 - 01:19:20
-font family not found in Windows font database
-03/03/2025 - 01:19:20
-font family not found in Windows font database
-03/03/2025 - 01:19:20
-font family not found in Windows font database
-03/03/2025 - 01:19:21
+24/03/2025 - 07:54:37
 Figure 'tests/Reports/Test-NO9/TimeProfiles/children_3_6y-4_timeProfileLog_2_total.png' was successfully saved.
-03/03/2025 - 01:19:21
+24/03/2025 - 07:54:37
 '1' applications identified for path 'Organism|PeripheralVenousBlood|C1|Plasma (Peripheral Venous Blood)' in simulation 'Adults_SingleIV_Bolus'
-03/03/2025 - 01:19:21
+24/03/2025 - 07:54:37
 Time ranges for 'Adults_SingleIV_Bolus' timeRanges
-03/03/2025 - 01:19:21
+24/03/2025 - 07:54:37
 129 simulated data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:21
+24/03/2025 - 07:54:37
 0 observed data were included in the analysis between 0 and 24 h.
-03/03/2025 - 01:19:21
+24/03/2025 - 07:54:38
 1 values from variable 'Concentration' were negative and removed from the analysis
-03/03/2025 - 01:19:22
+24/03/2025 - 07:54:39
 Table 'tests/Reports/Test-NO9/TimeProfiles/children_6_9y-1_time_profile_simulated_data.csv' was successfully saved.
-03/03/2025 - 01:19:22
-font family not found in Windows font database
-03/03/2025 - 01:19:22
-font family not found in Windows font database
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:39
 Figure 'tests/Reports/Test-NO9/TimeProfiles/children_6_9y-3_timeProfile_1_total.png' was successfully saved.
-03/03/2025 - 01:19:23
-font family not found in Windows font database
-03/03/2025 - 01:19:23
-font family not found in Windows font database
-03/03/2025 - 01:19:23
-font family not found in Windows font database
-03/03/2025 - 01:19:23
-font family not found in Windows font database
-03/03/2025 - 01:19:23
-font family not found in Windows font database
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:40
 Figure 'tests/Reports/Test-NO9/TimeProfiles/children_6_9y-4_timeProfileLog_2_total.png' was successfully saved.
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:40
 Reports 'tests/Reports/Test-NO9/appendix-pk-parameters.md', 'tests/Reports/Test-NO9/appendix-time-profile.md' were successfully merged into 'tests/Reports/Test-NO9/Report.md'
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:40
 In 'tests/Reports/Test-NO9/Report.md', 4 tables and 20 figures were referenced.
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:40
 In 'tests/Reports/Test-NO9/Report.md', 5 sections were numbered
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:40
 In 'tests/Reports/Test-NO9/Report.md', table of content of 13 lines was included.
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:40
 'tests/Reports/Test-NO9/Report.md' already exists. Overwriting 'tests/Reports/Test-NO9/Report.md'.
-03/03/2025 - 01:19:23
+24/03/2025 - 07:54:40
 Reports 'temp-report-title.md', 'tests/Reports/Test-NO9/Report.md' were successfully merged into 'tests/Reports/Test-NO9/Report.md'

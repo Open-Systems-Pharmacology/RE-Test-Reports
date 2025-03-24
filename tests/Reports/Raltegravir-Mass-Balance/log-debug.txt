@@ -1,68 +1,36 @@
-03/03/2025 - 02:29:37
-font family not found in Windows font database
-03/03/2025 - 02:29:37
-font family not found in Windows font database
-03/03/2025 - 02:29:38
+24/03/2025 - 09:04:25
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-2_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
-03/03/2025 - 02:29:38
-font family not found in Windows font database
-03/03/2025 - 02:29:38
-font family not found in Windows font database
-03/03/2025 - 02:29:38
+24/03/2025 - 09:04:25
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-3_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
-03/03/2025 - 02:29:38
-font family not found in Windows font database
-03/03/2025 - 02:29:38
-font family not found in Windows font database
-03/03/2025 - 02:29:39
+24/03/2025 - 09:04:26
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-4_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
-03/03/2025 - 02:29:39
-font family not found in Windows font database
-03/03/2025 - 02:29:39
-font family not found in Windows font database
-03/03/2025 - 02:29:39
+24/03/2025 - 09:04:26
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-5_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
-03/03/2025 - 02:29:40
+24/03/2025 - 09:04:26
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-6_mass_balance_Single_Dose__100_mg_.png' was successfully saved.
-03/03/2025 - 02:29:40
+24/03/2025 - 09:04:26
 Table 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Single_Dose__100_mg_-7_mass_balance_Single_Dose__100_mg_.csv' was successfully saved.
-03/03/2025 - 02:30:24
-font family not found in Windows font database
-03/03/2025 - 02:30:24
-font family not found in Windows font database
-03/03/2025 - 02:30:25
+24/03/2025 - 09:05:10
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-2_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
-03/03/2025 - 02:30:26
-font family not found in Windows font database
-03/03/2025 - 02:30:26
-font family not found in Windows font database
-03/03/2025 - 02:30:27
+24/03/2025 - 09:05:12
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-3_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
-03/03/2025 - 02:30:27
-font family not found in Windows font database
-03/03/2025 - 02:30:27
-font family not found in Windows font database
-03/03/2025 - 02:30:28
+24/03/2025 - 09:05:13
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-4_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
-03/03/2025 - 02:30:29
-font family not found in Windows font database
-03/03/2025 - 02:30:29
-font family not found in Windows font database
-03/03/2025 - 02:30:30
+24/03/2025 - 09:05:15
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-5_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 Figure 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-6_mass_balance_Multiple_Doses__100_mg_.png' was successfully saved.
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 Table 'tests/Reports/Raltegravir-Mass-Balance/MassBalance/Multiple_Doses__100_mg_-7_mass_balance_Multiple_Doses__100_mg_.csv' was successfully saved.
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 Reports 'tests/Reports/Raltegravir-Mass-Balance/appendix-mass-balance.md' were successfully merged into 'tests/Reports/Raltegravir-Mass-Balance/Report.md'
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 In 'tests/Reports/Raltegravir-Mass-Balance/Report.md', 0 tables and 10 figures were referenced.
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 In 'tests/Reports/Raltegravir-Mass-Balance/Report.md', 5 sections were numbered
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 In 'tests/Reports/Raltegravir-Mass-Balance/Report.md', table of content of 5 lines was included.
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 'tests/Reports/Raltegravir-Mass-Balance/Report.md' already exists. Overwriting 'tests/Reports/Raltegravir-Mass-Balance/Report.md'.
-03/03/2025 - 02:30:31
+24/03/2025 - 09:05:16
 Reports 'temp-report-title.md', 'tests/Reports/Raltegravir-Mass-Balance/Report.md' were successfully merged into 'tests/Reports/Raltegravir-Mass-Balance/Report.md'
