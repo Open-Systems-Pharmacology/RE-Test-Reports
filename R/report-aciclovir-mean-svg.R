@@ -48,6 +48,3 @@ workflow$plotSensitivity$settings$colorPalette <- "turbo"
 
 # Run the workflow
 workflow$runWorkflow()
-
-# Switch back to PNG for next reports
-setDefaultPlotFormat(format = "png")

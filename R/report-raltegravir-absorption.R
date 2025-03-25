@@ -5,6 +5,7 @@
 # Clean environent and (re-)load the ospsuite.reportingengine package
 rm(list=ls())
 library(ospsuite.reportingengine)
+resetRESettingsToDefault()
 
 # Define inputs for workflow
 simulationFile1 <- "Models/Raltegravir-100mg-lactose-formulation.pkml"
