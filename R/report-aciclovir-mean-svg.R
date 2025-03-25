@@ -48,3 +48,5 @@ workflow$plotSensitivity$settings$colorPalette <- "turbo"
 
 # Run the workflow
 workflow$runWorkflow()
+
+resetRESettingsToDefault()
