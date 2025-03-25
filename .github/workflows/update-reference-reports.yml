@@ -20,6 +20,8 @@ on:
         - Test-NO10
         - Test-NO11
         - Test-NO12
+
+permissions: write-all
   
 jobs:
   update-reference-reports:
