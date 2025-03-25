@@ -27,7 +27,7 @@
 
 <a id="figure-1-1"></a>
 
-![](Sensitivity/Aciclovir-1_sensitivity_AUC_tEnd.svg)
+![](Sensitivity/Aciclovir-1_sensitivity_AUC_tEnd.png)
 
 
 
@@ -40,7 +40,7 @@
 
 <a id="figure-1-2"></a>
 
-![](Sensitivity/Aciclovir-2_sensitivity_CL.svg)
+![](Sensitivity/Aciclovir-2_sensitivity_CL.png)
 
 
 
@@ -53,7 +53,7 @@
 
 <a id="figure-1-3"></a>
 
-![](Sensitivity/Aciclovir-3_sensitivity_Vss.svg)
+![](Sensitivity/Aciclovir-3_sensitivity_Vss.png)
 
 
 
@@ -66,7 +66,7 @@
 
 <a id="figure-1-4"></a>
 
-![](Sensitivity/Aciclovir-4_sensitivity_C_max.svg)
+![](Sensitivity/Aciclovir-4_sensitivity_C_max.png)
 
 
 
@@ -114,7 +114,7 @@
 
 <a id="figure-3-1"></a>
 
-![](TimeProfiles/Aciclovir-3_timeProfile_1_total.svg)
+![](TimeProfiles/Aciclovir-3_timeProfile_1_total.png)
 
 
 
@@ -127,7 +127,7 @@
 
 <a id="figure-3-2"></a>
 
-![](TimeProfiles/Aciclovir-4_timeProfileLog_2_total.svg)
+![](TimeProfiles/Aciclovir-4_timeProfileLog_2_total.png)
 
 
 
