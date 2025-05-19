@@ -1,12 +1,4 @@
-
-
-
-
 # Building and evaluation of a PBPK model for propofol in adults
-
-
-
-
 
 | Version                                         | 1.0-OSP11.0                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------ |
@@ -14,16 +6,9 @@
 | OSP Version                                     | 11.0                                                          |
 | Qualification Framework Version                 | 3.0                                                          |
 
-
-
-
-
 This evaluation report and the corresponding PK-Sim project file are filed at:
 
 https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
-
-
-
 
 # Table of Contents
 
@@ -39,12 +24,7 @@ https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
  * [4 Conclusion](#conclusion)
  * [5 References](#references)
 
-
-
-
-
 # 1 Introduction<a id="introduction"></a>
-
 
 The presented model building and evaluation report evaluates the performance of a PBPK model for propofol in adults.
 
@@ -52,22 +32,9 @@ Propofol is an anaesthetic agent used for induction and maintenance of general a
 
 The propofol model is a whole-body PBPK model, allowing for dynamic translation between individuals with organs expressing UGT1A9. The propofol report demonstrates the level of confidence in the propofol PBPK model build with the OSP suite with regard to reliable predictions of propofol PK adults during model-informed drug development.
 
-
-
-
-
-
 # 2 Methods<a id="methods"></a>
 
-
-
-
-
-
-
-
 ## 2.1 Modeling strategy<a id="modeling-strategy"></a>
-
 
 The general concept of building a PBPK model has previously been described by Kuepfer et al. ([Kuepfer 2016](#5-references)). Relevant information on anthropometric (height, weight) and physiological parameters (e.g. blood flows, organ volumes, binding protein concentrations, hematocrit, cardiac output) in adults was gathered from the literature and has been previously published ([Schlender 2016](#5-references)). The information was incorporated into PK-Sim® and was used as default values for the simulations in adults.
 
@@ -79,13 +46,7 @@ A final PBPK model was established and simulations were compared to the reported
 
 During model building, uncertainties in data quality, as well as study differences may cause not being able to adequately describe the PK of all reported clinical studies. 
 
-
-
-
-
-
 ## 2.2 Data used<a id="data"></a>
-
 
 ### 2.2.1 In vitro / physicochemical data
 
@@ -115,13 +76,7 @@ The following publications were used in adults for model building and evaluation
 | [Schnider 1998](#5-references) | Influence of administration rate on propofol plasma-effect site equilibrium |
 | [Struys 2007](#5-references) | The influence of method of administration and covariates on the pharmacokinetics of propofol in adult volunteers |
 
-
-
-
-
-
 ## 2.3 Model parameters and assumptions<a id="model-parameters-and-assumptions"></a>
-
 
 ### 2.3.1 Absorption
 
@@ -156,12 +111,7 @@ Note that the estimated scaling factor f<sub>activity</sub> will be directly imp
 
 Finally, as ~0.3% of the dose is excreted in human urine as unchanged parent compound, GFR is introduced in the propofol PBPK model.
 
-
-
-
-
 # 3 Results and Discussion<a id="results-and-discussion"></a>
-
 
 The PBPK model propofol was developed with clinical pharmacokinetic data after intravenous administration covering a dose range of 1-36mg/kg, including bolus infusion as well as continuous infusion clinical data. 
 
@@ -174,19 +124,9 @@ The mean model fit resulted in an adequate description of all data, that showed 
 
 Overall, the model results show that the PBPK model of propofol adequately described the data for all available doses.
 
-
-
-
-
-
 ## 3.1 Propofol final input parameters<a id="final-input-parameters"></a>
 
-
 The compound parameter values of the final propofol PBPK model are illustrated below.
-
-
-
-
 
 ### Compound: Propofol
 
@@ -202,14 +142,12 @@ Is small molecule                          | Yes                    |           
 Molecular weight                           | 178.2707 g/mol         | Internet-Drugbank.ca                                            |             |        
 Plasma protein binding partner             | Albumin                |                                                                 |             |        
 
-
 #### Calculation methods
 
 Name                    | Value          
 ----------------------- | ---------------
 Partition coefficients  | PK-Sim Standard
 Cellular permeabilities | PK-Sim Standard
-
 
 #### Processes
 
@@ -222,7 +160,6 @@ Species: Human
 Name         | Value | Value Origin               
 ------------ | -----:| ---------------------------
 GFR fraction |     1 | Publication-Al-Jahdari 2005
-
 
 ##### Metabolizing Enzyme: UGT1A9-Al-Jahdari 2006 Liver
 
@@ -239,7 +176,6 @@ Content of CYP proteins in liver microsomes | 25.9 pmol/mg mic. protein    | Pub
 Km                                          | 0.12 mM                      | Publication-In Vitro-Al-Jahdari 2006 HLM (corrected for fu, mic)
 kcat                                        | 471.8406263631 1/min         | Parameter Identification                                        
 
-
 ##### Metabolizing Enzyme: CYP2B6-Cumulative CYP Action
 
 Molecule: CYP2B6
@@ -253,23 +189,13 @@ Content of CYP proteins in liver microsomes | 39 pmol/mg mic. protein       | Pu
 Km                                          | 0.0072 mM                     | Publication-Al-Jahdari 2005 HLM (corrected for fu,mic)
 kcat                                        | 141.007756417 1/min           | Parameter Identification                              
 
-
-
-
-
-
-
 ## 3.2 Propofol Diagnostics Plots<a id="diagnostics-plots"></a>
 
-
 Below you find the goodness-of-fit visual diagnostic plots for propofol PBPK model performance (individually simulated versus observed plasma concentration and weighted residuals versus time, including the geometric mean fold error (GMFE)) of all data used for model building.
-
-
 
 <a id="table-3-1"></a>
 
 **Table 3-1: GMFE for Goodness of fit plot for concentration in plasma.**
-
 
 |Group                                   |GMFE |
 |:---------------------------------------|:----|
@@ -278,350 +204,236 @@ Below you find the goodness-of-fit visual diagnostic plots for propofol PBPK mod
 |Propofol continuous IV infusion         |1.29 |
 |All                                     |1.57 |
 
-
 <br>
 <br>
-
 
 <a id="figure-3-1"></a>
 
 ![](images/006_section_results-and-discussion/008_section_diagnostics-plots/2_gof_plot_predictedVsObserved.png)
 
-
-
 **Figure 3-1: Goodness of fit plot for concentration in plasma.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-2"></a>
 
 ![](images/006_section_results-and-discussion/008_section_diagnostics-plots/3_gof_plot_residualsOverTime.png)
 
-
-
 **Figure 3-2: Goodness of fit plot for concentration in plasma.**
 
-
 <br>
 <br>
-
-
-
-
 
 ## 3.3 Propofol Concentration-Time profiles<a id="ct-profiles-model-building"></a>
 
-
 Simulated versus observed plasma concentration-time profiles of all data are listed below.
-
-
 
 <a id="figure-3-3"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/1_time_profile_plot_Propofol_Gepts_1987_12mg_kg.png)
 
-
-
 **Figure 3-3: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-4"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/2_time_profile_plot_Propofol_Gepts_1987_12mg_kg.png)
 
-
-
 **Figure 3-4: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-5"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/3_time_profile_plot_Propofol_Gepts_1987_18mg_kg.png)
 
-
-
 **Figure 3-5: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-6"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/4_time_profile_plot_Propofol_Gepts_1987_18mg_kg.png)
 
-
-
 **Figure 3-6: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-7"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/5_time_profile_plot_Propofol_Gepts_1987_36mg_kg.png)
 
-
-
 **Figure 3-7: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-8"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/6_time_profile_plot_Propofol_Gepts_1987_36mg_kg.png)
 
-
-
 **Figure 3-8: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-9"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/7_time_profile_plot_Propofol_Gepts_1987_6mg_kg.png)
 
-
-
 **Figure 3-9: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-10"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/8_time_profile_plot_Propofol_Gepts_1987_6mg_kg.png)
 
-
-
 **Figure 3-10: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-11"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/9_time_profile_plot_Propofol_Schnider_1998_1mg_25ug.png)
 
-
-
 **Figure 3-11: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-12"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/10_time_profile_plot_Propofol_Schnider_1998_1mg_25ug.png)
 
-
-
 **Figure 3-12: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-13"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/11_time_profile_plot_Propofol_Schnider_1998_1mg_50ug.png)
 
-
-
 **Figure 3-13: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-14"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/12_time_profile_plot_Propofol_Schnider_1998_1mg_50ug.png)
 
-
-
 **Figure 3-14: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-15"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/13_time_profile_plot_Propofol_Schnider_1998_2mg_25ug.png)
 
-
-
 **Figure 3-15: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-16"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/14_time_profile_plot_Propofol_Schnider_1998_2mg_25ug.png)
 
-
-
 **Figure 3-16: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-17"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/15_time_profile_plot_Propofol_Schnider_1998_2mg_50ug.png)
 
-
-
 **Figure 3-17: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-18"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/16_time_profile_plot_Propofol_Schnider_1998_2mg_50ug.png)
 
-
-
 **Figure 3-18: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-19"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/17_time_profile_plot_Propofol_Schnider_1998_2mg_100ug.png)
 
-
-
 **Figure 3-19: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-20"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/18_time_profile_plot_Propofol_Schnider_1998_2mg_100ug.png)
 
-
-
 **Figure 3-20: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-21"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/19_time_profile_plot_Propofol_Schnider_1998_2mg_200ug.png)
 
-
-
 **Figure 3-21: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-22"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/20_time_profile_plot_Propofol_Schnider_1998_2mg_200ug.png)
 
-
-
 **Figure 3-22: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-23"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/21_time_profile_plot_Propofol_Struys_2007_Bolus_Study.png)
 
-
-
 **Figure 3-23: Time Profile Analysis**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-24"></a>
 
 ![](images/006_section_results-and-discussion/009_section_ct-profiles-model-building/22_time_profile_plot_Propofol_Struys_2007_Bolus_Study.png)
 
-
-
 **Figure 3-24: Time Profile Analysis 1**
 
-
 <br>
 <br>
-
-
-
-
 
 # 4 Conclusion<a id="conclusion"></a>
-
 
 The final propofol PBPK model applies metabolism by UGT1A9,  CYP2B6 and glomerular filtration and adequately describes the pharmacokinetics of propofol in adults receiving intravenous bolus and continuous infusion of propofol ranging from 1 mg/kg to 36 mg/kg. 
 
 This model could be applied for the investigation of drug-drug interactions (DDI), and translation to special populations such as pediatrics with regard to UGT1A1 and CYP2B6 metabolism.
 
-
-
-
-
-
 # 5 References<a id="references"></a>
-
 
 **Al-Jahdari 2006** Al-Jahdari WS, Yamamoto K, Hiraoka H, Nakamura K, Goto F, Horiuchi R. Prediction of total propofol clearance based on enzyme activities in microsomes from human kidney and liver. Eur J Clin Pharmacol. 2006 Jul;62(7):527-33. doi: 10.1007/s00228-006-0130-2. Epub 2006 Jun 9.
 
@@ -656,6 +468,4 @@ This model could be applied for the investigation of drug-drug interactions (DDI
 **Struys 2007** Struys MMRF, Coppens MJ, De Neve N, Mortier EP, Doufas AG, Van Bocxlaer JFP, Shafer SL. Anesthesiology. 2007 Sep;107(3):386-96. doi: 10.1097/01.anes.0000278902.15505.f8.
 
 **Takizawa 2005** Takizawa D, Hiraoka H, Goto F, Yamamoto K, Horiuchi R. Human kidneys play an important role in the elimination of propofol. Anesthesiology. 2005 Feb;102(2):327-30. doi: 10.1097/00000542-200502000-00014.
-
-
 

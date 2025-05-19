@@ -1,23 +1,13 @@
-
-
-
-
 # Qualification of HI Populations
-
-
 
 | Version                                         | 1.0-OSP11.0                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------ |
 | OSP Version                                     | 11.0                                                          |
 | Qualification Framework Version                 | 3.0                                                          |
 
-
-
 This qualification report and the corresponding PK-Sim project file are filed at:
 
 https://github.com/Open-Systems-Pharmacology/Qualification-HI
-
-
 
 # Table of Contents
 
@@ -47,12 +37,7 @@ https://github.com/Open-Systems-Pharmacology/Qualification-HI
      * [3.7.2 Lidocaine in a HI Population - IV](#lidocaine_hi)
  * [4 References](#undefined-section-25)
 
-
-
-
-
 # 1 Introduction<a id="undefined-section-1"></a>
-
 
 The presented qualification report performs simulations of drug disposition and pharmacokinetics in subjects with hepatic impairment (HI) to qualify the parameterization of the foundational anatomy and physiology parameters for virtual populations with HI in the Open Systems Pharmacology (OSP) Suite.
 
@@ -72,12 +57,7 @@ Quantitative anatomical and physiological changes observed in hepatically impair
 
 This report builds upon the work by Edginton and Willmann (1) and Johnson, Boussery (2) to qualify the parameterization of a HI population implemented in PK-Sim. Section 2 describes the generation of HI populations. Section 3 evaluates the predicted effects of HI on the pharmacokinetics of eight compounds: alfentanil, levetiractam, metoprolol, midazolam, omeprazole, sildenafil, theophylline and lidocaine. Evaluation for each compound is split into two steps: an initial model calibration against a healthy population, followed by an extension to populations of subjects with relevant severities of HI.
 
-
-
-
-
 # 2 HI Population Development<a id="undefined-section-2"></a>
-
 
 HI population development followed the physiological scaling methods by Edginton and Willmann (1) and Johnson, Boussery (2) and the set of modified parameters are presented in [Table 2](#table_2). The values for each Child-Pugh score and parameter are considered "disease factors", which are multiplied by a healthy adult to produce the HI state.
 
@@ -105,16 +85,13 @@ HI population development followed the physiological scaling methods by Edginton
 | Hepatic intrinsic CL: CYP2D6                  | 0.76             | 0.33             | 0.11             |
 | Glomerular filtration rate (GFR)              | 1                | 0.7              | 0.36             |
 
-
 *Values from Edginton and Willmann (1); however, this evaluation report uses the method presented in [https://github.com/Open-Systems-Pharmacology/Forum/discussions/1341](https://github.com/Open-Systems-Pharmacology/Forum/discussions/1341), and thus the "other organs" blood flow varies slightly across individuals.
 
 ## Blood flow scaling
 
 Portal, hepatic arterial, and renal blood flows were scaled according to the scaling factor reported for each Child-Pugh severity ([Table 2](#table_2)). All three blood flow processes were adjusted in PK-Sim by defining Individual > Anatomy & Physiology > Physiology > Flow Rates > Blood flow rates. For portal blood flow, the Portal Vein specific blood flow rate times the disease factor. Hepatic arterial blood flow was adjusted from applying the functional liver mass disease factor (Anatomy > Organ Volumes > Liver) and adjusting the specific blood flow rate of the liver to attain the result of applying the hepatic arterial disease factor to liver blood flow rate. To account for the increase in hepatic arterial blood flow, scaling factors were applied to reach the absolute blood flow values (L/min) for a typical male as done by Johnson, Boussery (2). 
 
-
 Renal blood flow was adjusted via application of the disease factor to kidney specific blood flow rate. The blood flow of other organs was adjusted based on the cardiac index, defined as cardiac output divided by body surface area, reported in Table 2. The methods reported in [https://github.com/Open-Systems-Pharmacology/Forum/discussions/1341](https://github.com/Open-Systems-Pharmacology/Forum/discussions/1341) were applied with the following equation:
-
 
 ```
 Disease Factorcardiac index = (Qother x Disease Factorother + Qrest x Disease Factorrest + Qbrain)/ (Qother + Qrest + Qbrain)
@@ -134,12 +111,7 @@ Reduction in an enzyme’s specific clearance was attributed to decreased fracti
 
 The disease factor ([Table 2](#table_2) was applied to Glomerular filtration within the individual building block (Individual > Physiology> GFR (Specific). 
 
-
-
-
-
 # 3 Compounds<a id="undefined-section-3"></a>
-
 
 The method to generate virtual populations with HI was qualified by testing its predictive performance when used in combination with PBPK models for healthy subjects in order to predict the pharmacokinetics of drugs in patients with HI from literature.
 
@@ -147,12 +119,7 @@ The method was evaluated using eight compounds and considers subjects with HI wi
 
 Each subsection that follows will contain an introduction to the test compound, a description of the healthy PBPK model development, and the subsequent translation to a population with HI.
 
-
-
-
-
 ## 3.1 Alfentanil<a id="undefined-section-4"></a>
-
 
 Alfentanil is a potent, synthetic opioid used to provide analgesia for various surgical procedures and in patients admitted within intensive care units. Alfentanil is typically administered intravenously and offers several advantages to alternative analgesics due to its potency at the opioid receptor and quick onset of effect (3).
 
@@ -170,15 +137,9 @@ In this section, the general ADME ([Table 3](#table_3)), the healthy PBPK model 
 | Metabolism         | Metabolized exclusively by CYP3A4 (8) |
 | Clearance          | Not a substrate for P-gp (9). IV: 14.3 L/h (6). |
 
-
 The alfentanil healthy PBPK model was based on the development by Hanke, Frechen (5) with an application of CYP3A4 metabolism and glomerular filtration. The model developed in healthy adults serves as the foundation when applying physiological changes endured with hepatic impairment to simulate the pharmacokinetics of alfentanil across the disease spectrum. 
 
-
-
-
-
 ### 3.1.1 Alfentanil in a Healthy Population - IV<a id="alfentanil_healthy"></a>
-
 
 Alfentanil physicochemical properties and ADME parameters were incorporated from the model developed by Hanke et al. [5] [Table 4](#table_4) presents the drug specific parameters of alfentanil and the values used within the healthy adult intravenous model.
 
@@ -200,12 +161,7 @@ The healthy PBPK model development was based on eight single dose IV PK studies 
 | CYP3A4 specific clearance                  | 0.34 1/min |
 | GFR fraction                               | 0.06 |
 
-
-
-
-
 ### 3.1.2 Alfentanil in a HI Population - IV<a id="alfentanil_hi"></a>
-
 
 Levetiracetam is an antiepileptic used for the treatment of patients with partial seizures, with or without secondary generalization (11, 12). The mechanism of antiseizure activity has not been fully elucidated, however animal models have shown that levetiracetam binds to synaptic vesicle proteins SV2A modulating neurotransmitter release (13). 
 
@@ -220,41 +176,27 @@ In this section, the general ADME (Table 6.), the healthy PBPK model source, and
 | Ferrier, Marty (10) | 0.05 mg/kg IV bolus	| HI population: European with estimated Child-Pugh B and C based on reported information (plasma albumin concentrations and total bilirubin)   (45% female, n = 11) | 	56 [39-69]	| 60 [43-73] | 
 |Ferrier, Marty (10) | 0.05 mg/kg IV bolus | Control population: European (n = 10)	| 45 [24-66] | 59 [34-84] |
 
-
 Simulated pharmacokinetics of alfentanil after a single IV bolus dose of 0.05 mg/kg in Child-Pugh B and Child-Pugh C are presented in Figure 3.1 and 3.2, respectively. Simulations of the average healthy control are included in each figure for visualization. 
-
 
 <a id="figure-3-1"></a>
 
 ![](images/003_section_undefined-section-3/004_section_undefined-section-4/006_section_Alfentanil_HI/1_time_profile_plot_Alfentanil_Ferrier1985_Child_Pugh_B.png)
 
-
-
 **Figure 3-1: Ferrier 1985, Alfentanil IV 0.05 mg/kg: Simulation of the pharmacokinetics of alfentanil after a single intravenous bolus dose of 0.05 mg/kg in patients with hepatic impairment classified as Child-Pugh score B. Observed data (circles) presented as mean and standard deviation from the study by Ferrier et al [10].**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-2"></a>
 
 ![](images/003_section_undefined-section-3/004_section_undefined-section-4/006_section_Alfentanil_HI/2_time_profile_plot_Alfentanil_Ferrier1985_Child_Pugh_C.png)
 
-
-
 **Figure 3-2: Ferrier 1985, Alfentanil IV 0.05 mg/kg: Simulation of the pharmacokinetics of alfentanil after a single intravenous bolus dose of 0.05 mg/kg in patients with hepatic impairment classified as Child-Pugh score C. Observed data (circles) presented as mean and standard deviation from the study by Ferrier et al [10].**
 
-
 <br>
 <br>
-
-
-
-
 
 ## 3.2 Levetiracetam<a id="undefined-section-7"></a>
-
 
 Levetiracetam is an antiepileptic used for the treatment of patients with partial seizures, with or without secondary generalization (11, 12). The mechanism of antiseizure activity has not been fully elucidated, however animal models have shown that levetiracetam binds to synaptic vesicle proteins SV2A modulating neurotransmitter release (13). 
 
@@ -274,12 +216,7 @@ In this section, the general ADME ([Table 6](#table_6)), the healthy PBPK model 
 
 The levetiracetam healthy PBPK model was based on the development by Sinha, Karatza (11) with an application of esterase activity in blood and glomerular filtration. The model developed in healthy adults serves as the foundation when applying physiological changes endured with hepatic impairment to simulate the pharmacokinetics of levetiracetam across the disease spectrum. 
 
-
-
-
-
 ### 3.2.1 Levetiracetam in a Healthy Population - Oral<a id="levetiracetam_healthy"></a>
-
 
 Levetiracetam physicochemical properties and ADME parameters were incorporated from the model developed by Sinha, Karatza (14). [Table 7](#table_7) presents the drug specific parameters of levetiracetam and the values used within the healthy adult model.
 
@@ -306,12 +243,7 @@ The healthy PBPK model development was based on two single dose IV PK studies (1
 | Formulation: Tablet T<sub>50%</sub>, T<sub>90%</sub>, T<sub>100%</sub> | 5 min, 10 min, 15 min |
 T<sub>50%</sub>, T<sub>90%</sub>, T<sub>100%</sub>: Time to dissolve 50%, 90%, and 100% tablet strength (14).
 
-
-
-
-
 ### 3.2.2 Levetiracetam in a HI Population - Oral<a id="levetiracetam_hi"></a>
-
 
 With the drug-specific parameters fixed, the healthy PBPK model was translated to a HI-PBPK model. Stages of HI used within the simulations were defined by the Child-Pugh Score. A population with Child-Pugh A, B and C was created according to the patient demographics of the population enrolled in the studies by Brockmöller, Thomsen (18) ([Table 8](#table_8)).
 
@@ -325,51 +257,34 @@ With the drug-specific parameters fixed, the healthy PBPK model was translated t
 
 Simulated population HI-PBPK models of levetiracetam administered as 1000 mg oral single dose in patients with Child-Pugh A, B, C are presented in Figure 3.3,  3.4 and 3.5. 
 
-
 <a id="figure-3-3"></a>
 
 ![](images/003_section_undefined-section-3/007_section_undefined-section-7/009_section_Levetiracetam_HI/3_time_profile_plot_Levetiracetam_Brockmoller2005_CPA_Population.png)
 
-
-
 **Figure 3-3: Brockmoller 2005, Levetiracetam PO 1000mg: Simulation of the pharmacokinetics of levetiracetam after a single oral dose of 1000 mg in patients with hepatic impairment classified as Child-Pugh score A. Observed data (circles) presented as the individual concentration time profiles of participants enrolled in the study by Brockmoller et al (18). The solid line represents the arithmetic mean and the shaded region represents the 5th-95th percentile of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-4"></a>
 
 ![](images/003_section_undefined-section-3/007_section_undefined-section-7/009_section_Levetiracetam_HI/4_time_profile_plot_Levetiracetam_Brockmoller2005_CPB_Population.png)
 
-
-
 **Figure 3-4: Brockmoller 2005, Levetiracetam PO 1000mg: Simulation of the pharmacokinetics of levetiracetam after a single oral dose of 1000 mg in patients with hepatic impairment classified as Child-Pugh score B. Observed data (circles) presented as the individual concentration time profiles of participants enrolled in the study by Brockmoller et al (18). The solid line represents the arithmetic mean and the shaded region represents the 5th-95th percentile of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-5"></a>
 
 ![](images/003_section_undefined-section-3/007_section_undefined-section-7/009_section_Levetiracetam_HI/5_time_profile_plot_Levetiracetam_Brockmoller2005_CPC_Population.png)
 
-
-
 **Figure 3-5: Brockmoller 2005, Levetiracetam PO 1000mg: Simulation of the pharmacokinetics of levetiracetam after a single oral dose of 1000 mg in patients with hepatic impairment classified as Child-Pugh score C. Observed data (circles) presented as the individual concentration time profiles of participants enrolled in the study by Brockmoller et al (18). The solid line represents the arithmetic mean and the shaded region represents the 5th-95th percentile of the hepatic impairment population.**
 
-
 <br>
 <br>
-
-
-
-
 
 ## 3.3 Metoprolol<a id="undefined-section-10"></a>
-
 
 Metoprolol is a cardioselective beta-1-adregenic receptor inhibitor that competitively inhibits beta1-receptors specific to cardiac cells. It is approved for the treatment of angina, heart failure, myocardial infarction, atrial fibrillation/flutter, and hypertension. 
 
@@ -389,12 +304,7 @@ In this section, the general ADME ([Table 9](#table_9)), the healthy PBPK model 
 
 The metoprolol healthy PBPK model was based on the development by Rüdesheim, Wojtyniak (20) with an application of CYP2D6 metabolism and glomerular filtration. The model developed in healthy adults serves as the foundation when applying physiological changes endured with hepatic impairment to simulate the pharmacokinetics of metoprolol across the disease spectrum. 
 
-
-
-
-
 ### 3.3.1 Metoprolol in a Healthy Population<a id="metoprolol_healthy"></a>
-
 
 #### IV model
 
@@ -431,20 +341,13 @@ The healthy PBPK model development was based on multiple IV PK studies described
 
 The healthy PBPK model development was based on multiple oral PK studies described in the metoprolol report (19) and Rüdesheim, Wojtyniak (20).  Absorption parameters in the oral model included metoprolol tartrate tablet described by a Weibull distribution with dissolution half-time of 12.31 min and shape 0.72. 
 
-
-
-
-
 ### 3.3.2 Metoprolol in a HI Population<a id="metoprolol_hi"></a>
-
 
 #### IV model
 
 With the drug-specific parameters fixed, the healthy PBPK model was translated to a HI-PBPK model. Stages of HI used within the simulations were defined by the Child-Pugh Score. A population with Child-Pugh B and C were created according to the patient demographics of the population enrolled in the study by Regårdh, Jordö (24) ([Table 11](#table_11)). 
 
 Child-Pugh prognostication was not documented within this study, and limited clinical variables were reported to fully assess Child-Pugh status. Based on the clinical variables that were reported (i.e., total bilirubin, albumin), the study population likely consisted of patients being classified as Child-Pugh A and B. Therefore, the population HI-PBPK model simulations for both intravenous and oral consisted of Child-Pugh A and B. Additionally, predicted AUC∞ was compared to observed AUC∞ ([Table 12](#table_12)).
-
-
 
 **Table 11. Pharmacokinetic data sets used for evaluation of the metoprolol HI-PBPK model.** <a id="table_11">
 
@@ -468,38 +371,25 @@ Child-Pugh prognostication was not documented within this study, and limited cli
 | Child-Pugh A |4937.36 ± 2733.19 |5347 ± 1236 | 0.92 |
 | Child-Pugh B | 7652.99 ± 3913.61 |5347 ± 1236 | 1.43 |
 
-
 <a id="figure-3-6"></a>
 
 ![](images/003_section_undefined-section-3/010_section_undefined-section-10/012_section_Metoprolol_HI/6_time_profile_plot_Metoprolol_Regardh1981_CPA_PO_Population.png)
 
-
-
 **Figure 3-6: Regardh 1981, Metoprolol tartrate PO 50mg: Simulation of the pharmacokinetics of metoprolol tartrate after a single oral dose of 50 mg in patients with hepatic impairment classified as Child-Pugh score A. Observed data (circles) presented as the mean concentration time profiles with standard deviation of participants enrolled in the study by Regårdh, Jordö (24). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-7"></a>
 
 ![](images/003_section_undefined-section-3/010_section_undefined-section-10/012_section_Metoprolol_HI/7_time_profile_plot_Metoprolol_Regardh1981_CPB_PO_Population.png)
 
-
-
 **Figure 3-7: Regardh 1981, Metoprolol tartrate PO 50mg: Simulation of the pharmacokinetics of metoprolol tartrate after a single oral dose of 50 mg in patients with hepatic impairment classified as Child-Pugh score B. Observed data (circles) presented as the mean concentration time profiles with standard deviation of participants enrolled in the study by Regårdh, Jordö (24). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
-
-
-
 
 ## 3.4 Midazolam<a id="undefined-section-13"></a>
-
 
 Midazolam is a benzodiazepine used to induce drowsiness and anxiety relief before surgery and certain procedures. The drug is also indicated for the management of acute seizures. Midazolam acts through increasing the activity of GABA to produce sedative effects.
 
@@ -519,17 +409,11 @@ In this section, the general ADME ([Table 13](#table_13)), the healthy PBPK mode
 
 The midazolam healthy PBPK model was based on the development by Hanke, Frechen (5) with an application of CYP3A4 and UGT1A4 metabolism and glomerular filtration. The model developed in healthy adults serves as the foundation when applying physiological changes endured with hepatic impairment to simulate the pharmacokinetics of midazolam across the disease spectrum. 
 
-
-
-
-
 ### 3.4.1 Midazolam in a Healthy Population – IV/PO<a id="midazolam_healthy"></a>
-
 
 Midazolam physicochemical properties and ADME parameters were incorporated from the model developed by Hanke, Frechen (5). Table 14. presents the drug specific parameters of midazolam and the values used within the healthy adult model.
 
 The healthy PBPK model development by Hanke, Frechen (5) was based on PK studies by Hohmann, Kocheise (28), Hyland, Osborne (29), and Thummel, O'Shea (30).    .    
-
 
 **Table 14. Physicochemical properties and ADME of Midazolam for the final model**
 
@@ -559,12 +443,7 @@ The healthy PBPK model development by Hanke, Frechen (5) was based on PK studies
 | Lag time | 0 min |
 | Dissolution shape | 4.38  |
 
-
-
-
-
 ### 3.4.2 Midazolam in a HI Population<a id="midazolam_hi"></a>
-
 
 #### IV model
 
@@ -577,7 +456,6 @@ Drug specific parameters were fixed within from the healthy midazolam PBPK model
 |--|--|--|--|--|
 |MacGilchrist, Birnie (31)| 0.075 mg/kg IV bolus	| N= 7 patients with liver cirrhosis	| 39-54	| 71.3±4.3
 
-
 Simulated population HI-PBPK models of intravenous midazolam administered to patients with Child-Pugh A-B within the study by MacGilchrist, Birnie (31) are presented in Figure 3.8 - Figure 3.10. Evaluation of pharmacokinetic parameters may be found in [Table 16](#table_16). 
 
 **Table 16. Evaluation of midazolam IV HI-PBPK model-predicted vs observed PK parameters from Macgilchrist, Birnie (42)** <a id="table_16">
@@ -589,7 +467,6 @@ Simulated population HI-PBPK models of intravenous midazolam administered to pat
 | Child-Pugh B | 2.38±1.69 | 5.4±1.0 | 0.44 | 5.94±4.14 | 3.9±0.8 | 1.52  |
 | Child-Pugh C | 2.33±1.72 | 5.4±1.0 | 0.34 | 5.95±4.11 | 3.9±0.8 | 1.53 |
 
-
 #### Pentikainen et al. 
 
 Similarly, a population HI-PBPK model was developed and evaluated against observed data from the pharmacokinetic study conducted by Pentikäinen, Välisalmi (32). Those with cirrhosis within this study were not prognosticated using the Child-Pugh classification criteria. As a result, estimations were made based on the report clinical characteristics (i.e., total bilirubin, albumin and presence/absence of ascites). Patients within this study were likely classified as Child-Pugh B or C using the aforementioned clinical characteristics alone. As a result, population HI-PBPK simulations of midazolam were conducted for both Child-Pugh B and Child-Pugh C. Additionally, predicted AUC∞ and clearance (mL/min/kg) were compared against the observed values from patients within the study. Study participants demographics used for creation of the population HI-PBPK simulations may be found in [Table 17](#table_17). 
@@ -599,7 +476,6 @@ Similarly, a population HI-PBPK model was developed and evaluated against observ
 | Study | Dose and administration | Cohort (sample size) | Age (years) | Weight (kg)
 |--|--|--|--|--|
 | Pentikäinen, Välisalmi (32) | 7.5 mg IV bolus | N= 7 patients with liver cirrhosis | 48 ± 13.9 [30-67] | 85.1 ± 12.2 [71-108] | 
-
 
 Simulated population HI-PBPK models of intravenous midazolam administered to patients with Child-Pugh B and C in the study by Pentikäinen, Välisalmi (32) are presented in Figure 3.11 -Figure 3.12 Evaluation of PK parameters are found in [Table 18](#table_18). 
 
@@ -626,108 +502,74 @@ Additionally, model evaluation was assessed by determining the fold-error betwee
 | Child-Pugh B | 1070.64±614.33 | 576±89 | 1.86 | 102.46±68.97 | 129±24 | 0.79 |
 | Child-Pugh C | 1039.23±637.71 | 576±89 | 1.80 | 115.14±69.33 | 129±24 | 0.89 |
 
-
 <a id="figure-3-8"></a>
 
 ![](images/003_section_undefined-section-3/013_section_undefined-section-13/015_section_Midazolam_HI/8_time_profile_plot_Midazolam_Macgilchrist1986_CPA_Population.png)
 
-
-
 **Figure 3-8: Macgilchrist 1986, Midazolam IV 0.075 mg/kg: Simulation of the pharmacokinetics of midazolam after a single intravenous dose of 0.075 mg/kg in patients with hepatic impairment classified as Child-Pugh score A. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by MacGilchrist, Birnie (31). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-9"></a>
 
 ![](images/003_section_undefined-section-3/013_section_undefined-section-13/015_section_Midazolam_HI/9_time_profile_plot_Midazolam_Macgilchrist1986_CPB_Population.png)
 
-
-
 **Figure 3-9: Macgilchrist 1986, Midazolam IV 0.075 mg/kg: Simulation of the pharmacokinetics of midazolam after a single intravenous dose of 0.075 mg/kg in patients with hepatic impairment classified as Child-Pugh score B. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by MacGilchrist, Birnie (31). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-10"></a>
 
 ![](images/003_section_undefined-section-3/013_section_undefined-section-13/015_section_Midazolam_HI/10_time_profile_plot_Midazolam_Macgilchrist1986_CPC_Population.png)
 
-
-
 **Figure 3-10: Macgilchrist 1986, Midazolam IV 0.075 mg/kg: Simulation of the pharmacokinetics of midazolam after a single intravenous dose of 0.075 mg/kg in patients with hepatic impairment classified as Child-Pugh score C. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by MacGilchrist, Birnie (31). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-11"></a>
 
 ![](images/003_section_undefined-section-3/013_section_undefined-section-13/015_section_Midazolam_HI/11_time_profile_plot_Midazolam_Pentikainen1989_IV_CPB_Population.png)
 
-
-
 **Figure 3-11: Pentikainen 1989, Midazolam IV 7.5 mg: Simulation of the pharmacokinetics of midazolam after a single intravenous dose of 7.5 mg in patients with hepatic impairment classified as Child-Pugh score B. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Pentikäinen, Välisalmi (32). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-12"></a>
 
 ![](images/003_section_undefined-section-3/013_section_undefined-section-13/015_section_Midazolam_HI/12_time_profile_plot_Midazolam_Pentikainen1989_IV_CPC_Population.png)
 
-
-
 **Figure 3-12: Pentikainen 1989, Midazolam IV 7.5 mg: Simulation of the pharmacokinetics of midazolam after a single intravenous dose of 7.5 mg in patients with hepatic impairment classified as Child-Pugh score C. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Pentikäinen, Välisalmi (32). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-13"></a>
 
 ![](images/003_section_undefined-section-3/013_section_undefined-section-13/015_section_Midazolam_HI/13_time_profile_plot_Midazolam_Pentikanen1889_PO_CPB_Population.png)
 
-
-
 **Figure 3-13: Pentikainen 1989, Midazolam PO 15 mg: Simulation of the pharmacokinetics of midazolam after a single oral dose of 15 mg in patients with hepatic impairment classified as Child-Pugh score B. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Pentikäinen, Välisalmi (32). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-14"></a>
 
 ![](images/003_section_undefined-section-3/013_section_undefined-section-13/015_section_Midazolam_HI/14_time_profile_plot_Midazolam_Pentikanen1889_PO_CPC_Population.png)
 
-
-
 **Figure 3-14: Pentikainen 1989, Midazolam PO 15 mg: Simulation of the pharmacokinetics of midazolam after a single oral dose of 15 mg in patients with hepatic impairment classified as Child-Pugh score C. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Pentikäinen, Välisalmi (32). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
-
-
-
 
 ## 3.5 Sildenafil<a id="undefined-section-16"></a>
-
 
 Sildenafil is a phosphodiesterase 5 (PDE5) inhibitor, approved for use in the treatment of erectile dysfunction and pulmonary hypertension. It exhibits its vasodilatory effects by promoting the accumulation of intracellular cGMP, resulting in the enhancement of nitric-oxide mediated vasodilation (33, 34).
 
 In this section, the general ADME [Table 20](#table_20), the healthy PBPK model source, and translation to a population with HI for sildenafil are described.
-
 
 **Table 20. General ADME of sildenafil (35, 36)** <a id="table_20">
 
@@ -741,15 +583,9 @@ In this section, the general ADME [Table 20](#table_20), the healthy PBPK model 
 | Metabolism | CYP3A4, CYP2C9 and CYP2C19 |
 | Clearance | 40.8 L/h (35) |
 
-
 The sildenafil healthy PBPK model was based on the development by Open Systems Pharmacology (37)  with an application of CYP3A4, CYP2C9 and CYP2C19 mediated clearance. The model developed in healthy adults serves as the foundation when applying physiological changes endured with hepatic impairment to simulate the pharmacokinetics of sildenafil across the disease spectrum. 
 
-
-
-
-
 ### 3.5.1 Sildenafil in a Healthy Population - PO<a id="sildenafil_healthy"></a>
-
 
 Sildenafil physicochemical properties and ADME parameters were incorporated from the model developed by Open-System Pharmacology (37). [Table 21](#table_21). presents the drug specific parameters of sildenafil and the values used within the healthy adult model.
 
@@ -784,12 +620,7 @@ The clinical data used to develop the sildenafil PBPK model may be found within 
 | Lag time | 0 min |
 | Dissolution shape | 1.37 |
 
-
-
-
-
 ### 3.5.2 Sildenafil in a HI Population - PO<a id="sildenafil_hi"></a>
-
 
 Sildenafil was included within the HI-PBPK model evaluation as a representative substrate of CYP219, CYP2C9, along with CYP3A4. The healthy model as developed by OSP (37) was altered with physiological parameters seen with liver disease. The population HI-PBPK model was evaluated with the pharmacokinetic study conducted by Muirhead, Wilner (38). This study included participants with biopsy confirmed hepatic cirrhosis, classified with Child-Pugh A and B. Twelve participants were enrolled within the pharmacokinetic analysis, 7 being Child-Pugh A and 5 being Child-Pugh B. Study participant demographics used for the population simulations may be found in [Table 22](#table_22). 
 
@@ -798,7 +629,6 @@ Sildenafil was included within the HI-PBPK model evaluation as a representative 
 | Study | Dose and administration | Cohort (sample size) | Age (years) | Weight (kg) |
 |--|--|--|--|--|
 | Muirhead, Wilner (38) | 50 mg by mouth as a single dose | N= 12 patients with liver cirrhosis Child-Pugh A: 7/12 Child-Pugh B: 5/12 | 32-63 | NR
-
 
 The developed sildenafil population HI-PBPK model was assessed against the average concentration-time profiles of study participants. Model simulations for Child-Pugh A and Child-Pugh B may be found in Figure 3.15 and Figure 3.16, respectively. Additionally, predicted versus observed AUC∞ and Cmax was evaluated. These results, along with the evaluations for control subjects may be found in [Table 23](#table_23). 
 
@@ -810,43 +640,29 @@ The developed sildenafil population HI-PBPK model was assessed against the avera
 | Child-Pugh A | 1661.52±624.36 | 1225±296 | 1.35 | 218.74±80.64 | 228±131 | 0.93 |
 | Child-Pugh B | 3597.18±1379.66 | 1225±296 | 2.93 | 351.58±140.83 | 228±131 | 1.54 |
 
-
 <a id="figure-3-15"></a>
 
 ![](images/003_section_undefined-section-3/016_section_undefined-section-16/018_section_Sildenafil_HI/15_time_profile_plot_Sildenafil_Muirhead2002_CPA_Population.png)
 
-
-
 **Figure 3-15: Muirhead 2002, Sildenafil PO 50 mg: Simulation of the pharmacokinetics of sildenafil after a single oral dose of 50 mg in patients with hepatic impairment classified as Child-Pugh score A. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Muirhead, Wilner (38). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-16"></a>
 
 ![](images/003_section_undefined-section-3/016_section_undefined-section-16/018_section_Sildenafil_HI/16_time_profile_plot_Sildenafil_Muirhead2002_CPB_Population.png)
 
-
-
 **Figure 3-16: Muirhead 2002, Sildenafil PO 50 mg: Simulation of the pharmacokinetics of sildenafil after a single oral dose of 50 mg in patients with hepatic impairment classified as Child-Pugh score B. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Muirhead, Wilner (38). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
-
-
-
 
 ## 3.6 Theophylline<a id="undefined-section-19"></a>
-
 
 Theophylline is a methylxanthine that is administer either orally or intravenously for the management of asthma or chronic obstructive pulmonary disease (COPD) (39). Theophylline induces its bronchodilatory effects through antagonism and inhibition of the adenosine and phosphodiesterase pathways, respectively (40, 41).
 
 In this section, the general ADME ([Table 24](#table_24)), the healthy PBPK model source, and translation to a population with HI for theophylline are described.
-
 
 **Table 24. General ADME of theophylline (12, 42)** <a id="table_24">
 
@@ -860,15 +676,9 @@ In this section, the general ADME ([Table 24](#table_24)), the healthy PBPK mode
 | Metabolism | Metabolized by CYP1A2 and CYP 2E1 (46)|
 | Clearance | IV: 0.057-0.072 L/h/kg (44) |
 
-
 The following theophylline PBPK model is based on that developed by Britz, Hanke (12) applying CYP1A2 and CYP2E1 metabolism, and renal clearance by glomerular filtration. The model developed in healthy adults will serve as the base model when adjusting physiological parameters endured within hepatic impairment. Simulations of the pharmacokinetics of theophylline in patients with various disease severity was conducted. 
 
-
-
-
-
 ### 3.6.1 Theophylline in a Healthy Population - IV<a id="theophylline_healthy"></a>
-
 
 Theophylline physicochemical properties and absorption, distribution, metabolism and elimination parameters were incorporated from the model developed by Britz, Hanke (12). [Table 25](#table_)25. presents the drug specific drug parameters of theophylline and the values used within the healthy adult intravenous model. 
 
@@ -892,19 +702,13 @@ Theophylline physicochemical properties and absorption, distribution, metabolism
 |CYP2E1 kcat|103.40 1/min|
 |GFR Fraction|0.22|
 
-
-
-
-
 ### 3.6.2 Theophylline in a HI Population - IV<a id="theophylline_hi"></a>
-
 
 Drug specific parameters were fixed from the healthy theophylline PBPK model. Physiological alterations within hepatic impairment were applied to the model and simulations were conducted for virtual patients with classified as Child-Pugh B and Child-Pugh C.  Virtual populations with liver disease were created according to the patient demographics of study participants within the study conducted by Froomes, Morgan (46). Study participant weight was not recorded within the study by Froomes, Morgan (46) therefore average height, weight, and BMI we incorporated by PK-Sim based on the corresponding age. [Table 26](#table_26) provides the patient demographics of participants incorporated within the study by Froomes, Morgan (46) used to developed the virtual hepatic impairment populations.
 
 To evaluate the theophylline HI-PBPK model, predicted clearance (mL/min) and half-life (h) were compared to the observed values for Child-Pugh B and Child-Pugh C. As no observed data was available from study participants, a simulated concentration vs. time profile for each Child-Pugh stage is not shown. Evaluations were conducted on the PK parameters previously stated. The comparisons may be found in [Table 26](#table_26). 
 
 **Table 26. HI population demographics for theophylline IV administration** <a id="table_26">
-
 
 | Study | Dose and administration | Cohort (sample size) | Age (years) | Weight (kg)
 |--|--|--|--|--|
@@ -917,24 +721,17 @@ To evaluate the theophylline HI-PBPK model, predicted clearance (mL/min) and hal
 |B| 13.10 [5.0-24.96]| Child-Pugh B: 19.03 [13.4-23.9] Total: 25.3 [19.8-35]| Child-Pugh B: 0.69 Total: 0.52| 24.40±18.47| Total: 23 ± 10| 1.06
 |C| 12.67 [5.70- 22.17]| Child-Pugh C: 27.98 [19.8-35] Total: 25.3 [19.8-35]| Child-Pugh C: 0.45 Total: 0.51| 25.87±19.56| Total: 23 ± 10| 1.12
 
-
 a: Theophylline clearance presented as arithmetic mean
 
 b: Theophylline clearance presented as range
 
 c: Observed half-life presented as mean ± standard deviation
 
-
-
-
-
 ## 3.7 Lidocaine<a id="undefined-section-22"></a>
-
 
 Lidocaine is approved for use as a local anaesthetic and as an antiarrhythmic drug. In addition to its anesthetic and antiarrhythmic properties, it may also be used as an analgesic. The analgesic effects of lidocaine are thought to be due to the inhibition of spontaneous impulses generated by the injured nerve fibres. (47) 
 
 In this section, the general ADME ([Table 28](#table_28)), the healthy PBPK model, and translation to a population with HI for lidocaine are described.
-
 
 **Table 28. General ADME of lidocaine (48)** <a id="table_28">
 
@@ -948,15 +745,9 @@ In this section, the general ADME ([Table 28](#table_28)), the healthy PBPK mode
 | Metabolism | Metabolized by CYP1A2 and CYP 3A4 (48, 50)
 | Clearance | IV: 10.0 – 18.2 mL/min/kg  (48) 
 
-
 The following lidocaine PBPK model applies CYP1A2 and CYP3A4 metabolism, in addition to renal clearance via glomerular filtration. The model developed in healthy adults will serve as the base model when adapting the physiological parameters within hepatic impairment. Simulations of the pharmacokinetics of lidocaine in Child-Pugh A and C were conducted.
 
-
-
-
-
 ### 3.7.1 Lidocaine in a Healthy Population - IV<a id="lidocaine_healthy"></a>
-
 
 Lidocaine physicochemical properties and absorption, distribution, metabolism and elimination parameters used in the healthy PBPK model are shown in [Table 29](#table_29). 
 
@@ -979,12 +770,7 @@ Lidocaine physicochemical properties and absorption, distribution, metabolism an
 |CYP2E1 Specific Clearance|0.16 1/min|
 |GFR Fraction|1.0|
 
-
-
-
-
 ### 3.7.2 Lidocaine in a HI Population - IV<a id="lidocaine_hi"></a>
-
 
 Drug specific parameters were fixed from the healthy lidocaine PBPK model. Physiological alterations within hepatic impairment were applied to the model and simulations were conducted for virtual patients with classified as Child-Pugh A and Child-Pugh C.  Virtual populations with liver disease were created according to the patient demographics of study participants within the study conducted by Orlando, Piccoli (50). [Table 30](#table_30). provides the patient demographics of participants incorporated within the study by Orlando, Piccoli (50) used to develop the virtual hepatic impairment populations.
 
@@ -997,38 +783,25 @@ Drug specific parameters were fixed from the healthy lidocaine PBPK model. Physi
 
 A visual representation of the HI-PBPK lidocaine simulations for Child-Pugh A and C may be found in Figure 3.19 and Figure 3.20, respectively. 
 
-
 <a id="figure-3-17"></a>
 
 ![](images/003_section_undefined-section-3/022_section_undefined-section-22/024_section_Lidocaine_HI/17_time_profile_plot_Lidocaine_Orlando2003_CPA_Population.png)
 
-
-
 **Figure 3-17: Orlando 2003, Lidocaine IV 1 mg/kg: Simulation of the pharmacokinetics of lidocaine after a single intravenous dose of 1 mg/kg in patients with hepatic impairment classified as Child-Pugh score A. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Orlando, Piccoli (50). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
 
 <a id="figure-3-18"></a>
 
 ![](images/003_section_undefined-section-3/022_section_undefined-section-22/024_section_Lidocaine_HI/18_time_profile_plot_Lidocaine_Orlando2003_CPC_Population.png)
 
-
-
 **Figure 3-18: Orlando 2003, Lidocaine IV 1 mg/kg: Simulation of the pharmacokinetics of lidocaine after a single intravenous dose of 1 mg/kg in patients with hepatic impairment classified as Child-Pugh score C. Observed data (circles) presented as the mean concentration time profiles with standard deviations of participants enrolled in the study by Orlando, Piccoli (50). The solid line represents the arithmetic mean and the shaded region represents the standard deviation of the hepatic impairment population.**
 
-
 <br>
 <br>
-
-
-
-
 
 # 4 References<a id="undefined-section-25"></a>
-
 
 1.	Edginton AN, Willmann S. Physiology-based simulations of a pathological condition: prediction of pharmacokinetics in patients with liver cirrhosis. Clin Pharmacokinet. 2008;47(11):743-52.
 2.	Johnson TN, Boussery K, Rowland-Yeo K, Tucker GT, Rostami-Hodjegan A. A semi-mechanistic model to predict the effects of liver cirrhosis on drug clearance. Clin Pharmacokinet. 2010;49(3):189-206.
@@ -1080,7 +853,4 @@ A visual representation of the HI-PBPK lidocaine simulations for Child-Pugh A an
 48.	Benowitz NL, Meister W. Clinical pharmacokinetics of lignocaine. Clin Pharmacokinet. 1978; 3(3):177-201. doi: 10.2165/00003088-197803030-00001.
 49.	Bailey DN, Briggs JR. The binding of selected therapeutic drugs to human serum alpha-1 acid glycoprotein and to human serum albumin in vitro. Ther Drug Monit. 2004;26(1):40-43. doi: 10.1097/00007691-200402000-00009.
 50.	Orlando R, Piccoli P, De Martin S, Padrini R, Floreani M, Palatini P. Cytochrome P450 1A2 is a major determinant of lidocaine metabolism in vivo: effects of liver function. Clin Pharmacol Ther. 2004;75(1):80-88. doi: 10.1016/j.clpt.2003.09.007.
-
-
-
 
