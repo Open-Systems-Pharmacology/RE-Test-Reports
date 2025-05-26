@@ -1,12 +1,12 @@
-19/05/2025 - 10:59:44
+26/05/2025 - 01:45:07
 Loading Simulations onto Qualification Workflow
-19/05/2025 - 10:59:56
+26/05/2025 - 01:45:18
 Simulations loading completed in 0.2 min
-19/05/2025 - 10:59:56
+26/05/2025 - 01:45:18
 Reporting Engine Information:
-Date: 19/05/2025 - 10:59:56
+Date: 26/05/2025 - 01:45:18
 User Information:
-Computer Name: fv-az1495-300
+Computer Name: fv-az1388-261
 User: runneradmin
 Login: runneradmin
 System is NOT validated
@@ -15,45 +15,45 @@ R version: R version 4.5.0 (2025-04-11 ucrt)
 OSP Suite Package version: 12.2.0.9016
 OSP Reporting Engine version: 2.3.0.9006
 tlf version: 1.6.0
-19/05/2025 - 10:59:57
+26/05/2025 - 01:45:18
 Starting run of Qualification Workflow
-19/05/2025 - 10:59:57
+26/05/2025 - 01:45:18
 Starting run of Simulation task
-19/05/2025 - 10:59:57
+26/05/2025 - 01:45:18
 Starting run of Population Simulations
-19/05/2025 - 10:59:57
+26/05/2025 - 01:45:19
 Starting run of Gabapentin-Blum Healthy 400 mg PO (Blum Healthy 400 mg PO-Population)
-19/05/2025 - 11:00:05
+26/05/2025 - 01:45:26
 Starting run of Gabapentin-Blum CKD3 400 mg PO (Blum CKD3 400 mg PO-Population)
-19/05/2025 - 11:00:13
+26/05/2025 - 01:45:34
 Starting run of Gabapentin-Blum CKD5 400 mg PO (Blum CKD5 400 mg PO-Population)
-19/05/2025 - 11:00:22
+26/05/2025 - 01:45:44
 Starting run of Acebutolol-Roux Healthy 200 mg PO (Roux Healthy 200 mg PO-Population)
-19/05/2025 - 11:00:34
+26/05/2025 - 01:45:55
 Starting run of Acebutolol-Roux CKD 200 mg PO (Roux CKD 200 mg PO-Population)
-19/05/2025 - 11:00:44
+26/05/2025 - 01:46:07
 Starting run of Atenolol-Kirch Healthy 100 mg PO (Kirch Healthy 100 mg PO-Population)
-19/05/2025 - 11:01:35
+26/05/2025 - 01:47:00
 Starting run of Atenolol-Kirch CKD3 100 mg PO (Kirch CKD3 100 mg PO-Population)
-19/05/2025 - 11:02:26
+26/05/2025 - 01:47:53
 Starting run of Atenolol-Kirch CKD4 100 mg PO (Kirch CKD4 100 mg PO-Population)
-19/05/2025 - 11:03:14
+26/05/2025 - 01:48:43
 Starting run of Atenolol-Kirch CKD5 100 mg PO (Kirch CKD5 100 mg PO-Population)
-19/05/2025 - 11:04:04
+26/05/2025 - 01:49:34
 Starting run of Atenolol-Sassard Healthy 100 mg PO (Sassard Healthy 100 mg PO-Population)
-19/05/2025 - 11:04:14
+26/05/2025 - 01:49:43
 Starting run of Atenolol-Sassard CKD3 100 mg PO (Sassard CKD3 100 mg PO-Population)
-19/05/2025 - 11:04:23
+26/05/2025 - 01:49:53
 Starting run of Atenolol-Sassard CKD4 100 mg PO (Sassard CKD4 100 mg PO-Population)
-19/05/2025 - 11:04:33
+26/05/2025 - 01:50:02
 Starting run of Atenolol-Wan Healthy 50mg PO (Wan Healthy 50mg PO-Population)
-19/05/2025 - 11:04:43
+26/05/2025 - 01:50:11
 Starting run of Atenolol-Wan CKD4 50 mg PO (Wan CKD4 50 mg PO-Population)
-19/05/2025 - 11:04:56
-Simulation task completed in 5 min
-19/05/2025 - 11:04:56
+26/05/2025 - 01:50:25
+Simulation task completed in 5.1 min
+26/05/2025 - 01:50:25
 Starting run of Plot Time Profiles task
-19/05/2025 - 11:05:54
+26/05/2025 - 01:51:23
 Plot Time Profiles task completed in 1 min
-19/05/2025 - 11:05:54
-Qualification Workflow completed in 6 min
+26/05/2025 - 01:51:23
+Qualification Workflow completed in 6.1 min
