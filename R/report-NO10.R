@@ -2,6 +2,7 @@
 #' @description
 #' Report from Test NO10 initial RE testing
 
+if(FALSE){
 # Clean environent and (re-)load the ospsuite.reportingengine package
 rm(list = ls())
 library(ospsuite.reportingengine)
@@ -82,3 +83,4 @@ workflow$activateTasks(tasks = c(
 
 # Run the workflow
 workflow$runWorkflow()
+}
