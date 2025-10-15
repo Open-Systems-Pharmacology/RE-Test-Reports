@@ -27,7 +27,9 @@ jobs:
       
       - name: Run Tests through README.Rmd
         run: |
-          Rscript -e 'rmarkdown::render("README.Rmd", encoding = "UTF-8")'
+          install.packages(c('testthat','covr','rmarkdown','pkgdown'))
+          rmarkdown::render("README.Rmd", encoding = "UTF-8")
+        shell: Rscript {0}
       
       - name: Save test results as zip artifact
         uses: actions/upload-artifact@v4
