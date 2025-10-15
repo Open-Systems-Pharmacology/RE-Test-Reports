@@ -1,10 +1,10 @@
 # UGT DDI Inhibition Qualification 
 
-| Version                         | 1.0-OSP11.0                                                   |
+| Version                         | 1.0-OSP12.3                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
 | Qualification Plan Release      | https://github.com/Open-Systems-Pharmacology/Qualification-DDI-UGT/releases/tag/v1.0 |
-| OSP Version                     | 11.0                                                          |
-| Qualification Framework Version | 3.0                                                          |
+| OSP Version                     | 12.3                                                          |
+| Qualification Framework Version | 3.2                                                          |
 
 This qualification report is filed at:
 

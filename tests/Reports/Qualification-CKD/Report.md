@@ -1,9 +1,9 @@
 # Qualification of CKD Populations
 
-| Version                                         | 1.0-OSP11.0                                                   |
+| Version                                         | 1.0-OSP12.3                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| OSP Version                                     | 11.0                                                          |
-| Qualification Framework Version                 | 3.0                                                          |
+| OSP Version                                     | 12.3                                                          |
+| Qualification Framework Version                 | 3.2                                                          |
 
 This qualification report and the corresponding PK-Sim project file are filed at:
 
