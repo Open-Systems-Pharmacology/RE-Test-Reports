@@ -10,9 +10,9 @@ library(ospsuite.reportingengine)
 qualificationProject <- "Tefibazumab-Model"
 snapshotFile <- "Tefibazumab.json"
 workingDirectory <- normalizePath(qualificationProject, mustWork = FALSE, winslash = "/")
-qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
-pkSimPortableFolder <- "PK-Sim/PK-Sim"
-versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
+qualificationRunnerFolder <- normalizePath("QualificationRunner", winslash = "/")
+pkSimPortableFolder <- normalizePath("PK-Sim", winslash = "/")
+versionInfo <- QualificationVersionInfo$new("1.0", "12.3", "3.2")
 
 # Load repository content and clean up downloads
 download.file("https://github.com/Open-Systems-Pharmacology/Tefibazumab-Model/archive/refs/heads/master.zip", destfile = "archive.zip")

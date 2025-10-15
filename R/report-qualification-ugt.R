@@ -9,9 +9,9 @@ library(ospsuite.reportingengine)
 # Define input parameters for the workflow
 qualificationProject <- "Pediatric_Qualification_Package_UGT1A1_Ontogeny"
 workingDirectory <- normalizePath(qualificationProject, mustWork = FALSE, winslash = "/")
-qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
-pkSimPortableFolder <- "PK-Sim/PK-Sim"
-versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
+qualificationRunnerFolder <- normalizePath("QualificationRunner", winslash = "/")
+pkSimPortableFolder <- normalizePath("PK-Sim", winslash = "/")
+versionInfo <- QualificationVersionInfo$new("1.0", "12.3", "3.2")
 
 # Load repository content and clean up downloads
 download.file("https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_UGT1A1_Ontogeny/archive/refs/heads/master.zip", destfile = "archive.zip")

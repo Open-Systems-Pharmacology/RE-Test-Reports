@@ -10,9 +10,9 @@ library(ospsuite.reportingengine)
 qualificationProject <- "TestInput01_DDI"
 snapshotFile <- "qualification_plan.json"
 workingDirectory <- normalizePath(qualificationProject, mustWork = FALSE, winslash = "/")
-qualificationRunnerFolder <- "QualificationRunner/QualificationRunner"
-pkSimPortableFolder <- "PK-Sim/PK-Sim"
-versionInfo <- QualificationVersionInfo$new("1.0", "11.0", "3.0")
+qualificationRunnerFolder <- normalizePath("QualificationRunner", winslash = "/")
+pkSimPortableFolder <- normalizePath("PK-Sim", winslash = "/")
+versionInfo <- QualificationVersionInfo$new("1.0", "12.3", "3.2")
 
 # Load repository content and clean up downloads
 dir.create(workingDirectory)

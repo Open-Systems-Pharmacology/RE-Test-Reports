@@ -1,10 +1,10 @@
 # Pediatric Qualification Package: UGT1A1 Ontogeny
 
-| Version                         | 1.0-OSP11.0                                                   |
+| Version                         | 1.0-OSP12.3                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
 | Qualification Plan Release      | [https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_UGT1A1_Ontogeny/releases/tag/v1.0](https://github.com/Open-Systems-Pharmacology/Pediatric_Qualification_Package_UGT1A1_Ontogeny/releases/tag/v1.0) |
-| OSP Version                     | 11.0                                                          |
-| Qualification Framework Version | 3.0                                                          |
+| OSP Version                     | 12.3                                                          |
+| Qualification Framework Version | 3.2                                                          |
 
 This qualification report is filed at:
 
@@ -122,16 +122,16 @@ The pediatric PBPK model predicted the clearance values of raltegravir observed 
 
 |Study ID      |Age [year(s)] |Body Weight [kg] |Predicted AUC [µg*h/l] |Observed AUC [µg*h/l] |Pred/Obs AUC Ratio |
 |:-------------|:-------------|:----------------|:----------------------|:---------------------|:------------------|
-|Rizk 2015     |0.29          |5.50             |14324.87               |9599.39               |1.49               |
-|Rizk 2015     |1.25          |8.50             |10883.48               |8799.44               |1.24               |
-|Nachmann 2013 |3.20          |14.20            |9848.67                |9500.00               |1.04               |
-|Nachmann 2013 |8.50          |36.40            |14770.71               |10500.00              |1.41               |
-|Nachmann 2013 |10.00         |31.50            |14775.15               |13400.00              |1.10               |
-|Nachmann 2013 |15.20         |56.23            |11605.27               |10200.00              |1.14               |
-|Larson 2013   |9.00          |29.40            |6563.90                |7999.49               |0.82               |
-|Larson 2013   |9.00          |29.40            |7846.80                |10043.81              |0.78               |
-|Larson 2013   |10.50         |34.40            |14113.21               |7021.78               |2.01               |
-|Larson 2013   |15.00         |56.00            |10213.41               |6977.34               |1.46               |
+|Rizk 2015     |0.29          |5.50             |14323.05               |9599.39               |1.49               |
+|Rizk 2015     |1.25          |8.50             |10882.43               |8799.44               |1.24               |
+|Nachmann 2013 |3.20          |14.20            |9847.77                |9500.00               |1.04               |
+|Nachmann 2013 |8.50          |36.40            |14769.74               |10500.00              |1.41               |
+|Nachmann 2013 |10.00         |31.50            |14774.41               |13400.00              |1.10               |
+|Nachmann 2013 |15.20         |56.23            |11604.72               |10200.00              |1.14               |
+|Larson 2013   |9.00          |29.40            |6563.31                |7999.49               |0.82               |
+|Larson 2013   |9.00          |29.40            |7846.15                |10043.81              |0.78               |
+|Larson 2013   |10.50         |34.40            |14112.44               |7021.78               |2.01               |
+|Larson 2013   |15.00         |56.00            |10212.88               |6977.34               |1.46               |
 
 <br>
 <br>
