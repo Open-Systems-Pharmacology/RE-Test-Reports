@@ -5,6 +5,6 @@ RUtils,main,NA
 TLF,develop,NA
 rClr,NA,NA
 rSharp,main,NA
-Qualification Runner,11.1,NA
+Qualification Runner,12.1,https://api.github.com/repos/Open-Systems-Pharmacology/QualificationRunner/actions/artifacts/4030375726/zip
 Qualification Framework,3.2,NA
-PK-Sim,11.3.208,NA
+PK-Sim,12.2.22,https://api.github.com/repos/Open-Systems-Pharmacology/PK-Sim/actions/artifacts/4272348148/zip
