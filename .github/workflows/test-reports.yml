@@ -28,6 +28,7 @@ jobs:
       - name: Run Tests through README.Rmd
         run: |
           install.packages(c('testthat','covr','rmarkdown','pkgdown'))
+          remotes::install_github('Open-Systems-Pharmacology/OSPSuite.QualificationPlanEditor')
           rmarkdown::render("README.Rmd", encoding = "UTF-8")
         shell: Rscript {0}
       
