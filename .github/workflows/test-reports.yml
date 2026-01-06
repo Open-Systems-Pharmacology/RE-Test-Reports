@@ -77,7 +77,7 @@ jobs:
             
             ---
             *This issue was automatically created by the test-reports.yml workflow.*`,
-              assignees: ['pchelle'],
+              assignees: ['pchelle', 'Yuri05'],
               labels: ['bug', 'automated']
             });
             console.log(`Created issue #${issue.data.number}`)
