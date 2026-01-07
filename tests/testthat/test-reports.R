@@ -1,44 +1,6 @@
 # Reference reports are in Reports directory
 # Tested reports are in tests/Reports directory
 
-# Needs to wrap test failures as warnings
-# to get testthat report even if some tests fail
-
-expectEqual <- function(x, y, label) {
-  expect_true(all(x == y), label = label)
-}
-
-expectFiles <- function(testFiles, refFiles) {
-  return(expectEqual(
-    x = testFiles,
-    y = refFiles,
-    label = setdiff(union(testFiles, refFiles), intersect(testFiles, refFiles))
-  ))
-}
-
-expectKnownReport <- function(testReport, refReport) {
-  return(expectEqual(
-    x = readLines(testReport),
-    y = readLines(refReport),
-    label = testReport
-  ))
-}
-
-expectKnownImage <- function(testFile, refFile) {
-  if (grepl(pattern = "svg", x = testFile)) {
-    return(expectEqual(
-      x = rsvg::rsvg(testFile),
-      y = rsvg::rsvg(refFile),
-      label = testFile
-    ))
-  }
-  return(expectEqual(
-    x = png::readPNG(source = testFile),
-    y = png::readPNG(source = refFile),
-    label = testFile
-  ))
-}
-
 resultsToTest <- data.frame(
   name = c(
     "Simulation Results", "PK Analysis Results", "Sensitivity Results",
