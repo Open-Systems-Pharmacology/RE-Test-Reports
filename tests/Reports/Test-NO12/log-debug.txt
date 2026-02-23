@@ -1,80 +1,80 @@
-16/02/2026 - 02:01:28
+23/02/2026 - 02:01:08
 Simulation file 'Simulation file 'Models/Theophylline (Boeckmann 1994) PO.pkml' successfully loaded' successfully loaded
-16/02/2026 - 02:01:31
+23/02/2026 - 02:01:12
 Simulation results 'tests/Reports/Test-NO12/SimulationResults/PO administration of 320 mg-SimulationResults.csv' successfully loaded
-16/02/2026 - 02:01:31
+23/02/2026 - 02:01:12
 Calculation of PK parameters complete
-16/02/2026 - 02:01:31
+23/02/2026 - 02:01:12
 PK parameters for 'PO administration of 320 mg' saved in 'tests/Reports/Test-NO12/PKAnalysisResults/PO administration of 320 mg-PKAnalysisResults.csv
-16/02/2026 - 02:01:33
+23/02/2026 - 02:01:13
 Table 'tests/Reports/Test-NO12/PKAnalysis/PO_administration_of_320_mg-pk_parameters_PO_administration_of_320_mg.csv' was successfully saved.
-16/02/2026 - 02:01:42
+23/02/2026 - 02:01:22
 Figure 'tests/Reports/Test-NO12/Absorption/PO_administration_of_320_mg-1_absorption_Theophylline.png' was successfully saved.
-16/02/2026 - 02:01:42
+23/02/2026 - 02:01:22
 Table 'tests/Reports/Test-NO12/Absorption/PO_administration_of_320_mg-1_absorption_Theophylline.csv' was successfully saved.
-16/02/2026 - 02:01:51
+23/02/2026 - 02:01:30
 Figure 'tests/Reports/Test-NO12/MassBalance/PO_administration_of_320_mg-2_mass_balance_PO_administration_of_320_mg.png' was successfully saved.
-16/02/2026 - 02:01:52
+23/02/2026 - 02:01:31
 Figure 'tests/Reports/Test-NO12/MassBalance/PO_administration_of_320_mg-3_mass_balance_PO_administration_of_320_mg.png' was successfully saved.
-16/02/2026 - 02:01:52
+23/02/2026 - 02:01:31
 Figure 'tests/Reports/Test-NO12/MassBalance/PO_administration_of_320_mg-4_mass_balance_PO_administration_of_320_mg.png' was successfully saved.
-16/02/2026 - 02:01:53
+23/02/2026 - 02:01:32
 Figure 'tests/Reports/Test-NO12/MassBalance/PO_administration_of_320_mg-5_mass_balance_PO_administration_of_320_mg.png' was successfully saved.
-16/02/2026 - 02:01:54
+23/02/2026 - 02:01:32
 Figure 'tests/Reports/Test-NO12/MassBalance/PO_administration_of_320_mg-6_mass_balance_PO_administration_of_320_mg.png' was successfully saved.
-16/02/2026 - 02:01:54
+23/02/2026 - 02:01:32
 Table 'tests/Reports/Test-NO12/MassBalance/PO_administration_of_320_mg-7_mass_balance_PO_administration_of_320_mg.csv' was successfully saved.
-16/02/2026 - 02:01:54
+23/02/2026 - 02:01:32
 Output 'Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)'. Number of selected observations: 132
-16/02/2026 - 02:01:54
+23/02/2026 - 02:01:32
 '1' applications identified for path 'Organism|PeripheralVenousBlood|Theophylline|Plasma (Peripheral Venous Blood)' in simulation 'Theophylline (Boeckmann 1994) PO_ind'
-16/02/2026 - 02:01:54
+23/02/2026 - 02:01:32
 Time ranges for 'Theophylline (Boeckmann 1994) PO_ind' timeRanges
-16/02/2026 - 02:01:54
+23/02/2026 - 02:01:32
 137 simulated data were included in the analysis between 0 and 26 h.
-16/02/2026 - 02:01:54
+23/02/2026 - 02:01:32
 132 observed data were included in the analysis between 0 and 26 h.
-16/02/2026 - 02:01:55
+23/02/2026 - 02:01:34
 1 values from variable 'Concentration' were negative and removed from the analysis
-16/02/2026 - 02:01:55
+23/02/2026 - 02:01:34
 9 values from variable 'Concentration' were negative and removed from the analysis
-16/02/2026 - 02:01:57
+23/02/2026 - 02:01:35
 3 values were infinite and transformed into missing values (NA)
-16/02/2026 - 02:01:57
+23/02/2026 - 02:01:35
 12 values were missing (NA) from variable 'Residuals' and removed from the analysis
-16/02/2026 - 02:01:57
+23/02/2026 - 02:01:35
 120 residuals data were included in the analysis between 0 and 26 h.
-16/02/2026 - 02:02:01
+23/02/2026 - 02:01:39
 Ignoring unknown parameters: `size`
-16/02/2026 - 02:02:02
+23/02/2026 - 02:01:40
 Table 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-1_time_profile_data.csv' was successfully saved.
-16/02/2026 - 02:02:02
+23/02/2026 - 02:01:40
 Table 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-2_residuals_data.csv' was successfully saved.
-16/02/2026 - 02:02:03
+23/02/2026 - 02:01:40
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-3_timeProfile_1_total.png' was successfully saved.
-16/02/2026 - 02:02:03
+23/02/2026 - 02:01:41
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-4_timeProfileLog_2_total.png' was successfully saved.
-16/02/2026 - 02:02:04
+23/02/2026 - 02:01:42
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-5_obsVsPred_1_total.png' was successfully saved.
-16/02/2026 - 02:02:05
+23/02/2026 - 02:01:43
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-6_obsVsPredLog_1_total.png' was successfully saved.
-16/02/2026 - 02:02:05
+23/02/2026 - 02:01:43
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-7_resVsPred_1_total.png' was successfully saved.
-16/02/2026 - 02:02:06
+23/02/2026 - 02:01:44
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-8_resVsTime_1_total.png' was successfully saved.
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:44
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-9_resHisto_1_total.png' was successfully saved.
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:45
 Figure 'tests/Reports/Test-NO12/TimeProfiles/PO_administration_of_320_mg-10_resQQPlot_1_total.png' was successfully saved.
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:45
 Reports 'tests/Reports/Test-NO12/appendix-pk-parameters.md', 'tests/Reports/Test-NO12/appendix-absorption.md', 'tests/Reports/Test-NO12/appendix-mass-balance.md', 'tests/Reports/Test-NO12/appendix-time-profile.md' were successfully merged into 'tests/Reports/Test-NO12/Report.md'
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:45
 In 'tests/Reports/Test-NO12/Report.md', 0.666666666666667 tables and 14 figures were referenced.
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:45
 In 'tests/Reports/Test-NO12/Report.md', 5 sections were numbered
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:45
 In 'tests/Reports/Test-NO12/Report.md', table of content of 9 lines was included.
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:45
 'tests/Reports/Test-NO12/Report.md' already exists. Overwriting 'tests/Reports/Test-NO12/Report.md'.
-16/02/2026 - 02:02:07
+23/02/2026 - 02:01:45
 Reports 'temp-report-title.md', 'tests/Reports/Test-NO12/Report.md' were successfully merged into 'tests/Reports/Test-NO12/Report.md'
