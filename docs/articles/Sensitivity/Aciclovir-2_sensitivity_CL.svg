@@ -171,6 +171,7 @@
 <rect x='227.98' y='248.53' width='37.96' height='30.59' style='stroke-width: 1.07; stroke: #466BE3; stroke-linecap: butt; stroke-linejoin: miter; fill: #466BE3; fill-opacity: 0.75;' />
 <rect x='195.00' y='282.52' width='32.98' height='30.59' style='stroke-width: 1.07; stroke: #30123B; stroke-linecap: butt; stroke-linejoin: miter; fill: #30123B; fill-opacity: 0.75;' />
 <line x1='227.98' y1='318.22' x2='227.98' y2='5.48' style='stroke-width: 1.07; stroke-dasharray: 9.96,4.27; stroke-linecap: butt;' />
+<rect x='101.13' y='5.48' width='253.39' height='312.74' style='stroke-width: 1.07; stroke: #333333;' />
 </g>
 <g clip-path='url(#cpMC4wMHwzNjAuMDB8MC4wMHwzNjAuMDA=)'>
 <polyline points='101.13,318.22 101.13,5.48 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
