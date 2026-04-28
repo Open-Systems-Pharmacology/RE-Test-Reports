@@ -2,8 +2,7 @@
 #' @description
 #' Qualification Report for `Open-Systems-Pharmacology/Pediatric_Qualification_Package_UGT1A1_Ontogeny` repository
 
-# Clean environment and (re-)load the ospsuite.reportingengine package
-rm(list = ls())
+# Load the ospsuite.reportingengine package
 library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow

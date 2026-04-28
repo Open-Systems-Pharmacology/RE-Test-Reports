@@ -2,8 +2,7 @@
 #' @description
 #' Qualification Report for `Open-Systems-Pharmacology/7E3-Model` repository
 
-# Clean environment and (re-)load the ospsuite.reportingengine package
-rm(list = ls())
+# Load the ospsuite.reportingengine package
 library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow

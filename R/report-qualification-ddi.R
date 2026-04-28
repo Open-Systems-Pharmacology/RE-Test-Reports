@@ -2,8 +2,7 @@
 #' @description
 #' Qualification Report for `Yuri05/TestReport/TestInput_01_DDI` repository
 
-# Clean environment and (re-)load the ospsuite.reportingengine package
-rm(list = ls())
+# Load the ospsuite.reportingengine package
 library(ospsuite.reportingengine)
 
 # Define input parameters for the workflow

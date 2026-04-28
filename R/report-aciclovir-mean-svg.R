@@ -2,8 +2,7 @@
 #' @description
 #' Report for the Aciclovir mean model workflow
 
-# Clean environent and (re-)load the ospsuite.reportingengine package
-rm(list=ls())
+# Load the ospsuite.reportingengine package
 library(ospsuite.reportingengine)
 
 # Set the default plot format to SVG

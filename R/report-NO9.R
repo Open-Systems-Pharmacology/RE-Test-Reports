@@ -2,8 +2,7 @@
 #' @description
 #' Report from Test NO9 initial RE testing
 
-# Clean environent and (re-)load the ospsuite.reportingengine package
-rm(list = ls())
+# Load the ospsuite.reportingengine package
 library(ospsuite.reportingengine)
 ospsuite::removeAllUserDefinedPKParameters()
 
