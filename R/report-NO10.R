@@ -4,7 +4,9 @@
 
 # Load the ospsuite.reportingengine package
 library(ospsuite.reportingengine)
+options(ospsuite.plots.watermarkEnabled = TRUE)
 ospsuite::removeAllUserDefinedPKParameters()
+title <- NULL
 
 # Define inputs for workflow
 simulationFile <- "Models/Adults_SingleIV_Bolus.pkml"
