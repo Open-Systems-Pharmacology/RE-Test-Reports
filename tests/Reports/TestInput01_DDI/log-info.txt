@@ -1,30 +1,30 @@
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 10800 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 11520 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 6480 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 36720 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:23
+29/06/2026 - 13:56:15
 Loading Simulations onto Qualification Workflow
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 Simulations loading completed in 0.2 min
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 Reporting Engine Information:
-Date: 29/06/2026 - 11:55:36
+Date: 29/06/2026 - 13:56:28
 User Information:
 Computer Name: runnervmo3n6x
 User: runneradmin
@@ -35,67 +35,67 @@ R version: R version 4.6.1 (2026-06-24 ucrt)
 OSP Suite Package version: 12.4.3.9011
 OSP Reporting Engine version: 2.4.0.9007
 tlf version: 1.6.2.9001
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 PKParameter: AUC and endTime: 10800 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:28
 PKParameter: AUC and endTime: 11520 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 PKParameter: AUC and endTime: 6480 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 PKParameter: AUC and endTime: 36720 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 PKParameter: AUC and endTime: 599940 min found in configuration plan. Defaulting to following ospsuite PKParameter: AUC_tEnd
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 Starting run of Qualification Workflow
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 Starting run of Simulation task
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 Splitting simulations for parallel run: 10 simulations split into 2 subsets
-29/06/2026 - 11:55:36
+29/06/2026 - 13:56:29
 Starting run of subset simulations
-29/06/2026 - 11:57:41
+29/06/2026 - 13:58:32
 Simulation task completed in 2.1 min
-29/06/2026 - 11:57:41
+29/06/2026 - 13:58:32
 Starting run of Calculate PK Parameters task
-29/06/2026 - 11:57:41
+29/06/2026 - 13:58:32
 Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Control - Dapagliflozin - Kasichayanula 2013a
-29/06/2026 - 11:57:43
+29/06/2026 - 13:58:34
 Starting run of Calculate PK Parameters task for Mefenamic_acid-Dapagliflozin-DDI-DDI Treatment - Mefenamic acid_Dapagliflozin - Kasichayanula 2013a
-29/06/2026 - 11:57:45
+29/06/2026 - 13:58:37
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir
-29/06/2026 - 11:57:47
+29/06/2026 - 13:58:38
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Iwamoto2008_Raltegravir+Atazanavir
-29/06/2026 - 11:57:49
+29/06/2026 - 13:58:40
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir
-29/06/2026 - 11:57:50
+29/06/2026 - 13:58:42
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Krishna2016_Raltegravir+Atazanavir
-29/06/2026 - 11:57:52
+29/06/2026 - 13:58:44
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir
-29/06/2026 - 11:57:54
+29/06/2026 - 13:58:45
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Neely2010_Raltegravir+Atazanavir
-29/06/2026 - 11:57:56
+29/06/2026 - 13:58:47
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir
-29/06/2026 - 11:57:57
+29/06/2026 - 13:58:49
 Starting run of Calculate PK Parameters task for Atazanavir-Raltegravir-DDI-Zhu2010_Raltegravir+Atazanavir
-29/06/2026 - 11:57:59
+29/06/2026 - 13:58:51
 Calculate PK Parameters task completed in 0.3 min
-29/06/2026 - 11:58:00
+29/06/2026 - 13:58:51
 Starting run of Plot DDI Ratio task
-29/06/2026 - 11:58:51
+29/06/2026 - 13:59:46
 Plot DDI Ratio task completed in 0.9 min
-29/06/2026 - 11:58:51
+29/06/2026 - 13:59:46
 Starting run of Plot Comparison Time Profiles task
-29/06/2026 - 11:59:17
+29/06/2026 - 14:00:13
 Plot Comparison Time Profiles task completed in 0.4 min
-29/06/2026 - 11:59:17
+29/06/2026 - 14:00:13
 Qualification Workflow completed in 3.7 min
