@@ -1,128 +1,128 @@
-30/06/2026 - 16:29:44
+06/07/2026 - 02:56:55
 Simulation file 'Models/TestPopulationSimulation.pkml' successfully loaded
-30/06/2026 - 16:29:44
+06/07/2026 - 02:56:55
 Population file 'Data/test-NO8/Pop_10.csv' successfully loaded
-30/06/2026 - 16:29:45
+06/07/2026 - 02:56:57
 Simulation run complete
-30/06/2026 - 16:29:46
+06/07/2026 - 02:56:57
 Simulation results 'tests/Reports/Test-NO8/SimulationResults/single IV application-SimulationResults.csv' successfully loaded
-30/06/2026 - 16:29:46
+06/07/2026 - 02:56:57
 Calculation of PK parameters complete
-30/06/2026 - 16:29:46
+06/07/2026 - 02:56:57
 PK parameters for 'single IV application' saved in 'tests/Reports/Test-NO8/PKAnalysisResults/single IV application-PKAnalysisResults.csv
-30/06/2026 - 16:30:02
+06/07/2026 - 02:57:14
 Figure 'tests/Reports/Test-NO8/PKAnalysis/3_pk_parameters_AUC_tEnd_log.png' was successfully saved.
-30/06/2026 - 16:30:03
+06/07/2026 - 02:57:14
 Figure 'tests/Reports/Test-NO8/PKAnalysis/4_pk_parameters_AUC_tEnd.png' was successfully saved.
-30/06/2026 - 16:30:03
+06/07/2026 - 02:57:14
 Table 'tests/Reports/Test-NO8/PKAnalysis/4_pk_parameters_AUC_tEnd.csv' was successfully saved.
-30/06/2026 - 16:30:04
+06/07/2026 - 02:57:15
 Figure 'tests/Reports/Test-NO8/PKAnalysis/6_pk_parameters_C_max_log.png' was successfully saved.
-30/06/2026 - 16:30:04
+06/07/2026 - 02:57:15
 Figure 'tests/Reports/Test-NO8/PKAnalysis/7_pk_parameters_C_max.png' was successfully saved.
-30/06/2026 - 16:30:04
+06/07/2026 - 02:57:15
 Table 'tests/Reports/Test-NO8/PKAnalysis/7_pk_parameters_C_max.csv' was successfully saved.
-30/06/2026 - 16:30:05
+06/07/2026 - 02:57:16
 Figure 'tests/Reports/Test-NO8/PKAnalysis/9_pk_parameters_C_tEnd_log.png' was successfully saved.
-30/06/2026 - 16:30:05
+06/07/2026 - 02:57:16
 Figure 'tests/Reports/Test-NO8/PKAnalysis/10_pk_parameters_C_tEnd.png' was successfully saved.
-30/06/2026 - 16:30:05
+06/07/2026 - 02:57:16
 Table 'tests/Reports/Test-NO8/PKAnalysis/10_pk_parameters_C_tEnd.csv' was successfully saved.
-30/06/2026 - 16:30:06
+06/07/2026 - 02:57:17
 Figure 'tests/Reports/Test-NO8/PKAnalysis/12_pk_parameters_t_max_log.png' was successfully saved.
-30/06/2026 - 16:30:06
+06/07/2026 - 02:57:18
 Figure 'tests/Reports/Test-NO8/PKAnalysis/13_pk_parameters_t_max.png' was successfully saved.
-30/06/2026 - 16:30:06
+06/07/2026 - 02:57:18
 Table 'tests/Reports/Test-NO8/PKAnalysis/13_pk_parameters_t_max.csv' was successfully saved.
-30/06/2026 - 16:30:07
+06/07/2026 - 02:57:18
 Figure 'tests/Reports/Test-NO8/PKAnalysis/15_pk_parameters_CL_log.png' was successfully saved.
-30/06/2026 - 16:30:07
+06/07/2026 - 02:57:19
 Figure 'tests/Reports/Test-NO8/PKAnalysis/16_pk_parameters_CL.png' was successfully saved.
-30/06/2026 - 16:30:07
+06/07/2026 - 02:57:19
 Table 'tests/Reports/Test-NO8/PKAnalysis/16_pk_parameters_CL.csv' was successfully saved.
-30/06/2026 - 16:30:08
+06/07/2026 - 02:57:19
 Figure 'tests/Reports/Test-NO8/PKAnalysis/18_pk_parameters_Vss_log.png' was successfully saved.
-30/06/2026 - 16:30:08
+06/07/2026 - 02:57:20
 Figure 'tests/Reports/Test-NO8/PKAnalysis/19_pk_parameters_Vss.png' was successfully saved.
-30/06/2026 - 16:30:08
+06/07/2026 - 02:57:20
 Table 'tests/Reports/Test-NO8/PKAnalysis/19_pk_parameters_Vss.csv' was successfully saved.
-30/06/2026 - 16:30:09
+06/07/2026 - 02:57:20
 Figure 'tests/Reports/Test-NO8/PKAnalysis/22_pk_parameters_AUC_tEnd_log.png' was successfully saved.
-30/06/2026 - 16:30:09
+06/07/2026 - 02:57:21
 Figure 'tests/Reports/Test-NO8/PKAnalysis/23_pk_parameters_AUC_tEnd.png' was successfully saved.
-30/06/2026 - 16:30:09
+06/07/2026 - 02:57:21
 Table 'tests/Reports/Test-NO8/PKAnalysis/23_pk_parameters_AUC_tEnd.csv' was successfully saved.
-30/06/2026 - 16:30:10
+06/07/2026 - 02:57:21
 Figure 'tests/Reports/Test-NO8/PKAnalysis/25_pk_parameters_C_max_log.png' was successfully saved.
-30/06/2026 - 16:30:10
+06/07/2026 - 02:57:22
 Figure 'tests/Reports/Test-NO8/PKAnalysis/26_pk_parameters_C_max.png' was successfully saved.
-30/06/2026 - 16:30:10
+06/07/2026 - 02:57:22
 Table 'tests/Reports/Test-NO8/PKAnalysis/26_pk_parameters_C_max.csv' was successfully saved.
-30/06/2026 - 16:30:11
+06/07/2026 - 02:57:22
 Figure 'tests/Reports/Test-NO8/PKAnalysis/28_pk_parameters_C_tEnd_log.png' was successfully saved.
-30/06/2026 - 16:30:12
+06/07/2026 - 02:57:23
 Figure 'tests/Reports/Test-NO8/PKAnalysis/29_pk_parameters_C_tEnd.png' was successfully saved.
-30/06/2026 - 16:30:12
+06/07/2026 - 02:57:23
 Table 'tests/Reports/Test-NO8/PKAnalysis/29_pk_parameters_C_tEnd.csv' was successfully saved.
-30/06/2026 - 16:30:12
+06/07/2026 - 02:57:23
 Figure 'tests/Reports/Test-NO8/PKAnalysis/31_pk_parameters_t_max_log.png' was successfully saved.
-30/06/2026 - 16:30:13
+06/07/2026 - 02:57:24
 Figure 'tests/Reports/Test-NO8/PKAnalysis/32_pk_parameters_t_max.png' was successfully saved.
-30/06/2026 - 16:30:13
+06/07/2026 - 02:57:24
 Table 'tests/Reports/Test-NO8/PKAnalysis/32_pk_parameters_t_max.csv' was successfully saved.
-30/06/2026 - 16:30:13
+06/07/2026 - 02:57:24
 Figure 'tests/Reports/Test-NO8/PKAnalysis/34_pk_parameters_CL_log.png' was successfully saved.
-30/06/2026 - 16:30:14
+06/07/2026 - 02:57:25
 Figure 'tests/Reports/Test-NO8/PKAnalysis/35_pk_parameters_CL.png' was successfully saved.
-30/06/2026 - 16:30:14
+06/07/2026 - 02:57:25
 Table 'tests/Reports/Test-NO8/PKAnalysis/35_pk_parameters_CL.csv' was successfully saved.
-30/06/2026 - 16:30:14
+06/07/2026 - 02:57:26
 Figure 'tests/Reports/Test-NO8/PKAnalysis/37_pk_parameters_Vss_log.png' was successfully saved.
-30/06/2026 - 16:30:15
+06/07/2026 - 02:57:26
 Figure 'tests/Reports/Test-NO8/PKAnalysis/38_pk_parameters_Vss.png' was successfully saved.
-30/06/2026 - 16:30:15
+06/07/2026 - 02:57:26
 Table 'tests/Reports/Test-NO8/PKAnalysis/38_pk_parameters_Vss.csv' was successfully saved.
-30/06/2026 - 16:30:15
+06/07/2026 - 02:57:26
 '1' applications identified for path 'Organism|Bone|Intracellular|Aciclovir|Concentration in container' in simulation 'TestPoulationsimulation'
-30/06/2026 - 16:30:15
+06/07/2026 - 02:57:26
 Time ranges for 'TestPoulationsimulation' timeRanges
-30/06/2026 - 16:30:15
+06/07/2026 - 02:57:26
 258 simulated data were included in the analysis between 0 and 24 h.
-30/06/2026 - 16:30:15
+06/07/2026 - 02:57:26
 0 observed data were included in the analysis between 0 and 24 h.
-30/06/2026 - 16:30:16
+06/07/2026 - 02:57:27
 1 values from variable 'Concentration' were negative and removed from the analysis
-30/06/2026 - 16:30:18
+06/07/2026 - 02:57:29
 1 values from variable 'Concentration' were negative and removed from the analysis
-30/06/2026 - 16:30:19
+06/07/2026 - 02:57:30
 Table 'tests/Reports/Test-NO8/TimeProfiles/single_IV_application-1_time_profile_simulated_data.csv' was successfully saved.
-30/06/2026 - 16:30:19
+06/07/2026 - 02:57:31
 Figure 'tests/Reports/Test-NO8/TimeProfiles/single_IV_application-3_timeProfile_1_total.png' was successfully saved.
-30/06/2026 - 16:30:20
+06/07/2026 - 02:57:31
 Figure 'tests/Reports/Test-NO8/TimeProfiles/single_IV_application-4_timeProfileLog_2_total.png' was successfully saved.
-30/06/2026 - 16:30:21
+06/07/2026 - 02:57:32
 Figure 'tests/Reports/Test-NO8/TimeProfiles/single_IV_application-5_timeProfile_3_total.png' was successfully saved.
-30/06/2026 - 16:30:21
+06/07/2026 - 02:57:33
 Figure 'tests/Reports/Test-NO8/TimeProfiles/single_IV_application-6_timeProfileLog_4_total.png' was successfully saved.
-30/06/2026 - 16:30:25
+06/07/2026 - 02:57:37
 Figure 'tests/Reports/Test-NO8/Demography/3_demography_Organism_Age.png' was successfully saved.
-30/06/2026 - 16:30:26
+06/07/2026 - 02:57:37
 Figure 'tests/Reports/Test-NO8/Demography/6_demography_Organism_Height.png' was successfully saved.
-30/06/2026 - 16:30:26
+06/07/2026 - 02:57:38
 Figure 'tests/Reports/Test-NO8/Demography/9_demography_Organism_Weight.png' was successfully saved.
-30/06/2026 - 16:30:27
+06/07/2026 - 02:57:38
 Figure 'tests/Reports/Test-NO8/Demography/12_demography_Organism_BMI.png' was successfully saved.
-30/06/2026 - 16:30:28
+06/07/2026 - 02:57:39
 Figure 'tests/Reports/Test-NO8/Demography/15_demography_Gender.png' was successfully saved.
-30/06/2026 - 16:30:28
+06/07/2026 - 02:57:39
 Reports 'tests/Reports/Test-NO8/appendix-pk-parameters.md', 'tests/Reports/Test-NO8/appendix-time-profile.md', 'tests/Reports/Test-NO8/appendix-demography.md' were successfully merged into 'tests/Reports/Test-NO8/Report.md'
-30/06/2026 - 16:30:28
+06/07/2026 - 02:57:39
 In 'tests/Reports/Test-NO8/Report.md', 8 tables and 33 figures were referenced.
-30/06/2026 - 16:30:28
+06/07/2026 - 02:57:39
 In 'tests/Reports/Test-NO8/Report.md', 5 sections were numbered
-30/06/2026 - 16:30:28
+06/07/2026 - 02:57:39
 In 'tests/Reports/Test-NO8/Report.md', table of content of 28 lines was included.
-30/06/2026 - 16:30:28
+06/07/2026 - 02:57:39
 'tests/Reports/Test-NO8/Report.md' already exists. Overwriting 'tests/Reports/Test-NO8/Report.md'.
-30/06/2026 - 16:30:28
+06/07/2026 - 02:57:39
 Reports 'temp-report-title.md', 'tests/Reports/Test-NO8/Report.md' were successfully merged into 'tests/Reports/Test-NO8/Report.md'
