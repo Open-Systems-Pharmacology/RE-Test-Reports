@@ -1,6 +1,6 @@
-20/07/2026 - 02:44:40
+27/07/2026 - 02:42:26
 Reporting Engine Information:
-Date: 20/07/2026 - 02:44:40
+Date: 27/07/2026 - 02:42:26
 User Information:
 Computer Name: runnervmr7g38
 User: runneradmin
@@ -8,38 +8,38 @@ Login: runneradmin
 System is NOT validated
 System versions:
 R version: R version 4.6.1 (2026-06-24 ucrt)
-OSP Suite Package version: 12.4.3.9019
+OSP Suite Package version: 12.4.4.9001
 OSP Reporting Engine version: 2.4.7
 tlf version: 1.6.2.9001
-20/07/2026 - 02:44:40
+27/07/2026 - 02:42:26
 Starting run of Population Workflow for parallelComparison
-20/07/2026 - 02:44:40
+27/07/2026 - 02:42:26
 Starting run of Simulation task
-20/07/2026 - 02:44:40
+27/07/2026 - 02:42:26
 Starting run of Population Simulations
-20/07/2026 - 02:44:41
+27/07/2026 - 02:42:26
 Starting run of single IV application (Pop_10)
-20/07/2026 - 02:44:43
-Simulation task completed in 0.1 min
-20/07/2026 - 02:44:43
+27/07/2026 - 02:42:29
+Simulation task completed in 0 min
+27/07/2026 - 02:42:29
 Starting run of Calculate PK Parameters task
-20/07/2026 - 02:44:43
+27/07/2026 - 02:42:29
 Starting run of Calculate PK Parameters task for single IV application
-20/07/2026 - 02:44:44
+27/07/2026 - 02:42:30
 Calculate PK Parameters task completed in 0 min
-20/07/2026 - 02:44:44
+27/07/2026 - 02:42:30
 Starting run of Plot PK Parameters task
-20/07/2026 - 02:45:12
+27/07/2026 - 02:42:57
 Plot PK Parameters task completed in 0.5 min
-20/07/2026 - 02:45:12
+27/07/2026 - 02:42:57
 Starting run of Plot Time profiles and Residuals task
-20/07/2026 - 02:45:12
+27/07/2026 - 02:42:57
 Starting run of Plot Time profiles and Residuals task for single IV application
-20/07/2026 - 02:45:19
+27/07/2026 - 02:43:03
 Plot Time profiles and Residuals task completed in 0.1 min
-20/07/2026 - 02:45:19
+27/07/2026 - 02:43:03
 Starting run of Plot Demography task
-20/07/2026 - 02:45:25
+27/07/2026 - 02:43:10
 Plot Demography task completed in 0.1 min
-20/07/2026 - 02:45:25
-Population Workflow for parallelComparison completed in 0.8 min
+27/07/2026 - 02:43:10
+Population Workflow for parallelComparison completed in 0.7 min
